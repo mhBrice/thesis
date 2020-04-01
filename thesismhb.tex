@@ -73,10 +73,26 @@
 %% à l'ordre dans lequel ils sont chargés.
 \francais % or
 %%\anglais
-%%
+%% KC added
 \usepackage[english,frenchb]{babel}
 \usepackage{natbib}
-\bibliographystyle{abbrvnat}
+\usepackage{chapterbib}
+% \usepackage{upgreek}
+% \usepackage{textcomp}
+% \usepackage{tabularx}
+\usepackage{longtable}
+% \usepackage{ltxtable}
+% \usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{afterpage}
+\usepackage{floatpag}
+% \usepackage[babel=true]{csquotes}
+% \usepackage{pifont}
+% \usepackage{soulutf8}
+\usepackage{caption}
+\usepackage{listings}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
  % ENGLISH OPTION
  % If you call \anglais here before the \begin{document},
@@ -440,12 +456,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{introduction}
 
+\cleardoublepage
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%  A R T I C L E 1  %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{article1}
+\include{article1/article1}
+
+\cleardoublepage
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
@@ -463,8 +485,17 @@
  % Il est possible d'avoir une bibliographie pour chaque
  % chapitre. Consulter l'article en exemple pour voir
  % comment faire.
+
+
+
+% \bibliographystyle{abbrvnat}
 % \bibliographystyle{plain-fr}
-% \bibliography{general.bib}
+% \bibliographystyle{apalike-uqam}
+% \bibliography{references.bib}
+
+
+
+
 
  % Pour les annexes :
 \appendix

@@ -12,13 +12,24 @@ header-includes:
     - \raggedright
 ---
 
-Marie-Hélène Brice ^1,2^
+\setcounter{section}{1}
 
+\anglais
+
+
+\revue{Global Ecology and Biogeography}
+\article{Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone}
+
+\auteur{Marie-Hélène Brice}
+\adresse{Département de sciences biologiques, Université de Montréal, C.P. 6128, succursale Centre-ville, Montréal, QC, Canada H3C 3J7.}
+
+
+\maketitle
+
+<!-- Marie-Hélène Brice ^1,2^
 Kevin Cazelles ^3^
-
 Pierre Legendre ^1,2^
-
-Marie-Josée Fortin ^4^
+Marie-Josée Fortin ^4^ -->
 
 ## Institutional affiliations
 
@@ -54,22 +65,22 @@ and evaluate whether disturbances accelerate community thermophilization.
 **Methods**
 Using 6281 forest inventory plots, we quantified temporal changes in species
 composition between a historical (1970–1980) and a contemporary period
-(2000–2016) by measuring temporal ß diversity, gains and losses. The effects of
-climate and disturbances on temporal ß diversity were quantified using multiple
+(2000–2016) by measuring temporal $\beta$ diversity, gains and losses. The effects of
+climate and disturbances on temporal $\beta$ diversity were quantified using multiple
 regressions and variation partitioning. We compared how community indices of
 species temperature preference (CTI) and shade tolerance (CSI) changed for
 forests that experienced different levels of disturbance. We quantified the
 contribution of species gains and losses to change in CTI.
 
 **Results**
-Temporal ß diversity was mainly driven by disturbances, with historical
+Temporal $\beta$ diversity was mainly driven by disturbances, with historical
 harvesting as the most important predictor. Despite the prevailing influence of
 disturbances, we revealed a significant thermophilization
-($\Delta$CTI&nbsp;=&nbsp;+0.03°C/decade) throughout forests in Québec. However,
+($\Delta$CTI&nbsp;=&nbsp;+0.03$^\circ$C/decade) throughout forests in Québec. However,
 this shift in community composition was weakly explained by climate change and
-considerably slower than the rate of warming (+0.14°C/decade). Importantly,
-thermophilization was amplified by moderate disturbances (+0.044°C/decade),
-almost a three-fold increase compared to minor disturbances (+0.015°C/decade).
+considerably slower than the rate of warming (+0.14$^\circ$C/decade). Importantly,
+thermophilization was amplified by moderate disturbances (+0.044$^\circ$C/decade),
+almost a three-fold increase compared to minor disturbances (+0.015$^\circ$C/decade).
 The gains and losses of a few tree species contributed to this community-level
 shift.
 
@@ -196,9 +207,9 @@ Here, we quantify the temporal shifts in tree community composition in the
 temperate-boreal ecotone, and test whether recent climate change is impacting
 forest composition. We analysed data from a long-term forest inventory program
 across meridional Québec, where vegetation ranges from northern hardwood forests
-dominated by *Acer saccharum* at low latitudes (up to 47°N) to mixed forests
-dominated by *Abies balsamea* (from 47°N to 48°N), to boreal forests dominated
-by *Picea mariana* at high latitudes (from 49°N to 52°N). This dataset allowed
+dominated by *Acer saccharum* at low latitudes (up to 47$^\circ$N) to mixed forests
+dominated by *Abies balsamea* (from 47$^\circ$N to 48$^\circ$N), to boreal forests dominated
+by *Picea mariana* at high latitudes (from 49$^\circ$N to 52$^\circ$N). This dataset allowed
 us to compare community responses to recent climate change in plots that
 experienced different levels of disturbances along a broad latitudinal gradient.
 We address four questions: (1) how has the composition of forest
@@ -209,12 +220,12 @@ experienced a thermophilization during the last decades? And can disturbances
 accelerate community thermophilization? (4) How do gains and losses of specific
 tree species contribute to thermophilization?
 
-Specifically, we measured temporal ß diversity [@legendre_temporal_2019] over
+Specifically, we measured temporal $\beta$ diversity [@legendre_temporal_2019] over
 6000 resurveyed communities between a historical (1970–1980) and a contemporary
-(2000–2016) period. Temporal ß diversity, which describes the temporal
+(2000–2016) period. Temporal $\beta$ diversity, which describes the temporal
 dissimilarity in community composition between survey times, was decomposed into
 gains and losses to investigate the underlying mechanisms of change. Then, we
-quantified the effects of climate change and disturbances on temporal ß
+quantified the effects of climate change and disturbances on temporal $\beta$
 diversity using multiple regressions and variation partitioning. Using community
 indices for temperature (CTI) and shade tolerance (CSI), we quantified
 community-level changes associated with thermophilization and succession and
@@ -256,7 +267,7 @@ temperate (30 species; see Table S1 for details).
 ![Locations of the 6281 forest inventory plots in meridional Québec,
 Canada. Colours delimit the six bioclimatic domains. The two southernmost domains
 (orange) were combined in our analyses. The number of forest plots in each
-domain is written in parentheses.](ms/figures/fig1_region.pdf){width=5in}
+domain is written in parentheses.](article1/figures/fig1_region.pdf){width=5in}
 
 
 
@@ -273,7 +284,7 @@ warmest period and the annual climate moisture index (CMI;
 difference between annual precipitation and potential
 evapotranspiration). From these bioclimatic variables, we derived different
 predictors (see Table 1 for details). Over the past four decades, growing season
-temperature and precipitation have increased by 0.14 °C/decade and 9.5
+temperature and precipitation have increased by 0.14 $^\circ$C/decade and 9.5
 mm/decade, respectively, while CMI has decreased by 1.2
 cm/decade (Fig. S1).
 
@@ -302,15 +313,15 @@ included as a predictor.
 |Variable name           |Variable description                                          |
 |:-----------------------|:-----------------------------------------------------------------------------|
 |**Baseline conditions** |                                                                               |
-|Temp, Temp^2^         |Mean temperature during growing season and its second order polynomial. 10-year average prior to first survey of each plot (°C).    |
+|Temp, Temp^2^         |Mean temperature during growing season and its second order polynomial. 10-year average prior to first survey of each plot ($^\circ$C).    |
 |Precip, Precip^2^       |Total precipitation during growing season and its second order polynomial. 10-year average prior to first survey of each plot (mm). |
 |$\Delta$Time |Time interval between first and last measurements (years).                                  |
 | **Climate change**         |                                                                             |
-|$\Delta$Temp   |Slope between Temp and time (°C/y).                                                       |
+|$\Delta$Temp   |Slope between Temp and time ($^\circ$C/y).                                                       |
 |$\Delta$Precip |Slope between Precip and time (mm/y).                                                       |
 |$\Delta$CMI    |Slope between Climate Moisture Index and time (cm/y)}.                                 |
-|Temp min     |Extreme minimum temperature. Difference between minimum and mean temperature of the coldest period (°C).   |
-|Temp max    |Extreme maximum temperature. Difference between maximum and mean temperature of the warmest period (°C).   |
+|Temp min     |Extreme minimum temperature. Difference between minimum and mean temperature of the coldest period ($^\circ$C).   |
+|Temp max    |Extreme maximum temperature. Difference between maximum and mean temperature of the warmest period ($^\circ$C).   |
 |CMI min      |Extreme minimum Climate Moisture Index (CMI). Difference between minimum CMI and mean CMI (cm), as a proxy of drought.                    |
 | **Disturbances**  |                                                                                      |
 |Age          |Stand age (years).                                                                          |
@@ -321,14 +332,14 @@ included as a predictor.
 
 ## Analysis
 
-### ß diversity
+### $\beta$ diversity
 
-For each plot, we computed temporal ß diversity [@legendre_temporal_2019], which
+For each plot, we computed temporal $\beta$ diversity [@legendre_temporal_2019], which
 is the dissimilarity in species composition between two surveys of a given plot,
 by comparing local tree abundance (i.e. number of individuals)
 in forest plots between the historical (1970-1980, $t_1$) and contemporary
-(2000-2016, $t_2$) periods. The dissimilarity (ß) was computed using the
-Ružička coefficient (Fig. S3):
+(2000-2016, $t_2$) periods. The dissimilarity ($\beta$) was computed using the
+Ru\v{z}i\v{c}ka coefficient (Fig. S3):
 
 $\beta = (B+C)/(A+B+C)$ where, for $n$ species:
 
@@ -343,7 +354,7 @@ $C = \sum_{j=1}^n c_j$ : unscaled species abundance gains. $c_j$ represents the
 abundance of species $j$ present at $t_2$ but not at $t_1$; when species $j$
 decreases in abundance, $c_j$ = 0;
 
-This temporal ß diversity varies from 0 (community compositions at $t_1$ and
+This temporal $\beta$ diversity varies from 0 (community compositions at $t_1$ and
 $t_2$ are exactly the same) to 1 (communities have no shared species). The use
 of this dissimilarity index enabled us to decompose the compositional change
 into relative gains ($C/(A+B+C)$) and losses ($B/(A+B+C)$) in tree abundances
@@ -351,30 +362,30 @@ into relative gains ($C/(A+B+C)$) and losses ($B/(A+B+C)$) in tree abundances
 these relative metrics.
 
 This additive framework allowed us to partition further the different components
-contributing to ß diversity. Temporal dissimilarity in tree community can be
+contributing to $\beta$ diversity. Temporal dissimilarity in tree community can be
 decomposed into the dissimilarity (gains and losses) of different species groups
 of interest, here boreal, pioneer and temperate species (Table S1). The temporal
 dissimilarity of a given group, for instance boreal, relative to all species is
 simply: $\beta_{boreal} = (B_{boreal}+C_{boreal})/(A+B+C)$, with $(A+B+C)$ the
-denominator computed over all tree species. As a consequence, ß can be
+denominator computed over all tree species. As a consequence, $\beta$ can be
 decomposed as follows:
 
 $\beta = \beta_{boreal} + \beta_{pioneer} + \beta_{temperate}$
 
 ### Assessing the relative importance of drivers of community changes
 
-We evaluated the effects of multiple drivers on temporal ß,
+We evaluated the effects of multiple drivers on temporal $\beta$,
 gains and losses using multiple regressions, in combination with variation
 partitioning analyses [@borcard_partialling_1992; @peres-neto_variation_2006].
 For these analyses, we used a logit transformation $y'=log(y/(1-y))$ of the
-response variables (ß, gains, losses) as they were all in the standard unit
+response variables ($\beta$, gains, losses) as they were all in the standard unit
 range [0, 1].
 
 In order to quantify the variation explained by climate change
 and disturbances, while controlling for the baseline climate gradient and
 different time intervals, we classified our predictor variables into three
 subsets: baseline conditions, climate change and disturbances (see Table 1).
-We then generated regression models predicting ß, gains
+We then generated regression models predicting $\beta$, gains
 and losses, for each of the three subsets. We also tested
 relevant interactions between disturbance and climate predictors: Natural (old
 and recent) $\times$ $\Delta$CMI and Natural (old and recent) $\times$
@@ -430,7 +441,7 @@ curves because numerous species distributions were not Gaussian.
 
 To evaluate the directionality of the changes in communities between the
 historical ($t_1$) and contemporary ($t_2$) periods, we computed the temporal
-shift in the mean CTI, the cold tail and the warm tail (in °C per decade) as
+shift in the mean CTI, the cold tail and the warm tail (in $^\circ$C per decade) as
 follows:
 
 $\Delta CTI = \frac{CTI_{t2} - CTI_{t1}}{t_2 - t_1} \times 10$
@@ -474,37 +485,37 @@ https://github.com/mhBrice/thermophilization (https://doi.org/10.5281/zenodo.324
 
 # Results
 
-## Temporal ß diversity
+## Temporal $\beta$ diversity
 
-The mean temporal ß diversity was 0.56 over all sites in the study area (*n* =
+The mean temporal $\beta$ diversity was 0.56 over all sites in the study area (*n* =
 6281), and these temporal changes in composition were attributable to slightly
-more gains in abundances (52.5%) than losses (47.5%; Fig. 2a). Temporal ß
+more gains in abundances (52.5%) than losses (47.5%; Fig. 2a). Temporal $\beta$
 diversity varied along a latitudinal gradient; it tended to decrease northward,
-reaching its maximum at 48°N of latitude, which corresponds to the northern
+reaching its maximum at 48$^\circ$N of latitude, which corresponds to the northern
 limit of the balsam fir-yellow birch domain, the ecotone between boreal and
-deciduous forests. North of the 49°N of latitude, in the spruce-moss domain,
-temporal ß changes were dominated by losses whereas, south of this limit, gains
+deciduous forests. North of the 49$^\circ$N of latitude, in the spruce-moss domain,
+temporal $\beta$ changes were dominated by losses whereas, south of this limit, gains
 prevailed. Latitudinal patterns were also visible in the contributions of the
-three species groups to temporal ß (Fig. 2b). At minor disturbance level,
+three species groups to temporal $\beta$ (Fig. 2b). At minor disturbance level,
 community changes were mainly determined by gains in temperate species south of
-47°N and by gains in boreal species north of 47°N (where boreal species are the
+47$^\circ$N and by gains in boreal species north of 47$^\circ$N (where boreal species are the
 most abundant species group).
 
 ![Maps of gains and losses in tree abundances (a) and latitudinal trends in
-temporal ß diversity, decomposed into gains (blue) and losses (red) of boreal, pioneer and
+temporal $\beta$ diversity, decomposed into gains (blue) and losses (red) of boreal, pioneer and
 temperate trees, for different levels of disturbance (b-d). The sizes and colours
 of the points on the maps are proportional to the values of interest. The
-latitudinal trends in temporal ß in a-d are based on moving averages computed on
+latitudinal trends in temporal $\beta$ in a-d are based on moving averages computed on
 each index against latitude (window size of 500 plots in panel a and 400 plots
 in panels b-d), to smooth out local-scale fluctuations and highlight broad-scale
-trends.](ms/figures/fig2_map_roll.pdf){width=6.7in}
+trends.](article1/figures/fig2_map_roll.pdf){width=6.7in}
 
 
 
 
 The magnitude of compositional changes in forests was highly influenced by
-disturbances (Figs 2b-d, 3, S4). In each domain, the ß diversity values of
-highly disturbed forests are strongly skewed (Fig. 3). The mean temporal ß was
+disturbances (Figs 2b-d, 3, S4). In each domain, the $\beta$ diversity values of
+highly disturbed forests are strongly skewed (Fig. 3). The mean temporal $\beta$ was
 0.43 at minor disturbance level, whereas it was 0.53 at moderate disturbance
 level and reached 0.74 at major disturbance level (all domains combined).
 Moreover, the fraction of changes attributed to losses was generally lower at
@@ -518,13 +529,13 @@ in temperate species were higher at moderate disturbance level (Fig. 2c). Some
 species have experienced great changes in abundance and occurrence throughout
 these domains, namely *Picea mariana*, *Acer rubrum*, *Betula alleghaniensis*,
 *Fagus grandifolia* and *Populus tremuloides*, and likely contributed largely to
-the pattern of temporal ß diversity (Fig. S5).
+the pattern of temporal $\beta$ diversity (Fig. S5).
 
 
-![Frequency distributions of temporal ß diversity in forests plots by bioclimatic
+![Frequency distributions of temporal $\beta$ diversity in forests plots by bioclimatic
 domains. Forests of different disturbance levels are stacked on top of each
-other. The values written in the panels are the mean temporal ß diversity values followed by the
-percentage of losses in parentheses. The distribution of ß diversity values is skewed to the right for higher disturbance levels.](ms/figures/fig3_hist.pdf){width=6.7in}
+other. The values written in the panels are the mean temporal $\beta$ diversity values followed by the
+percentage of losses in parentheses. The distribution of $\beta$ diversity values is skewed to the right for higher disturbance levels.](article1/figures/fig3_hist.pdf){width=6.7in}
 
 
 
@@ -532,14 +543,14 @@ percentage of losses in parentheses. The distribution of ß diversity values is 
 ## Drivers of temporal changes
 
 Once combined, predictors from the three subsets (baseline, climate change and
-disturbances; Table 1) explained together 40% of the variation of temporal ß
+disturbances; Table 1) explained together 40% of the variation of temporal $\beta$
 diversity, and 30% for both gains and losses (Fig. 4). As revealed by the
 variation partitioning analyses, community temporal changes were mainly driven
-by disturbances ($R^2_{adj}$ for ß: 31%; gains: 25%; losses: 26%), whereas the
+by disturbances ($R^2_{adj}$ for $\beta$: 31%; gains: 25%; losses: 26%), whereas the
 unique influence of climate change as well as that of baseline conditions
 were significant but comparatively modest ($R^2_{adj}$ < 1%; Fig. 4d-f).
 
-Overall, disturbances enhanced temporal ß diversity, with old major harvest (Old
+Overall, disturbances enhanced temporal $\beta$ diversity, with old major harvest (Old
 harvest~2~) being the most important driver, followed by old major natural
 disturbances (Old natural~2~; Fig. 4a-c). Interestingly, while recent
 disturbances (natural and harvest) promoted losses and reduced gains, old
@@ -559,7 +570,7 @@ and total precipitation (Precip) likely reflect the latitudinal gradient in
 community change, while the effect of time interval between surveys
 ($\Delta$Time) reflects the fact that community change takes time.
 
-![Slope coefficients from multiple regression models for (a) temporal ß diversity,
+![Slope coefficients from multiple regression models for (a) temporal $\beta$ diversity,
 (b) species gains and (c) species losses and the corresponding variation
 partitioning diagrams (d, e, f). Error bars represent one standard error of the
 slope coefficient. For the regression models, only the selected predictors are
@@ -568,7 +579,7 @@ intensity: 1 Moderate and 2 Major. In each variation partitioning, significance
 of each unique fraction was tested using 9999 permutations, while shared
 fractions cannot be tested. Stars indicate the level of significance of the
 *p*-values (* *p* < 0.05; ** *p* < 0.01; *** *p* < 0.001). See Table 1 for
-description of the predictor variables.](ms/figures/fig4_reg.pdf){width=6.6in}
+description of the predictor variables.](article1/figures/fig4_reg.pdf){width=6.6in}
 
 
 
@@ -577,20 +588,20 @@ description of the predictor variables.](ms/figures/fig4_reg.pdf){width=6.6in}
 
 The community temperature index (CTI) increased significantly between the
 historical and contemporary periods (paired *t*-test *p*-value < 0.001; mean of
-+0.03 °C/decade for all plots combined, ranging from -0.02 to +0.05 across
++0.03 $^\circ$C/decade for all plots combined, ranging from -0.02 to +0.05 across
 domains), which indicates a generalised community thermophilization throughout
 the study area. During the same time period, the community shade index (CSI)
 also increased (+0.01 unit/decade), suggesting a transition towards late
 successional forests (Fig. 5).
 
 Thermophilization was significantly larger in moderately disturbed forests
-($\Delta$CTI = +0.044 °C/decade) than in undisturbed (+0.015 °C/decade) or
-highly disturbed forests (+0.018 °C/decade; ANOVA $F_{2, 6278}$ = 14.59,
+($\Delta$CTI = +0.044 $^\circ$C/decade) than in undisturbed (+0.015 $^\circ$C/decade) or
+highly disturbed forests (+0.018 $^\circ$C/decade; ANOVA $F_{2, 6278}$ = 14.59,
 *p*-value < 0.001; a post-hoc Tukey test showed significantly higher $\Delta$CTI
 at moderate disturbance than at the other levels). Moreover, the latitudinal
 pattern of $\Delta$CTI varied with the disturbance level: the thermophilization
 in moderately disturbed forests extended further north than in undisturbed
-forests, exceeding 48°N, up in the balsam fir-yellow birch domain (Fig. 5b,e),
+forests, exceeding 48$^\circ$N, up in the balsam fir-yellow birch domain (Fig. 5b,e),
 while at major disturbances, thermophilization was more or less constant across
 the latitudinal gradient (Fig. 5c,f). Despite the influence of disturbances on
 thermophilization, change in CTI was weakly explained by our complete set of
@@ -608,6 +619,7 @@ However, $\Delta$CTI was more strongly correlated to gains in temperate species
 and losses of boreal species than to gains in pioneer species (Fig. S6), which
 suggests that thermophilization was not trivially driven by successional
 processes.
+
 
 Community thermophilization was asymmetrical and mainly driven by larger gains
 in warm-adapted species, as indicated by the larger increases in the warm-tail
@@ -631,8 +643,7 @@ thermophilization of the forest plots across the study area (All) and by
 bioclimatic domain. Positive values for the temporal shift of the mean (black
 line), left tail (red) and right tail (blue) of the distribution of CTI indicate
 overall thermophilization, increases of warm‐adapted and decreases of
-cold‐adapted species, respectively.](ms/figures/fig5_thermo.pdf){width=6.6in}
-
+cold‐adapted species, respectively.](article1/figures/fig5_thermo.pdf){width=6.6in}
 
 
 Only a few species contributed substantially to community thermophilization
@@ -644,7 +655,7 @@ key role in the thermophilization of ecotonal forests in the balsam fir-yellow
 birch domain. Moreover, temperate species such as *Fagus grandifolia*, *Quercus
 rubra* and *Fraxinus americana* contributed mostly to the thermophilization of
 southern domains (Fig. 6) where their abundance has increased (Fig. S5). In
-contrast, the surge in CTI north of the 49°N (spruce-moss) in highly disturbed
+contrast, the surge in CTI north of the 49$^\circ$N (spruce-moss) in highly disturbed
 forests (Fig. 5) was likely due to the replacement of boreal species by pioneer
 species (Fig. S6), such as *Betula papyrifera* and *Salix spp.* (Fig. 6).
 
@@ -659,7 +670,7 @@ of 0.12 for all plots where *Acer rubrum* has increased in abundance (dark grey
 bar), whereas the $\Delta$CTI also increased by an average of 0.09 for all plots
 where *Abies balsamea* has decreased in abundance (light grey bar). Letters next
 to species names correspond to (T)emperate, (P)ioneer and (B)oreal species. Only
-species that contributed more than 0.01 in at least one domain are shown.](ms/figures/fig6_spcontrib_cti.pdf){width=5.8in}
+species that contributed more than 0.01 in at least one domain are shown.](article1/figures/fig6_spcontrib_cti.pdf){width=5.8in}
 
 
 
@@ -709,8 +720,8 @@ trend of tree communities is consistent with the hypothesis of climate-induced
 range shift, expanding on earlier findings that forests are responding to
 climate warming [e.g. @sittaro_tree_2017; @leithead_northward_2010;
 @fisichelli_temperate_2014]. However, the observed increase of tree community
-temperature of +0.03 °C/decade is considerably smaller than the rising trend in
-growing season temperature of 0.14 °C/decade (Fig. S1). Although these measures
+temperature of +0.03 $^\circ$C/decade is considerably smaller than the rising trend in
+growing season temperature of 0.14 $^\circ$C/decade (Fig. S1). Although these measures
 have different origins and should thus be compared cautiously, our findings
 support the conclusion of numerous studies that tree responses often lag behind
 environmental changes [@sittaro_tree_2017; @talluto_extinction_2017;
@@ -834,7 +845,7 @@ dynamic? Multiple studies suggest a persistence of these novel assemblages. For
 instance, after a century of logging disturbances, temperate species were found
 to have increased and persisted in forests formerly dominated by conifers
 [@boucher_logging-induced_2006]. Furthermore, @frechette_evidence_2013 provided
-evidence that, during the last interglacial period (6-7°C warmer), the northern
+evidence that, during the last interglacial period (6-7$^{\circ}$C warmer), the northern
 limit of the temperate biome was located about 500 km north of its actual limit,
 suggesting that a northward shift of the ecotone is possible. Hence, while
 climate warming erodes forest resilience by affecting competitive advantages and
@@ -846,12 +857,6 @@ forest management strategies as well as in models of forest responses to climate
 change.
 
 
-\pagebreak
-
-
-# References
-
-<div id="refs"></div>
 
 \pagebreak
 
@@ -865,9 +870,5 @@ GitHub.
 \pagebreak
 
 
-
-# Figures
-
-
-
-\pagebreak
+\bibliographystyle{apalike-uqam}
+\bibliography{references.bib}

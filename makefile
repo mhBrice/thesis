@@ -3,23 +3,29 @@ bib = references.bib
 flag = --natbib --bibliography=$(bib) --pdf-engine=pdflatex
 
 
-ALL: introduction.tex
+ALL: introduction.tex article1/article1.tex article1/annexe1.tex
 	pdflatex $(main)
-	bibtex $(main)
+	bibtex introduction
+	bibtex article1/article1
 	pdflatex $(main)
 	pdflatex $(main)
 
-introduction.tex: introduction.md
+%.tex: %.md
 	pandoc  $< -o $@ $(flag)
 
-article1/%tex: article1/%md
+article1/%.tex: article1/%.md
 	pandoc  $< -o $@ $(flag)
 
-# article1/%tex: article1/%md
-# article1/%tex: article1/%md
+article2/%.tex: article2/%.md
+	pandoc  $< -o $@ $(flag)
+
+article3/%.tex: article2/%.md
+	pandoc  $< -o $@ $(flag)
+
 
 bibclean: $(bib) $(main).aux
-	bibtool -sdx introduction.aux $(bib) > references_clean.bib
+	bibtool -sdx thesismhb.aux $(bib) > references_clean.bib
 
 clean:
 	rm *.aux *.log *.toc *.lot *.lof *.bbl *.blg introduction.tex
+	rm article1/*.tex

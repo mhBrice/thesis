@@ -5,10 +5,10 @@ header-includes:
     - \setstretch{1,5}
     - \usepackage{times}
     - \usepackage{lineno}
-emove-ref-sectio: true
 ---
 
 \francais
+
 \chapter*{Introduction}
 
 <!-- voir these de Becker-Scarpitta, Danneyrolles, Boisvert-Marsh-->
@@ -32,6 +32,7 @@ vitesse et leur intensité. La recherche scientifique contemporaine s'intéresse
 al., 2000; Vellend et al., 2017).
 
 <!--À l'ère de l'Anthropocène, les changements globaux modifient les écosystèmes à la fois de manière directe par l'usage des sols et l'exploitation des ressources naturelles (Foley, 2005), et de manière indirecte au travers des changements climatiques liés au relargage massif de gaz à effet de serre dans l’atmosphère (Grimm et al., 2013).-->
+
 
 # Changements climatiques
 
@@ -568,4 +569,7 @@ Au chapitre 3, je vais évaluer l’importance relative des facteurs non climati
 
 Dans ce chapitre, un modèle basé sur la théorie des métapopulations et des métacommunautés me permettra de modéliser la dynamique d’assemblage des communautés locales en prenant en considération la manière dont la compétition, le sol et les perturbations peuvent faciliter ou entraver la migration des arbres via leurs effets sur la démographie. Le modèle classique sera étendu de façon à ce que la probabilité de colonisation/recrutement et d’extinction/mortalité d’une espèce soit conditionnelle aux variables climatiques (Talluto et al. 2017), édaphiques et à la composition de la communauté.
 
-\endinput
+
+
+\bibliographystyle{apalike-uqam}
+\bibliography{references.bib}

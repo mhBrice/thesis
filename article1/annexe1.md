@@ -9,6 +9,7 @@ header-includes:
     - \linenumbers
 ---
 
+
 # Supplementary Tables
 
 **Table S1**. List of species included in the analyses and their traits. The species groups were defined using  their trait values and knowledge of species ecology. Temperate species have temperature indices above 4.25, and boreal species below 4.25. Pioneer species have shade tolerance below 2.6 and are generally found in disturbed habitats.
