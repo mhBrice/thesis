@@ -16,6 +16,8 @@ header-includes:
 
 <!-- L'écologie à l'ère de l’Anthropocène-->
 
+
+
 L'humain est aujourd'hui une force prédominante gouvernant les processus
 écologiques, amenant de nombreux chercheurs à suggérer que le système terrestre
 a basculé dans une nouvelle ère géologique, l'Anthropocène
@@ -31,19 +33,50 @@ vitesse et leur intensité. La recherche scientifique contemporaine s'intéresse
 écosystèmes et les communautés (McGill et al., 2015; Root et al., 2003; Sala et
 al., 2000; Vellend et al., 2017).
 
-<!--À l'ère de l'Anthropocène, les changements globaux modifient les écosystèmes à la fois de manière directe par l'usage des sols et l'exploitation des ressources naturelles (Foley, 2005), et de manière indirecte au travers des changements climatiques liés au relargage massif de gaz à effet de serre dans l’atmosphère (Grimm et al., 2013).-->
+<!--À l'ère de l'Anthropocène, les changements globaux modifient les écosystèmes à la fois de manière directe par l'usage des sols et l'exploitation des ressources naturelles (Foley, 2005), et de manière indirecte au travers des changements climatiques liés au relargage massif de gaz à effet de serre dans l’atmosphère (Grimm et al., 2013).
+
+Limiter le réchauffement climatique à 1,5 °C nécessiterait des changements rapides, très profonds et sans précédent dans tous les aspects de la société
+-->
 
 
 # Changements climatiques
 
-Le réchauffement climatique mesuré sur l'ensemble de la planète durant les
-dernières décennies est sans équivoque, et la responsabilité de l'humain par
-l'émission de gaz à effet de serre (abrégé GES par la suite) est clairement
-établie [@ipcc_climate_2014]. Des projections récentes des changements
+Déjà en 1979, un rapport scientifique produit aux États-Unis informent d'une
+menace climatique grandissante causée par l'émission massive de dioxyde de
+carbone (CO^2^) par l'activité humaine [@national_research_council_carbon_1979]:
+
+> We now have incontrovertible evidence that the atmosphere is indeed changing and that we ourselves contribute to that change. Atmospheric concentrations of carbon dioxide are steadily increasing, and these changes are linked with man's use of fossil fuels end exploitation of the land. [The consensus of number of investigations] has been that increasing carbon dioxide will lead to a warmer earth with different distribution of climatic regimes.
+
+Ainsi, près d'une décennie avant la création du groupe d'experts
+intergouvernemental sur l'évolution du climat (GIEC), les scientifiques nous
+avertissaient très clairement du danger potentiel vers lequel nous nous
+dirigions. La crise climatique aurait-elle pu être évitée ou du moins atténuée?
+En réalité, la vitesse, l'ampleur et les conséquences du réchauffement
+climatique étaient encore peu connues en 1979. À cette époque, et pendant
+plusieurs années, même les scientifiques considéraient le changement climatique
+comme une perspective lointaine. Nous savons maintenant que cette vision était
+erronée. Depuis, le GIEC a produit cinq rapports d'évaluation (entre 1990 et
+2014) sur l'état des connaissances relatives au changement climatique. Au fil de
+ces rapports, à mesure que les connaissances s'accumulent et que les modèles
+climatiques deviennent plus robustes, on prend conscience de la gravité de la
+crise climatique et le ton devient de plus en plus alarmant.
+
+Selon le 5e rapport du GIEC, le réchauffement climatique mesuré sur l'ensemble de la planète durant les
+dernières décennies est maintenant sans équivoque, et la responsabilité de l'humain par
+l'émission de gaz à effet de serre (GES) est clairement
+établie [@ipcc_climate_2014]. Les activités humaines ont déjà contribué à une hausse entre 0.8 et 1.2 °C au-dessus des températures préindustrielles [@IPCC_summary_2018]. Des projections récentes des changements
 climatiques indiquent que les températures moyennes mondiales pourraient
 augmenter de 2.6 à 4.8$^{\circ}$C d'ici la fin du XXIe siècle dans le nord-est de
 l'Amérique du Nord, s'il n'y a pas de progrès sur le contrôle des émissions de
-GES anthropiques [@ipcc_climate_2014]. Le climat étant un déterminant important
+GES anthropiques [@ipcc_climate_2014].
+Le rapport final résume les conclusions des scientifiques, montrant que le maintien d'une augmentation de la température en dessous de 1,5 °C reste possible, mais seulement grâce à des
+Le récent rapport spécial sur les conséquences d'un réchauffement planétaire de 1.5 °C:
+Limiter le réchauffement climatique à 1.5 °C exigerait des transitions rapides et radicales dans tous les aspects de la société
+
+
+
+
+Le climat étant un déterminant important
 de la distribution des espèces, de telles augmentations de température auront un
 impact majeur sur la structure et les fonctions de tous les écosystèmes
 [@bellard_impacts_2012; @gauthier_vulnerability_2015]. <!--Alors que l'on constate
@@ -53,6 +86,7 @@ biodiversité mondiale sans précédent dans l'histoire de la vie humaine
 @ceballos_biological_2017], les scénarios pour le futur prévoient
 systématiquement un déclin de la biodiversité au cours du 21e siècle
 [@pereira_scenarios_2010].-->
+
 
 Selon les prévisions, les changements de température et de régimes de
 précipitation devraient déplacer les niches climatiques optimales de nombreuses
@@ -75,6 +109,12 @@ forestiers représente donc l'un des grands défis actuels pour la communauté
 scientifique [@pereira_scenarios_2010; @garcia_multiple_2014].
 
 # Réponses des écosystèmes forestiers aux changements climatiques
+
+<!--Sous l’influence du réchauffement climatique, les aires de répartition et la productivité des arbres forestiers évoluent. Les exemples les plus fréquemment cités sont les déplacements des limites latitudinales et altitudinales des arbres (Körner, 1994 ; Solomon et Kirilenko, 1997 ; Mac Donald et al., 1998), l’extension ou la contraction de l’aire d’occupation des espèces ou les fluctuations des populations (Theurillat, 1995).
+
+For forests, the response to higher temperatures is not immediate. A big, old tree can hang on for many years after its optimal conditions are lost, simply because it’s there, it’s well established, and it can shade the saplings of species that might be expected to outcompete it. Of course, in the face of windstorms, fire, lightning, and insect attacks, no tree lasts forever, and eventually even the giants of the forest will succumb. Attack by exotic insects can exacerbate the onset of change. With climate change, the new trees that replace them are likely to be different species, and eventually the entire forest composition may shift.
+ -->
+
 
 ## Déplacements des aires de répartition
 
@@ -539,9 +579,9 @@ Les réponses à ces questions sont essentielles pour comprendre les relations e
 
 ## Chapitre 1 : Patrons de diversité bêta temporelle
 
-L’Homme est aujourd’hui la principale force gouvernant les processus écologiques faisant entrer la terre dans une nouvelle ère géologique, l’Anthropocène [@crutzen_geology_2002]. Un nombre croissant de preuves révèle une perte de biodiversité exceptionnellement rapide au cours des derniers siècles, ce qui indique qu’une sixième extinction de masse est déjà en cours [@ceballos_accelerated_2015]. D’ailleurs, @ceballos_accelerated_2015 soulignent qu’au-delà des extinctions globales des espèces, la Terre connaît aussi un énorme épisode de déclin des populations, dont les conséquences se répercuteront sur les fonctions et les services des écosystèmes. Malgré tout, des métaanalyses récentes ont montré que bien souvent, à l’échelle locale, la biodiversité ne diminue pas et peut même parfois augmenter [@vellend_global_2013; @dornelas_assemblage_2014]. Bien que ces résultats aient été vivement critiqués (Newbold et al. 2015; Gonzalez et al. 2016), il reste clair que la diversité locale (diversité $\alpha$) peut montrer des tendances variées, déconnectées des tendances à plus grande échelle, même face à une extinction de masse à l’échelle globale. Dans tous les cas, il est généralement admis qu’il y a eu des changements importants dans la composition des communautés (diversité $\beta$; Vellend et al. 2013; Dornelas et al. 2014; Newbold et al. 2015), impliquant à la fois des pertes et des gains d’espèces (Wardle et al. 2011). Ainsi, afin de mieux comprendre l’effet des changements anthropiques sur la biodiversité, nous devons examiner parallèlement la diversité $\alpha$ et $\beta$, ainsi que les composantes sous-jacentes de ces changements, les pertes et les gains d’espèces.
+**L’Homme est aujourd’hui la principale force gouvernant les processus écologiques faisant entrer la terre dans une nouvelle ère géologique, l’Anthropocène [@crutzen_geology_2002]. Un nombre croissant de preuves révèle une perte de biodiversité exceptionnellement rapide au cours des derniers siècles, ce qui indique qu’une sixième extinction de masse est déjà en cours [@ceballos_accelerated_2015]. D’ailleurs, @ceballos_accelerated_2015 soulignent qu’au-delà des extinctions globales des espèces, la Terre connaît aussi un énorme épisode de déclin des populations, dont les conséquences se répercuteront sur les fonctions et les services des écosystèmes. Malgré tout, des métaanalyses récentes ont montré que bien souvent, à l’échelle locale, la biodiversité ne diminue pas et peut même parfois augmenter [@vellend_global_2013; @dornelas_assemblage_2014]. Bien que ces résultats aient été vivement critiqués (Newbold et al. 2015; Gonzalez et al. 2016), il reste clair que la diversité locale (diversité α) peut montrer des tendances variées, déconnectées des tendances à plus grande échelle, même face à une extinction de masse à l’échelle globale. Dans tous les cas, il est généralement admis qu’il y a eu des changements importants dans la composition des communautés (diversité β; Vellend et al. 2013; Dornelas et al. 2014; Newbold et al. 2015), impliquant à la fois des pertes et des gains d’espèces (Wardle et al. 2011). Ainsi, afin de mieux comprendre l’effet des changements anthropiques sur la biodiversité, nous devons examiner parallèlement la diversité α et β, ainsi que les composantes sous-jacentes de ces changements, les pertes et les gains d’espèces.**
 
-Des travaux récents ont attiré l’attention sur le gain en compréhension lorsque la diversité $\beta$ est partitionnée en ses composantes sous-jacentes [@baselga_partitioning_2010; @podani_general_2013; @legendre_interpreting_2014; @legendre_temporal_2019]. De telles analyses permettent de quantifier les contributions de différents processus écologiques à la diversité $\beta$. @legendre_thirty-year_2015 ont développé une méthode pour partitionner la diversité $\beta$ temporelle en composantes de pertes et de gains en espèces, et l’ont appliquée aux communautés de mollusque se rétablissant après des essais nucléaires. Cette méthode offre la possibilité de faire le lien entre les changements de diversité et les changements démographiques dans les communautés, puisque les pertes et les gains sont en fait des mortalités et des recrutements lorsque calculés sur des données d’abondance, et des extinctions et colonisations lorsque calculés sur des données de présence-absence.
+**Des travaux récents ont attiré l’attention sur le gain en compréhension lorsque la diversité β est partitionnée en ses composantes sous-jacentes [@baselga_partitioning_2010; @podani_general_2013; @legendre_interpreting_2014; @legendre_temporal_2019]. De telles analyses permettent de quantifier les contributions de différents processus écologiques à la diversité β. @legendre_thirty-year_2015 ont développé une méthode pour partitionner la diversité β temporelle en composantes de pertes et de gains en espèces, et l’ont appliquée aux communautés de mollusque se rétablissant après des essais nucléaires. Cette méthode offre la possibilité de faire le lien entre les changements de diversité et les changements démographiques dans les communautés, puisque les pertes et les gains sont en fait des mortalités et des recrutements lorsque calculés sur des données d’abondance, et des extinctions et colonisations lorsque calculés sur des données de présence-absence.**
 
 Le chapitre 1 de la thèse vise à répondre à deux objectifs principaux liés à la fois aux tendances temporelles de la biodiversité dans les forêts de l’écotone boréal-tempéré au cours des dernières décennies et à l’application de nouvelles méthodes d’analyse de diversité $\beta$ temporelle. Spécifiquement : quelles sont les tendances temporelles de diversité $\alpha$ et $\beta$ des forêts ? Comment les forêts ont-elles changé en termes de mortalités et de recrutements ? Est-ce que ces changements sont constants pour différents groupes d’espèces et de régions ? Selon mes hypothèses, il n’y aura pas de tendance temporelle particulière au niveau de la diversité $\alpha$. Inversement, il y aura une augmentation de la diversité $\beta$ au cours du temps qui sera provoquée principalement par une augmentation des mortalités, attribuables à l’action concommitante de multiples perturbations, qui ne sera pas compensée par des recrutements.
 
@@ -561,9 +601,9 @@ La probabilité de mortalité annuelle sera analysée par un modèle de régress
 
 Bien qu’un important déplacement des niches climatiques soit anticipé d’ici la fin du siècle, les approches de modélisation utilisées à ce jour sont majoritairement incapables de projeter le rythme auquel les espèces forestières répondront aux changements climatiques, car les contraintes à la migration sont encore peu connues. Une des hypothèses importantes avance que la compétition par les espèces résidentes pourrait freiner l’établissement des espèces migratrices (Svenning et al. 2014). Cependant, l’effet des interactions biotiques sur la dynamique d’expansion d’aires de répartition des arbres n’a pas reçu suffisamment d’attention et jusqu’à maintenant les études empiriques sur le sujet sont principalement issues d’expériences de transplantation (Hillerislambers et al. 2013; Brown & Vellend 2014).
 
-Les perturbations pourraient moduler la vitesse de réponse des forêts aux changements climatiques en diminuant ou éliminant la compétition par les espèces résidentes, créant ainsi des opportunités de colonisation pour les espèces d’arbres tempérés (Xu et al. 2012; Woodall et al. 2013; Vanderwel & Purves 2014). Les perturbations pourraient donc accélérer les changements de composition dans les forêts ou même les faire basculer d’une dominance conifèrienne à une composition mixte (regime shift). En plus de pouvoir accélérer la vitesse de transition, les perturbations pourraient influencer différentiellement les espèces en raison du compromis compétition-colonisation. Par exemple, les compétiteurs inférieurs pourraient être favorisés (du moins à court terme) grâce à leur meilleure capacité de colonisation leur permettant d’atteindre les milieux récemment perturbés (Gilman et al. 2010). Pour l’instant, l’effet des perturbations sur les capacités de colonisation des espèces migratrices en réponse aux changements climatiques a été étudié surtout par modélisation à l’échelle régionale (Scheller & Mladenoff 2005; Vanderwel & Purves 2014) et empiriquement à l’échelle locale (Leithead et al. 2010). À l’échelle régionale, Woodall et al. (2013) n’ont pas trouvé de différence dans les limites nord de répartition des semis et des arbres adultes entre les sites perturbés et non perturbés aux États-Unis, mais ils n’avaient que 5 ans d’intervalle.
+**Les perturbations pourraient moduler la vitesse de réponse des forêts aux changements climatiques en diminuant ou éliminant la compétition par les espèces résidentes, créant ainsi des opportunités de colonisation pour les espèces d’arbres tempérés (Xu et al. 2012; Woodall et al. 2013; Vanderwel & Purves 2014). Les perturbations pourraient donc accélérer les changements de composition dans les forêts ou même les faire basculer d’une dominance conifèrienne à une composition mixte (regime shift). En plus de pouvoir accélérer la vitesse de transition, les perturbations pourraient influencer différentiellement les espèces en raison du compromis compétition-colonisation. Par exemple, les compétiteurs inférieurs pourraient être favorisés (du moins à court terme) grâce à leur meilleure capacité de colonisation leur permettant d’atteindre les milieux récemment perturbés (Gilman et al. 2010). Pour l’instant, l’effet des perturbations sur les capacités de colonisation des espèces migratrices en réponse aux changements climatiques a été étudié surtout par modélisation à l’échelle régionale (Scheller & Mladenoff 2005; Vanderwel & Purves 2014) et empiriquement à l’échelle locale (Leithead et al. 2010). À l’échelle régionale, Woodall et al. (2013) n’ont pas trouvé de différence dans les limites nord de répartition des semis et des arbres adultes entre les sites perturbés et non perturbés aux États-Unis, mais ils n’avaient que 5 ans d’intervalle.**
 
-S’il y a d’autres contraintes abiotiques que le climat aux limites nord des aires de répartition des espèces, les projections de migration sous les changements climatiques qui ignorent ces facteurs pourraient surestimer l’effet des températures sur l’expansion des aires. Certaines études expérimentales suggèrent, par exemple, que les propriétés du sol peuvent freiner la germination et la croissance des semis (Brown & Vellend 2014; Eskelinen & Harrison 2015; Collin et al. 2017). Ainsi, même si les contraintes climatiques sont relâchées pour une espèce donnée et que la compétition est éliminée par une perturbation, il est possible que l’habitat ne soit tout de même pas adéquat (Beauregard & De Blois 2014). Ces contraintes biotiques liées à la compétition et abiotiques liées aux propriétés du sol pourraient donc freiner ou empêcher la migration des espèces tempérées et contribuer au déséquilibre entre la répartition géographique et la niche climatique potentielle des espèces.
+**S’il y a d’autres contraintes abiotiques que le climat aux limites nord des aires de répartition des espèces, les projections de migration sous les changements climatiques qui ignorent ces facteurs pourraient surestimer l’effet des températures sur l’expansion des aires. Certaines études expérimentales suggèrent, par exemple, que les propriétés du sol peuvent freiner la germination et la croissance des semis (Brown & Vellend 2014; Eskelinen & Harrison 2015; Collin et al. 2017). Ainsi, même si les contraintes climatiques sont relâchées pour une espèce donnée et que la compétition est éliminée par une perturbation, il est possible que l’habitat ne soit tout de même pas adéquat (Beauregard & De Blois 2014). Ces contraintes biotiques liées à la compétition et abiotiques liées aux propriétés du sol pourraient donc freiner ou empêcher la migration des espèces tempérées et contribuer au déséquilibre entre la répartition géographique et la niche climatique potentielle des espèces.**
 
 Au chapitre 3, je vais évaluer l’importance relative des facteurs non climatiques sur la dynamique de colonisation et d’extinction des arbres dans les forêts tempérées, particulièrement à la limite de leur aire de répartition. Je tenterai de répondre aux questions suivantes : Est-ce que la compétition (mesurée par un effet densité-dépendant des espèces résidentes sur l’espèce migratrice) influence les probabilités de colonisation des arbres ? Ou est-ce plutôt l’effet des propriétés du sol qui freine la probabilité de colonisation ? Si la compétition est importante, est-ce que les perturbations permettent d’accélérer le taux de recrutement des espèces tempérées à la limite nord de leur distribution ? Selon mes hypothèses, l’effet combiné de la compétition et des propriétés du sol sur les espèces tempérées migratrices sera soutenu en marge de leur aire de répartition, mais les perturbations faciliteront l’établissement de ces espèces en diminuant la compétition. Aussi, cette diminution de la compétition avantagera différentiellement les espèces selon leurs traits, et le gain sera plus grand pour les espèces de début de succession.
 
