@@ -1,6 +1,15 @@
 # MacOS annoying file
 .DS_Store
 
+# LaTeX
+*.log
+*.aux
+*.toc
+*.bbl
+*.blg
+*.lof
+*.lot
+
 # History files
 .Rhistory
 .Rapp.history

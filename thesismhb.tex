@@ -1,3 +1,44 @@
+%%
+%% This is file `gabaritTPA.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% dms.dtx  (with options: `TPA,gabarit')
+%% Example TeX file for the documentation
+%% of the jurabib package
+%% Copyright (C) 1999, 2000, 2001 Jens Berger
+%% See dms.ins  for the copyright details.
+%%
+%%% ====================================================================
+%%%  @LaTeX-file{
+%%%     filename        = "dms.dtx",
+%%%     author    = "Nicolas Beauchemin, Damien Rioux-Lavoie, Victor Fardel, Jonathan Godin",
+%%%     copyright = "Copyright (C) 2000 , DMS
+%%%                  all rights reserved.  Copying of this file is
+%%%                  authorized only if either:
+%%%                  (1) you make absolutely no changes to your copy,
+%%%                  including name; OR
+%%%                  (2) if you do make changes, you first rename it
+%%%                  to some other name.",
+%%%     address   = "Département de Mathématiques et de Statistique",
+%%%     telephone = "514-343-6705",
+%%%     FAX       = "514-343-5700",
+%%%     email     = "aide@dms.umontreal.ca (Internet)",
+%%%     keywords  = "latex, amslatex, ams-latex, theorem",
+%%%     abstract  = " Ce fichier est un package conçu pour être
+%%%                  utilisé avec la version de LaTeX2e 1995/06/01. Il
+%%%                  est prévue pour la classe ``amsbook''. Il en
+%%%                  modifie le format des pages, l'entête des
+%%%                  sections, etc, afin d'être  conforme au modèle de
+%%%                  mémoire de maîtrise de l'Université de
+%%%                  Montréal. Finalement ce fichier est grandement
+%%%                  inspiré du fichier amsclass.dtx.",
+%%%     docstring = "The checksum field contains: CRC-16 checksum,
+%%%                  word count, line count, and character count, as
+%%%                  produced by Robert Solovay's checksum utility."}
+%%%  ====================================================================
+
 %% Pour voir les accents de ce fichier, assurez-vous que votre
 %% éditeur de texte lise le fichier en utf-8!
 
@@ -33,7 +74,9 @@
 \francais % or
 %%\anglais
 %%
-%%\usepackage[english,frenchb]{babel}
+\usepackage[english,frenchb]{babel}
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
 
  % ENGLISH OPTION
  % If you call \anglais here before the \begin{document},
@@ -95,12 +138,12 @@
   % dans un terminal.) Ces données sont utiles, par exemple,
   % pour augmenter les chances qu'un algorithme de recherche
   % trouve votre document sur Internet, une fois diffusé.
-\hypersetup{
-  pdftitle = {Dynamique spatio-temporelle des forêts dans l’écotone boréal-tempéré en réponse aux changements globaux},
-  pdfauthor = {Marie-Hélène Brice},
-  pdfsubject = {Dynamique forestière},
-  pdfkeywords = {écologie des communautés, changements climatiques, forêts, diversité bêta, dynamique de transition, recrutement, Québec}
-}
+  \hypersetup{
+    pdftitle = {Dynamique spatio-temporelle des forêts dans l’écotone boréal-tempéré en réponse aux changements globaux},
+    pdfauthor = {Marie-Hélène Brice},
+    pdfsubject = {Dynamique forestière},
+    pdfkeywords = {écologie des communautés, changements climatiques, forêts, diversité bêta, dynamique de transition, recrutement, Québec}
+  }
 
 %% Définition des environnements utiles pour un mémoire scientifique.
 %% La numérotation est laissée à la discrétion de l'auteur·e. L'exemple
@@ -185,6 +228,7 @@
  % ou
 %%\renewcommand{\baselinestretch}{1.5}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%                                     %%%%%%%%%%%%%
@@ -210,6 +254,10 @@
 %%              pages i et ii                       %
 %%------------------------------------------------- %
 
+%%%
+%%% Voici les variables à définir pour les deux premières pages de votre
+%%% mémoire.
+%%%
 
 \title{Réponses spatio-temporelles des communtautés forestières dans l'écotone boréal-tempéré face aux changements climatiques}
 
@@ -223,6 +271,14 @@
 
 \sujet{sciences biologiques}
 \orientation{option biodiversité, écologie et évolution}%Ce champ est optionnel
+%%\orientation{orientation}%Ce champ est optionnel
+%%
+%% Voici les disciplines possibles (voir avec votre directeur):
+%% \sujet{statistique},
+%% \sujet{mathématiques}, \orientation{mathématiques appliquées},
+%% \orientation{mathématiques fondamentales}
+%% \orientation{mathématiques de l'ingénieur} et
+%% \orientation{mathématiques appliquées}
 
 \president{Pierre-Luc Chagnon}
 
@@ -234,8 +290,24 @@
 
 \examinateur{Sylvie de Blois}
 
+%%\codirecteur{Nom du 1er codirecteur}         % s'il y a lieu
+%%\codirecteurs{Nom du 2e codirecteur}         % s'il y a lieu
 
-%% La commande \maketitle créera votre page titre.
+
+%%\examinateur{Nom de l'examinateur externe}   %obligatoire pour la these
+
+%% \membresjury{Deuxième membre du jury}  % s'il y a lieu
+
+%%  \plusmembresjury{Troisième membre du jury}    % s'il y a lieu
+
+ % Cette option existe encore, mais elle n'a plus sa place
+ % dans la page titre. L'utiliser seulement si le directeur
+ % insiste...
+%%\repdoyen{Nom du représentant du doyen} %(thèse seulement)
+
+%%
+%% Fin des variables à définir. La commande \maketitle créera votre
+%% page titre.
 
 \maketitle
 
@@ -254,7 +326,6 @@
  % Consulter le guide de présentation des mémoires
  % et des thèses pour de l'information plus
  % précise et à jour.
-
 \francais
 
 \chapter*{Résumé}
@@ -329,15 +400,14 @@
 %%% \def\colun{\plusun\the\abbrlist. }
 %%\def\coldeux{\relax}
 \begin{twocolumnlist}{.2\textwidth}{.7\textwidth}
-  AIC & Critère d'information d'Akaike, de l'anglais
-      \textit{Akaikes Information Criteria}\\
-  DBH  & Diamètre hauteur poitrine (1.3m), de l'anglais
-      \textit{Diameter at breast height} \\
-  CTI  &  Indice de température de la communauté, de l'anglais \textit{Community Temperature Index}\\
-  PCA & Analyse en composantes principales, de l'anglais \textit{Principal component Analysis}\\
-  sd & Écart standard, de l'anglais \textit{standard deviation}\\
-  STI  &  Indice de température des espèces, de l'anglais \textit{Species Temperature Index}\\
-  TBI  &  Indice de diversité beta temporelle, de l'anglais \textit{Temporal Beta diversity Index}\\
+  KQ-Methode & Méthode des moindres carrés, de l'allemand
+      \textit{Methode der kleinsten Quadrate}\\
+  MCMC  & Monte Carlo par chaînes de Markov, de l'anglais
+      \textit{Markov Chain Monte Carlo} \\
+  MSE  &  Erreur quadratique moyenne, de l'anglais \textit{Mean Square Error}\\
+  NDR & Retract d'un voisinage, de l'anglais \textit{Neighbourhood Deformation Retract}\\
+  OLS  &  Moindres carrés ordinaires, de l'anglais \textit{Ordinary Least Square}\\
+  ZFC & Théorie des ensembles de Zermelo-Fraenkel avec l'axiome du choix\\
 \end{twocolumnlist}
 %% L'environnement <threecolumnlist> existe aussi pour trois colonnes.
 
@@ -375,7 +445,7 @@
 %%%%%%%%%%%%%%%%%%%%  A R T I C L E 1  %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{article1/article1}
+\include{article1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
@@ -393,22 +463,20 @@
  % Il est possible d'avoir une bibliographie pour chaque
  % chapitre. Consulter l'article en exemple pour voir
  % comment faire.
-%%\bibliographystyle{plain-fr}
-%%\bibliography{<fichier.bib>}
+% \bibliographystyle{plain-fr}
+% \bibliography{general.bib}
 
  % Pour les annexes :
 \appendix
  % Les annexes se font comme les chapitres. Le fichier
  % commence par \francais ou \anglais et ensuite
- % \chapter{..}. Le reste est pareil à un chapitre normal.
-
+ % \chapter{..}. Le reste est parreil à un chapitre normal.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%   A N N E X E 1   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\include{article1/annexe1}
+%%\include{annexe1}
 %%
 %% etc.
 
