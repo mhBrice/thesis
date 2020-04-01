@@ -1,0 +1,1281 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{setspace}
+\setstretch{1,5}
+\usepackage{times}
+\usepackage{lineno}
+
+\date{}
+
+\begin{document}
+
+\hypertarget{introduction-guxe9nuxe9rale}{%
+\section{Introduction générale}\label{introduction-guxe9nuxe9rale}}
+
+L'humain est aujourd'hui une force prédominante gouvernant les processus
+écologiques, amenant de nombreux chercheurs à suggérer que le système
+terrestre a basculé dans une nouvelle ère géologique, l'Anthropocène
+(Crutzen, 2002). Depuis environ un siècle, les activités humaines ont
+largement perturbé l'équilibre dynamique des cycles naturels. Le
+développement des sociétés occidentales s'est basé sur
+l'industrialisation et l'exploitation des ressources, résultant
+notamment en un changement d'utilisation des sols associé à la
+fragmentation et la dégradation des habitats, ainsi qu'à un relargage
+massif de gaz à effet de serre (e.g.~CO2, SOx, CH4, NOx\ldots) dans
+l'atmosphère. Les changements environnementaux récents se caractérisent
+par leur vitesse et leur intensité. La recherche scientifique
+contemporaine s'intéresse à comprendre, évaluer et prédire l'impact de
+ces perturbations sur les écosystèmes et les communautés (McGill et al.,
+2015; Root et al., 2003; Sala et al., 2000; Vellend et al., 2017).
+
+\hypertarget{changements-climatiques}{%
+\section{Changements climatiques}\label{changements-climatiques}}
+
+Le réchauffement climatique mesuré sur l'ensemble de la planète durant
+les dernières décennies est sans équivoque, et la responsabilité de
+l'humain par l'émission de gaz à effet de serre (abrégé GES par la
+suite) est clairement établie (IPCC, 2014). Des projections récentes des
+changements climatiques indiquent que les températures moyennes
+mondiales pourraient augmenter de 2.6 à 4.8 °C d'ici la fin du XXIe
+siècle dans le nord-est de l'Amérique du Nord, s'il n'y a pas de progrès
+sur le contrôle des émissions de GES anthropiques (IPCC, 2014). Le
+climat étant un déterminant important de la distribution des espèces, de
+telles augmentations de température auront un impact majeur sur la
+structure et les fonctions de tous les écosystèmes (Bellard et al.,
+2012; Gauthier et al., 2015).
+
+Selon les prévisions, les changements de température et de régimes de
+précipitation devraient déplacer les niches climatiques optimales de
+nombreuses espèces d'arbres vers le nord sur des centaines de kilomètres
+(McKenney et al., 2007) ou plus haut en altitude d'une centaine de
+mètres (Jump et al., 2009), modifiant la composition, la structure et la
+diversité forestières (Price et al., 2013; Reich et al., 2015). Or, de
+tels changements dans les forêts peuvent avoir des répercussions
+environnementales considérables sur les fonctions et les services des
+écosystèmes, tels que l'approvisionnement en bois et en produits
+forestiers non ligneux, le stockage du carbone, le cycle des nutriments,
+la purification de l'air et de l'eau et le maintien d'habitats pour la
+faune et la flore (Mitchell et al., 2013; Mori et al., 2017). Ces
+changements soulèvent aussi des enjeux socio-économiques majeurs. Par
+exemple, comment adapter les stratégies de gestion forestière pour
+assurer un approvisionnement durable en bois ? Ou encore, quel est
+l'avenir de certaines espèces économiquement et culturellement
+importantes, comme l'érable à sucre au Québec ? Comprendre et prédire
+les conséquences de ces changements climatiques sur les écosystèmes
+forestiers représente donc l'un des grands défis actuels pour la
+communauté scientifique (Garcia et al., 2014; Pereira et al., 2010).
+
+\hypertarget{ruxe9ponses-des-uxe9cosystuxe8mes-forestiers-aux-changements-climatiques}{%
+\section{Réponses des écosystèmes forestiers aux changements
+climatiques}\label{ruxe9ponses-des-uxe9cosystuxe8mes-forestiers-aux-changements-climatiques}}
+
+\hypertarget{duxe9placements-des-aires-de-ruxe9partition}{%
+\subsection{Déplacements des aires de
+répartition}\label{duxe9placements-des-aires-de-ruxe9partition}}
+
+Des changements de distribution liés au climat ont déjà été observés
+pour de nombreuses espèces d'arbres à différentes échelles spatiales,
+particulièrement dans les zones de transition où les changements sont
+plus facilement détectables (Boulanger et al., 2017; Jump et al., 2009).
+Par exemple, à l'échelle locale, Fisichelli et al. (2014) ont observé
+une avancée de la régénération d'espèces arbres tempérées dans la forêt
+boréale de la région à l'ouest des Grands Lacs et ce processus semblait
+être facilité par des températures plus chaudes. Leithead et al. (2010)
+ont observé que les trouées causées par la mort des arbres boréaux dans
+une forêt du nord de l'Ontario facilitent l'établissement d'espèces
+tempérées du sud. Les changements dans la composition forestière ont
+aussi été observés dans les écotones altitudinaux sur une période de 40
+ans; dans les Montagnes Vertes du Vermont, les arbres tempérés ont
+progressé en altitude, conduisant à un déplacement des limites de
+l'écotone boréal-tempéré d'environ 100 m (Beckage et al., 2008), tandis
+que sur le Mont-Mégantic au sud du Québec, les arbres se sont déplacés
+en élévation de près de 30 m en moyenne et les espèces de sous-bois de
+près de 40 m (Savage \& Vellend, 2015). Mis ensemble, ces derniers
+résultats indiquent qu'un décalage dans la répartition des deux strates
+de végétation, et donc un changement de composition, est déjà en train
+de se former dû à une différence entre la vitesse de réponse des espèces
+de sous-bois et celle des arbres. À l'échelle régionale, Boisvert-Marsh
+et al. (2014) et Sittaro et al. (2017) ont montré une migration à
+prédominance vers le nord des essences d'arbres à travers le Québec,
+avec les gaulis présentant une réponse plus rapide que les arbres
+adultes.
+
+\hypertarget{ruxe9ponses-duxe9mographiques}{%
+\subsection{Réponses
+démographiques}\label{ruxe9ponses-duxe9mographiques}}
+
+Alors que de nombreuses études sur l'impact des changements climatiques
+sur les forêts ont tenté de détecter ou de prédire les déplacements des
+limites d'aires de répartition des espèces, comparativement peu d'études
+ont examiné les changements à long terme des taux démographiques,
+e.g.~mortalité, recrutement, croissance, ou ont exploré les facteurs
+environnementaux responsables de ces changements (reviewed in Allen et
+al., 2010). L'accent mis sur les déplacements des espèces vers les pôles
+sous-estime l'empreinte des changements climatiques. Les changements de
+température et de précipitations ont des effets directs sur la
+croissance, la mortalité et le recrutement des arbres (Vanderwel et al.,
+2013; Zhang et al., 2015). Par exemple, les augmentations récentes des
+taux de mortalité des arbres dans l'ouest de l'Amérique du Nord ont été
+attribuées à des températures élevées et des sécheresses (Peng et al.,
+2011; van Mantgem et al., 2009). Or, c'est l'équilibre entre les gains
+par la croissance et le recrutement et les pertes par la mortalité qui
+détermine, localement, la dynamique des forêts et, régionalement, les
+limites d'aires de répartition (Holt et al., 2005). Des changements même
+très faibles dans les taux démographiques peuvent modifier le rapport de
+force de la compétition interspécifique (Luo \& Chen, 2013; Reich et
+al., 2015), de même que la dynamique et la trajectoire de succession des
+forêts (Prach \& Walker, 2011), modifiant par conséquent leur structure
+et leur composition (Stephenson et al., 2011; van Mantgem et al., 2009).
+À long terme, ces changements démographiques agissent donc pour
+contrôler les limites géographiques des différents types de forêts (Holt
+et al., 2005).
+
+Étant donné l'échelle temporelle à laquelle les changements de
+répartition se produisent pour des organismes à longue durée de vie
+comme les arbres, comprendre l'influence des conditions abiotiques et
+biotiques sur les taux démographiques des populations offre une
+meilleure perspective sur la biogéographie des espèces et permet
+d'inférer les changements continus à la limite et à l'intérieur de
+l'aire de répartition (Schurr et al., 2012; Sexton et al., 2009; Snell
+et al., 2014; Thuiller et al., 2013). Pourtant, à l'heure actuelle, il
+existe très peu d'informations quantitatives sur l'effet combiné des
+changements climatiques et des multiples perturbations forestières sur
+ces processus fondamentaux de la dynamique forestière.
+
+\hypertarget{duxe9lais-de-ruxe9ponse-et-duxe9suxe9quilibre}{%
+\section{Délais de réponse et
+déséquilibre}\label{duxe9lais-de-ruxe9ponse-et-duxe9suxe9quilibre}}
+
+Bien qu'on prévoie un déplacement des niches climatiques des arbres de
+plusieurs centaines de kilomètres vers le nord d'ici la fin du siècle
+(McKenney et al., 2007), un nombre croissant d'études suggèrent que le
+déplacement des arbres en Amérique du Nord ne réussira probablement pas
+à suivre le rythme du réchauffement climatique (Sittaro et al., 2017;
+Vissault, 2016; Woodall et al., 2013; Zhu et al., 2012). Par exemple,
+malgré qu'on observe un déplacement des aires de répartition des arbres
+vers le nord, les vitesses de migration des espèces d'arbres au Québec
+étaient en moyenne inférieures à 50\% de la vitesse d'avancée
+géographique des changements climatiques récents (Sittaro et al., 2017).
+
+Les arbres sont particulièrement susceptibles de montrer de longs délais
+de réponse aux changements parce que ces espèces sont sessiles, ont une
+faible capacité de dispersion, une longue durée de vie, une croissance
+lente et une maturité sexuelle tardive (Iverson \& McKenzie, 2013;
+Lenoir \& Svenning, 2015). Ces caractéristiques pourraient expliquer le
+haut niveau d'inertie des forêts malgré les changements de climat
+(Vissault, 2016). En effet, ces caractéristiques peuvent expliquer
+l'absence de colonisation à la limite nord malgré que les conditions
+soient devenues favorables et engendrer un crédit de colonisation.
+Inversement, les espèces peuvent persister pendant un certain temps dans
+un milieu nouvellement inadapté en raison du délai d'extinction ou
+peuvent être maintenues grâce à une dynamique source-puit, engendrant
+une dette d'extinction (Jackson \& Sax, 2010; Pulliam, 2000; Schurr et
+al., 2012). Ainsi, étant donné que l'environnement est dynamique et que
+les écosystèmes forestiers sont caractérisés par d'importants délais de
+colonisation et d'extinction, les systèmes perturbés ne parviennent
+souvent pas à un équilibre statistique sur des échelles temporelles et
+spatiales réalistes pour permettre une analyse statique (e.g., SDM). Il
+y a donc un décalage entre la niche Hutchinsonienne et la répartition
+géographique d'une espèce (Holt, 2009). Pourtant, la majorité des
+modèles de distribution d'espèces suppose que les espèces sont en
+équilibre avec leur environnement, ignorant la dynamique de transition.
+
+D'importants délais de réponse des forêts aux changements climatiques
+sont déjà observables puisque la distribution de plusieurs espèces
+d'arbres de l'est de l'Amérique du Nord n'est pas à l'équilibre avec le
+climat aux marges de leur aire de répartition, avec davantage de dettes
+d'extinction au sud et de crédits de colonisation au nord (Talluto et
+al., 2017). Leurs résultats montrent aussi que la vitesse de la
+contraction d'aire de répartition dans le sud est plus rapide que
+l'expansion dans le nord (Talluto et al., 2017)). Des simulations ont
+aussi montré que le décalage entre la niche climatique optimale des
+espèces tempérées et leur distribution réalisée ne fera que s'accroître
+avec le temps (Vissault, 2016). Cette tension grandissante entre la
+distribution réalisée et potentielle des espèces risque d'autant plus de
+causer des changements brusques (regime shift) dans les écosystèmes
+forestiers suite à une perturbation anthropique ou naturelle (Renwick \&
+Rocca, 2015; Vanderwel \& Purves, 2014).
+
+\hypertarget{contraintes-uxe0-la-migration}{%
+\section{Contraintes à la
+migration}\label{contraintes-uxe0-la-migration}}
+
+\hypertarget{interactions-biotiques}{%
+\subsection{Interactions biotiques}\label{interactions-biotiques}}
+
+Alors que le climat est un déterminant majeur de la niche des espèces,
+des facteurs non climatiques, tels que les interactions biotiques,
+imposent des contraintes supplémentaires à la migration des espèces.
+Bien qu'elles répondent de manière indépendante, les espèces ne sont pas
+isolées, mais interagissent avec les membres de leur communauté. Il est
+généralement admis que les facteurs déterminant la distribution sont
+spatialement hiérarchisés, de sorte que le climat régirait la
+répartition à l'échelle régionale, alors que les interactions biotiques
+seraient plus importantes à l'échelle locale (Soberón, 2007). De plus,
+le climat contraindrait la distribution et l'abondance des espèces à
+leur limite nord, tandis que le rôle des interactions serait plus
+important à la limite sud et à l'intérieur de l'aire de répartition, là
+où les conditions environnementales sont plus favorables (Louthan et
+al., 2015). Un bon exemple de ce phénomène est la distribution de
+l'épinette noire, une espèce ayant une niche écologique très large, mais
+dont la distribution au sud est limitée aux sites où la compétition est
+faible \textbf{(Loehle 1998)}, comme des sites à drainage très mauvais
+ou excessif. Toutefois, avec les changements climatiques, les conditions
+favorables se déplacent et forcent de nouvelles interactions à la marge
+des aires de distributions (Kissling \& Schleuning, 2015). Par exemple,
+à moins qu'un dépérissement massif de la forêt ne se produise, les
+espèces tempérées qui migreront dans les forêts boréales devront
+s'établir sur des sites qui sont déjà colonisés par d'autres espèces et
+devront donc vraisemblablement compétitionner pour les ressources lors
+de leur établissement (phénomène appelé l'effet prioritaire; Gilman et
+al., 2010). Plus la compétition par les espèces résidentes sera forte,
+plus la probabilité de colonisation par les espèces migratrices
+diminuera, car ces dernières parviendront difficilement à s'installer
+(Cazelles, Mouquet, et al., 2016), d'où l'importance potentielle des
+interactions dans la distribution à grande échelle. Une étude de
+simulation a d'ailleurs révélé que les taux de migration sont plus
+faibles dans les forêts établies que dans les forêts de début de
+succession, et lorsque la diversité est grande (Meier et al., 2012).
+Ainsi, les espèces de début de succession ont des taux de migration plus
+rapides que les espèces de fin de succession puisque ces dernières
+colonisent principalement les habitats forestiers déjà colonisés où la
+compétition interspécifique est plus élevée Meier et al. (2012){]}. Les
+interactions biotiques sont de plus en plus reconnues comme étant un
+facteur clé influençant la distribution des espèces à grande échelle
+(Blois et al., 2013; Cazelles, Araújo, et al., 2016; Meier et al., 2010;
+Svenning et al., 2014; Wisz et al., 2013).
+
+Comme la répartition géographique d'une espèce dépend de nombreux
+facteurs environnementaux, ainsi que des limites de dispersion et des
+contingences historiques (Godsoe, 2010; Holt, 2009; Pulliam, 2000), il
+peut s'avérer difficile sur le plan technique de trouver des preuves de
+l'effet des interactions entre espèces sur la distribution. Les limites
+physiologiques des espèces (et donc l'hétérogénéité environnementale)
+influencent les interactions biotiques puisqu'elles déterminent le pool
+d'espèces qui peuvent potentiellement cohabiter à un endroit donné. Les
+patrons de cooccurrence des espèces en compétition sont en partie dus au
+hasard, déterminés par qui est arrivé le premier et par des facteurs
+aléatoires qui donnent un avantage initial. L'influence de l'effet
+prioritaire et de l'hétérogénéité environnementale sur la répartition
+actuelle des espèces rend donc difficile l'estimation de la force de
+compétition à partir des patrons de cooccurrence ; une faible
+cooccurrence peut refléter une faible compétition actuelle, mais une
+forte compétition dans le passé, et inversement une forte cooccurrence
+peut indiquer une faible compétition puisque les espèces coexistent,
+mais aussi une forte compétition pour les mêmes ressources.
+
+Bien que plusieurs études sur les déplacements d'aires de répartition
+soulignent que les interactions biotiques risquent de réduire le succès
+de migration, les preuves empiriques de leurs impacts sur les taux de
+migration sont rares et indirectes (Svenning et al., 2014). Les
+interactions interspécifiques représentent donc un facteur inconnu clé
+dans les études sur le changement climatique. Une étude approfondie des
+taux de recrutements et de mortalités pourrait permettre de tester et
+quantifier l'importance du rôle joué par les interactions biotiques sur
+la dynamique de transition et de migration des arbres.
+
+\hypertarget{propriuxe9tuxe9s-du-sol}{%
+\subsection{Propriétés du sol}\label{propriuxe9tuxe9s-du-sol}}
+
+En plus de la compétition interspécifique, les espèces migratrices
+coloniseront des sols qui sont déjà développés et qui présentent des
+propriétés (e.g.~qualité du drainage, disponibilité en nutriments, pH,
+mycorhizes) qui varient localement ou régionalement, lesquelles
+pourraient retarder ou contraindre leur établissement (Brown \& Vellend,
+2014; Goldblum \& Rigg, 2010; Lafleur et al., 2010). Les forêts dominées
+par les conifères au nord où la température moyenne est froide
+présentent généralement des sols plus acides et conduisent à une
+activité microbienne plus faible et à une décomposition plus lente de la
+matière organique que les forêts tempérées décidues plus chaudes du sud
+(Goldblum \& Rigg, 2010). Par exemple, Collin et al. (2017) ont montré
+que l'acidité du sol forestier sous une canopée dominée par les
+conifères affecte négativement les semis de l'érable à sucre via un
+débalancement nutritif foliaire, ce qui pourrait donc freiner sa
+migration dans la forêt boréale. Toutefois, les espèces forestières, par
+leur effet sur la qualité chimique de la litière (C, N, Mg) et sur la
+composition des microorganismes du sol, peuvent elles-mêmes modifier les
+taux de décomposition de la matière organique et la disponibilité des
+éléments nutritifs (Laganière et al., 2010). Les espèces migratrices
+pourraient donc influencer leur propre taux d'invasion. Plusieurs études
+menées dans le nord-est du Canada ont montré une colonisation rapide des
+peuplements résineux par le peuplier faux-tremble après une perturbation
+par la coupe forestière ou les feux (Chen et al., 2009; Laquerre et al.,
+2009). La présence de cette espèce décidue induit des changements
+physicochimiques et accélère les taux de décomposition de la matière
+organique (Laganière et al., 2010; Légaré et al., 2005). À leur tour,
+ces conditions de sol modifiées pourraient favoriser l'établissement et
+la persistance de nouvelles espèces migratrices.
+
+En plus des facteurs endogènes (traits, démographie lente et dispersion
+limitée), la compétition par les espèces résidentes et les contraintes
+imposées par les propriétés des sols résidents sur les plantes
+migratrices sont des facteurs exogènes qui peuvent également contribuer
+aux déséquilibres observés entre la niche climatique et la répartition
+des espèces, particulièrement par un crédit de colonisation. La
+compréhension de l'effet de la compétition et des sols sur les plantes
+migratrices est donc essentielle pour prédire la redistribution des
+espèces sous le changement climatique.
+
+\hypertarget{interaction-entre-changements-climatiques-et-perturbations}{%
+\subsection{Interaction entre changements climatiques et
+perturbations}\label{interaction-entre-changements-climatiques-et-perturbations}}
+
+Malgré l'empreinte indéniable des changements climatiques, la réponse
+récente des écosystèmes forestiers n'est pas aussi unidirectionnelle que
+prévu, car elle dépend de nombreux facteurs qui peuvent interagir entre
+eux; ainsi les répercussions à long terme demeurent encore difficiles à
+prévoir. Ajoutés aux effets des changements climatiques sur la
+performance des arbres, sont les effets des perturbations naturelles à
+grande échelle, notamment les feux de forêt et les épidémies d'insectes
+(Bergeron et al., 2017; Boulanger et al., 2017; Gauthier et al., 2015;
+Keane et al., 2013), qui peuvent déclencher des altérations rapides dans
+la succession végétale et par conséquent dans les fonctions des
+écosystèmes. De la même façon, les activités forestières peuvent
+également interagir fortement avec les impacts liés aux changements
+climatiques en modifiant la structure et la composition des forêts
+(Bergeron et al., 2017; Boulanger et al., 2017; Scheller \& Mladenoff,
+2005). Par exemple, entre 1930 et 2002, la coupe forestière dans une
+région à la limite nord des espèces tempérées au Québec a engendré un
+changement majeur de composition; près de 40 \% du paysage est passé
+d'un couvert coniférien à un couvert mixte et près de 20 \% est devenu
+feuillu (Boucher et al. 2006).
+
+Les perturbations, autant naturelles qu'anthropiques, devraient avoir
+une forte influence sur la façon dont les forêts répondent aux
+changements climatiques car elles peuvent offrir des opportunités de
+colonisation, changer le rapport de force de compétition entre les
+espèces d'arbres pionnières et de fin de succession et faciliter
+l'expansion des espèces tempérées vers le nord capables de profiter des
+ouvertures de la canopée (Vanderwel \& Purves, 2014; Woodall et al.,
+2013; Xu et al., 2012). Une perturbation combinée aux changements dans
+les conditions climatiques peut changer la trajectoire successionnelle
+de la forêt et même la faire basculer vers un autre nouvel état altéré
+persistant (concept de regime shift), par exemple d'une forêt à
+dominance conifèrienne à une forêt mixte, tel qu'observé par Boucher et
+al. (2006). Les perturbations telles que les feux ou les coupes
+pourraient alors agir comme des accélérateurs possibles de la migration
+future de la forêt.
+
+Face aux nombreuses perturbations et étant donné la longue échelle
+temporelle des processus de dynamique forestière, il semble
+incontournable que les forêts soient de plus en plus en déséquilibre.
+Par conséquent, la réponse des forêts aux futurs changements climatiques
+dépendra et interagira avec des dynamiques de transition déjà en cours.
+Démêler les effets des changements climatiques et ceux des perturbations
+naturelles et anthropiques et leurs rétroactions potentielles est
+nécessaire à la fois pour informer les modèles prédictifs de
+distribution de la biodiversité sous les changements climatiques et pour
+élaborer des stratégies de gestion forestière permettant un aménagement
+durable des forêts.
+
+\hypertarget{enjeux-et-importances}{%
+\section{Enjeux et importances}\label{enjeux-et-importances}}
+
+La question des effets des CC sur la dynamique forestière soulève de
+nombreux enjeux. La gestion de la biodiversité est un enjeu
+majeur\ldots{} La gestion actuelle repose grandement sur une conception
+statique de la biodiversité dans un climat stable. Par exemple,
+l'aménagement écosystémique des forêts se base sur des états de
+références historiques (Egan \& Howell, 2001), comme les forêts en place
+avant la colonisation européenne et l'exploitation industrielle : les
+forêts précoloniales ou préindustrielles. ``L'utilisation d'états de
+références historiques pour l'aménagement écosystémique comporte des
+limites. Dans le contexte de changements climatiques, une utilisation «
+stricte » des caractéristiques d'écosystèmes du passé comme états de
+référence pourrait aboutir à des écosystèmes forestiers non viables dans
+le futur (Choi et al., 2008).'' De plus, l'aménagement forestier repose
+également sur des modèle des possibilités forestières, ``lesquelles
+correspondent au volume maximum des récoltes annuelles que l'on peut
+prélever à perpétuité, sans diminuer la capacité productive du milieu
+forestier.'' La calcul de possibilité forestière tient compte de
+plusieurs critères tels que la dynamique naturelle des forêts, leur
+composition, leur structure d'âge les aires de protection et la
+probabilité de perturbation par les feux, les insectes et les maladies.
+Cependant, ce calcul fait des prédictions à long terme et la coupe
+forestière dépend de ces prédictions. Or, on devine que le changement
+rapide du climat risque de bousculer ces prédictions. Par exemple, une
+espèce pourrait ne pas se renouveler après coupe. Notre capacité à
+prédire les effets futurs des changements climatiques sur la dynamique
+forestière dépend de la description et de la compréhension de ses effets
+passés et de son interaction avec les perturbations naturelles.
+
+\hypertarget{contexte-climatique-et-uxe9cologique-du-quuxe9bec}{%
+\section{Contexte climatique et écologique du
+Québec}\label{contexte-climatique-et-uxe9cologique-du-quuxe9bec}}
+
+\hypertarget{climat-du-quuxe9bec}{%
+\subsection{Climat du Québec}\label{climat-du-quuxe9bec}}
+
+Le climat du Québec est fortement marqué par le gradient latitudinal de
+la température. Ce gradient de chaleur est le facteur le plus
+déterminant pour la composition de la végétation du Québec. Ainsi on
+aura, du sud vers le nord, un gradient de biodiversité qui reflète
+étroitement celui de la température moyenne.
+
+\hypertarget{vuxe9guxe9tation-et-domaines-bioclimatiques}{%
+\subsection{Végétation et domaines
+bioclimatiques}\label{vuxe9guxe9tation-et-domaines-bioclimatiques}}
+
+Sur une superficie totale de 1 667 712 km\^{}2, ses forêts couvrent 761
+100 km\^{}2, soit près de la moitié du territoire. La nordicité de la
+forêt québécoise a comme conséquence la dominance des forêts résineuses
+sur une grande partie du territoire et la faible diversité en espèces
+d'arbres. En raison du fort gradient de température, les types de forêt
+sont également structurés latitudinalement.
+
+La forêt boréale occupe environ 72 \% du territoire québécois et sa
+dynamique repose sur les feux, les épidémies de tordeuse des bourgeons
+de l'épinette, les trouées et les chablis. Elle est composée
+majoritairement d'épinette noire et de sapin baumier, mais aussi de pin
+gris, de bouleau blanc et de peuplier faux-tremble
+
+La forêt boréale 551 400 km\^{}2, la forêt mélangée 98 600 km2 et la
+forêt feuillue 111 100 km2
+
+PRINCIPALES ESSENCES D'ARBRES Forêt boréale : épinette noire, sapin
+baumier et bouleau blanc. Forêt mélangée : bouleau jaune et sapin
+baumier. Forêt feuillue : érable à sucre et bouleau jaune.
+
+\hypertarget{changements-climatiques-au-quuxe9bec}{%
+\subsection{Changements climatiques au
+Québec}\label{changements-climatiques-au-quuxe9bec}}
+
+\hypertarget{uxe9tat-des-foruxeats-du-quuxe9bec-muxe9ridional}{%
+\subsection{État des forêts du Québec
+méridional\ldots{}}\label{uxe9tat-des-foruxeats-du-quuxe9bec-muxe9ridional}}
+
+\hypertarget{objectifs}{%
+\section{Objectifs}\label{objectifs}}
+
+Le principal objectif de cette thèse est de comprendre l'influence des
+changements climatiques et des perturbations sur les changements à long
+terme dans les écosystèmes forestiers tempérés. En utilisant les données
+d'inventaires forestiers du Québec méridional de 1970 à 2018, cette
+thèse s'articule autour de trois grandes questions :
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  Comment les changements dans les patrons spatio-temporels de mortalité
+  et de recrutement des arbres ont-ils influencé la diversité et la
+  composition des forêts boréales et tempérées au cours des dernières
+  décennies ?
+\item
+  Et quelle est l'importance relative des facteurs liés au climat, aux
+  perturbations humaines (coupe, pollution) et naturelles (épidémie,
+  feu) et aux caractéristiques du peuplement qui influencent la
+  mortalité des arbres ?
+\item
+  Est-ce que les interactions compétitives entre les espèces d'arbres
+  influencent leur taux de recrutement et de mortalité ? De ces
+  questions en découle une autre très intéressante, à savoir quelle est
+  l'influence des changements climatiques récents combinée aux effets
+  des perturbations sur la trajectoire des communautés forestières.
+\end{enumerate}
+
+Chacun de ces objectifs est traité dans un chapitre de cette thèse
+(chapitres 2, 3 et 4). Les réponses à ces questions sont essentielles
+pour comprendre les relations entre les mécanismes locaux (interactions
+entre espèces) et régionaux (contraintes environnementales) qui
+sous-tendent les réponses des communautés aux changements
+environnementaux. L'étude des variations spatio-temporelles de la
+distribution des espèces apportera donc de nouvelles informations très
+utiles sur l'importance relative de ces divers mécanismes. Cette étude
+permettra ainsi de mettre en évidence le lien entre la dynamique
+forestière et les changements climatiques, en tenant compte des
+perturbations forestières, des interactions compétitives et des diverses
+contraintes à la migration.
+
+\hypertarget{sections-suivantes-uxe0-intuxe9grer-plus-haut}{%
+\section{sections suivantes à intégrer plus
+haut}\label{sections-suivantes-uxe0-intuxe9grer-plus-haut}}
+
+\hypertarget{chapitre-1-patrons-de-diversituxe9-buxeata-temporelle}{%
+\subsection{Chapitre 1 : Patrons de diversité bêta
+temporelle}\label{chapitre-1-patrons-de-diversituxe9-buxeata-temporelle}}
+
+L'Homme est aujourd'hui la principale force gouvernant les processus
+écologiques faisant entrer la terre dans une nouvelle ère géologique,
+l'Anthropocène (Crutzen, 2002). Un nombre croissant de preuves révèle
+une perte de biodiversité exceptionnellement rapide au cours des
+derniers siècles, ce qui indique qu'une sixième extinction de masse est
+déjà en cours (Ceballos et al., 2015). D'ailleurs, Ceballos et al.
+(2015) soulignent qu'au-delà des extinctions globales des espèces, la
+Terre connaît aussi un énorme épisode de déclin des populations, dont
+les conséquences se répercuteront sur les fonctions et les services des
+écosystèmes. Malgré tout, des métaanalyses récentes ont montré que bien
+souvent, à l'échelle locale, la biodiversité ne diminue pas et peut même
+parfois augmenter (Dornelas et al., 2014; Vellend et al., 2013). Bien
+que ces résultats aient été vivement critiqués (Newbold et al.~2015;
+Gonzalez et al.~2016), il reste clair que la diversité locale (diversité
+α) peut montrer des tendances variées, déconnectées des tendances à plus
+grande échelle, même face à une extinction de masse à l'échelle globale.
+Dans tous les cas, il est généralement admis qu'il y a eu des
+changements importants dans la composition des communautés (diversité β;
+Vellend et al.~2013; Dornelas et al.~2014; Newbold et al.~2015),
+impliquant à la fois des pertes et des gains d'espèces (Wardle et
+al.~2011). Ainsi, afin de mieux comprendre l'effet des changements
+anthropiques sur la biodiversité, nous devons examiner parallèlement la
+diversité α et β, ainsi que les composantes sous-jacentes de ces
+changements, les pertes et les gains d'espèces.
+
+Des travaux récents ont attiré l'attention sur le gain en compréhension
+lorsque la diversité β est partitionnée en ses composantes sous-jacentes
+(Baselga, 2010; Legendre, 2014, 2019; Podani et al., 2013). De telles
+analyses permettent de quantifier les contributions de différents
+processus écologiques à la diversité β. Legendre \& Salvat (2015) ont
+développé une méthode pour partitionner la diversité β temporelle en
+composantes de pertes et de gains en espèces, et l'ont appliquée aux
+communautés de mollusque se rétablissant après des essais nucléaires.
+Cette méthode offre la possibilité de faire le lien entre les
+changements de diversité et les changements démographiques dans les
+communautés, puisque les pertes et les gains sont en fait des mortalités
+et des recrutements lorsque calculés sur des données d'abondance, et des
+extinctions et colonisations lorsque calculés sur des données de
+présence-absence.
+
+Le chapitre 1 de la thèse vise à répondre à deux objectifs principaux
+liés à la fois aux tendances temporelles de la biodiversité dans les
+forêts de l'écotone boréal-tempéré au cours des dernières décennies et à
+l'application de nouvelles méthodes d'analyse de diversité β temporelle.
+Spécifiquement : quelles sont les tendances temporelles de diversité α
+et β des forêts ? Comment les forêts ont-elles changé en termes de
+mortalités et de recrutements ? Est-ce que ces changements sont
+constants pour différents groupes d'espèces et de régions ? Selon mes
+hypothèses, il n'y aura pas de tendance temporelle particulière au
+niveau de la diversité α. Inversement, il y aura une augmentation de la
+diversité β au cours du temps qui sera provoquée principalement par une
+augmentation des mortalités, attribuables à l'action concommitante de
+multiples perturbations, qui ne sera pas compensée par des recrutements.
+
+En utilisant les données d'inventaires forestiers du Québec méridional
+(MFFP, 2016), ces questions seront étudiées, dans un premier temps, en
+quantifiant les tendances temporelles de diversité α, mesurée comme un
+changement dans la richesse locale, et de diversité β, mesurée comme un
+changement dans la composition des communautés. Et dans un deuxième
+temps, en analysant les composantes sous-jacentes d'un indice de
+diversité β temporelle (TBI\,; Temporal Beta Diversity Index\,; Legendre
+\& Salvat 2015), soit les mortalités et les recrutements. En accordant
+une attention accrue aux tendances de la diversité β, ce travail pourra
+révéler des tendances précédemment imperceptibles sous l'angle de la
+diversité α seule et aidera à améliorer notre compréhension des réponses
+de la biodiversité forestière aux multiples facteurs de stress
+anthropiques qui se sont accélérés au cours des dernières décennies.
+
+\hypertarget{chapitre-2-tendances-et-causes-de-mortalituxe9s-dans-les-foruxeats-tempuxe9ruxe9es}{%
+\subsection{Chapitre 2 : Tendances et causes de mortalités dans les
+forêts
+tempérées}\label{chapitre-2-tendances-et-causes-de-mortalituxe9s-dans-les-foruxeats-tempuxe9ruxe9es}}
+
+La mortalité et le recrutement des arbres sont les moteurs principaux de
+la dynamique forestière à long terme et leur variation peut entraîner
+des changements marqués dans la composition et la structure des
+communautés. Cependant, nous avons actuellement peu d'informations
+quantitatives sur la variation géographique de ces taux et l'importance
+relative des causes de la mortalité des arbres.
+
+Plusieurs études récentes ont montré une augmentation des taux de
+mortalité des arbres dans le temps associée à l'augmentation des
+températures et des sécheresses (Allen et al., 2010; Peng et al., 2011;
+van Mantgem et al., 2009; van Mantgem \& Stephenson, 2007). Malgré
+l'importance indéniable du climat à l'échelle régionale sur ces
+tendances, étonnamment peu d'attention a été accordée aux autres causes
+possibles de mortalités qui peuvent interagir avec le climat. Par
+exemple, Dietze et al.~(2011) ont révélé que les polluants
+atmosphériques (particulièrement les dépôts acides) avaient un effet
+particulièrement élevé, plus grand que l'effet du climat, sur les taux
+de mortalité des arbres des forêts de l'est de l'Amérique du Nord. De
+même, les processus endogènes associés au développement des peuplements
+forestiers, tels que le stade de succession et la compétition, peuvent
+avoir une grande influence sur la dynamique, mais ont été largement
+ignorés puisque de nombreuses études sur l'effet des changements
+climatiques sur la mortalité excluent de facto les forêts qui ont été
+perturbées. Des études dans l'Ouest Canadien ont ainsi montré que
+l'effet des changements climatiques sur les tendances temporelles de
+mortalité des arbres était nettement plus important dans les jeunes
+forêts que dans les forêts matures (Luo \& Chen 2013; Zhang et
+al.~2015). La contribution relative de ces facteurs pourrait aussi
+varier entre la forêt boréale et la forêt tempérée puisque leur
+dynamique naturelle est très différente; la dynamique des forêts
+boréales est gouvernée par des perturbations à grandes échelles, comme
+les feux, les épidémies et la coupe, tandis que la dynamique des forêts
+tempérées est plutôt dominée par des perturbations très locales de type
+trouée (Goldblum \& Rigg, 2010). La quantification des contributions
+relatives de différentes causes de mortalité des arbres est cruciale non
+seulement pour mieux comprendre et anticiper les changements dans la
+dynamique forestière, mais aussi pour mieux informer les modèles qui se
+basent sur la démographie.
+
+Les taux typiques de mortalité des arbres sont faibles (de l'ordre de
+0.1 à 2\% par l'année) de sorte qu'estimer leur variation de manière
+fiable requiert de grands échantillons et de longues périodes
+d'échantillonnage. Les inventaires forestiers représentent une occasion
+unique d'étudier les changements démographiques à long terme. Dans le
+chapitre 2, les tendances et les causes des changements démographiques
+(mortalités et recrutements) des populations d'arbres au cours des
+quatre dernières décennies seront analysées. Je m'intéresse à trois
+questions : 1. Est-ce que les taux de mortalité ou de recrutement ont
+changé systématiquement dans les forêts du Québec méridional au cours
+des quatre dernières décennies ? 2. Si les taux démographiques ont
+changé, les changements sont-ils constants entre les différents groupes
+d'espèces (boréales, tempérées et pionnières) et entre les régions ? Et
+enfin, 3. Quelles sont les causes probables de ces changements
+démographiques et quelle est l'importance relative des effets endogènes
+(développement du peuplement, succession) et des effets exogènes
+(climat, perturbations naturelles et humaines) sur la mortalité
+individuelle des arbres? Selon mes hypothèses, avec les changements
+climatiques, on observera une augmentation du recrutement des espèces
+tempérées particulièrement en zone de forêts mixtes, et, inversement,
+une augmentation de la mortalité des espèces boréales. Toutefois, comme
+la majorité des mortalités seront principalement causées par des
+perturbations directes, comme la coupe et les feux, il y aura aussi une
+augmentation des espèces pionnières.
+
+La probabilité de mortalité annuelle sera analysée par un modèle de
+régression logistique avec divers prédicteurs environnementaux, incluant
+des variables liées aux caractéristiques du peuplement (âge, surface
+terrière, densité), des variables climatiques (température annuelle
+moyenne, précipitation annuelle totale) et des variables liées aux
+perturbations humaines (e.g., coupes forestières) et naturelles
+(épidémies d'insecte, feux).
+
+\hypertarget{chapitre-3-influence-des-interactions-compuxe9titives-sur-la-dynamique-de-migration-des-arbres-en-foruxeats-tempuxe9ruxe9es}{%
+\subsection{Chapitre 3 : Influence des interactions compétitives sur la
+dynamique de migration des arbres en forêts
+tempérées}\label{chapitre-3-influence-des-interactions-compuxe9titives-sur-la-dynamique-de-migration-des-arbres-en-foruxeats-tempuxe9ruxe9es}}
+
+Bien qu'un important déplacement des niches climatiques soit anticipé
+d'ici la fin du siècle, les approches de modélisation utilisées à ce
+jour sont majoritairement incapables de projeter le rythme auquel les
+espèces forestières répondront aux changements climatiques, car les
+contraintes à la migration sont encore peu connues. Une des hypothèses
+importantes avance que la compétition par les espèces résidentes
+pourrait freiner l'établissement des espèces migratrices (Svenning et
+al.~2014). Cependant, l'effet des interactions biotiques sur la
+dynamique d'expansion d'aires de répartition des arbres n'a pas reçu
+suffisamment d'attention et jusqu'à maintenant les études empiriques sur
+le sujet sont principalement issues d'expériences de transplantation
+(Hillerislambers et al.~2013; Brown \& Vellend 2014).
+
+Les perturbations pourraient moduler la vitesse de réponse des forêts
+aux changements climatiques en diminuant ou éliminant la compétition par
+les espèces résidentes, créant ainsi des opportunités de colonisation
+pour les espèces d'arbres tempérés (Xu et al.~2012; Woodall et al.~2013;
+Vanderwel \& Purves 2014). Les perturbations pourraient donc accélérer
+les changements de composition dans les forêts ou même les faire
+basculer d'une dominance conifèrienne à une composition mixte (regime
+shift). En plus de pouvoir accélérer la vitesse de transition, les
+perturbations pourraient influencer différentiellement les espèces en
+raison du compromis compétition-colonisation. Par exemple, les
+compétiteurs inférieurs pourraient être favorisés (du moins à court
+terme) grâce à leur meilleure capacité de colonisation leur permettant
+d'atteindre les milieux récemment perturbés (Gilman et al.~2010). Pour
+l'instant, l'effet des perturbations sur les capacités de colonisation
+des espèces migratrices en réponse aux changements climatiques a été
+étudié surtout par modélisation à l'échelle régionale (Scheller \&
+Mladenoff 2005; Vanderwel \& Purves 2014) et empiriquement à l'échelle
+locale (Leithead et al.~2010). À l'échelle régionale, Woodall et
+al.~(2013) n'ont pas trouvé de différence dans les limites nord de
+répartition des semis et des arbres adultes entre les sites perturbés et
+non perturbés aux États-Unis, mais ils n'avaient que 5 ans d'intervalle.
+
+S'il y a d'autres contraintes abiotiques que le climat aux limites nord
+des aires de répartition des espèces, les projections de migration sous
+les changements climatiques qui ignorent ces facteurs pourraient
+surestimer l'effet des températures sur l'expansion des aires. Certaines
+études expérimentales suggèrent, par exemple, que les propriétés du sol
+peuvent freiner la germination et la croissance des semis (Brown \&
+Vellend 2014; Eskelinen \& Harrison 2015; Collin et al.~2017). Ainsi,
+même si les contraintes climatiques sont relâchées pour une espèce
+donnée et que la compétition est éliminée par une perturbation, il est
+possible que l'habitat ne soit tout de même pas adéquat (Beauregard \&
+De Blois 2014). Ces contraintes biotiques liées à la compétition et
+abiotiques liées aux propriétés du sol pourraient donc freiner ou
+empêcher la migration des espèces tempérées et contribuer au
+déséquilibre entre la répartition géographique et la niche climatique
+potentielle des espèces.
+
+Au chapitre 3, je vais évaluer l'importance relative des facteurs non
+climatiques sur la dynamique de colonisation et d'extinction des arbres
+dans les forêts tempérées, particulièrement à la limite de leur aire de
+répartition. Je tenterai de répondre aux questions suivantes : Est-ce
+que la compétition (mesurée par un effet densité-dépendant des espèces
+résidentes sur l'espèce migratrice) influence les probabilités de
+colonisation des arbres ? Ou est-ce plutôt l'effet des propriétés du sol
+qui freine la probabilité de colonisation ? Si la compétition est
+importante, est-ce que les perturbations permettent d'accélérer le taux
+de recrutement des espèces tempérées à la limite nord de leur
+distribution ? Selon mes hypothèses, l'effet combiné de la compétition
+et des propriétés du sol sur les espèces tempérées migratrices sera
+soutenu en marge de leur aire de répartition, mais les perturbations
+faciliteront l'établissement de ces espèces en diminuant la compétition.
+Aussi, cette diminution de la compétition avantagera différentiellement
+les espèces selon leurs traits, et le gain sera plus grand pour les
+espèces de début de succession.
+
+Dans ce chapitre, un modèle basé sur la théorie des métapopulations et
+des métacommunautés me permettra de modéliser la dynamique d'assemblage
+des communautés locales en prenant en considération la manière dont la
+compétition, le sol et les perturbations peuvent faciliter ou entraver
+la migration des arbres via leurs effets sur la démographie. Le modèle
+classique sera étendu de façon à ce que la probabilité de
+colonisation/recrutement et d'extinction/mortalité d'une espèce soit
+conditionnelle aux variables climatiques (Talluto et al.~2017),
+édaphiques et à la composition de la communauté.
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-allen_global_2010}{}%
+Allen, C. D., Macalady, A. K., Chenchouni, H., Bachelet, D., McDowell,
+N., Vennetier, M., Kitzberger, T., Rigling, A., Breshears, D. D., Hogg,
+E. H. (., Gonzalez, P., Fensham, R., Zhang, Z., Castro, J., Demidova,
+N., Lim, J.-H., Allard, G., Running, S. W., Semerci, A., \& Cobb, N.
+(2010). A global overview of drought and heat-induced tree mortality
+reveals emerging climate change risks for forests. \emph{Forest Ecology
+and Management}, \emph{259}(4), 660--684.
+\url{https://doi.org/10.1016/j.foreco.2009.09.001}
+
+\leavevmode\hypertarget{ref-baselga_partitioning_2010}{}%
+Baselga, A. (2010). Partitioning the turnover and nestedness components
+of beta diversity. \emph{Global Ecology and Biogeography}, \emph{19}(1),
+134--143. \url{https://doi.org/10.1111/j.1466-8238.2009.00490.x}
+
+\leavevmode\hypertarget{ref-beckage_rapid_2008}{}%
+Beckage, B., Osborne, B., Gavin, D. G., Pucko, C., Siccama, T., \&
+Perkins, T. (2008). A rapid upward shift of a forest ecotone during 40
+years of warming in the Green Mountains of Vermont. \emph{Proceedings of
+the National Academy of Sciences}, \emph{105}(11), 4197--4202.
+\url{https://doi.org/10.1073/pnas.0708921105}
+
+\leavevmode\hypertarget{ref-bellard_impacts_2012}{}%
+Bellard, C., Bertelsmeier, C., Leadley, P., Thuiller, W., \& Courchamp,
+F. (2012). Impacts of climate change on the future of biodiversity:
+Biodiversity and climate change. \emph{Ecology Letters}, \emph{15}(4),
+365--377. \url{https://doi.org/10.1111/j.1461-0248.2011.01736.x}
+
+\leavevmode\hypertarget{ref-bergeron_projections_2017}{}%
+Bergeron, Y., Irulappa Pillai Vijayakumar, D. B., Ouzennou, H., Raulier,
+F., Leduc, A., \& Gauthier, S. (2017). Projections of future forest age
+class structure under the influence of fire and harvesting: Implications
+for forest management in the boreal forest of eastern Canada.
+\emph{Forestry: An International Journal of Forest Research},
+\emph{90}(4), 485--495. \url{https://doi.org/10.1093/forestry/cpx022}
+
+\leavevmode\hypertarget{ref-blois_climate_2013}{}%
+Blois, J. L., Zarnetske, P. L., Fitzpatrick, M. C., \& Finnegan, S.
+(2013). Climate Change and the Past, Present, and Future of Biotic
+Interactions. \emph{Science}, \emph{341}(6145), 499--504.
+\url{https://doi.org/10.1126/science.1237184}
+
+\leavevmode\hypertarget{ref-boisvert-marsh_shifting_2014}{}%
+Boisvert-Marsh, L., Périé, C., \& de Blois, S. (2014). Shifting with
+climate? Evidence for recent changes in tree species distribution at
+high latitudes. \emph{Ecosphere}, \emph{5}(7), art83.
+\url{https://doi.org/10.1890/ES14-00111.1}
+
+\leavevmode\hypertarget{ref-boucher_logging-induced_2006}{}%
+Boucher, Y., Arseneault, D., \& Sirois, L. (2006). Logging-induced
+change (1930-2002) of a preindustrial landscape at the northern range
+limit of northern hardwoods, eastern Canada. \emph{Canadian Journal of
+Forest Research}, \emph{36}(2), 505--517.
+\url{https://doi.org/10.1139/x05-252}
+
+\leavevmode\hypertarget{ref-boulanger_climate_2017}{}%
+Boulanger, Y., Taylor, A. R., Price, D. T., Cyr, D., McGarrigle, E.,
+Rammer, W., Sainte-Marie, G., Beaudoin, A., Guindon, L., \& Mansuy, N.
+(2017). Climate change impacts on forest landscapes along the Canadian
+southern boreal forest transition zone. \emph{Landscape Ecology},
+\emph{32}(7), 1415--1431.
+\url{https://doi.org/10.1007/s10980-016-0421-7}
+
+\leavevmode\hypertarget{ref-brown_non-climatic_2014}{}%
+Brown, C. D., \& Vellend, M. (2014). Non-climatic constraints on upper
+elevational plant range expansion under climate change.
+\emph{Proceedings of the Royal Society B: Biological Sciences},
+\emph{281}(1794), 20141779--20141779.
+\url{https://doi.org/10.1098/rspb.2014.1779}
+
+\leavevmode\hypertarget{ref-cazelles_theory_2016}{}%
+Cazelles, K., Araújo, M. B., Mouquet, N., \& Gravel, D. (2016). A theory
+for species co-occurrence in interaction networks. \emph{Theoretical
+Ecology}, \emph{9}(1), 39--48.
+\url{https://doi.org/10.1007/s12080-015-0281-9}
+
+\leavevmode\hypertarget{ref-cazelles_integration_2016}{}%
+Cazelles, K., Mouquet, N., Mouillot, D., \& Gravel, D. (2016). On the
+integration of biotic interaction and environmental constraints at the
+biogeographical scale. \emph{Ecography}, \emph{39}(10), 921--931.
+\url{https://doi.org/10.1111/ecog.01714}
+
+\leavevmode\hypertarget{ref-ceballos_accelerated_2015}{}%
+Ceballos, G., Ehrlich, P. R., Barnosky, A. D., Garcia, A., Pringle, R.
+M., \& Palmer, T. M. (2015). Accelerated modern human-induced species
+losses: Entering the sixth mass extinction. \emph{Science Advances},
+\emph{1}(5), e1400253--e1400253.
+\url{https://doi.org/10.1126/sciadv.1400253}
+
+\leavevmode\hypertarget{ref-chen_wildfire_2009}{}%
+Chen, H. Y. H., Vasiliauskas, S., Kayahara, G. J., \& Ilisson, T.
+(2009). Wildfire promotes broadleaves and species mixture in boreal
+forest. \emph{Forest Ecology and Management}, \emph{257}(1), 343--350.
+\url{https://doi.org/10.1016/j.foreco.2008.09.022}
+
+\leavevmode\hypertarget{ref-collin_conifer_2017}{}%
+Collin, A., Messier, C., \& Bélanger, N. (2017). Conifer Presence May
+Negatively Affect Sugar Maple's Ability to Migrate into the Boreal
+Forest Through Reduced Foliar Nutritional Status. \emph{Ecosystems},
+\emph{20}(4), 701--716. \url{https://doi.org/10.1007/s10021-016-0045-4}
+
+\leavevmode\hypertarget{ref-crutzen_geology_2002}{}%
+Crutzen, P. J. (2002). Geology of mankind. \emph{Nature},
+\emph{415}(6867), 23--23. \url{https://doi.org/10.1038/415023a}
+
+\leavevmode\hypertarget{ref-dornelas_assemblage_2014}{}%
+Dornelas, M., Gotelli, N. J., McGill, B., Shimadzu, H., Moyes, F.,
+Sievers, C., \& Magurran, A. E. (2014). Assemblage Time Series Reveal
+Biodiversity Change but Not Systematic Loss. \emph{Science},
+\emph{344}(6181), 296--299.
+\url{https://doi.org/10.1126/science.1248484}
+
+\leavevmode\hypertarget{ref-fisichelli_temperate_2014}{}%
+Fisichelli, N. A., Frelich, L. E., \& Reich, P. B. (2014). Temperate
+tree expansion into adjacent boreal forest patches facilitated by warmer
+temperatures. \emph{Ecography}, \emph{37}(2), 152--161.
+\url{https://doi.org/10.1111/j.1600-0587.2013.00197.x}
+
+\leavevmode\hypertarget{ref-garcia_multiple_2014}{}%
+Garcia, R. A., Cabeza, M., Rahbek, C., \& Araujo, M. B. (2014). Multiple
+Dimensions of Climate Change and Their Implications for Biodiversity.
+\emph{Science}, \emph{344}(6183), 1247579--1247579.
+\url{https://doi.org/10.1126/science.1247579}
+
+\leavevmode\hypertarget{ref-gauthier_vulnerability_2015}{}%
+Gauthier, S., Bernier, P. Y., Boulanger, Y., Guo, J., Guindon, L.,
+Beaudoin, A., \& Boucher, D. (2015). Vulnerability of timber supply to
+projected changes in fire regime in Canada's managed forests.
+\emph{Canadian Journal of Forest Research}, \emph{45}(11), 1439--1447.
+\url{https://doi.org/10.1139/cjfr-2015-0079}
+
+\leavevmode\hypertarget{ref-gilman_framework_2010}{}%
+Gilman, S. E., Urban, M. C., Tewksbury, J., Gilchrist, G. W., \& Holt,
+R. D. (2010). A framework for community interactions under climate
+change. \emph{Trends in Ecology \& Evolution}, \emph{25}(6), 325--331.
+\url{https://doi.org/10.1016/j.tree.2010.03.002}
+
+\leavevmode\hypertarget{ref-godsoe_i_2010}{}%
+Godsoe, W. (2010). I can't define the niche but I know it when I see it:
+A formal link between statistical theory and the ecological niche.
+\emph{Oikos}, \emph{119}(1), 53--60.
+\url{https://doi.org/10.1111/j.1600-0706.2009.17630.x}
+
+\leavevmode\hypertarget{ref-goldblum_deciduous_2010}{}%
+Goldblum, D., \& Rigg, L. S. (2010). The Deciduous Forest - Boreal
+Forest Ecotone. \emph{Geography Compass}, \emph{4}(7), 701--717.
+\url{https://doi.org/10.1111/j.1749-8198.2010.00342.x}
+
+\leavevmode\hypertarget{ref-holt_bringing_2009}{}%
+Holt, R. D. (2009). Bringing the Hutchinsonian niche into the 21st
+century: Ecological and evolutionary perspectives. \emph{Proceedings of
+the National Academy of Sciences}, \emph{106}(Supplement\_2),
+19659--19665. \url{https://doi.org/10.1073/pnas.0905137106}
+
+\leavevmode\hypertarget{ref-holt_theoretical_2005}{}%
+Holt, R. D., Keitt, T. H., Lewis, M. A., Maurer, B. A., \& Taper, M. L.
+(2005). Theoretical models of species' borders: Single species
+approaches. \emph{Oikos}, \emph{108}(1), 18--27.
+\url{https://doi.org/10.1111/j.0030-1299.2005.13147.x}
+
+\leavevmode\hypertarget{ref-ipcc_climate_2014}{}%
+IPCC. (2014). \emph{Climate change 2014: Fifth Assessment Synthesis
+Report. Contribution of Working Groups I, II and III to the Fifth
+Assessment Report of the Intergovernmental Panel on Climate Change}.
+\url{http://ar5-syr.ipcc.ch/}
+
+\leavevmode\hypertarget{ref-iverson_tree-species_2013}{}%
+Iverson, L. R., \& McKenzie, D. (2013). Tree-species range shifts in a
+changing climate: Detecting, modeling, assisting. \emph{Landscape
+Ecology}, \emph{28}(5), 879--889.
+\url{https://doi.org/10.1007/s10980-013-9885-x}
+
+\leavevmode\hypertarget{ref-jackson_balancing_2010}{}%
+Jackson, S. T., \& Sax, D. F. (2010). Balancing biodiversity in a
+changing environment: Extinction debt, immigration credit and species
+turnover. \emph{Trends in Ecology \& Evolution}, \emph{25}(3), 153--160.
+\url{https://doi.org/10.1016/j.tree.2009.10.001}
+
+\leavevmode\hypertarget{ref-jump_altitude-for-latitude_2009}{}%
+Jump, A. S., Mátyás, C., \& Peñuelas, J. (2009). The
+altitude-for-latitude disparity in the range retractions of woody
+species. \emph{Trends in Ecology \& Evolution}, \emph{24}(12), 694--701.
+\url{https://doi.org/10.1016/j.tree.2009.06.007}
+
+\leavevmode\hypertarget{ref-keane_exploring_2013}{}%
+Keane, R. E., Cary, G. J., Flannigan, M. D., Parsons, R. A., Davies, I.
+D., King, K. J., Li, C., Bradstock, R. A., \& Gill, M. (2013). Exploring
+the role of fire, succession, climate, and weather on landscape dynamics
+using comparative modeling. \emph{Ecological Modelling}, \emph{266},
+172--186. \url{https://doi.org/10.1016/j.ecolmodel.2013.06.020}
+
+\leavevmode\hypertarget{ref-kissling_multispecies_2015}{}%
+Kissling, W. D., \& Schleuning, M. (2015). Multispecies interactions
+across trophic levels at macroscales: Retrospective and future
+directions. \emph{Ecography}, \emph{38}(4), 346--357.
+\url{https://doi.org/10.1111/ecog.00819}
+
+\leavevmode\hypertarget{ref-lafleur_response_2010}{}%
+Lafleur, B., Paré, D., Munson, A. D., \& Bergeron, Y. (2010). Response
+of northeastern North American forests to climate change: Will soil
+conditions constrain tree species migration? \emph{Environmental
+Reviews}, \emph{18}(NA), 279--289. \url{https://doi.org/10.1139/A10-013}
+
+\leavevmode\hypertarget{ref-laganiere_how_2010}{}%
+Laganière, J., Paré, D., \& Bradley, R. L. (2010). How does a tree
+species influence litter decomposition? Separating the relative
+contribution of litter quality, litter mixing, and forest floor
+conditions. \emph{Canadian Journal of Forest Research}, \emph{40}(3),
+465--475. \url{https://doi.org/10.1139/X09-208}
+
+\leavevmode\hypertarget{ref-laquerre_augmentation_2009}{}%
+Laquerre, S., Leduc, A., \& Harvey, B. D. (2009). Augmentation du
+couvert en peuplier faux-tremble dans les pessières noires du nord-ouest
+du Québec après coupe totale. \emph{Écoscience}, \emph{16}(4), 483--491.
+\url{https://doi.org/10.2980/16-4-3252}
+
+\leavevmode\hypertarget{ref-legendre_interpreting_2014}{}%
+Legendre, P. (2014). Interpreting the replacement and richness
+difference components of beta diversity. \emph{Global Ecology and
+Biogeography}, \emph{23}(11), 1324--1334.
+\url{https://doi.org/10.1111/geb.12207}
+
+\leavevmode\hypertarget{ref-legendre_temporal_2019}{}%
+Legendre, P. (2019). A temporal beta-diversity index to identify sites
+that have changed in exceptional ways in space--time surveys.
+\emph{Ecology and Evolution}, \emph{9}(6), 3500--3514.
+\url{https://doi.org/10.1002/ece3.4984}
+
+\leavevmode\hypertarget{ref-legendre_thirty-year_2015}{}%
+Legendre, P., \& Salvat, B. (2015). Thirty-year recovery of mollusc
+communities after nuclear experimentations on Fangataufa atoll (Tuamotu,
+French Polynesia). \emph{Proceedings of the Royal Society B: Biological
+Sciences}, \emph{282}(1810), 20150750.
+\url{https://doi.org/10.1098/rspb.2015.0750}
+
+\leavevmode\hypertarget{ref-leithead_northward_2010}{}%
+Leithead, M. D., Anand, M., \& Silva, L. C. R. (2010). Northward
+migrating trees establish in treefall gaps at the northern limit of the
+temperate--boreal ecotone, Ontario, Canada. \emph{Oecologia},
+\emph{164}(4), 1095--1106.
+\url{https://doi.org/10.1007/s00442-010-1769-z}
+
+\leavevmode\hypertarget{ref-lenoir_climate-related_2015}{}%
+Lenoir, J., \& Svenning, J.-C. (2015). Climate-related range shifts - a
+global multidimensional synthesis and new research directions.
+\emph{Ecography}, \emph{38}(1), 15--28.
+\url{https://doi.org/10.1111/ecog.00967}
+
+\leavevmode\hypertarget{ref-legare_influence_2005}{}%
+Légaré, S., Paré, D., \& Bergeron, Y. (2005). Influence of Aspen on
+Forest Floor Properties in Black Spruce-dominated Stands. \emph{Plant
+and Soil}, \emph{275}(1-2), 207--220.
+\url{https://doi.org/10.1007/s11104-005-1482-6}
+
+\leavevmode\hypertarget{ref-louthan_where_2015}{}%
+Louthan, A. M., Doak, D. F., \& Angert, A. L. (2015). Where and When do
+Species Interactions Set Range Limits? \emph{Trends in Ecology \&
+Evolution}, \emph{30}(12), 780--792.
+\url{https://doi.org/10.1016/j.tree.2015.09.011}
+
+\leavevmode\hypertarget{ref-luo_observations_2013}{}%
+Luo, Y., \& Chen, H. Y. H. (2013). Observations from old forests
+underestimate climate change effects on tree mortality. \emph{Nature
+Communications}, \emph{4}, 1655.
+\url{https://doi.org/10.1038/ncomms2681}
+
+\leavevmode\hypertarget{ref-mckenney_potential_2007}{}%
+McKenney, D. W., Pedlar, J. H., Lawrence, K., Campbell, K., \&
+Hutchinson, M. F. (2007). Potential Impacts of Climate Change on the
+Distribution of North American Trees. \emph{BioScience}, \emph{57}(11),
+939--948. \url{https://doi.org/10.1641/B571106}
+
+\leavevmode\hypertarget{ref-meier_biotic_2010}{}%
+Meier, E. S., Kienast, F., Pearman, P. B., Svenning, J.-C., Thuiller,
+W., Araújo, M. B., Guisan, A., \& Zimmermann, N. E. (2010). Biotic and
+abiotic variables show little redundancy in explaining tree species
+distributions. \emph{Ecography}, \emph{33}(6), 1038--1048.
+\url{https://doi.org/10.1111/j.1600-0587.2010.06229.x}
+
+\leavevmode\hypertarget{ref-meier_climate_2012}{}%
+Meier, E. S., Lischke, H., Schmatz, D. R., \& Zimmermann, N. E. (2012).
+Climate, competition and connectivity affect future migration and ranges
+of European trees: Future migration and ranges of European trees.
+\emph{Global Ecology and Biogeography}, \emph{21}(2), 164--178.
+\url{https://doi.org/10.1111/j.1466-8238.2011.00669.x}
+
+\leavevmode\hypertarget{ref-mffp_placettes-echantillons_2016}{}%
+MFFP. (2016). \emph{Placettes-échantillons permanentes: normes
+techniques} (p. 236). Ministère des Forêts de la Faune et des Parcs,
+Secteur des forêts, Direction des Inventaires Forestiers.
+\url{http://collections.banq.qc.ca/ark:/52327/2748265}
+
+\leavevmode\hypertarget{ref-mitchell_linking_2013}{}%
+Mitchell, M. G. E., Bennett, E. M., \& Gonzalez, A. (2013). Linking
+Landscape Connectivity and Ecosystem Service Provision: Current
+Knowledge and Research Gaps. \emph{Ecosystems}, \emph{16}(5), 894--908.
+\url{https://doi.org/10.1007/s10021-013-9647-2}
+
+\leavevmode\hypertarget{ref-mori_biodiversity_2017}{}%
+Mori, A. S., Lertzman, K. P., \& Gustafsson, L. (2017). Biodiversity and
+ecosystem services in forest ecosystems: A research agenda for applied
+forest ecology. \emph{Journal of Applied Ecology}, \emph{54}(1), 12--27.
+\url{https://doi.org/10.1111/1365-2664.12669}
+
+\leavevmode\hypertarget{ref-peng_drought-induced_2011}{}%
+Peng, C., Ma, Z., Lei, X., Zhu, Q., Chen, H., Wang, W., Liu, S., Li, W.,
+Fang, X., \& Zhou, X. (2011). A drought-induced pervasive increase in
+tree mortality across Canada's boreal forests. \emph{Nature Climate
+Change}, \emph{1}(9), 467--471.
+\url{https://doi.org/10.1038/nclimate1293}
+
+\leavevmode\hypertarget{ref-pereira_scenarios_2010}{}%
+Pereira, H. M., Leadley, P. W., Proenca, V., Alkemade, R., Scharlemann,
+J. P. W., Fernandez-Manjarres, J. F., Araujo, M. B., Balvanera, P.,
+Biggs, R., Cheung, W. W. L., Chini, L., Cooper, H. D., Gilman, E. L.,
+Guenette, S., Hurtt, G. C., Huntington, H. P., Mace, G. M., Oberdorff,
+T., Revenga, C., \ldots{} Walpole, M. (2010). Scenarios for Global
+Biodiversity in the 21st Century. \emph{Science}, \emph{330}(6010),
+1496--1501. \url{https://doi.org/10.1126/science.1196624}
+
+\leavevmode\hypertarget{ref-podani_general_2013}{}%
+Podani, J., Ricotta, C., \& Schmera, D. (2013). A general framework for
+analyzing beta diversity, nestedness and related community-level
+phenomena based on abundance data. \emph{Ecological Complexity},
+\emph{15}, 52--61. \url{https://doi.org/10.1016/j.ecocom.2013.03.002}
+
+\leavevmode\hypertarget{ref-prach_four_2011}{}%
+Prach, K., \& Walker, L. R. (2011). Four opportunities for studies of
+ecological succession. \emph{Trends in Ecology \& Evolution},
+\emph{26}(3), 119--123. \url{https://doi.org/10.1016/j.tree.2010.12.007}
+
+\leavevmode\hypertarget{ref-price_anticipating_2013}{}%
+Price, D. T., Alfaro, R. I., Brown, K. J., Flannigan, M. D., Fleming, R.
+A., Hogg, E. H., Girardin, M. P., Lakusta, T., Johnston, M., McKenney,
+D. W., Pedlar, J. H., Stratton, T., Sturrock, R. N., Thompson, I. D.,
+Trofymow, J. A., \& Venier, L. A. (2013). Anticipating the consequences
+of climate change for Canada's boreal forest ecosystems.
+\emph{Environmental Reviews}, \emph{21}(4), 322--365.
+\url{https://doi.org/10.1139/er-2013-0042}
+
+\leavevmode\hypertarget{ref-pulliam_relationship_2000}{}%
+Pulliam, H. R. (2000). On the relationship between niche and
+distribution. \emph{Ecology Letters}, \emph{3}(4), 349--361.
+\url{https://doi.org/10.1046/j.1461-0248.2000.00143.x}
+
+\leavevmode\hypertarget{ref-reich_geographic_2015}{}%
+Reich, P. B., Sendall, K. M., Rice, K., Rich, R. L., Stefanski, A.,
+Hobbie, S. E., \& Montgomery, R. A. (2015). Geographic range predicts
+photosynthetic and growth response to warming in co-occurring tree
+species. \emph{Nature Climate Change}, \emph{5}(2), 148--152.
+\url{https://doi.org/10.1038/nclimate2497}
+
+\leavevmode\hypertarget{ref-renwick_temporal_2015}{}%
+Renwick, K. M., \& Rocca, M. E. (2015). Temporal context affects the
+observed rate of climate-driven range shifts in tree species: Importance
+of temporal context in tree range shifts. \emph{Global Ecology and
+Biogeography}, \emph{24}(1), 44--51.
+\url{https://doi.org/10.1111/geb.12240}
+
+\leavevmode\hypertarget{ref-savage_elevational_2015}{}%
+Savage, J., \& Vellend, M. (2015). Elevational shifts, biotic
+homogenization and time lags in vegetation change during 40 years of
+climate warming. \emph{Ecography}, \emph{38}(6), 546--555.
+\url{https://doi.org/10.1111/ecog.01131}
+
+\leavevmode\hypertarget{ref-scheller_spatially_2005}{}%
+Scheller, R. M., \& Mladenoff, D. J. (2005). A spatially interactive
+simulation of climate change, harvesting, wind, and tree species
+migration and projected changes to forest composition and biomass in
+northern Wisconsin, USA. \emph{Global Change Biology}, \emph{11}(2),
+307--321. \url{https://doi.org/10.1111/j.1365-2486.2005.00906.x}
+
+\leavevmode\hypertarget{ref-schurr_how_2012}{}%
+Schurr, F. M., Pagel, J., Cabral, J. S., Groeneveld, J., Bykova, O.,
+O'Hara, R. B., Hartig, F., Kissling, W. D., Linder, H. P., Midgley, G.
+F., Schröder, B., Singer, A., \& Zimmermann, N. E. (2012). How to
+understand species' niches and range dynamics: A demographic research
+agenda for biogeography: A demographic research agenda for biogeography.
+\emph{Journal of Biogeography}, \emph{39}(12), 2146--2162.
+\url{https://doi.org/10.1111/j.1365-2699.2012.02737.x}
+
+\leavevmode\hypertarget{ref-sexton_evolution_2009}{}%
+Sexton, J. P., McIntyre, P. J., Angert, A. L., \& Rice, K. J. (2009).
+Evolution and Ecology of Species Range Limits. \emph{Annual Review of
+Ecology, Evolution, and Systematics}, \emph{40}(1), 415--436.
+\url{https://doi.org/10.1146/annurev.ecolsys.110308.120317}
+
+\leavevmode\hypertarget{ref-sittaro_tree_2017}{}%
+Sittaro, F., Paquette, A., Messier, C., \& Nock, C. A. (2017). Tree
+range expansion in eastern North America fails to keep pace with climate
+warming at northern range limits. \emph{Global Change Biology},
+\emph{23}(8), 3292--3301. \url{https://doi.org/10.1111/gcb.13622}
+
+\leavevmode\hypertarget{ref-snell_using_2014}{}%
+Snell, R. S., Huth, A., Nabel, J. E. M. S., Bocedi, G., Travis, J. M.
+J., Gravel, D., Bugmann, H., Gutiérrez, A. G., Hickler, T., Higgins, S.
+I., Reineking, B., Scherstjanoi, M., Zurbriggen, N., \& Lischke, H.
+(2014). Using dynamic vegetation models to simulate plant range shifts.
+\emph{Ecography}, \emph{37}(12), 1184--1197.
+\url{https://doi.org/10.1111/ecog.00580}
+
+\leavevmode\hypertarget{ref-soberon_grinnellian_2007}{}%
+Soberón, J. (2007). Grinnellian and Eltonian niches and geographic
+distributions of species. \emph{Ecology Letters}, \emph{10}(12),
+1115--1123. \url{https://doi.org/10.1111/j.1461-0248.2007.01107.x}
+
+\leavevmode\hypertarget{ref-stephenson_causes_2011}{}%
+Stephenson, N. L., van Mantgem, P. J., Bunn, A. G., Bruner, H., Harmon,
+M. E., O'Connell, K. B., Urban, D. L., \& Franklin, J. F. (2011). Causes
+and implications of the correlation between forest productivity and tree
+mortality rates. \emph{Ecological Monographs}, \emph{81}(4), 527--555.
+\url{https://doi.org/10.1890/10-1077.1}
+
+\leavevmode\hypertarget{ref-svenning_influence_2014}{}%
+Svenning, J.-C., Gravel, D., Holt, R. D., Schurr, F. M., Thuiller, W.,
+Münkemüller, T., Schiffers, K. H., Dullinger, S., Edwards, T. C.,
+Hickler, T., Higgins, S. I., Nabel, J. E. M. S., Pagel, J., \& Normand,
+S. (2014). The influence of interspecific interactions on species range
+expansion rates. \emph{Ecography}, \emph{37}(12), 1198--1209.
+\url{https://doi.org/10.1111/j.1600-0587.2013.00574.x}
+
+\leavevmode\hypertarget{ref-talluto_extinction_2017}{}%
+Talluto, M. V., Boulangeat, I., Vissault, S., Thuiller, W., \& Gravel,
+D. (2017). Extinction debt and colonization credit delay range shifts of
+eastern North American trees. \emph{Nature Ecology \& Evolution},
+\emph{1}, 0182. \url{https://doi.org/10.1038/s41559-017-0182}
+
+\leavevmode\hypertarget{ref-thuiller_road_2013}{}%
+Thuiller, W., Münkemüller, T., Lavergne, S., Mouillot, D., Mouquet, N.,
+Schiffers, K., \& Gravel, D. (2013). A road map for integrating
+eco-evolutionary processes into biodiversity models. \emph{Ecology
+Letters}, \emph{16}, 94--105. \url{https://doi.org/10.1111/ele.12104}
+
+\leavevmode\hypertarget{ref-vanderwel_climate-related_2013}{}%
+Vanderwel, M. C., Lyutsarev, V. S., \& Purves, D. W. (2013).
+Climate-related variation in mortality and recruitment determine
+regional forest-type distributions: Forest distributions from
+demography. \emph{Global Ecology and Biogeography}, \emph{22}(11),
+1192--1203. \url{https://doi.org/10.1111/geb.12081}
+
+\leavevmode\hypertarget{ref-vanderwel_how_2014}{}%
+Vanderwel, M. C., \& Purves, D. W. (2014). How do disturbances and
+environmental heterogeneity affect the pace of forest distribution
+shifts under climate change? \emph{Ecography}, \emph{37}(1), 10--20.
+\url{https://doi.org/10.1111/j.1600-0587.2013.00345.x}
+
+\leavevmode\hypertarget{ref-van_mantgem_apparent_2007}{}%
+van Mantgem, P. J., \& Stephenson, N. L. (2007). Apparent climatically
+induced increase of tree mortality rates in a temperate forest.
+\emph{Ecology Letters}, \emph{10}(10), 909--916.
+\url{https://doi.org/10.1111/j.1461-0248.2007.01080.x}
+
+\leavevmode\hypertarget{ref-van_mantgem_widespread_2009}{}%
+van Mantgem, P. J., Stephenson, N. L., Byrne, J. C., Daniels, L. D.,
+Franklin, J. F., Fule, P. Z., Harmon, M. E., Larson, A. J., Smith, J.
+M., Taylor, A. H., \& Veblen, T. T. (2009). Widespread Increase of Tree
+Mortality Rates in the Western United States. \emph{Science},
+\emph{323}(5913), 521--524.
+\url{https://doi.org/10.1126/science.1165000}
+
+\leavevmode\hypertarget{ref-vellend_global_2013}{}%
+Vellend, M., Baeten, L., Myers-Smith, I. H., Elmendorf, S. C.,
+Beausejour, R., Brown, C. D., De Frenne, P., Verheyen, K., \& Wipf, S.
+(2013). Global meta-analysis reveals no net change in local-scale plant
+biodiversity over time. \emph{Proceedings of the National Academy of
+Sciences}, \emph{110}(48), 19456--19459.
+\url{https://doi.org/10.1073/pnas.1312779110}
+
+\leavevmode\hypertarget{ref-vissault_biogeographie_2016}{}%
+Vissault, S. (2016). \emph{Biogéographie et dynamique de la forêt
+tempérée nordique dans un contexte de changement climatiques.} {[}Master
+thesis{]}. Université du Québec à Rimouski.
+
+\leavevmode\hypertarget{ref-wisz_role_2013}{}%
+Wisz, M. S., Pottier, J., Kissling, W. D., Pellissier, L., Lenoir, J.,
+Damgaard, C. F., Dormann, C. F., Forchhammer, M. C., Grytnes, J.-A.,
+Guisan, A., Heikkinen, R. K., Høye, T. T., Kühn, I., Luoto, M.,
+Maiorano, L., Nilsson, M.-C., Normand, S., Öckinger, E., Schmidt, N. M.,
+\ldots{} Svenning, J.-C. (2013). The role of biotic interactions in
+shaping distributions and realised assemblages of species: Implications
+for species distribution modelling. \emph{Biological Reviews},
+\emph{88}(1), 15--30.
+\url{https://doi.org/10.1111/j.1469-185X.2012.00235.x}
+
+\leavevmode\hypertarget{ref-woodall_assessing_2013}{}%
+Woodall, C. W., Zhu, K., Westfall, J. A., Oswalt, C. M., D'Amato, A. W.,
+Walters, B. F., \& Lintz, H. E. (2013). Assessing the stability of tree
+ranges and influence of disturbance in eastern US forests. \emph{Forest
+Ecology and Management}, \emph{291}, 172--180.
+\url{https://doi.org/10.1016/j.foreco.2012.11.047}
+
+\leavevmode\hypertarget{ref-xu_importance_2012}{}%
+Xu, C., Gertner, G. Z., \& Scheller, R. M. (2012). Importance of
+colonization and competition in forest landscape response to global
+climatic change. \emph{Climatic Change}, \emph{110}(1-2), 53--83.
+\url{https://doi.org/10.1007/s10584-011-0098-5}
+
+\leavevmode\hypertarget{ref-zhang_half-century_2015}{}%
+Zhang, J., Huang, S., \& He, F. (2015). Half-century evidence from
+western Canada shows forest dynamics are primarily driven by competition
+followed by climate. \emph{Proceedings of the National Academy of
+Sciences}, \emph{112}(13), 4009--4014.
+\url{https://doi.org/10.1073/pnas.1420844112}
+
+\leavevmode\hypertarget{ref-zhu_failure_2012}{}%
+Zhu, K., Woodall, C. W., \& Clark, J. S. (2012). Failure to migrate:
+Lack of tree range expansion in response to climate change. \emph{Global
+Change Biology}, \emph{18}(3), 1042--1052.
+\url{https://doi.org/10.1111/j.1365-2486.2011.02571.x}
+
+\end{document}
