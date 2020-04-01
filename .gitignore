@@ -4,6 +4,7 @@
 # non-source files
 thesismhb.pdf
 article[1-3]/*.tex
+introduction.tex
 
 
 # LaTeX

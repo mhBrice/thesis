@@ -3,10 +3,9 @@ bib = references.bib
 flag = --natbib --bibliography=$(bib) --pdf-engine=pdflatex
 
 
-ALL: introduction.tex article1/article1.tex article1/annexe1.tex
+ALL: introduction.tex article1/article1.tex article1/annexe1.tex 
 	pdflatex $(main)
-	bibtex introduction
-	bibtex article1/article1
+	bibtex $(main)
 	pdflatex $(main)
 	pdflatex $(main)
 
@@ -19,7 +18,7 @@ article1/%.tex: article1/%.md
 article2/%.tex: article2/%.md
 	pandoc  $< -o $@ $(flag)
 
-article3/%.tex: article2/%.md
+article3/%.tex: article3/%.md
 	pandoc  $< -o $@ $(flag)
 
 

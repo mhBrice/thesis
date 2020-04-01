@@ -76,19 +76,10 @@
 %% KC added
 \usepackage[english,frenchb]{babel}
 \usepackage{natbib}
-\usepackage{chapterbib}
-% \usepackage{upgreek}
-% \usepackage{textcomp}
-% \usepackage{tabularx}
 \usepackage{longtable}
-% \usepackage{ltxtable}
-% \usepackage{pdflscape}
 \usepackage{booktabs}
 \usepackage{afterpage}
 \usepackage{floatpag}
-% \usepackage[babel=true]{csquotes}
-% \usepackage{pifont}
-% \usepackage{soulutf8}
 \usepackage{caption}
 \usepackage{listings}
 \providecommand{\tightlist}{%
@@ -487,18 +478,20 @@
  % comment faire.
 
 
+\appendix
+ \include{article1/annexe1}
+
+ \cleardoublepage
+
 
 % \bibliographystyle{abbrvnat}
 % \bibliographystyle{plain-fr}
-% \bibliographystyle{apalike-uqam}
-% \bibliography{references.bib}
-
-
-
+\bibliographystyle{apalike-uqam}
+\bibliography{references.bib}
 
 
  % Pour les annexes :
-\appendix
+
  % Les annexes se font comme les chapitres. Le fichier
  % commence par \francais ou \anglais et ensuite
  % \chapter{..}. Le reste est parreil à un chapitre normal.

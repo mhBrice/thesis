@@ -868,7 +868,3 @@ All code required to repeat the analyses will be made available online on
 GitHub.
 
 \pagebreak
-
-
-\bibliographystyle{apalike-uqam}
-\bibliography{references.bib}
