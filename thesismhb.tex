@@ -80,6 +80,8 @@
 \usepackage{booktabs}
 \usepackage{afterpage}
 \usepackage{floatpag}
+\usepackage{float}
+\floatplacement{figure}{H}
 \usepackage{caption}
 \usepackage{listings}
 \providecommand{\tightlist}{%
@@ -494,6 +496,10 @@
 
  % Pour les annexes :
 \appendix
+
+\renewcommand\thefigure{A.\arabic{figure}}
+\renewcommand\thetable{A.\arabic{table}}
+
  % Les annexes se font comme les chapitres. Le fichier
  % commence par \francais ou \anglais et ensuite
  % \chapter{..}. Le reste est parreil à un chapitre normal.

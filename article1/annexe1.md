@@ -1,8 +1,6 @@
 
 
-\setcounter{section}{1}
-
-\chapter{Annexe I}
+\chapter{}
 
 
 # Supplementary Tables
@@ -108,29 +106,29 @@ Table: List of R packages used for analyses. \label{tab:tabA1.3}
 
 
 
+\pagebreak
+
+
+
 # Supplementary Figures
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics{article1/figures/figS1_clim_trend.pdf}
-\caption{Temporal trends in growing season temperatures (top), total growing season precipitation (middle) and annual climate moisture index (bottom). Grey lines represent averaged climate values across the 6281 studied forest plots. Straight black lines show the fitted least-squared linear regression lines.}
+\caption[Temporal trends in growing season temperatures]{Temporal trends in growing season temperatures (top), total growing season precipitation (middle) and annual climate moisture index (bottom). Grey lines represent averaged climate values across the 6281 studied forest plots. Straight black lines show the fitted least-squared linear regression lines.}
 \label{figA1.1}
 \end{figure}
 
 
-<!--
-![Temporal trends in growing season temperatures (top), total growing season precipitation (middle) and annual climate moisture index (bottom). Grey lines represent averaged climate values across the 6281 studied forest plots. Straight black lines show the fitted least-squared linear regression lines.](article1/figures/figS1_clim_trend.pdf){width=2.57in height=6in} \label{figtest} -->
-
-
 \pagebreak
 
-![Frequency of forest plots by disturbance type (natural disturbances and harvest), level of intensity (minor, moderate, major) and timing (old refers to disturbances that occurred before the study period whereas recent disturbances occurred during the study period). The three columns in each disturbance type sum to *n* = 6281 forest plots, but many forest plots have been disturbed by more than one type of disturbance during the study period.](article1/figures/figS2_disturb.pdf){width=4.5in height=3in}\label{fig:figA1.2}
+![Frequency of forest plots by disturbance type (natural disturbances and harvest), level of intensity (minor, moderate, major) and timing (old refers to disturbances that occurred before the study period whereas recent disturbances occurred during the study period). The three columns in each disturbance type sum to *n* = 6281 forest plots, but many forest plots have been disturbed by more than one type of disturbance during the study period.](article1/figures/figS2_disturb.pdf){width=4.5in height=3in}
 
 
 
 \pagebreak
 
-![Equations to compute the temporal $\beta$ diversity index, as well as its components, using the Ru\v{z}i\v{c}ka coefficient for abundance data (a) and an example (b) where the tree composition of a single forest plot is compared between two surveys, $t_1$ and $t_2$. In the example, each of the $n$ species is represented by a symbol. The symbols in yellow represent the abundance of a species that is common to the two survey (component A; note that it can be different individuals of the same species). The symbols in red represent the abundance of a species that is lost between $t_1$ and $t_2$ (component B). The symbols in blue represent the abundance of a species that is gained between $t_1$ and $t_2$ (component C). In this example, $A = 4 + 3 + 2 = 9$, $B = 2$, and $C = 3 + 1 = 4$, therefore $\beta = 2+4/(9+2+4) = 0.4$.](article1/figures/figS3_beta_calculus.pdf){width=16.75cm height=10.4cm}\label{fig:figA1.3}
+![Equations to compute the temporal $\beta$ diversity index, as well as its components, using the Ru\v{z}i\v{c}ka coefficient for abundance data (a) and an example (b) where the tree composition of a single forest plot is compared between two surveys, $t_1$ and $t_2$. In the example, each of the $n$ species is represented by a symbol. The symbols in yellow represent the abundance of a species that is common to the two survey (component A; note that it can be different individuals of the same species). The symbols in red represent the abundance of a species that is lost between $t_1$ and $t_2$ (component B). The symbols in blue represent the abundance of a species that is gained between $t_1$ and $t_2$ (component C). In this example, $A = 4 + 3 + 2 = 9$, $B = 2$, and $C = 3 + 1 = 4$, therefore $\beta = 2+4/(9+2+4) = 0.4$.](article1/figures/figS3_beta_calculus.pdf){width=16.75cm height=10.4cm}
 
 
 \pagebreak
