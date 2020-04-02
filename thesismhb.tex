@@ -146,7 +146,7 @@
   % pour augmenter les chances qu'un algorithme de recherche
   % trouve votre document sur Internet, une fois diffusé.
   \hypersetup{
-    pdftitle = {Dynamique spatio-temporelle des forêts dans l’écotone boréal-tempéré en réponse aux changements globaux},
+    pdftitle = {Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux},
     pdfauthor = {Marie-Hélène Brice},
     pdfsubject = {Dynamique forestière},
     pdfkeywords = {écologie des communautés, changements climatiques, forêts, diversité bêta, dynamique de transition, recrutement, Québec}
@@ -266,11 +266,11 @@
 %%% mémoire.
 %%%
 
-\title{Réponses spatio-temporelles des communtautés forestières dans l'écotone boréal-tempéré face aux changements climatiques}
+\title{Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux}
 
 \author{Marie-Hélène Brice}
 
-\copyrightyear{2019}
+\copyrightyear{2020}
 
 \department{Département de sciences biologiques}
 
@@ -313,8 +313,7 @@
 %%\repdoyen{Nom du représentant du doyen} %(thèse seulement)
 
 %%
-%% Fin des variables à définir. La commande \maketitle créera votre
-%% page titre.
+%% La commande \maketitle créera votre page titre.
 
 \maketitle
 
@@ -407,14 +406,17 @@
 %%% \def\colun{\plusun\the\abbrlist. }
 %%\def\coldeux{\relax}
 \begin{twocolumnlist}{.2\textwidth}{.7\textwidth}
-  KQ-Methode & Méthode des moindres carrés, de l'allemand
-      \textit{Methode der kleinsten Quadrate}\\
-  MCMC  & Monte Carlo par chaînes de Markov, de l'anglais
-      \textit{Markov Chain Monte Carlo} \\
-  MSE  &  Erreur quadratique moyenne, de l'anglais \textit{Mean Square Error}\\
-  NDR & Retract d'un voisinage, de l'anglais \textit{Neighbourhood Deformation Retract}\\
-  OLS  &  Moindres carrés ordinaires, de l'anglais \textit{Ordinary Least Square}\\
-  ZFC & Théorie des ensembles de Zermelo-Fraenkel avec l'axiome du choix\\
+  AIC & Critère d'information d'Akaike, de l'anglais \textit{Akaikes Information Criteria}\\
+  DBH  & Diamètre hauteur poitrine (1.3m), de l'anglais
+      \textit{Diameter at breast height} \\
+  CTI  &  Indice de température de la communauté, de l'anglais
+    \textit{Community  Temperature Index}\\
+  GES & Gaz à effet de serre\\
+  GIEC & Groupe d'experts intergouvernemental sur l'évolution du climat\\
+  PCA & Analyse en composantes principales, de l'anglais \textit{Principal component Analysis}\\
+  sd & Écart standard, de l'anglais \textit{standard deviation}\\
+  STI  &  Indice de température des espèces, de l'anglais \textit{Species Temperature Index}\\
+  TBI  &  Indice de diversité beta temporelle, de l'anglais \textit{Temporal Beta diversity Index}\\
 \end{twocolumnlist}
 %% L'environnement <threecolumnlist> existe aussi pour trois colonnes.
 
@@ -478,10 +480,10 @@
  % comment faire.
 
 
-\appendix
- \include{article1/annexe1}
 
- \cleardoublepage
+
+
+ %\cleardoublepage
 
 
 % \bibliographystyle{abbrvnat}
@@ -491,7 +493,7 @@
 
 
  % Pour les annexes :
-
+\appendix
  % Les annexes se font comme les chapitres. Le fichier
  % commence par \francais ou \anglais et ensuite
  % \chapter{..}. Le reste est parreil à un chapitre normal.
@@ -500,7 +502,8 @@
 %%%%%%%%%%%%%%%%%%%%   A N N E X E 1   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%\include{annexe1}
+
+\include{article1/annexe1}
 %%
 %% etc.
 

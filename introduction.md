@@ -11,39 +11,38 @@ header-includes:
 
 \chapter*{Introduction}
 
-<!-- voir these de Becker-Scarpitta, Danneyrolles, Boisvert-Marsh-->
-# Introduction générale
+# L'écologie à l'ère de l'Anthropocène
 
-<!-- L'écologie à l'ère de l’Anthropocène-->
-
-
-
-L'humain est aujourd'hui une force prédominante gouvernant les processus
-écologiques, amenant de nombreux chercheurs à suggérer que le système terrestre
-a basculé dans une nouvelle ère géologique, l'Anthropocène
+L'Homme est aujourd'hui une force prédominante gouvernant les processus
+écologiques amenant de nombreux chercheurs à suggérer que le système terrestre a
+basculé dans une nouvelle ère géologique, l'Anthropocène
 [@crutzen_geology_2002]. Depuis environ un siècle, les activités humaines ont
-largement perturbé l'équilibre dynamique des cycles naturels. Le développement
-des sociétés occidentales s'est basé sur l'industrialisation et l'exploitation
-des ressources, résultant notamment en un changement d'utilisation des sols
-associé à la fragmentation et la dégradation des habitats, ainsi qu'à un
-relargage massif de gaz à effet de serre (e.g. CO2, SOx, CH4, NOx…) dans
-l'atmosphère. Les changements environnementaux récents se caractérisent par leur
-vitesse et leur intensité. La recherche scientifique contemporaine s'intéresse
-à comprendre, évaluer et prédire l'impact de ces perturbations sur les
-écosystèmes et les communautés (McGill et al., 2015; Root et al., 2003; Sala et
-al., 2000; Vellend et al., 2017).
-
-<!--À l'ère de l'Anthropocène, les changements globaux modifient les écosystèmes à la fois de manière directe par l'usage des sols et l'exploitation des ressources naturelles (Foley, 2005), et de manière indirecte au travers des changements climatiques liés au relargage massif de gaz à effet de serre dans l’atmosphère (Grimm et al., 2013).
-
-Limiter le réchauffement climatique à 1,5 °C nécessiterait des changements rapides, très profonds et sans précédent dans tous les aspects de la société
--->
+largement perturbé l'équilibre dynamique des cycles naturels. Au cours du siècle
+dernier, les températures ont augmenté d'environ 1$^{\circ}$C et, selon les
+projections, le 21e siècle assistera à des changements climatiques sans
+précédent [@ipcc_climate_2014]. Avec les changements climatiques, les
+changements d'utilisation du territoire et la surexploitation des ressources,
+associés à la dégradation et la perte des habitats, sont considérées parmi les
+plus grandes menaces actuelles pour la biodiversité [@ipbes_summary_2019]. Les
+effets synergiques entre les nombreuses perturbations anthropiques risquent
+d'aggraver leurs effets individuels sur la biodiversité et mettent en péril la
+persistance à long terme des espèces. Un nombre croissant de preuves révèle une
+perte de biodiversité et un déclin des populations exceptionnellement rapide au
+cours des derniers siècles, dont les conséquences se répercuteront sur les
+fonctions et les services des écosystèmes [@ceballos_accelerated_2015;
+@ceballos_accelerated_2015; @ipbes_summary_2019]. L'ampleur, la vitesse et
+l'intensité de ces menaces mondiales soulèvent la nécessité de développer de
+nouveaux outils d'analyses pour quantifier et détecter les changements de la
+biodiversité en cours et évaluer les causes de ces changements de façon à
+adapter les méthodes de gestions et atténuer les conséquences préjudiciables à
+venir.
 
 
 # Changements climatiques
 
 Déjà en 1979, un rapport scientifique produit aux États-Unis informent d'une
 menace climatique grandissante causée par l'émission massive de dioxyde de
-carbone (CO^2^) par l'activité humaine [@national_research_council_carbon_1979]:
+carbone (CO~2~) par l'activité humaine [@national_research_council_carbon_1979]:
 
 > We now have incontrovertible evidence that the atmosphere is indeed changing and that we ourselves contribute to that change. Atmospheric concentrations of carbon dioxide are steadily increasing, and these changes are linked with man's use of fossil fuels end exploitation of the land. [The consensus of number of investigations] has been that increasing carbon dioxide will lead to a warmer earth with different distribution of climatic regimes.
 
@@ -61,62 +60,57 @@ ces rapports, à mesure que les connaissances s'accumulent et que les modèles
 climatiques deviennent plus robustes, on prend conscience de la gravité de la
 crise climatique et le ton devient de plus en plus alarmant.
 
-Selon le 5e rapport du GIEC, le réchauffement climatique mesuré sur l'ensemble de la planète durant les
-dernières décennies est maintenant sans équivoque, et la responsabilité de l'humain par
-l'émission de gaz à effet de serre (GES) est clairement
-établie [@ipcc_climate_2014]. Les activités humaines ont déjà contribué à une hausse entre 0.8 et 1.2 °C au-dessus des températures préindustrielles [@IPCC_summary_2018]. Des projections récentes des changements
+Selon le 5e rapport du GIEC, le réchauffement climatique mesuré sur l'ensemble
+de la planète durant les dernières décennies est maintenant sans équivoque, et
+la responsabilité de l'humain par l'émission de gaz à effet de serre (GES) est
+clairement établie [@ipcc_climate_2014]. Les activités humaines ont déjà
+contribué à une hausse entre 0.8 et 1.2 $^{\circ}$C au-dessus des températures
+préindustrielles [@ipcc_summary_2018]. Des projections récentes des changements
 climatiques indiquent que les températures moyennes mondiales pourraient
-augmenter de 2.6 à 4.8$^{\circ}$C d'ici la fin du XXIe siècle dans le nord-est de
-l'Amérique du Nord, s'il n'y a pas de progrès sur le contrôle des émissions de
-GES anthropiques [@ipcc_climate_2014].
-Le rapport final résume les conclusions des scientifiques, montrant que le maintien d'une augmentation de la température en dessous de 1,5 °C reste possible, mais seulement grâce à des
-Le récent rapport spécial sur les conséquences d'un réchauffement planétaire de 1.5 °C:
-Limiter le réchauffement climatique à 1.5 °C exigerait des transitions rapides et radicales dans tous les aspects de la société
+augmenter de 2.6 à 4.8$^{\circ}$C d'ici la fin du XXIe siècle dans le nord-est
+de l'Amérique du Nord, s'il n'y a pas de progrès sur le contrôle des émissions
+de GES anthropiques [@ipcc_climate_2014]. <!--Le récent rapport spécial du GIEC
+conclue que limiter le réchauffement climatique à 1.5 $^{\circ}$C est possible
+mais exigera des transitions rapides et radicales dans tous les aspects de la
+société [@ipcc_summary_2018]. Limiting global warming would also give people and ecosystems more room to adapt and remain below relevant risk thresholds, added Hans-Otto Portner, Co-Chair of IPCC Working Group II--> Le climat étant un déterminant central de la distribution des espèces, de
+telles augmentations de température auront un impact majeur sur la biodiversité
+et le fonctionnement de tous les écosystèmes [@bellard_impacts_2012;
+@gauthier_vulnerability_2015].
 
 
+Dans les écosystèmes forestiers, les variations de température et de régimes de
+précipitation influencent de nombreux processus biologiques, comme la
+phénologie, la croissance, la survie et la régénération des espèces
+[@saxe_tree_2001]. Si les espèces ne peuvent s'adapter localement aux nouvelles
+conditions environnementales, elles devront se déplacer
+[@aitken_adaptation_2008]. Certaines projections suggèrent que les niches
+climatiques optimales de nombreuses espèces d'arbres devraient se déplacer vers
+le nord sur des centaines de kilomètres [@mckenney_potential_2007] ou plus haut
+en altitude d'une centaine de mètres [@jump_altitude-for-latitude_2009],
+modifiant la composition, la structure et la diversité des forêts
+[@price_anticipating_2013; @reich_geographic_2015]. Or, de tels changements
+peuvent avoir des répercussions environnementales considérables sur les
+fonctions et les services des écosystèmes, tels que l'approvisionnement en bois
+et en produits forestiers non ligneux, le stockage du carbone, le cycle des
+nutriments, la purification de l'air et de l'eau et le maintien d'habitats pour
+la faune et la flore [@mitchell_linking_2013; @mori_biodiversity_2017]. Ces
+changements soulèvent aussi des enjeux socio-économiques majeurs. Par exemple,
+comment adapter les stratégies de gestion forestière pour assurer un
+approvisionnement durable en bois ? Ou encore, quel est l'avenir de certaines
+espèces économiquement et culturellement importantes, comme l'érable à sucre au
+Québec ? Comprendre et quantifier les conséquences de ces changements
+climatiques sur les écosystèmes forestiers représente donc l'un des grands défis
+actuels pour la communauté scientifique [@pereira_scenarios_2010;
+@garcia_multiple_2014].
 
-
-Le climat étant un déterminant important
-de la distribution des espèces, de telles augmentations de température auront un
-impact majeur sur la structure et les fonctions de tous les écosystèmes
-[@bellard_impacts_2012; @gauthier_vulnerability_2015]. <!--Alors que l'on constate
-que la Terre est déjà entrée dans une période d'extinction et d'érosion de la
-biodiversité mondiale sans précédent dans l'histoire de la vie humaine
-[@pereira_scenarios_2010; @ceballos_accelerated_2015;
-@ceballos_biological_2017], les scénarios pour le futur prévoient
-systématiquement un déclin de la biodiversité au cours du 21e siècle
-[@pereira_scenarios_2010].-->
-
-
-Selon les prévisions, les changements de température et de régimes de
-précipitation devraient déplacer les niches climatiques optimales de nombreuses
-espèces d'arbres vers le nord sur des centaines de kilomètres
-[@mckenney_potential_2007] ou plus haut en altitude d'une centaine de mètres
-[@jump_altitude-for-latitude_2009], modifiant la composition, la structure et la
-diversité forestières [@price_anticipating_2013; @reich_geographic_2015]. Or, de
-tels changements dans les forêts peuvent avoir des répercussions
-environnementales considérables sur les fonctions et les services des
-écosystèmes, tels que l'approvisionnement en bois et en produits forestiers non
-ligneux, le stockage du carbone, le cycle des nutriments, la purification de
-l'air et de l'eau et le maintien d'habitats pour la faune et la flore
-[@mitchell_linking_2013; @mori_biodiversity_2017]. Ces changements soulèvent
-aussi des enjeux socio-économiques majeurs. Par exemple, comment adapter les
-stratégies de gestion forestière pour assurer un approvisionnement durable en
-bois ? Ou encore, quel est l'avenir de certaines espèces économiquement et
-culturellement importantes, comme l'érable à sucre au Québec ? Comprendre et
-prédire les conséquences de ces changements climatiques sur les écosystèmes
-forestiers représente donc l'un des grands défis actuels pour la communauté
-scientifique [@pereira_scenarios_2010; @garcia_multiple_2014].
-
-# Réponses des écosystèmes forestiers aux changements climatiques
+# Réponses des communautés forestières aux changements climatiques
 
 <!--Sous l’influence du réchauffement climatique, les aires de répartition et la productivité des arbres forestiers évoluent. Les exemples les plus fréquemment cités sont les déplacements des limites latitudinales et altitudinales des arbres (Körner, 1994 ; Solomon et Kirilenko, 1997 ; Mac Donald et al., 1998), l’extension ou la contraction de l’aire d’occupation des espèces ou les fluctuations des populations (Theurillat, 1995).
 
-For forests, the response to higher temperatures is not immediate. A big, old tree can hang on for many years after its optimal conditions are lost, simply because it’s there, it’s well established, and it can shade the saplings of species that might be expected to outcompete it. Of course, in the face of windstorms, fire, lightning, and insect attacks, no tree lasts forever, and eventually even the giants of the forest will succumb. Attack by exotic insects can exacerbate the onset of change. With climate change, the new trees that replace them are likely to be different species, and eventually the entire forest composition may shift.
  -->
 
 
-## Déplacements des aires de répartition
+## La course vers le nord
 
 Des changements de distribution liés au climat ont déjà été observés pour de
 nombreuses espèces d'arbres à différentes échelles spatiales, particulièrement
@@ -137,11 +131,60 @@ près de 30 m en moyenne et les espèces de sous-bois de près de 40 m
 [@savage_elevational_2015]. Mis ensemble, ces derniers résultats indiquent qu'un
 décalage dans la répartition des deux strates de végétation, et donc un
 changement de composition, est déjà en train de se former dû à une différence
-entre la vitesse de réponse des espèces de sous-bois et celle des arbres. À
+entre la vitesse de réponse des espèces de sous-bois et celle des arbres. à
 l'échelle régionale, @boisvert-marsh_shifting_2014 et @sittaro_tree_2017 ont
 montré une migration à prédominance vers le nord des essences d'arbres à travers
 le Québec, avec les gaulis présentant une réponse plus rapide que les arbres
 adultes.
+
+## Changement de communautés
+
+<!--Les impacts des changements écologiques sur la biodiversité peuvent être étudiés
+à différents niveaux : à l’échelle individuelle, spécifique, des communautés ou
+des écosystèmes. à l’échelle individuelle, il est possible d’étudier les
+variations phénologiques, c'est-à-dire le suivi temporel des événements
+biologiques (i.e. débourrement, floraison, fructification). Cela renseigne la
+réaction des espèces vis-à-vis des changements sur le plan biologique. à
+l’échelle spécifique, les changements de répartition de quelques espèces cibles
+ayant des écologies très particulières sont utilisés comme « sentinelle »
+(Gignac, 2001). Une autre approche consiste à étudier les communautés. Plus
+fiable et plus puissante, elle se base sur la réponse combinée de plusieurs
+espèces (Gignac, 2001). J’utiliserai cette approche avec une attention
+particulière envers: - les modifications structurelles, approche quantitative
+liée aux indices de biodiversité ; - les modifications de composition, approche
+qualitative liée à l’identité des espèces ; - les modifications autoécologiques
+: affinités écologiques des espèces.
+
+Migration et déplacement des espèces Une des prédictions de la théorie des
+niches écologiques est une adéquation entre les conditions environnementales et
+les exigences écologiques des espèces d’une communauté. Le climat est un
+déterminant central de la distribution des plantes, de fait un changement de
+température à large échelle entraîne un changement local de l’assemblage et des
+espèces (Bertrand et al., 2011; Chen et al., 2011; Gornish et Tylianakis, 2013;
+Lenoir et al., 2008; Parmesan, 2006; Urban, 2015; Walther, 2010). De nombreux
+travaux ont mis en relation une migration des espèces en réponse à
+l’augmentation de la température vers les pôles (Colwell et al., 2008; Lesica et
+McCune, 2004; Parmesan et al., 1999; Walther et al., 2005) ou en altitude
+(Cannone et Pignatti, 2014; Kelly et Goulden, 2008; Parolo et Rossi, 2008; Pauli
+et al., 2007; Savage et Vellend, 2015). En effet, le réchauffement climatique
+mondial pousse les espèces, ou certains écosystèmes à migrer vers leurs optima
+climatiques (Klanderud et Birks, 2003; Pauli et al., 2012; Walther, 2010). Les
+chapitres 3 et 4 explorent les dynamiques temporelles des communautés sur des
+gradients altitudinaux.
+
+@vellend_conceptual_2010
+
+
+## Thermophilisation des communautés
+
+Une des conséquences directes de la migration et du déplacement des espèces est
+la thermophilisation des communautés. Cela se manifeste par deux mécanismes :
+(i) une disparition ou diminution en abondance des espèces nordiques
+caractéristiques des milieux boréalo-alpins voire arctiques au profit de (ii)
+l’augmentation en nombre et en abondance des espèces méridionales ayant des
+affinités à des températures plus grandes (Bates et al., 2005; Damschen et al.,
+2010; De Frenne et al., 2013; Gottfried et al., 2012; Harrison et al., 2010;
+Stockli et al., 2012).-->
 
 ## Réponses démographiques
 
@@ -166,11 +209,11 @@ rapport de force de la compétition interspécifique [@luo_observations_2013;
 @reich_geographic_2015], de même que la dynamique et la trajectoire de
 succession des forêts [@prach_four_2011], modifiant par conséquent leur
 structure et leur composition [@van_mantgem_widespread_2009;
-@stephenson_causes_2011]. À long terme, ces changements démographiques agissent
+@stephenson_causes_2011]. à long terme, ces changements démographiques agissent
 donc pour contrôler les limites géographiques des différents types de forêts
 [@holt_theoretical_2005].
 
-Étant donné l'échelle temporelle à laquelle les changements de répartition se
+étant donné l'échelle temporelle à laquelle les changements de répartition se
 produisent pour des organismes à longue durée de vie comme les arbres,
 comprendre l'influence des conditions abiotiques et biotiques sur les taux
 démographiques des populations offre une meilleure perspective sur la
@@ -182,47 +225,12 @@ des changements climatiques et des multiples perturbations forestières sur ces
 processus fondamentaux de la dynamique forestière.
 
 <!--
-# De la niche écologique à la biogéographie
-
-Historiquement, la diversité des espèces a été étudiée indépendamment à
-l'échelle locale et à l'échelle régionale suivant deux grandes théories en
-écologie : une perspective locale basée sur la théorie des niches **(MacArthur &
-Levins 1967)** et une perspective régionale basée sur la théorie de la
-biogéographie insulaire **(MacArthur & Wilson 1967)**. Dans la perspective
-locale, l'hétérogénéité des ressources et les interactions entre espèces
-contraignent la diversité locale **(MacArthur & Levins 1967)**. La coexistence
-locale peut également être la conséquence d'un compromis entre les traits des
-espèces reliés à leur capacité de colonisation et de compétition
-[@hastings_disturbance_1980; **Tilman 1994**]. Dans la perspective régionale,
-les principales théories (e.g., biogéographie insulaire, métapopulations,
-théorie neutre) ignorent les processus dynamiques locaux. Par exemple, la
-théorie de la biogéographie insulaire considère toutes les espèces comme étant
-écologiquement équivalentes; la biodiversité locale est le résultat de processus
-régionaux de colonisation et d'extinction. Selon cette théorie, la biodiversité
-est limitée seulement par pool régional d'espèces (provenant du continent), la
-taille de l'île et la distance île-continent. Fait intéressant, à cause du rôle
-central qu'a joué MacArthur dans le développement des théories des niches et de
-la biogéographie insulaire, la dichotomie entre les processus locaux et
-régionaux dans les approches pour expliquer la distribution des espèces fut
-baptisée le paradoxe de MacArthur **(Schoener 1983)**.
-
-Malgré leur origine et leur développement indépendants, la théorie des
-métapopulations **(Levins 1969)** partage des fondements clés avec la théorie de
-la biogéographie insulaire **(MacArthur & Wilson 1967)**; l'idée générale que
-les populations d'espèces se maintiennent régionalement par la dynamique
-d'extinction et de colonisation de populations locales discrètes. La différence
-principale est que le modèle de MacArthur et Wilson suppose l'existence d'une
-communauté d'espèces permanente sur le continent dont dépend la migration vers
-les îles, tandis que, dans la modèle de Levins, la migration dépend de la
-proportion de fragments d'habitat occupés par les populations d'une seule espèce
-**(Hanski 2010)**. Le modèle de la biogéographie insulaire est donc une
-extension directe du modèle de métapopulation appliqué à de nombreuses espèces
-qui coexistent, mais de façon indépendante. Le concept de la métapopulation a
+Le concept de la métapopulation a
 ensuite été étendu à la métacommunauté (@leibold_metacommunity_2004; **Holyoak
 et al. 2005**), qui décrit un ensemble de communautés locales liées par la
 dispersion de plusieurs espèces potentiellement en interaction, de sorte que les
 interactions locales et les processus régionaux influencent l'assemblage des
-communautés. À cet égard, ce concept a contribué à la compréhension des effets
+communautés. à cet égard, ce concept a contribué à la compréhension des effets
 réciproques plutôt que strictement hiérarchiques liant les processus locaux et
 régionaux.
 
@@ -285,36 +293,80 @@ environnementale peuvent influencer dynamiquement le taux *r* et leur effet peut
 
 # Modèle dynamique de la distribution des espèces
 
-Jusqu'à présent, les modèles de distribution des espèces (SDM en référence à Species Distribution Models; aussi connu comme modèles de niche écologique ou d'enveloppe bioclimatique) ont été largement préconisées pour prédire la distribution potentielle des espèces avec les changements climatiques (Guisan & Thuiller 2005; Leathwick 2009). Les projections issues des SDM reposent sur la relation statistique entre les occurrences d'espèces et l'environnement. Cependant, la relation climat-présence n'est qu'une facette du lien qui unit les espèces à leur répartition géographique. D'ailleurs, Thuiller et al. (2014) ont trouvé une faible correspondance entre les paramètres démographiques des espèces et leur probabilité d'occurrence. Bien qu'utiles, ces modèles corrélatifs supposent en effet que 1) les espèces sont en équilibre avec leur environnement, 2) ont une dispersion illimitée, 3) ne sont pas influencées par les interactions biotiques, et 4) répondent de façon instantanée aux changements climatiques (Araújo & Peterson 2012; Thuiller et al. 2013). Les implications écologiques de ces suppositions méritent une remise en question et seront discutées tout au long de ce document. Ainsi, même si les SDM fournissent des prévisions satisfaisantes pour la distribution actuelle, prendre au pied de la lettre leurs prédictions sur les distributions futures mène à des conclusions parfois invraisemblables, comme le déplacement de la répartition d'espèces d'arbre par plusieurs centaines de kilomètres en l'espace de moins d'un siècle (McKenney et al. 2007). Ces approches ont ainsi été largement critiquées pour être trop simplistes et manquer de fondement dans la théorie écologique, stimulant de nombreux chercheurs à repenser les modèles de distributions et renouveler leurs bases théoriques (Gravel et al. 2011; Boulangeat et al. 2012; Pagel & Schurr 2012; Thuiller et al. 2013; Cazelles et al. 2016; Talluto et al. 2017).
+Jusqu'à présent, les modèles de distribution des espèces (SDM en référence à
+Species Distribution Models; aussi connu comme modèles de niche écologique ou
+d'enveloppe bioclimatique) ont été largement préconisées pour prédire la
+distribution potentielle des espèces avec les changements climatiques (Guisan &
+Thuiller 2005; Leathwick 2009). Les projections issues des SDM reposent sur la
+relation statistique entre les occurrences d'espèces et l'environnement.
+Cependant, la relation climat-présence n'est qu'une facette du lien qui unit les
+espèces à leur répartition géographique. D'ailleurs, Thuiller et al. (2014) ont
+trouvé une faible correspondance entre les paramètres démographiques des espèces
+et leur probabilité d'occurrence. Bien qu'utiles, ces modèles corrélatifs
+supposent en effet que 1) les espèces sont en équilibre avec leur environnement,
+2) ont une dispersion illimitée, 3) ne sont pas influencées par les interactions
+biotiques, et 4) répondent de façon instantanée aux changements climatiques
+(Araújo & Peterson 2012; Thuiller et al. 2013). Les implications écologiques de
+ces suppositions méritent une remise en question et seront discutées tout au
+long de ce document. Ainsi, même si les SDM fournissent des prévisions
+satisfaisantes pour la distribution actuelle, prendre au pied de la lettre leurs
+prédictions sur les distributions futures mène à des conclusions parfois
+invraisemblables, comme le déplacement de la répartition d'espèces d'arbre par
+plusieurs centaines de kilomètres en l'espace de moins d'un siècle (McKenney et
+al. 2007). Ces approches ont ainsi été largement critiquées pour être trop
+simplistes et manquer de fondement dans la théorie écologique, stimulant de
+nombreux chercheurs à repenser les modèles de distributions et renouveler leurs
+bases théoriques (Gravel et al. 2011; Boulangeat et al. 2012; Pagel & Schurr
+2012; Thuiller et al. 2013; Cazelles et al. 2016; Talluto et al. 2017).
 
-Pour modéliser les changements de composition et de distribution des espèces, une approche dynamique entièrement basée sur les processus est souvent jugée préférable aux SDM, car elle permet de lier explicitement les processus biologiques locaux à la biogéographie (Evans et al. 2016). À l'extrême des SDM, il y a les modèles qui tentent de capturer le plus de détails possible, comme les modèles basés sur la physiologie (Kearney & Porter 2009; Snell et al. 2014), mais avec les contraintes imposées par la quantité et la précision des données nécessaires (souvent limitées à quelques espèces ou groupes fonctionnels) et par la difficulté d'estimation des paramètres. Bien souvent, la complexité et le réalisme des modèles compromettent leur traçabilité et leur généralité, i.e. ajouter plus de paramètres à un modèle permet un meilleur ajustement aux données observées, mais restreint la capacité à tirer des règles générales.
+Pour modéliser les changements de composition et de distribution des espèces,
+une approche dynamique entièrement basée sur les processus est souvent jugée
+préférable aux SDM, car elle permet de lier explicitement les processus
+biologiques locaux à la biogéographie (Evans et al. 2016). à l'extrême des SDM,
+il y a les modèles qui tentent de capturer le plus de détails possible, comme
+les modèles basés sur la physiologie (Kearney & Porter 2009; Snell et al. 2014),
+mais avec les contraintes imposées par la quantité et la précision des données
+nécessaires (souvent limitées à quelques espèces ou groupes fonctionnels) et par
+la difficulté d'estimation des paramètres. Bien souvent, la complexité et le
+réalisme des modèles compromettent leur traçabilité et leur généralité, i.e.
+ajouter plus de paramètres à un modèle permet un meilleur ajustement aux données
+observées, mais restreint la capacité à tirer des règles générales.
 
-Récemment, des approches basées sur la théorie des métapopulations (García-Valdés et al. 2013; Talluto et al. 2017) et la théorie des métacommunautés (Gravel et al. 2011; Cazelles et al. 2016; Fournier et al. 2017) ont été proposées. Ces théories offrent un cadre clair et flexible pour lier les processus écologiques à différentes échelles spatiales (Levins 1969; Holt & Keitt 2000; Hanski & Ovaskainen 2003; Leibold et al. 2004; Holt et al. 2005; Fournier et al. 2017). L'idée centrale de la perspective des métapopulations est qu'une espèce peut persister dans une région en dépit des extinctions locales, tant que le taux de colonisation des habitats est plus grand que le taux d'extinction. À travers la théorie des métapopulations, il est possible de modéliser la distribution des espèces à partir d'une suite d'évènements de colonisation et d'extinction, et par extension ces événements peuvent dépendre de variables environnementales (Talluto et al. 2017). L'approche de métacommunautés étend le concept de la métapopulation au niveau de la communauté et met l'accent sur les rétroactions réciproques entre les processus à l'échelle locale, tels que les interactions compétitives et la démographie, et les processus à l'échelle régionale, tels que la dispersion (Leibold et al. 2004). Cette approche considère explicitement la différenciation des niches et le compromis colonisation-compétition qui permettent conjointement la coexistence des espèces (Leibold et al. 2004; Mouquet et al. 2005; Fournier et al. 2017). Le formalisme classique de ces modèles peut aussi être appliqué à l'échelle de l'individu, où les taux d'extinction sont réinterprétés comme des taux de mortalité et les taux de colonisation comme des taux de recrutement (Hastings 1980; Tilman 1994). Une approche ancrée dans la théorie des métapopulations me permettra de simuler la dynamique spatiale de colonisation et d'extinction des espèces dans les forêts de l'écotone boréal-tempéré et d'intégrer différents mécanismes d'intérêt, notamment les délais de réponse (section suivante) et les interactions biotiques (section Contraintes à la migration).
+Récemment, des approches basées sur la théorie des métapopulations
+(García-Valdés et al. 2013; Talluto et al. 2017) et la théorie des
+métacommunautés (Gravel et al. 2011; Cazelles et al. 2016; Fournier et al. 2017)
+ont été proposées. Ces théories offrent un cadre clair et flexible pour lier les
+processus écologiques à différentes échelles spatiales (Levins 1969; Holt &
+Keitt 2000; Hanski & Ovaskainen 2003; Leibold et al. 2004; Holt et al. 2005;
+Fournier et al. 2017). L'idée centrale de la perspective des métapopulations est
+qu'une espèce peut persister dans une région en dépit des extinctions locales,
+tant que le taux de colonisation des habitats est plus grand que le taux
+d'extinction. à travers la théorie des métapopulations, il est possible de
+modéliser la distribution des espèces à partir d'une suite d'évènements de
+colonisation et d'extinction, et par extension ces événements peuvent dépendre
+de variables environnementales (Talluto et al. 2017). L'approche de
+métacommunautés étend le concept de la métapopulation au niveau de la communauté
+et met l'accent sur les rétroactions réciproques entre les processus à l'échelle
+locale, tels que les interactions compétitives et la démographie, et les
+processus à l'échelle régionale, tels que la dispersion (Leibold et al. 2004).
+Cette approche considère explicitement la différenciation des niches et le
+compromis colonisation-compétition qui permettent conjointement la coexistence
+des espèces (Leibold et al. 2004; Mouquet et al. 2005; Fournier et al. 2017). Le
+formalisme classique de ces modèles peut aussi être appliqué à l'échelle de
+l'individu, où les taux d'extinction sont réinterprétés comme des taux de
+mortalité et les taux de colonisation comme des taux de recrutement (Hastings
+1980; Tilman 1994). Une approche ancrée dans la théorie des métapopulations me
+permettra de simuler la dynamique spatiale de colonisation et d'extinction des
+espèces dans les forêts de l'écotone boréal-tempéré et d'intégrer différents
+mécanismes d'intérêt, notamment les délais de réponse (section suivante) et les
+interactions biotiques (section Contraintes à la migration).
 
-Idées:
 
-Écologie des communautés et diversité
-
-
-@vellend_conceptual_2010
-
-Migration et déplacement des espèces
-
-Migration et déplacement des espèces
-Une des prédictions de la théorie des niches écologiques est une adéquation entre les conditions environnementales et les exigences écologiques des espèces d’une communauté. Le climat est un déterminant central de la distribution des plantes, de fait un changement de température à large échelle entraîne un changement local de l’assemblage et des espèces (Bertrand et al., 2011; Chen et al., 2011; Gornish et Tylianakis, 2013; Lenoir et al., 2008; Parmesan, 2006; Urban, 2015; Walther, 2010). De nombreux travaux ont mis en relation une migration des espèces en réponse à l’augmentation de la température vers les pôles (Colwell et al., 2008; Lesica et McCune, 2004; Parmesan et al., 1999; Walther et al., 2005) ou en altitude (Cannone et Pignatti, 2014; Kelly et Goulden, 2008; Parolo et Rossi, 2008; Pauli et al., 2007; Savage et Vellend, 2015). En effet, le réchauffement climatique mondial pousse les espèces, ou certains écosystèmes à migrer vers leurs optima climatiques (Klanderud et Birks, 2003; Pauli et al., 2012; Walther, 2010). Les chapitres 3 et 4 explorent les dynamiques temporelles des communautés sur des gradients altitudinaux.
-
-## Thermophilisation des communautés
-
-Une des conséquences directes de la migration et du déplacement des espèces est la thermophilisation des communautés. Cela se manifeste par deux mécanismes : (i) une disparition ou diminution en abondance des espèces nordiques caractéristiques des milieux boréalo-alpins voire arctiques au profit de (ii) l’augmentation en nombre et en abondance des espèces méridionales ayant des affinités à des températures plus grandes (Bates et al., 2005; Damschen et al., 2010; De Frenne et al., 2013; Gottfried et al., 2012; Harrison et al., 2010; Stockli et al., 2012).
-
-
-Les impacts des changements écologiques sur la biodiversité peuvent être étudiés à différents niveaux : à l’échelle individuelle, spécifique, des communautés ou des écosystèmes. À l’échelle individuelle, il est possible d’étudier les variations phénologiques, c'est-à-dire le suivi temporel des événements biologiques (i.e. débourrement, floraison, fructification). Cela renseigne la réaction des espèces vis-à-vis des changements sur le plan biologique. À l’échelle spécifique, les changements de répartition de quelques espèces cibles ayant des écologies très particulières sont utilisés comme « sentinelle » (Gignac, 2001). Une autre approche consiste à étudier les communautés. Plus fiable et plus puissante, elle se base sur la réponse combinée de plusieurs espèces (Gignac, 2001). J’utiliserai cette approche avec une attention particulière envers:
-- les modifications structurelles, approche quantitative liée aux indices de biodiversité ;
-- les modifications de composition, approche qualitative liée à l’identité des espèces ;
-- les modifications autoécologiques : affinités écologiques des espèces.
--->
+ -->
 
 # Délais de réponse et déséquilibre
+
+<!--For forests, the response to higher temperatures is not immediate. A big, old tree can hang on for many years after its optimal conditions are lost, simply because it’s there, it’s well established, and it can shade the saplings of species that might be expected to outcompete it. Of course, in the face of windstorms, fire, lightning, and insect attacks, no tree lasts forever, and eventually even the giants of the forest will succumb. Attack by exotic insects can exacerbate the onset of change. With climate change, the new trees that replace them are likely to be different species, and eventually the entire forest composition may shift.-->
 
 Bien qu'on prévoie un déplacement des niches climatiques des arbres de plusieurs
 centaines de kilomètres vers le nord d'ici la fin du siècle
@@ -462,7 +514,7 @@ peuplements résineux par le peuplier faux-tremble après une perturbation par l
 coupe forestière ou les feux [@chen_wildfire_2009; @laquerre_augmentation_2009].
 La présence de cette espèce décidue induit des changements physicochimiques et
 accélère les taux de décomposition de la matière organique
-[@legare_influence_2005; @laganiere_how_2010]. À leur tour, ces conditions de
+[@legare_influence_2005; @laganiere_how_2010]. à leur tour, ces conditions de
 sol modifiées pourraient favoriser l'établissement et la persistance de
 nouvelles espèces migratrices.
 
@@ -560,7 +612,7 @@ Forêt feuillue : érable à sucre et bouleau jaune.
 
 ## Changements climatiques au Québec
 
-## État des forêts du Québec méridional...
+## état des forêts du Québec méridional...
 
 # Objectifs
 
@@ -579,9 +631,29 @@ Les réponses à ces questions sont essentielles pour comprendre les relations e
 
 ## Chapitre 1 : Patrons de diversité bêta temporelle
 
-**L’Homme est aujourd’hui la principale force gouvernant les processus écologiques faisant entrer la terre dans une nouvelle ère géologique, l’Anthropocène [@crutzen_geology_2002]. Un nombre croissant de preuves révèle une perte de biodiversité exceptionnellement rapide au cours des derniers siècles, ce qui indique qu’une sixième extinction de masse est déjà en cours [@ceballos_accelerated_2015]. D’ailleurs, @ceballos_accelerated_2015 soulignent qu’au-delà des extinctions globales des espèces, la Terre connaît aussi un énorme épisode de déclin des populations, dont les conséquences se répercuteront sur les fonctions et les services des écosystèmes. Malgré tout, des métaanalyses récentes ont montré que bien souvent, à l’échelle locale, la biodiversité ne diminue pas et peut même parfois augmenter [@vellend_global_2013; @dornelas_assemblage_2014]. Bien que ces résultats aient été vivement critiqués (Newbold et al. 2015; Gonzalez et al. 2016), il reste clair que la diversité locale (diversité α) peut montrer des tendances variées, déconnectées des tendances à plus grande échelle, même face à une extinction de masse à l’échelle globale. Dans tous les cas, il est généralement admis qu’il y a eu des changements importants dans la composition des communautés (diversité β; Vellend et al. 2013; Dornelas et al. 2014; Newbold et al. 2015), impliquant à la fois des pertes et des gains d’espèces (Wardle et al. 2011). Ainsi, afin de mieux comprendre l’effet des changements anthropiques sur la biodiversité, nous devons examiner parallèlement la diversité α et β, ainsi que les composantes sous-jacentes de ces changements, les pertes et les gains d’espèces.**
+L’Homme est aujourd’hui la principale force gouvernant les processus
+écologiques faisant entrer la terre dans une nouvelle ère géologique,
+l’Anthropocène [@crutzen_geology_2002]. Un nombre croissant de preuves révèle
+une perte de biodiversité exceptionnellement rapide au cours des derniers
+siècles, ce qui indique qu’une sixième extinction de masse est déjà en cours
+[@ceballos_accelerated_2015]. D’ailleurs, @ceballos_accelerated_2015 soulignent
+qu’au-delà des extinctions globales des espèces, la Terre connaît aussi un
+énorme épisode de déclin des populations, dont les conséquences se
+répercuteront sur les fonctions et les services des écosystèmes. Malgré tout,
+des métaanalyses récentes ont montré que bien souvent, à l’échelle locale, la
+biodiversité ne diminue pas et peut même parfois augmenter
+[@vellend_global_2013; @dornelas_assemblage_2014]. Bien que ces résultats aient
+été vivement critiqués (Newbold et al. 2015; Gonzalez et al. 2016), il reste
+clair que la diversité locale (diversité $\alpha$) peut montrer des tendances variées,
+déconnectées des tendances à plus grande échelle, même face à une extinction de
+masse à l’échelle globale. Dans tous les cas, il est généralement admis qu’il y
+a eu des changements importants dans la composition des communautés (diversité
+$\beta$; Vellend et al. 2013; Dornelas et al. 2014; Newbold et al. 2015), impliquant à la fois des pertes et des gains d'espèces (Wardle et al. 2011). Ainsi, afin
+de mieux comprendre l'effet des changements anthropiques sur la biodiversité,
+nous devons examiner parallèlement la diversité $\alpha$ et $\beta$, ainsi que les
+composantes sous-jacentes de ces changements, les pertes et les gains en espèces.
 
-**Des travaux récents ont attiré l’attention sur le gain en compréhension lorsque la diversité β est partitionnée en ses composantes sous-jacentes [@baselga_partitioning_2010; @podani_general_2013; @legendre_interpreting_2014; @legendre_temporal_2019]. De telles analyses permettent de quantifier les contributions de différents processus écologiques à la diversité β. @legendre_thirty-year_2015 ont développé une méthode pour partitionner la diversité β temporelle en composantes de pertes et de gains en espèces, et l’ont appliquée aux communautés de mollusque se rétablissant après des essais nucléaires. Cette méthode offre la possibilité de faire le lien entre les changements de diversité et les changements démographiques dans les communautés, puisque les pertes et les gains sont en fait des mortalités et des recrutements lorsque calculés sur des données d’abondance, et des extinctions et colonisations lorsque calculés sur des données de présence-absence.**
+Des travaux récents ont attiré l’attention sur le gain en compréhension lorsque la diversité $\beta$ est partitionnée en ses composantes sous-jacentes [@baselga_partitioning_2010; @podani_general_2013; @legendre_interpreting_2014; @legendre_temporal_2019]. De telles analyses permettent de quantifier les contributions de différents processus écologiques à la diversité $\beta$. @legendre_thirty-year_2015 ont développé une méthode pour partitionner la diversité $\beta$ temporelle en composantes de pertes et de gains en espèces, et l’ont appliquée aux communautés de mollusque se rétablissant après des essais nucléaires. Cette méthode offre la possibilité de faire le lien entre les changements de diversité et les changements démographiques dans les communautés, puisque les pertes et les gains sont en fait des mortalités et des recrutements lorsque calculés sur des données d’abondance, et des extinctions et colonisations lorsque calculés sur des données de présence-absence.
 
 Le chapitre 1 de la thèse vise à répondre à deux objectifs principaux liés à la fois aux tendances temporelles de la biodiversité dans les forêts de l’écotone boréal-tempéré au cours des dernières décennies et à l’application de nouvelles méthodes d’analyse de diversité $\beta$ temporelle. Spécifiquement : quelles sont les tendances temporelles de diversité $\alpha$ et $\beta$ des forêts ? Comment les forêts ont-elles changé en termes de mortalités et de recrutements ? Est-ce que ces changements sont constants pour différents groupes d’espèces et de régions ? Selon mes hypothèses, il n’y aura pas de tendance temporelle particulière au niveau de la diversité $\alpha$. Inversement, il y aura une augmentation de la diversité $\beta$ au cours du temps qui sera provoquée principalement par une augmentation des mortalités, attribuables à l’action concommitante de multiples perturbations, qui ne sera pas compensée par des recrutements.
 
@@ -601,9 +673,9 @@ La probabilité de mortalité annuelle sera analysée par un modèle de régress
 
 Bien qu’un important déplacement des niches climatiques soit anticipé d’ici la fin du siècle, les approches de modélisation utilisées à ce jour sont majoritairement incapables de projeter le rythme auquel les espèces forestières répondront aux changements climatiques, car les contraintes à la migration sont encore peu connues. Une des hypothèses importantes avance que la compétition par les espèces résidentes pourrait freiner l’établissement des espèces migratrices (Svenning et al. 2014). Cependant, l’effet des interactions biotiques sur la dynamique d’expansion d’aires de répartition des arbres n’a pas reçu suffisamment d’attention et jusqu’à maintenant les études empiriques sur le sujet sont principalement issues d’expériences de transplantation (Hillerislambers et al. 2013; Brown & Vellend 2014).
 
-**Les perturbations pourraient moduler la vitesse de réponse des forêts aux changements climatiques en diminuant ou éliminant la compétition par les espèces résidentes, créant ainsi des opportunités de colonisation pour les espèces d’arbres tempérés (Xu et al. 2012; Woodall et al. 2013; Vanderwel & Purves 2014). Les perturbations pourraient donc accélérer les changements de composition dans les forêts ou même les faire basculer d’une dominance conifèrienne à une composition mixte (regime shift). En plus de pouvoir accélérer la vitesse de transition, les perturbations pourraient influencer différentiellement les espèces en raison du compromis compétition-colonisation. Par exemple, les compétiteurs inférieurs pourraient être favorisés (du moins à court terme) grâce à leur meilleure capacité de colonisation leur permettant d’atteindre les milieux récemment perturbés (Gilman et al. 2010). Pour l’instant, l’effet des perturbations sur les capacités de colonisation des espèces migratrices en réponse aux changements climatiques a été étudié surtout par modélisation à l’échelle régionale (Scheller & Mladenoff 2005; Vanderwel & Purves 2014) et empiriquement à l’échelle locale (Leithead et al. 2010). À l’échelle régionale, Woodall et al. (2013) n’ont pas trouvé de différence dans les limites nord de répartition des semis et des arbres adultes entre les sites perturbés et non perturbés aux États-Unis, mais ils n’avaient que 5 ans d’intervalle.**
+Les perturbations pourraient moduler la vitesse de réponse des forêts aux changements climatiques en diminuant ou éliminant la compétition par les espèces résidentes, créant ainsi des opportunités de colonisation pour les espèces d’arbres tempérés (Xu et al. 2012; Woodall et al. 2013; Vanderwel & Purves 2014). Les perturbations pourraient donc accélérer les changements de composition dans les forêts ou même les faire basculer d’une dominance conifèrienne à une composition mixte (regime shift). En plus de pouvoir accélérer la vitesse de transition, les perturbations pourraient influencer différentiellement les espèces en raison du compromis compétition-colonisation. Par exemple, les compétiteurs inférieurs pourraient être favorisés (du moins à court terme) grâce à leur meilleure capacité de colonisation leur permettant d’atteindre les milieux récemment perturbés (Gilman et al. 2010). Pour l’instant, l’effet des perturbations sur les capacités de colonisation des espèces migratrices en réponse aux changements climatiques a été étudié surtout par modélisation à l’échelle régionale (Scheller & Mladenoff 2005; Vanderwel & Purves 2014) et empiriquement à l’échelle locale (Leithead et al. 2010). à l’échelle régionale, Woodall et al. (2013) n’ont pas trouvé de différence dans les limites nord de répartition des semis et des arbres adultes entre les sites perturbés et non perturbés aux états-Unis, mais ils n’avaient que 5 ans d’intervalle.
 
-**S’il y a d’autres contraintes abiotiques que le climat aux limites nord des aires de répartition des espèces, les projections de migration sous les changements climatiques qui ignorent ces facteurs pourraient surestimer l’effet des températures sur l’expansion des aires. Certaines études expérimentales suggèrent, par exemple, que les propriétés du sol peuvent freiner la germination et la croissance des semis (Brown & Vellend 2014; Eskelinen & Harrison 2015; Collin et al. 2017). Ainsi, même si les contraintes climatiques sont relâchées pour une espèce donnée et que la compétition est éliminée par une perturbation, il est possible que l’habitat ne soit tout de même pas adéquat (Beauregard & De Blois 2014). Ces contraintes biotiques liées à la compétition et abiotiques liées aux propriétés du sol pourraient donc freiner ou empêcher la migration des espèces tempérées et contribuer au déséquilibre entre la répartition géographique et la niche climatique potentielle des espèces.**
+S’il y a d’autres contraintes abiotiques que le climat aux limites nord des aires de répartition des espèces, les projections de migration sous les changements climatiques qui ignorent ces facteurs pourraient surestimer l’effet des températures sur l’expansion des aires. Certaines études expérimentales suggèrent, par exemple, que les propriétés du sol peuvent freiner la germination et la croissance des semis (Brown & Vellend 2014; Eskelinen & Harrison 2015; Collin et al. 2017). Ainsi, même si les contraintes climatiques sont relâchées pour une espèce donnée et que la compétition est éliminée par une perturbation, il est possible que l’habitat ne soit tout de même pas adéquat (Beauregard & De Blois 2014). Ces contraintes biotiques liées à la compétition et abiotiques liées aux propriétés du sol pourraient donc freiner ou empêcher la migration des espèces tempérées et contribuer au déséquilibre entre la répartition géographique et la niche climatique potentielle des espèces.
 
 Au chapitre 3, je vais évaluer l’importance relative des facteurs non climatiques sur la dynamique de colonisation et d’extinction des arbres dans les forêts tempérées, particulièrement à la limite de leur aire de répartition. Je tenterai de répondre aux questions suivantes : Est-ce que la compétition (mesurée par un effet densité-dépendant des espèces résidentes sur l’espèce migratrice) influence les probabilités de colonisation des arbres ? Ou est-ce plutôt l’effet des propriétés du sol qui freine la probabilité de colonisation ? Si la compétition est importante, est-ce que les perturbations permettent d’accélérer le taux de recrutement des espèces tempérées à la limite nord de leur distribution ? Selon mes hypothèses, l’effet combiné de la compétition et des propriétés du sol sur les espèces tempérées migratrices sera soutenu en marge de leur aire de répartition, mais les perturbations faciliteront l’établissement de ces espèces en diminuant la compétition. Aussi, cette diminution de la compétition avantagera différentiellement les espèces selon leurs traits, et le gain sera plus grand pour les espèces de début de succession.
 
