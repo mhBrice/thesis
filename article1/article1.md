@@ -16,11 +16,11 @@ header-includes:
 
 \anglais
 
-This article was published in Global Ecology and Biogeography. 2019. 28(11), 1668–1681. https://doi.org/10.1111/geb.12971
 
 
 
-\revue{Global Ecology and Biogeography}
+\revue{published in Global Ecology and Biogeography. 2019. 28(11), 1668–1681. https://doi.org/10.1111/geb.12971}
+
 \article{Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone}
 
 \auteur{Marie-Hélène Brice}

@@ -1,7 +1,20 @@
+---
+title: Introduction
+documentclass: article
+font: 12pt
+papersize: a4paper
+geometry: margin=1in
+header-includes:
+    - \usepackage{setspace}
+    - \setstretch{1,5}
+    - \usepackage{lineno}
+    - \linenumbers
+    - \raggedright
+---
 
-\francais
+<!--\francais-->
 
-\chapter*{Introduction}
+<!--\chapter*{Introduction}-->
 
 # L'écologie à l'ère de l'Anthropocène
 
@@ -319,7 +332,7 @@ d'une dominance coniférienne à mixte, et de mixte à feuillue
 
 \begin{figure}
 \centering
-\includegraphics{introduction/figures/ecotone_NatureConservancy.jpg}
+\includegraphics[width=1\textwidth]{introduction/figures/ecotone_NatureConservancy.jpg}
 \caption[Forêt de l'écotone boréal-tempéré]{Cette photo illustre une zone de transition le long d'un gradient altitudinal entre la forêt feuillue, qui arbore son feuillage d'automne coloré, en bas de la pente et la forêt résineuse, toujours verte, en haut de la pente où la température est généralement plus froide. Avec le réchauffement climatique, les espèces feuillues peuvent migrer vers le haut de la pente et se mélanger avec les conifères et éventuellement les remplacer. Ce même phénomène commence à apparaître le long du gradient latitudinal, mais sur des distances beaucoup plus grandes. Photo de Blake Gordon pour The Nature Conservancy.}
 \label{fig0.2}
 \end{figure}
@@ -506,7 +519,7 @@ une perturbation anthropique ou naturelle [@vanderwel_how_2014;
 
 \begin{figure}
 \centering
-\includegraphics[width=.9\textwidth]{introduction/figures/niche_shift.png}
+\includegraphics[width=.8\textwidth]{introduction/figures/niche_shift.png}
 \caption[Délais de migration et déséquilibre]{Selon la théorie des niches, la distribution géographique d'une espèce devrait correspondre à ses tolérances environnementales, on dit alors que la distribution est à l'équilibre avec les conditions environnementales (schéma du haut). Ainsi, en théorie, lorsque le climat se réchauffe, la niche climatique d'une espèce se déplace également et on s'attend à un déplacement de la distribution équivalent (schéma du centre). Toutefois, en réalité, le changement du climat est beaucoup plus rapide que la capacité de migration des espèces (schéma du bas). Il y a donc un décalage grandissant entre la niche climatique et la distribution observée des espèces. À une extrémité de la niche, on observe une dette d'extinction causée par la persistence d'individus voués à l'extinction. À l'autre extrémité, on observe un crédit de colonisation causé par le retard de recrutement.}
 \label{fig0.3}
 \end{figure}
@@ -602,7 +615,7 @@ Par conséquent, suite à une perturbation, la forêt pourrait être rapidement
 colonisée par des espèces mieux adaptées aux nouvelles conditions climatiques et
 même basculer vers un autre nouvel état alternatif persistant [Fig. \ref{fig0.4}; *alternative
 stable state*; @johnstone_changing_2016; @renwick_temporal_2015;
-@turner_durbance_2010]. Dans l'écotone boréal-tempéré, les perturbations
+@turner_disturbance_2010]. Dans l'écotone boréal-tempéré, les perturbations
 pourraient potentiellement faciliter le recrutement et l'établissement des
 espèces tempérées dans les peuplements mixtes et boréaux plus au nord et ainsi
 agir comme des catalyseurs des changements d'aires de répartition. Par exemple,
@@ -620,7 +633,7 @@ plutôt l'expansion des espèces pionnières [@vanderwel_how_2014;
 
 \begin{figure}
 \centering
-\includegraphics{introduction/figures/etat_alternatif.png}
+\includegraphics[width=1\textwidth]{introduction/figures/etat_alternatif.png}
 \caption[Transtion rapide en réponse à l'interaction changements climatiques et perturbations]{Représentation schématique du concept d'états alternatifs stables. À gauche, la forêt (boule) est résiliente, c'est-à-dire qu'une perturbation peut entraîner des changements de composition dans la forêt (faire bouger la boule dans le bassin d'attraction), mais la forêt peut revenir à sa composition initiale (la boule retourne au creux de son bassin d'attraction). À droite, le réchauffement climatique diminue la résilience de la forêt (le bassin est déformé et moins stable) et une perturbation peut alors facilement la faire basculer vers un nouvel état forestier alternatif. Cette hypothèse est au coeur de ma thèse de doctorat. Figure inspirée de Johnstone \textit{et al.} (2016). }
 \label{fig0.4}
 \end{figure}
@@ -746,7 +759,7 @@ De plus, l'aménagement forestier repose actuellement sur des modèle des
 possibilités forestières, "lesquelles correspondent au volume maximum des
 récoltes annuelles que l'on peut prélever à perpétuité, sans diminuer la
 capacité productive du milieu forestier"
-[@bureau_du_forestier_en_chef_manuel_2018]. La calcul de possibilité forestière
+[@bureau_du_forestier_en_chef_manuel_2016]. La calcul de possibilité forestière
 tient compte de plusieurs critères tels que la dynamique naturelle des forêts,
 leur composition, leur structure d'âge et la probabilité de perturbation par les
 feux, les insectes et les maladies. Cependant, il ne tient toujours pas compte
@@ -794,11 +807,11 @@ communautés forestières du Québec méridional au cours des dernières décenn
 points de vue:
 
 
- > (1) la diversité et la composition des communautés;
+*(1) la diversité et la composition des communautés;*
 
-> (2) le dynamique de transition entre les types forestiers;
+*(2) le dynamique de transition entre les types forestiers;*
 
-> (3) la dynamique de régénération des espèces tempérées à leur limite nord.
+*(3) la dynamique de régénération des espèces tempérées à leur limite nord.*
 
 
 Cette thèse s'articule autour de ces trois points de vue, qui correspondent aux
@@ -847,7 +860,7 @@ indices.
 
 \begin{figure}
 \centering
-\includegraphics[width=.7\textwidth]{introduction/figures/thermo.png}
+\includegraphics[width=.65\textwidth]{introduction/figures/thermo.png}
 \caption[Représentation schématique du processus de thermophilisation]{Représentation schématique du processus de thermophilisation des communautés. Les espèces (cercles de couleur) du pool régional se distribuent le long d'un gradient de température (les bars représentent leur distribution dans l'espace ou leur niche thermique). Les espèces adaptées au chaud (tons de rouge) se trouvent dans les habitats plus chauds, tandis que les espèces adaptées au froid (tons de bleu) se trouvent dans les habitats froids. Ainsi, la composition moyenne des communautés variera le long de ce gradient et un réchauffement des températures devrait mener à une thermophilisation, i.e. une augmentation de la proportion d'espèces chaudes par rapport aux espèces froides. Schéma inspiré de Bertrand \textit{et al.} (2011). }
 \label{fig0.5}
 \end{figure}
@@ -970,9 +983,9 @@ sont particulièrement vulnérables aux changements climatiques, la distinction
 marquée entre les différents types de forêts de la région d'étude facilite la
 détection rapide des changements de composition récents.
 
-\begin{figure}
+\begin{figure}{H}
 \centering
-\includegraphics{introduction/figures/carte_zone.pdf}
+\includegraphics[width=1\textwidth]{introduction/figures/carte_zone.pdf}
 \caption[Carte des domaines et sous-domaines bioclimatiques du Québec]{Carte des domaines et sous-domaines bioclimatiques du Québec. La zone d'étude de cette thèse couvre 761 100 km\textsuperscript{2} et s'étend du domain de l'érablière à caryer cordiforme, à l'extrême sud de la forêt décidue, jusqu'au domaine de la pessière à mousse, à la limite nord de la forêt boréale continue. La structure latitudinale est principalement déterminée par le gradient de température, tandis que les divisions est-ouest correspondent à des variations de précipitation.}
 \label{fig0.7}
 \end{figure}

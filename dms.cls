@@ -5,7 +5,7 @@
 %% The original source files were:
 %%
 %% dms.dtx  (with options: `classe')
-%% 
+%%
 %%% ====================================================================
 %%%  @LaTeX-file{
 %%%     filename        = "dms.dtx",
@@ -111,8 +111,8 @@
 \edef\dmscontentsnamefr{Table des mati\noexpand\`eres} %\'e car on ne sait pas si inputenc sera chargé
 \edef\dmscontentsnameen{Contents}
 
-\edef\revuemsgfr{Cet article a \noexpand\'et\noexpand\'e soumis dans }
-\edef\revuemsgen{This article was submitted in }
+\edef\revuemsgfr{Cet article a \noexpand\'et\noexpand\'e }
+\edef\revuemsgen{This article was }
 
 \edef\contribmsgfr{Les principales contributions de
   \noexpand\authors\ \noexpand\`a cet article sont pr\noexpand\'esent\noexpand\'ees.}
@@ -129,8 +129,8 @@
   \edef\refnamefr{R\'ef\'erences bibliographiques}
   \edef\refnameen{References}
 
-  \edef\revuemsgfr{Cet article a \'et\'e soumis dans }
-  \edef\revuemsgen{This article was submitted in }
+  \edef\revuemsgfr{Cet article a \'et\'e }
+  \edef\revuemsgen{This article was  }
 
   \edef\contribmsgfr{Les principales contributions de
     \noexpand\authors\ \`a cet article sont pr\'esent\'ees.}
