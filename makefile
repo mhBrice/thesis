@@ -3,7 +3,7 @@ bib = references.bib
 flag = --natbib --bibliography=$(bib) --pdf-engine=pdflatex
 
 
-ALL: introduction.tex article1/article1.tex article1/annexe1.tex 
+ALL: introduction/introduction.tex article1/article1.tex article1/annexe1.tex 
 	pdflatex $(main)
 	bibtex $(main)
 	pdflatex $(main)

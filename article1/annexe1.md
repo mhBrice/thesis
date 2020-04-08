@@ -92,6 +92,8 @@ Table: 21 original disturbance types and their reclassification into natural dis
 \pagebreak
 
 
+Table: List of R packages used for analyses. \label{tab:tabA1.3}
+
 | Packages   | Uses                                 | References            |
 |------------|--------------------------------------|-----------------------|
 | adespatial | Forward selection (`forward.sel`), temporal beta diversity (`tbi`) | @dray_adespatial_2018 |
@@ -102,7 +104,7 @@ Table: 21 original disturbance types and their reclassification into natural dis
 | vegan      | Variation partitioning (`varpart`)   | @oksanen_vegan_2019   |
 | zoo        | Rolling average (`rollmean`)         | @zeileis_zoo_2005     |
 
-Table: List of R packages used for analyses. \label{tab:tabA1.3}
+
 
 
 
@@ -112,42 +114,72 @@ Table: List of R packages used for analyses. \label{tab:tabA1.3}
 
 # Supplementary Figures
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics{article1/figures/figS1_clim_trend.pdf}
-\caption[Temporal trends in growing season temperatures]{Temporal trends in growing season temperatures (top), total growing season precipitation (middle) and annual climate moisture index (bottom). Grey lines represent averaged climate values across the 6281 studied forest plots. Straight black lines show the fitted least-squared linear regression lines.}
+\caption[Temporal trends in climate]{Temporal trends in growing season temperatures (top), total growing season precipitation (middle) and annual climate moisture index (bottom). Grey lines represent averaged climate values across the 6281 studied forest plots. Straight black lines show the fitted least-squared linear regression lines.}
 \label{figA1.1}
 \end{figure}
 
 
 \pagebreak
 
-![Frequency of forest plots by disturbance type (natural disturbances and harvest), level of intensity (minor, moderate, major) and timing (old refers to disturbances that occurred before the study period whereas recent disturbances occurred during the study period). The three columns in each disturbance type sum to *n* = 6281 forest plots, but many forest plots have been disturbed by more than one type of disturbance during the study period.](article1/figures/figS2_disturb.pdf){width=4.5in height=3in}
 
+\begin{figure}
+\centering
+\includegraphics[width=.7\textwidth]{article1/figures/figS2_disturb.pdf}
+\caption[Frequency of forest plots by disturbance type, level of intensity and timing]{Frequency of forest plots by disturbance type (natural disturbances and harvest), level of intensity (minor, moderate, major) and timing (old refers to disturbances that occurred before the study period whereas recent disturbances occurred during the study period). The three columns in each disturbance type sum to *n* = 6281 forest plots, but many forest plots have been disturbed by more than one type of disturbance during the study period.}
+\label{figA1.2}
+\end{figure}
+
+\pagebreak
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=.9\textwidth]{article1/figures/figS3_beta_calculus.pdf}
+\caption[Equations to compute the temporal $\beta$ diversity index]{Equations to compute the temporal $\beta$ diversity index, as well as its components, using the Ru\v{z}i\v{c}ka coefficient for abundance data (a) and an example (b) where the tree composition of a single forest plot is compared between two surveys, $t_1$ and $t_2$. In the example, each of the $n$ species is represented by a symbol. The symbols in yellow represent the abundance of a species that is common to the two survey (component A; note that it can be different individuals of the same species). The symbols in red represent the abundance of a species that is lost between $t_1$ and $t_2$ (component B). The symbols in blue represent the abundance of a species that is gained between $t_1$ and $t_2$ (component C). In this example, $A = 4 + 3 + 2 = 9$, $B = 2$, and $C = 3 + 1 = 4$, therefore $\beta = 2+4/(9+2+4) = 0.4$.}
+\label{figA1.3}
+\end{figure}
 
 
 \pagebreak
 
-![Equations to compute the temporal $\beta$ diversity index, as well as its components, using the Ru\v{z}i\v{c}ka coefficient for abundance data (a) and an example (b) where the tree composition of a single forest plot is compared between two surveys, $t_1$ and $t_2$. In the example, each of the $n$ species is represented by a symbol. The symbols in yellow represent the abundance of a species that is common to the two survey (component A; note that it can be different individuals of the same species). The symbols in red represent the abundance of a species that is lost between $t_1$ and $t_2$ (component B). The symbols in blue represent the abundance of a species that is gained between $t_1$ and $t_2$ (component C). In this example, $A = 4 + 3 + 2 = 9$, $B = 2$, and $C = 3 + 1 = 4$, therefore $\beta = 2+4/(9+2+4) = 0.4$.](article1/figures/figS3_beta_calculus.pdf){width=16.75cm height=10.4cm}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{article1/figures/figS4_ternary.pdf}
+\caption[Triangular diagrams of gains and losses]{Triangular diagrams of gains and losses in tree abundance by bioclimatic domains and disturbance levels. Each point represents a forest plot and the large black point represents the centroid. At the upper tip of the triangle, similarity is high ($\beta$ = 0; blue colors). At the base of the triangle, dissimilarity is high ($\beta$ = 1). On the left, forests in red are dominated by losses, while on the right, forests in green are dominated by gains. The similar distributions of gain and loss values in the ternary diagrams suggests that there is no major difference in temporal $\beta$ diversity patterns among domains.}
+\label{figA1.4}
+\end{figure}
 
 
 \pagebreak
 
-![ Triangular diagrams of gains and losses in tree abundance by bioclimatic domains and disturbance levels. Each point represents a forest plot and the large black point represents the centroid. At the upper tip of the triangle, similarity is high ($\beta$ = 0; blue colors). At the base of the triangle, dissimilarity is high ($\beta$ = 1). On the left, forests in red are dominated by losses, while on the right, forests in green are dominated by gains. The similar distributions of gain and loss values in the ternary diagrams suggests that there is no major difference in temporal $\beta$ diversity patterns among domains.](article1/figures/figS4_ternary.pdf){height=3.4in width=6.6in}\label{fig:figA1.4}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=.9
+\textwidth]{article1/figures/figS5_spchange.pdf}
+\caption[Species temporal changes]{Species temporal changes for Québec forests and for each bioclimatic domain. Changes in species occurrence (left) and species abundance (right). Only the species occupying more than 20 plots are shown. The bars represent the mean changes across the study area, while the colored points represent the mean changes by bioclimatic domain. Stars represent the levels of the significance of the *p*-value (* *p* < 0.05; ** *p* < 0.01; *** *p* < 0.001) associated with Wilcoxon signed-rank tests used to determine whether individual species changes in occurrence and abundance were significant. An increase in occurrence indicates that the species has spread regionally, while an increase in abundance indicates that the species has spread locally and/or regionally. Letters next to species names correspond to (T)emperate; (P)ioneer and (B)oreal species.}
+\label{figA1.5}
+\end{figure}
 
 
 \pagebreak
 
-![Species temporal changes for Québec forests and for each bioclimatic domain. Changes in species occurrence (left) and species abundance (right). Only the species occupying more than 20 plots are shown. The bars represent the mean changes across the study area, while the colored points represent the mean changes by bioclimatic domain. Stars represent the levels of the significance of the *p*-value (* *p* < 0.05; ** *p* < 0.01; *** *p* < 0.001) associated with Wilcoxon signed-rank tests used to determine whether individual species changes in occurrence and abundance were significant. An increase in occurrence indicates that the species has spread regionally, while an increase in abundance indicates that the species has spread locally and/or regionally. Letters next to species names correspond to (T)emperate; (P)ioneer and (B)oreal species.](article1/figures/figS5_spchange.pdf){width=6.4in height=5.45in}\label{fig:figA1.5}
 
-
-
-\pagebreak
-
-![Relations between change in Community Temperature Index ($\Delta$CTI) and gains in temperate (top), gains in pioneer (middle) and losses in boreal species (bottom). In each panel, the slope and adjusted $R^2$ of a linear regression model are shown.](article1/figures/figS6_CTIvsGains.pdf){width=6.6in height=4.62in}\label{fig:figA1.6}
-
-
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{article1/figures/figS4_ternary.pdf}
+\caption[Relations between change in $\Delta$CTI, gains and losses]{Relations between change in Community Temperature Index ($\Delta$CTI) and gains in temperate (top), gains in pioneer (middle) and losses in boreal species (bottom). In each panel, the slope and adjusted $R^2$ of a linear regression model are shown.}
+\label{figA1.6}
+\end{figure}
 
 \pagebreak
+
 
 # References

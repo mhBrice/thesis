@@ -16,6 +16,9 @@ header-includes:
 
 \anglais
 
+This article was published in Global Ecology and Biogeography. 2019. 28(11), 1668–1681. https://doi.org/10.1111/geb.12971
+
+
 
 \revue{Global Ecology and Biogeography}
 \article{Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone}
@@ -30,7 +33,7 @@ header-includes:
 \adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON, Canada M5S 3B2}
 
 
-\contributions[Author contributions]{
+\contributions[\textbf{Author contributions}]{
   MHB designed the study and performed the analyses with feedback from the other authors. MHB wrote the first and second drafts. All authors substantially contributed to the final version of the manuscript.}
 
 
