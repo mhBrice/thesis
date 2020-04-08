@@ -12,6 +12,8 @@ header-includes:
     - \raggedright
 ---
 
+\chapter{Les perturbations amplifient les réponses des communautés forestières au changement climatique dans l'écotone tempéré-boréal}
+
 \setcounter{section}{1}
 
 \anglais

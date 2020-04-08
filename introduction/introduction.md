@@ -1,20 +1,8 @@
----
-title: Introduction
-documentclass: article
-font: 12pt
-papersize: a4paper
-geometry: margin=1in
-header-includes:
-    - \usepackage{setspace}
-    - \setstretch{1,5}
-    - \usepackage{lineno}
-    - \linenumbers
-    - \raggedright
----
 
-<!--\francais-->
 
-<!--\chapter*{Introduction}-->
+\francais
+
+\chapter*{Introduction}
 
 # L'écologie à l'ère de l'Anthropocène
 
@@ -38,8 +26,7 @@ individuels sur la biodiversité et mettent en péril la persistance à long ter
 des espèces. Un nombre croissant de preuves révèle une perte de biodiversité et
 un déclin des populations exceptionnellement rapide au cours des derniers
 siècles, dont les conséquences se répercuteront sur les fonctions et les
-services des écosystèmes [@ceballos_accelerated_2015;
-@ceballos_accelerated_2015; @ipbes_summary_2019]. L'ampleur, la vitesse et
+services des écosystèmes [@ceballos_accelerated_2015; @ipbes_summary_2019]. L'ampleur, la vitesse et
 l'intensité de ces menaces mondiales soulignent la nécessité de développer de
 nouveaux outils d'analyses pour quantifier et détecter les changements de la
 biodiversité en cours et évaluer les causes de ces changements de façon à
@@ -229,13 +216,13 @@ intermédiaires de perturbation [@wilkinson_disturbing_1999;
 de perturbations, les espèces compétitives excluent toutes les autres espèces,
 tandis que quand il y en a trop, seules les espèces pionnières et tolérantes aux
 stress peuvent survivre. Ce n'est qu'à des taux de perturbation intermédiaires
-que la coexistence entre les différentes types d'espèces est la plus probable.
+que la coexistence entre les différents types d'espèces est la plus probable.
 
 L'ensemble de ces facteurs abiotiques et biotiques n'agissent pas tous à la même
 échelle spatiale et il est généralement admis que leur influence sur la
 distribution des espèces est spatialement hiérarchisée
 [@pearson_predicting_2003; @diez_hierarchical_2007]. À une échelle continentale,
-la distribution des espèces est principalement contrôlé par le climat. Par
+la distribution des espèces est principalement contrôlée par le climat. Par
 exemple, la limite nord des forêts tempérées feuillues en Amérique du Nord
 correspond approximativement à l'isotherme de température minimale annuelle
 moyenne de -40$^{\circ}$C [@arris_evidence_1989]. À l'échelle d'un paysage, la
@@ -276,7 +263,7 @@ climatique [@gauzere_rapid_2015], la réponse des arbres n'est pas immédiate et
 se fait sur plusieurs générations. Un arbre mature peut persister pendant de
 nombreuses années après que les conditions locales soient devenues défavorables,
 simplement parce qu'il est là, bien enraciné. Par contre, cet arbre finira par
-mourir, ne laissant derrière lui aucune régénération. Le troue dans la canopée
+mourir, ne laissant derrière lui aucune régénération. Le trou dans la canopée
 laissé par sa chute sera colonisé par de nouvelles espèces mieux adaptées aux
 nouvelles conditions et, à terme, toute la composition de la forêt pourrait
 changer.
@@ -465,7 +452,7 @@ géographique des changements climatiques récents [@sittaro_tree_2017]. De plus
 alors que les projections estiment que les taux de migrations des arbres au
 cours du prochain siècle devront atteindre plus de 1000 mètres par an
 [@malcolm_estimated_2002; @iverson_estimating_2008], les taux postglaciaires
-estimés sont beaucoup plus lent (<100 m/an) que ceux requis
+estimés sont beaucoup plus lents (<100 m/an) que ceux requis
 [@mclachlan_molecular_2005].
 
 
@@ -755,11 +742,11 @@ historiques de références pourrait devenir de plus en plus difficile à attein
 et mener à des écosystèmes forestiers non résilients [@duveneck_measuring_2016;
 @boulanger_climate_2019].
 
-De plus, l'aménagement forestier repose actuellement sur des modèle des
+De plus, l'aménagement forestier repose actuellement sur des modèles de
 possibilités forestières, "lesquelles correspondent au volume maximum des
 récoltes annuelles que l'on peut prélever à perpétuité, sans diminuer la
 capacité productive du milieu forestier"
-[@bureau_du_forestier_en_chef_manuel_2016]. La calcul de possibilité forestière
+[@bureau_du_forestier_en_chef_manuel_2016]. Le calcul de possibilité forestière
 tient compte de plusieurs critères tels que la dynamique naturelle des forêts,
 leur composition, leur structure d'âge et la probabilité de perturbation par les
 feux, les insectes et les maladies. Cependant, il ne tient toujours pas compte
@@ -888,7 +875,7 @@ lien avec les changements d'aire de répartition. Par exemple, les transitions
 vers l'état pionnier reflètent les perturbations, les transitions à partir de
 pionnier reflètent les processus de colonisation et de dispersion, et les
 transitions entre les autres états reflètent l'exclusion compétitive. Les
-propriétés de ce type de modèle permet aussi d'étudier la dynamique transitoire
+propriétés de ce type de modèle permettent aussi d'étudier la dynamique transitoire
 et de l'équilibre à long terme.
 
 
@@ -925,7 +912,7 @@ changements environnementaux. Cependant en ignorant les effets des perturbations
 sur la dynamique de régénérations, des différences importantes pourraient être
 masquées. En comparant les changements de limite latitudinale ou altitudinale
 entre les niveaux de perturbations, on peut déterminer si les perturbations
-peuvent promouvoir ou freiner de nouveaux recrutements au delà des limites
+peuvent promouvoir ou freiner de nouveaux recrutements au-delà des limites
 d'aire de répartition [@woodall_assessing_2013].
 
 Et enfin, pour identifier les facteurs environnementaux qui contrôlent le
@@ -946,7 +933,7 @@ Dans ce dernier chapitre, je résume mes conclusions et mes nouvelles
 orientations de recherche. Pris ensemble, ces trois chapitres fournissent un
 éventail complémentaire de méthodes et d'approches nouvelles pour mieux
 comprendre l'effet combiné des changements climatiques et des perturbations sur
-la dynamiques forestières. En accordant une attention méticuleuse aux
+la dynamique forestière. En accordant une attention méticuleuse aux
 différentes tendances de la diversité et de la composition des communautés
 forestières, cette thèse apporte des perspectives originales et révèle des
 changements précédemment imperceptibles sous l'angle de l'analyse des limites
@@ -983,9 +970,9 @@ sont particulièrement vulnérables aux changements climatiques, la distinction
 marquée entre les différents types de forêts de la région d'étude facilite la
 détection rapide des changements de composition récents.
 
-\begin{figure}{H}
+\begin{figure}
 \centering
 \includegraphics[width=1\textwidth]{introduction/figures/carte_zone.pdf}
-\caption[Carte des domaines et sous-domaines bioclimatiques du Québec]{Carte des domaines et sous-domaines bioclimatiques du Québec. La zone d'étude de cette thèse couvre 761 100 km\textsuperscript{2} et s'étend du domain de l'érablière à caryer cordiforme, à l'extrême sud de la forêt décidue, jusqu'au domaine de la pessière à mousse, à la limite nord de la forêt boréale continue. La structure latitudinale est principalement déterminée par le gradient de température, tandis que les divisions est-ouest correspondent à des variations de précipitation.}
+\caption[Carte des domaines et sous-domaines bioclimatiques du Québec]{Carte des domaines et sous-domaines bioclimatiques du Québec. La zone d'étude de cette thèse couvre 761 100 km\textsuperscript{2} et s'étend du domaine de l'érablière à caryer cordiforme, à l'extrême sud de la forêt décidue, jusqu'au domaine de la pessière à mousse, à la limite nord de la forêt boréale continue. La structure latitudinale est principalement déterminée par le gradient de température, tandis que les divisions est-ouest correspondent à des variations de précipitation.}
 \label{fig0.7}
 \end{figure}
