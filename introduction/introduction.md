@@ -18,7 +18,7 @@ précédent [@ipcc_climate_2014]. Avec les changements climatiques, les
 changements d'utilisation du territoire et la surexploitation des ressources
 associés à la dégradation et la perte des habitats comptent parmi les
 plus grandes menaces actuelles pour la biodiversité [@ipbes_summary_2019].
-<!-- KC je trouve que la dernière phrase ce lit pas bien. peut etre que c'est l'occasion de glisser "changemeents globaux" -->
+<!--  je trouve que la dernière phrase ce lit pas bien. peut etre que c'est l'occasion de glisser "changemeents globaux" -->
 Alors que la destruction d'habitats peut avoir des conséquences rapides et directes sur
 la biodiversité, le réchauffement climatique est un processus persistant et
 comparativement plus graduel dont les effets peuvent continuer à apparaître sur
