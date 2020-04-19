@@ -31,6 +31,6 @@ clean:
 
 introdocx:
 	pandoc -s introduction/introduction.md -o introduction/introductionT.tex $(fbib)
-	pandoc -s introduction/introductionT.tex -o introduction/introductionT.md $(fbib)
-	pandoc -s introduction/introductionT.md -o introduction/introduction.docx $(fbib)
+	pandoc introduction/introductionT.tex -o introduction/introductionT.md $(fbib)
+	pandoc introduction/introductionT.md -o introduction/introduction.docx $(fbib)
 	rm introduction/introductionT*

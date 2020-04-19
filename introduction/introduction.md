@@ -6,18 +6,20 @@
 
 # L'écologie à l'ère de l'Anthropocène
 
+
 L'Homme est aujourd'hui une force prédominante gouvernant les processus
 écologiques amenant de nombreux chercheurs à suggérer que le système terrestre a
 basculé dans une nouvelle ère géologique, l'Anthropocène
-[@crutzen_geology_2002]. Depuis environ un siècle, les activités humaines ont
+[@crutzen_geology_2002]. Depuis plus d'un siècle maintenant, les activités humaines ont
 largement perturbé l'équilibre dynamique des cycles naturels. Au cours du siècle
 dernier, les températures ont augmenté d'environ 1$^{\circ}$C et, selon les
 projections, le 21e siècle assistera à des changements climatiques sans
 précédent [@ipcc_climate_2014]. Avec les changements climatiques, les
 changements d'utilisation du territoire et la surexploitation des ressources
 associés à la dégradation et la perte des habitats comptent parmi les
-plus grandes menaces actuelles pour la biodiversité [@ipbes_summary_2019]. Alors
-que la destruction d'habitats peut avoir des conséquences rapides et directes sur
+plus grandes menaces actuelles pour la biodiversité [@ipbes_summary_2019].
+<!--  je trouve que la dernière phrase ce lit pas bien. peut etre que c'est l'occasion de glisser "changemeents globaux" -->
+Alors que la destruction d'habitats peut avoir des conséquences rapides et directes sur
 la biodiversité, le réchauffement climatique est un processus persistant et
 comparativement plus graduel dont les effets peuvent continuer à apparaître sur
 plusieurs décennies [@bender_perturbation_1984]. Les effets synergiques entre
@@ -28,10 +30,12 @@ un déclin des populations exceptionnellement rapide au cours des derniers
 siècles, dont les conséquences se répercuteront sur les fonctions et les
 services des écosystèmes [@ceballos_accelerated_2015; @ipbes_summary_2019]. L'ampleur, la vitesse et
 l'intensité de ces menaces mondiales soulignent la nécessité de développer de
-nouveaux outils d'analyse pour quantifier et détecter les changements de la
+nouveaux outils d'analyse pour comprendre, détecter et quantifier les changements de la
 biodiversité en cours et évaluer les causes de ces changements de façon à
 adapter les méthodes de gestions et atténuer les conséquences préjudiciables à
 venir.
+<!-- KC il y a un travers qu'on a, souvent c'est de dire qu'il y a des menaces, qu'il va y avoir des conséquences mais il y des changement en cours et des choses très concret qui pourrait etre mentionné. Important pour que le lecteur non averti se dise qu'il y a "crise". -->
+
 
 <!--Le terme « changements globaux » inclue
 plusieurs phénomènes contemporains tels que la destruction d’habitat et le réchauffement
@@ -48,7 +52,7 @@ perturbations forestières sur ces processus fondamentaux de la dynamique forest
 
 # Changements climatiques
 
-Déjà en 1979, un rapport scientifique produit aux États-Unis informent d'une
+Déjà en 1979, un rapport scientifique produit aux États-Unis informe d'une
 menace climatique grandissante causée par l'émission massive de dioxyde de
 carbone (CO~2~) par l'activité humaine [@national_research_council_carbon_1979]:
 
@@ -63,7 +67,7 @@ climatique étaient encore peu connues en 1979. À cette époque, et pendant
 plusieurs années, même les scientifiques considéraient le changement climatique
 comme une perspective lointaine. Nous savons maintenant que cette vision était
 erronée. Depuis, le GIEC a produit cinq rapports d'évaluation (entre 1990 et
-2014) sur l'état des connaissances relatives au changement climatique. Au fil de
+2014) sur l'état des connaissances relatives au changement climatique (ainsi qu'une dizaine de rapports spéciaux sur des thèmes précis entre 1997 et 2019). Au fil de
 ces rapports, à mesure que les connaissances s'accumulent et que les modèles
 climatiques deviennent plus robustes, on prend conscience de la gravité de la
 crise climatique et le ton devient de plus en plus alarmant.
@@ -117,18 +121,24 @@ scientifique [@pereira_scenarios_2010; @garcia_multiple_2014].
 
 
 L'étude des facteurs qui influencent la distribution des espèces a une longue
-histoire en écologie [@macarthur_geographical_1972]. Étant donné la vitesse et l'ampleur des
+histoire en écologie [@macarthur_geographical_1972].
+<!-- KC plus fort que ça, c'est l'origine de la discipline, le backbone, Wallace & Darwin c'est surtout de ça qu'il traite au finale! -->
+Étant donné la vitesse et l'ampleur des
 changements globaux et de leurs impacts sur la biodiversité, cette question
 fondamentale suscite aujourd'hui un intérêt renouvelé. Ainsi, notre cadre
 contemporain d'analyse et d'interprétation de la diversité trouve ses sources
 dans les théories fondatrices de l'écologie des communautés
 [@ricklefs_comprehensive_2004; @vellend_conceptual_2010]. Notamment, de nombreux
 modèles de prédictions de la distribution des espèces (SDM, *Species
-Distribution Model*) reposent sur le concept de la niche écologique
+Distribution Model*)
+<!-- si c'est l'abréviation que tu utilise dans la suite, peut etre mieux de le dire clairement -->
+reposent sur le concept de la niche écologique
 [@guisan_predicting_2005]. Parmi les nombreuses définitions de la niche qui
 existent dans la littérature écologique [@soberon_grinnellian_2007;
 @godsoe_i_2010], la plus influente est sans doute celle de G. Evelyn Hutchinson
-[@hutchinson_concluding_1957]. En l'absence de dispersion et d'interaction, la
+[@hutchinson_concluding_1957].
+<!-- KC peut etre citer un papier récent qui en reparle genre Blonder "Hypervolume concepts in niche- and trait-based ecology" -->
+En l'absence de dispersion et d'interaction, la
 niche fondamentale d'Hutchinson est définie comme l'ensemble de toutes les
 conditions environnementales dans lesquelles une espèce peut persister. Alors
 que la niche fondamentale est un espace théorique déterminé par les limites
@@ -139,7 +149,9 @@ est effectivement occupée lorsque sont considérées les interactions avec les
 autres espèces, particulièrement la compétition pour les ressources. Exprimée
 en termes démographiques, la niche est constituée de tous les environnements
 dans lesquels le taux de croissance intrinsèque de la population est positif
-(*r* > 0), i.e. quand le recrutement surpasse la mortalité en l'absence de
+(*r* > 0),
+<!-- KC j'ai l'impression que tu utilises le truc du livre de Chase et un autre dude... -->
+i.e. quand le recrutement surpasse la mortalité en l'absence de
 dispersion (Maguire 1973; Hutchinson 1978). La répartition géographique d'une
 espèce peut donc refléter la variation spatiale de *r* [Fig. \ref{fig0.1}; @holt_theoretical_2005].
 
@@ -165,10 +177,15 @@ communautés [@leibold_metacommunity_2004].
 
 La métacommunauté est définie comme un ensemble de communautés locales liées par
 la dispersion de plusieurs espèces potentiellement en interaction
-[@leibold_metacommunity_2004; @leibold_metacommunity_2017]. Différents aspects de la dynamique de la
+[@leibold_metacommunity_2004; @leibold_metacommunity_2017].
+<!-- KC une phrase en plus sur local vs regional pour expliciter un peu plus -->
+Différents aspects de la dynamique de la
 métacommunauté peuvent être capturés par quatre grands paradigmes [*species
 sorting*, *mass effect*, *patch dynamic*, *neutral*;
-@leibold_metacommunity_2004]. Toutes les espèces du pool régional (diversité
+@leibold_metacommunity_2004].
+<!-- je serais plus claire sur ce que veulent dire paradigm ici! -->
+<!-- plus bas du parle de processus d'assemblage des communautés -->
+Toutes les espèces du pool régional (diversité
 $\gamma$) sont susceptibles de coloniser les communautés locales. Premièrement,
 tel que décrit précédemment, la diversité des communautés locales (diversité
 $\alpha$) peut être influencée par les conditions environnementales et les
@@ -201,7 +218,9 @@ diversité $\beta$, un haut taux de dispersion homogénéise les communautés.
 Les perturbations peuvent exercer une influence majeure sur les quatre processus
 d'assemblage des communautés [@chase_towards_2005] et sont ainsi un élément clé
 permettant la coexistence des espèces au sein des communautés
-[@hastings_disturbance_1980]. Les perturbations peuvent agir autant à l'échelle
+[@hastings_disturbance_1980].
+<!-- KC: manquent quelques choses de générale ici qu'est-ce qu'une perturbation at large? stress = perturbations? CC = perturbations ? etc.-->
+Les perturbations peuvent agir autant à l'échelle
 locale (par exemple, un chablis dans une forêt) que régionale (par exemple, un
 grand feu de forêt ou les changements climatiques). Selon les cas, les
 perturbations peuvent libérer des "patches" d'habitat les rendant disponibles
@@ -209,16 +228,18 @@ pour la colonisation ou encore fragmenter les habitats diminuant ainsi leur
 connectivité et donnant un avantage aux espèces qui ont une grande capacité de
 dispersion. Les perturbations peuvent aussi modifier les conditions
 environnementales et changer le rapport de force de compétition entre les
-espèces. D'ailleurs, la diversité locale est souvent maximisée à des niveaux
+espèces. D'ailleurs, il a souvent éeé observé que la diversité locale est maximisée à des niveaux
 intermédiaires de perturbation [@wilkinson_disturbing_1999;
-@connell_diversity_1978; @hastings_disturbance_1980]; quand il n'y a pas assez
+@connell_diversity_1978; @hastings_disturbance_1980];
+<!-- KC: faire reference a la théorie? -->
+quand il n'y a pas assez
 de perturbations, les espèces compétitives excluent toutes les autres espèces,
 tandis que quand il y en a trop, seules les espèces pionnières et tolérantes aux
 stress peuvent survivre. Ce n'est qu'à des taux de perturbation intermédiaires
 que la coexistence entre les différents types d'espèces est la plus probable.
 
 L'ensemble de ces facteurs abiotiques et biotiques n'agissent pas tous à la même
-échelle spatiale et l'hypothèse traditionnelle était que leur influence sur la
+échelle spatiale (et temporelle) et l'hypothèse traditionnelle était que leur influence sur la
 distribution des espèces est spatialement hiérarchisée
 [@pearson_predicting_2003; @diez_hierarchical_2007]. À une échelle continentale,
 la distribution des espèces est principalement contrôlée par le climat. Par
@@ -241,7 +262,7 @@ de l'aire de répartition, là où les conditions environnementales sont plus
 favorables [@louthan_where_2015]. Un bon exemple de ce phénomène est la
 distribution de l'épinette noire (*Picea mariana*), une espèce ayant une niche
 écologique très large, mais dont la distribution au sud est limitée aux sites où
-la compétition est faible, comme des sites à drainage très mauvais ou excessif
+la compétition est faible, comme des sites où le drainage très mauvais ou excessif
 [@burns_silvics_1990].
 
 
@@ -265,7 +286,7 @@ signaux de réponse.
 
 # Réponses des communautés forestières aux changements climatiques
 
-
+<!-- KC: communauté forestiere = juste les arbres? peut etre qq mots sur l'ensemble qui va avec -->
 Sous l’influence du réchauffement climatique, les espèces doivent s'adapter,
 migrer ou disparaître [@aitken_adaptation_2008]. Contrairement aux espèces mobiles,
 comme les oiseaux qui peuvent se déplacer et suivre rapidement leur niche
@@ -277,6 +298,7 @@ mourir, ne laissant derrière lui aucune régénération. Le trou dans la canop�
 laissé par sa chute sera colonisé par de nouvelles espèces mieux adaptées aux
 nouvelles conditions et, à terme, toute la composition de la forêt pourrait
 être modifiée.
+
 
 
 ## Réponses démographiques
@@ -311,7 +333,7 @@ peut fournir un signal précoce de la migration des espèces d'arbres
 montré une augmentation du recrutement d'espèces d'arbres à la limite de leur
 aire de répartition, plus haut en altitude [@lenoir_significant_2008] et plus
 au nord en latitude [@sittaro_tree_2017; @boisvert-marsh_shifting_2014;
-@fisichelli_temperate_2014]. De façon plus générale, dans l'écotone de la forêt
+@fisichelli_temperate_2014]. Plus généralement, dans l'écotone de la forêt
 boréale-tempérée, le récent réchauffement climatique a amélioré le recrutement,
 la survie et la croissance de certaines espèces d'arbres tempérés à la limite
 nord de leur aire de répartition [@fisichelli_temperate_2014;
@@ -330,7 +352,7 @@ d'une dominance coniférienne à mixte, puis de mixte à feuillue
 \begin{figure}
 \centering
 \includegraphics[width=1\textwidth]{introduction/figures/ecotone_NatureConservancy.jpg}
-\caption[Forêt de l'écotone boréal-tempéré]{Cette photo illustre une zone de transition le long d'un gradient altitudinal entre la forêt feuillue, qui arbore son feuillage d'automne coloré, en bas de la pente et la forêt résineuse, toujours verte, en haut de la pente où la température est généralement plus froide. Avec le réchauffement climatique, les espèces feuillues peuvent migrer vers le haut de la pente et se mélanger avec les conifères et éventuellement les remplacer. Ce même phénomène commence à apparaître le long du gradient latitudinal, mais sur des distances beaucoup plus grandes. Photo de Blake Gordon pour The Nature Conservancy.}
+\caption[Forêt de l'écotone boréal-tempéré]{Cette photo illustre une zone de transition le long d'un gradient altitudinal entre la forêt feuillue, qui arbore son feuillage d'automne coloré, en bas de la pente et la forêt résineuse, toujours verte, en haut de la pente où la température est généralement plus froide. Avec le réchauffement climatique, les espèces feuillues peuvent migrer vers le haut de la pente et se mélanger avec les conifères et éventuellement les remplacer. Ce même phénomène commence à apparaître le long du gradient latitudinal, mais sur des distances beaucoup plus grandes. Photographie de Blake Gordon pour The Nature Conservancy.}
 \label{fig0.2}
 \end{figure}
 
@@ -366,6 +388,8 @@ facilitent l'établissement d'espèces tempérées du sud. À l'échelle région
 @boisvert-marsh_shifting_2014 et @sittaro_tree_2017 ont montré une migration à
 prédominance vers le nord des essences d'arbres à travers le Québec, avec les
 gaulis présentant une réponse plus rapide que les arbres adultes.
+
+<!-- gaulis? def entre parenthèse pour aider les ignorants -->
 
 <!--Woodall et al. (2009) investigated surrogates for
 migration among 40 eastern U.S. tree species using
@@ -407,7 +431,9 @@ cette apparente stabilité peut cacher un remaniement majeur des espèces
 présentes dans la communauté [diversité $\beta$; @mcgill_fifteen_2015;
 @dornelas_assemblage_2014]. Ces grands remaniements d'espèces pourraient même
 donner lieu à des associations d'espèces inédites [*no-analog communities*;
-@williams_novel_2007]. Ainsi, en mettant l'accent sur les limites d'aires de
+@williams_novel_2007].
+<!-- KC et alors? -->
+Ainsi, en mettant l'accent sur les limites d'aires de
 répartition, il est possible que l'empreinte des changements climatiques ait
 été sous-estimée et que d'importantes réorganisations de la biodiversité soient en
 cours à l'intérieur des limites d'aires de répartition.
@@ -621,7 +647,7 @@ l'établissement d'espèces tempérées dans les forêts mixtes de l'Ontario
 [@leithead_northward_2010]. En Scandinavie, @bolte_climate_2010 a montré que
 l'épinette de Norvège (*Picea abies*) était particulièrement sensible à la
 combinaison des perturbations et du réchauffement qui ont favorisé la croissance
-du hêtre européen (*Fagus sylvatica*). **Certaines études de simulation ont
+du hêtre européen (*Fagus sylvatica*). **Certaines études basée sure des simulations de ??? ont
 toutefois conclu qu'il est peu probable que les perturbations entraînent des
 grands changements d'aires de répartition dans les décennies à venir, favorisant
 plutôt l'expansion des espèces pionnières [@vanderwel_how_2014;
@@ -631,7 +657,7 @@ plutôt l'expansion des espèces pionnières [@vanderwel_how_2014;
 \begin{figure}
 \centering
 \includegraphics[width=1\textwidth]{introduction/figures/etat_alternatif.png}
-\caption[Transtion rapide en réponse à l'interaction changements climatiques et perturbations]{Représentation schématique du concept d'états alternatifs stables. À gauche, la forêt (boule) est résiliente, c'est-à-dire qu'une perturbation peut entraîner des changements de composition dans la forêt (faire bouger la boule dans le bassin d'attraction), mais la forêt tendra à revenir à sa composition initiale (la boule retourne au creux de son bassin d'attraction). À droite, le réchauffement climatique diminue la résilience de la forêt (le bassin est déformé et moins stable) et une perturbation peut alors facilement la faire basculer vers un nouvel état forestier alternatif. Cette hypothèse est au coeur de ma thèse de doctorat. Figure inspirée de Johnstone \textit{et al.} (2016). }
+\caption[Transition rapide en réponse à l'interaction changements climatiques et perturbations]{Représentation schématique du concept d'états alternatifs stables. À gauche, la forêt (boule) est résiliente, c'est-à-dire qu'une perturbation peut entraîner des changements de composition dans la forêt (faire bouger la boule dans le bassin d'attraction), mais la forêt tendra à revenir à sa composition initiale (la boule retourne au creux de son bassin d'attraction). À droite, le réchauffement climatique diminue la résilience de la forêt (le bassin est déformé et moins stable) et une perturbation peut alors facilement la faire basculer vers un nouvel état forestier alternatif. Cette hypothèse est au cœur de ma thèse de doctorat. Figure inspirée de Johnstone \textit{et al.} (2016). }
 \label{fig0.4}
 \end{figure}
 
@@ -703,7 +729,7 @@ migration des espèces tempérées présentant une large tolérance écologique
 [@fisichelli_temperate_2014; @barras_supply_1998; @kellman_sugar_2004].
 D'ailleurs, il est possible que les espèces migratrices puissent influencer
 leur propre taux d'invasion, par leur effet sur la qualité chimique de la
-litière et sur la composition des microorganismes du sol [@laganiere_how_2010;
+litière et sur la composition des micro-organismes du sol [@laganiere_how_2010;
 @legare_influence_2005]. Néanmoins, des conditions édaphiques sous-optimales
 pourraient tout de même retarder la migration des arbres vers le nord. Bien que
 les études expérimentales sur l'érable à sucre fournissent des connaissances
@@ -772,7 +798,7 @@ population [@mouillot_functional_2013].
 # Objectifs et structure de la thèse
 
 
-La question au coeur de cette thèse est: quel est l'effet combiné des
+La question au coerce de la présente thèse est: quel est l'effet combiné des
 changements climatiques récents et des perturbations sur la dynamique
 forestière?  Pour y répondre, j'ai quantifié les changements dans les
 communautés forestières du Québec méridional au cours des dernières décennies
@@ -841,7 +867,7 @@ indices.
 
 ## Chapitre 2 &mdash; Les perturbations modérées accélèrent la dynamique de transition forestière sous l'effet du changement climatique dans l'écotone tempéré-boréal de l'est de l'Amérique du Nord
 
-Dans le chapitre 2 (Brice et al. accepté), l'objectif est de caractériser la dynamique de transition des
+Dans le chapitre 2 (Brice et al. accepté dans la revue *Global Change Biology*), l'objectif est de caractériser la dynamique de transition des
 forêts au Québec et d'identifier les conditions environnementales qui favorisent ou
 empêchent les transitions forestières. Les effets des perturbations ont
 également été analysés plus précisément en étudiant la dynamique transitoire et
@@ -897,11 +923,11 @@ un signal de changement d'aire de répartition [@boisvert-marsh_shifting_2014;
 changements environnementaux. Cependant, en ignorant les effets des perturbations
 sur la dynamique de régénérations, des différences importantes pourraient être
 masquées. En comparant les changements de limite latitudinale ou altitudinale
-entre les niveaux de perturbations, on peut déterminer si les perturbations
-peuvent promouvoir ou freiner de nouveaux recrutements au-delà des limites
+entre les niveaux de perturbations, il est possible de déterminer si les perturbations
+promeuvent ou freinent le recrutement au-delà des limites
 de l'aire de répartition [@woodall_assessing_2013].
 
-Et enfin, pour identifier les facteurs environnementaux qui contrôlent le
+Enfin, pour identifier les facteurs environnementaux qui contrôlent le
 recrutement des espèces tempérées à leur limite nord, j'ai utilisé des modèles
 en deux parties (aussi connu sous le nom de *hurdle model*) pour chaque espèce
 en fonction du climat, des conditions topographiques et édaphiques, de
@@ -913,7 +939,7 @@ approche permet de considérer les rétroactions réciproques entre les filtres
 régionaux sur le recrutement (e.g., climat, dispersion) et les filtres locaux
 (e.g., compétition avec les espèces boréales et réponse aux conditions du sol).
 
-## Chapitre 5 &mdash; Conclusion
+## Chapitre 4 &mdash; Conclusion
 
 Dans ce dernier chapitre, je résume mes conclusions et mes nouvelles
 orientations de recherche. Pris ensemble, les trois chapitres principaux de la thèse fournissent un
@@ -949,7 +975,7 @@ en différents groupes de végétation (sous-zones): la forêt mélangée (98 60
 km^2^), écotone où se côtoient les espèces feuillues et résineuses,
 marque la transition entre la forêt décidue (111 100 km^2^) au sud dominée par
 l'érable à sucre et le bouleau jaune; et la forêt boréale continue (551 400
-km^2^) au nord composée majoritairement d'épinette noire et de sapin baumier
+km^2^) au nord composée majoritairement d'épinette noire (*Picea mariana*) et de sapin baumier (*Abies balsamea*)
 [Fig. \ref{fig0.7}; @saucier2009cadre]. Au cours des dernières décennies, une forte
 augmentation des températures a été observée à travers le Québec. Alors que les écotones
 sont particulièrement vulnérables aux changements climatiques, la distinction
