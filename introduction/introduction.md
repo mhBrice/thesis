@@ -6,7 +6,6 @@
 
 # L'écologie à l'ère de l'Anthropocène
 
-modif inutile
 
 L'Homme est aujourd'hui une force prédominante gouvernant les processus
 écologiques amenant de nombreux chercheurs à suggérer que le système terrestre a
