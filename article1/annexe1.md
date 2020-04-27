@@ -2,6 +2,13 @@
 
 \chapter{}
 
+  \begin{center}
+  {\Large Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone}
+  \end{center}
+
+  \begin{center}
+  {\large Marie-Hélène Brice, Kevin Cazelles, Pierre Legendre, Marie-Josée Fortin}
+  \end{center}
 
 # Supplementary Tables
 
