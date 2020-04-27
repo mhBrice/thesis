@@ -77,6 +77,7 @@
 \usepackage[english,frenchb]{babel}
 \usepackage{natbib}
 \usepackage{longtable}
+\usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{afterpage}
 \usepackage{floatpag}
@@ -86,6 +87,12 @@
 \usepackage{listings}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{lscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage{makecell}
+\usepackage{colortbl}
+\usepackage{xcolor}
 
  % ENGLISH OPTION
  % If you call \anglais here before the \begin{document},
@@ -477,9 +484,10 @@
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% \renewcommand\thefigure{2.\arabic{figure}}
-%% \renewcommand\thetable{2.\arabic{table}}
-%%\include{article2}
+\renewcommand\thefigure{2.\arabic{figure}}
+\renewcommand\thetable{2.\arabic{table}}
+
+\include{article2/article2}
 %%
 %% etc.
 
@@ -505,23 +513,34 @@
 
 
  % Pour les annexes :
-\appendix
 
-\renewcommand\thefigure{A.\arabic{figure}}
-\renewcommand\thetable{A.\arabic{table}}
 
  % Les annexes se font comme les chapitres. Le fichier
  % commence par \francais ou \anglais et ensuite
  % \chapter{..}. Le reste est parreil à un chapitre normal.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%   A N N E X E 1   %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%   A N N E X E     %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%% Annexe article 1
+
+\appendix
+
+\renewcommand\thefigure{A.\arabic{figure}}
+\renewcommand\thetable{A.\arabic{table}}
+
 \include{article1/annexe1}
-%%
-%% etc.
+
+%% Annexe article 2
+
+\appendix
+
+\renewcommand\thefigure{B.\arabic{figure}}
+\renewcommand\thetable{B.\arabic{table}}
+
+\include{article2/annexe2}
 
 \end{document}
 
