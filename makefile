@@ -4,7 +4,7 @@ fbib = --bibliography=references.bib
 flag = --natbib --bibliography=$(bib) --pdf-engine=pdflatex
 
 
-ALL: introduction/introduction.tex article1/article1.tex article1/annexe1.tex article2/article2.tex article2/annexe2.tex
+ALL: introduction/introduction.tex article1/article1.tex article1/annexe1.tex article2/article2.tex article2/annexe2.tex conclusion/conclusion.tex
 	pdflatex $(main)
 	bibtex $(main)
 	pdflatex $(main)
@@ -34,3 +34,9 @@ introdocx:
 	pandoc -s introduction/introductionT.tex -o introduction/introductionT.md $(fbib)
 	pandoc -s introduction/introductionT.md -o introduction/introduction.docx $(fbib)
 	rm introduction/introductionT*
+
+concludocx:
+	pandoc -s conclusion/conclusion.md -o conclusion/conclusionT.tex $(fbib)
+	pandoc -s conclusion/conclusionT.tex -o conclusion/conclusionT.md $(fbib)
+	pandoc -s conclusion/conclusionT.md -o conclusion/conclusion.docx $(fbib)
+	rm conclusion/conclusionT*
