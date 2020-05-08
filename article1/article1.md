@@ -12,8 +12,6 @@ header-includes:
     - \raggedright
 ---
 
-\chapter{Les perturbations amplifient les réponses des communautés forestières au changement climatique dans l'écotone tempéré-boréal}
-
 \setcounter{section}{1}
 
 \anglais
@@ -21,18 +19,18 @@ header-includes:
 
 
 
-\revue{published in Global Ecology and Biogeography. 2019. 28(11), 1668–1681. https://doi.org/10.1111/geb.12971}
+\revue{was published in Global Ecology and Biogeography. 2019. 28(11), 1668–1681. https://doi.org/10.1111/geb.12971}
 
 \article{Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone}
 
 \auteur{Marie-Hélène Brice}
-\adresse{Département de sciences biologiques, Université de Montréal, C.P. 6128, succursale Centre-ville, Montréal, QC, Canada H3C 3J7}
+\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Kevin Cazelles}
-\adresse{Department of Integrative Biology, University Of Guelph, Guelph, ON, Canada N1G 2W1}
+\adresse{Department of Integrative Biology, University Of Guelph, Guelph, ON N1G 2W1, Canada}
 \auteur{Pierre Legendre}
-\adresse{Département de sciences biologiques, Université de Montréal, C.P. 6128, succursale Centre-ville, Montréal, QC, Canada H3C 3J7}
+\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Marie-Josée Fortin}
-\adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON, Canada M5S 3B2}
+\adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
 
 
 \contributions[\textbf{Author contributions}]{
@@ -290,11 +288,11 @@ evapotranspiration). From these bioclimatic variables, we derived different
 predictors (see Table \ref{tab:tab1.1} for details). Over the past four decades, growing season
 temperature and precipitation have increased by 0.14 $^\circ$C/decade and 9.5
 mm/decade, respectively, while CMI has decreased by 1.2
-cm/decade (Fig. \ref{fig:figA1.1}).
+cm/decade (Fig. \ref{figA1.1}).
 
 We also collected information pertaining to natural and anthropogenic
 disturbances that have affected the forest plots both before and during the study
-period (Table \ref{tab:tab1.1}, Fig. \ref{fig:figA1.2}). At each plot, 21 disturbance types and
+period (Table \ref{tab:tab1.1}, Fig. \ref{figA1.2}). At each plot, 21 disturbance types and
 their level of intensity (moderate or major) were recorded [Table \ref{tab:tabA1.2};
 @mffp_placettes-echantillons_2016]. The MFFP defined major disturbances as
 events that resulted in a loss of at least 75% of the tree basal area, whereas
@@ -343,7 +341,7 @@ is the dissimilarity in species composition between two surveys of a given plot,
 by comparing local tree abundance (i.e. number of individuals)
 in forest plots between the historical (1970-1980, $t_1$) and contemporary
 (2000-2016, $t_2$) periods. The dissimilarity ($\beta$) was computed using the
-Ru\v{z}i\v{c}ka coefficient (Fig. \ref{fig:figA1.3}):
+Ru\v{z}i\v{c}ka coefficient (Fig. \ref{figA1.3}):
 
 $\beta = (B+C)/(A+B+C)$ where, for $n$ species:
 
@@ -362,7 +360,7 @@ This temporal $\beta$ diversity varies from 0 (community compositions at $t_1$ a
 $t_2$ are exactly the same) to 1 (communities have no shared species). The use
 of this dissimilarity index enabled us to decompose the compositional change
 into relative gains ($C/(A+B+C)$) and losses ($B/(A+B+C)$) in tree abundances
-(Fig. \ref{fig:figA1.3}). Throughout this paper, gains and losses refer to
+(Fig. \ref{figA1.3}). Throughout this paper, gains and losses refer to
 these relative metrics.
 
 This additive framework allowed us to partition further the different components
@@ -507,7 +505,7 @@ most abundant species group).
 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{article1/figures/fig2_map_roll.pdf}
+\includegraphics[width=\textwidth]{article1/figures/fig2_map_roll.png}
 \caption[Maps of gains and losses in tree abundances]{Maps of gains and losses in tree abundances (a) and latitudinal trends in
 temporal $\beta$ diversity, decomposed into gains (blue) and losses (red) of boreal, pioneer and
 temperate trees, for different levels of disturbance (b-d). The sizes and colours
@@ -521,7 +519,7 @@ trends.}
 
 
 The magnitude of compositional changes in forests was highly influenced by
-disturbances (Figs \ref{fig1.2}b-d, \ref{fig1.3}, \ref{fig:figA1.4}). In each domain, the $\beta$ diversity values of
+disturbances (Figs \ref{fig1.2}b-d, \ref{fig1.3}, \ref{figA1.4}). In each domain, the $\beta$ diversity values of
 highly disturbed forests are strongly skewed (Fig. \ref{fig1.3}). The mean temporal $\beta$ was
 0.43 at minor disturbance level, whereas it was 0.53 at moderate disturbance
 level and reached 0.74 at major disturbance level (all domains combined).
@@ -536,7 +534,7 @@ in temperate species were higher at moderate disturbance level (Fig. \ref{fig1.2
 species have experienced great changes in abundance and occurrence throughout
 these domains, namely *Picea mariana*, *Acer rubrum*, *Betula alleghaniensis*,
 *Fagus grandifolia* and *Populus tremuloides*, and likely contributed largely to
-the pattern of temporal $\beta$ diversity (Fig. \ref{fig:figA1.5}).
+the pattern of temporal $\beta$ diversity (Fig. \ref{figA1.5}).
 
 
 \begin{figure}
@@ -593,7 +591,7 @@ shown. Subscripts following disturbance predictors indicate their levels of
 intensity: 1 Moderate and 2 Major. In each variation partitioning, significance
 of each unique fraction was tested using 9999 permutations, while shared
 fractions cannot be tested. Stars indicate the level of significance of the
-*p*-values (* *p* < 0.05; ** *p* < 0.01; *** *p* < 0.001). See Table \ref{tab:tab1.1} for
+\emph{p}-values (* \emph{p} < 0.05; ** \emph{p} < 0.01; *** \emph{p} < 0.001). See Table \ref{tab:tab1.1} for
 description of the predictor variables.}
 \label{fig1.4}
 \end{figure}
@@ -631,7 +629,7 @@ in CSI (Fig. \ref{fig1.5}a; mean $\Delta$CSI = +0.060). Both influenced by distu
 $\Delta$CTI and $\Delta$CSI were negatively correlated (Pearson *r* = -0.2,
 *p*-value < 0.001) indicating that the two ecological processes are intertwined.
 However, $\Delta$CTI was more strongly correlated to gains in temperate species
-and losses of boreal species than to gains in pioneer species (Fig. \ref{fig:figA1.6}), which
+and losses of boreal species than to gains in pioneer species (Fig. \ref{figA1.6}), which
 suggests that thermophilization was not trivially driven by successional
 processes.
 
@@ -643,7 +641,7 @@ disturbances exacerbated this effect from the sugar maple-yellow birch up to the
 balsam fir-white birch domain (larger increase in the warm tail; Fig. \ref{fig1.5}e). The
 positive correlation between $\Delta$CTI and gains in temperate species in all
 domains, except in the spruce-moss, also corroborates the role of warm-adapted
-species (Fig. \ref{fig:figA1.6}).
+species (Fig. \ref{figA1.6}).
 
 
 
@@ -679,10 +677,10 @@ four species, the losses of *Betula papyrifera* and *Picea glauca* also played a
 key role in the thermophilization of ecotonal forests in the balsam fir-yellow
 birch domain. Moreover, temperate species such as *Fagus grandifolia*, *Quercus
 rubra* and *Fraxinus americana* contributed mostly to the thermophilization of
-southern domains (Fig. \ref{fig1.6}) where their abundance has increased (Fig. \ref{fig:figA1.5}). In
+southern domains (Fig. \ref{fig1.6}) where their abundance has increased (Fig. \ref{figA1.5}). In
 contrast, the surge in CTI north of the 49$^\circ$N (spruce-moss) in highly disturbed
 forests (Fig. \ref{fig1.5}) was likely due to the replacement of boreal species by pioneer
-species (Fig. \ref{fig:figA1.6}), such as *Betula papyrifera* and *Salix spp.* (Fig. \ref{fig1.6}).
+species (Fig. \ref{figA1.6}), such as *Betula papyrifera* and *Salix spp.* (Fig. \ref{fig1.6}).
 
 
 
@@ -698,9 +696,9 @@ bars represent the mean contributions of given species through gains (dark
 grey) or losses (light grey) across the study area, while the coloured triangles
 represent the mean contributions of given species through gains (filled) or
 losses (open) by domain. For example, the $\Delta$CTI increased by an average
-of 0.12 for all plots where *Acer rubrum* has increased in abundance (dark grey
+of 0.12 for all plots where \emph{Acer rubrum} has increased in abundance (dark grey
 bar), whereas the $\Delta$CTI also increased by an average of 0.09 for all plots
-where *Abies balsamea* has decreased in abundance (light grey bar). Letters next
+where \emph{Abies balsamea} has decreased in abundance (light grey bar). Letters next
 to species names correspond to (T)emperate, (P)ioneer and (B)oreal species. Only
 species that contributed more than 0.01 in at least one domain are shown.}
 \label{fig1.6}
@@ -735,7 +733,7 @@ historical disturbances even superseded that of recent disturbances. Such
 findings stress that disturbances cannot be ignored when modelling the future of
 forests with climate change, as they not only drive community changes, but also
 have long-lasting impacts. Tree harvesting was the most frequent type of
-disturbance (Fig. \ref{fig:figA1.2}) and alone accounted for 24.7% of all tree mortality during
+disturbance (Fig. \ref{figA1.2}) and alone accounted for 24.7% of all tree mortality during
 the study period, thus impacting severely all components of temporal community
 changes. However, in contrast to natural disturbances, tree harvesting has been
 shown to disrupt the relationship between vegetation and local environmental
@@ -752,7 +750,7 @@ range shift, expanding on earlier findings that forests are responding to
 climate warming [e.g. @sittaro_tree_2017; @leithead_northward_2010;
 @fisichelli_temperate_2014]. However, the observed increase of tree community
 temperature of +0.03 $^\circ$C/decade is considerably smaller than the rising trend in
-growing season temperature of 0.14 $^\circ$C/decade (Fig. \ref{fig:figA1.1}). Although these measures
+growing season temperature of 0.14 $^\circ$C/decade (Fig. \ref{figA1.1}). Although these measures
 have different origins and should thus be compared cautiously, our findings
 support the conclusion of numerous studies that tree responses often lag behind
 environmental changes [@sittaro_tree_2017; @talluto_extinction_2017;
@@ -858,7 +856,7 @@ balsam fir-white birch and spruce moss domains could be explained by the fact
 that temperate species are rare in these two northernmost domains, hence changes
 in CTI resulted mostly from a dynamic of replacement between pioneer and boreal
 species in response to disturbances. *A. rubrum* was the only temperate species
-to increase in the balsam fir-white birch domain (Fig. \ref{fig:figA1.5}) and, when it did, it
+to increase in the balsam fir-white birch domain (Fig. \ref{figA1.5}) and, when it did, it
 contributed to increase its CTI (Fig. \ref{fig1.6}). Similarly to *A. saccharum*, *A.
 rubrum* distribution is spatially constrained within the balsam fir-white birch
 domain [@blouin_guide_2008] and will likely expand from existing existing patchy

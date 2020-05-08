@@ -17,28 +17,24 @@ header-includes:
 
 ---
 
-\francais
-
-\chapter{Les perturbations modérées accélèrent la dynamique de transition forestière sous l'effet du changement climatique dans l'écotone tempéré-boréal de l'est de l'Amérique du Nord}
-
 \setcounter{section}{2}
 
 \anglais
 
-\revue{accepted for publication in Global Change Biology}
+\revue{was accepted for publication in Global Change Biology. 2020. https://doi.org/10.1111/gcb.15143}
 
 \article{Moderate disturbances accelerate forest transition dynamics under climate change in the temperate-boreal ecotone of eastern North America}
 
 \auteur{Marie-Hélène Brice}
-\adresse{Département de sciences biologiques, Université de Montréal, C.P. 6128, succursale Centre-ville, Montréal, QC, Canada H3C 3J7}
+\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Steve Vissault}
-\adresse{Département de Biologie, Université de Sherbrooke, Sherbrooke, Québec, Canada.}
+\adresse{Département de Biologie, Université de Sherbrooke, Sherbrooke, QC J1K 2R1, Canada.}
 \auteur{Willian Vieira}
 \auteur{Dominique Gravel}
 \auteur{Pierre Legendre}
-\adresse{Département de sciences biologiques, Université de Montréal, C.P. 6128, succursale Centre-ville, Montréal, QC, Canada H3C 3J7}
+\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Marie-Josée Fortin}
-\adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON, Canada M5S 3B2}
+\adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
 
 
 \contributions[\textbf{Author contributions}]{
@@ -385,30 +381,30 @@ dependent on disturbances (c).}
 
 ## Environmental variables
 
-Annual climatic conditions, covering a period from 1960 to 2018, were
-extracted from a 2-km^2^ (60 arc sec) resolution grid for the entire study area
-using the ANUSPLIN climate modelling software
-[http://cfs.nrcan.gc.ca/projects/3/8; @mckenney_customized_2011]. Plot locations
-were intercepted with two bioclimatic variables hypothesised to influence tree
-establishment, survival and growth: the mean temperature during the growing
-season and the climate moisture index (CMI; difference between precipitation and
-potential evapotranspiration) from May to September (Table \ref{tab:tab2.1}). To reduce the
-effect of inter-annual climate variability, each climate variable was averaged
-over a 10-year period prior to the plot measurement. From 1950 until the
-present day, growing season temperatures have increased by 0.17 $^\circ$C/decade in the
-plots, while CMI have shown no trends (Fig. \ref{figA2.3}).
+Annual climatic conditions, covering a period from 1960 to 2018, were extracted
+from a 2-km^2^ (60 arc sec) resolution grid for the entire study area using the
+ANUSPLIN climate modelling software [http://cfs.nrcan.gc.ca/projects/3/8;
+@mckenney_customized_2011]. Plot locations were intercepted with two bioclimatic
+variables hypothesised to influence tree establishment, survival and growth: the
+mean temperature during the growing season and the climate moisture index (CMI;
+difference between precipitation and potential evapotranspiration) from May to
+September (Table \ref{tab:tab2.1}). To reduce the effect of inter-annual climate
+variability, each climate variable was averaged over a 10-year period prior to
+the plot measurement. From 1950 until the present day, growing season
+temperatures have increased by 0.17 $^\circ$C/decade in the plots, while CMI
+have shown no trends (Fig. \ref{figA2.3}).
 
 We also collected information pertaining to natural and anthropogenic
 disturbances that have affected the forest plots during the study period (Table
-1; Fig. \ref{figA2.1}). At each plot, the type of disturbances (21 types) and their level
-of severity were recorded during field surveys [see Fig. \ref{figA2.1} for details;
-@mffp_placettes-echantillons_2016]. For our multi-state model, we differentiated
-two main types of disturbances: natural disturbances and logging, with three
-levels of severity each (0, no or minor; 1, moderate; 2, major). The MFFP defined major
-disturbances as events that have resulted in a loss of more than 75% of the
-total tree basal area, whereas moderate disturbances have caused between 25 and
-75% of loss. When the loss in basal area is less than 25%, it is considered to be
-minor.
+\ref{tab:tab2.1}; Fig. \ref{figA2.1}). At each plot, the type of disturbances (21 types) and
+their level of severity were recorded during field surveys [see Fig.
+\ref{figA2.1} for details; @mffp_placettes-echantillons_2016]. For our
+multi-state model, we differentiated two main types of disturbances: natural
+disturbances and logging, with three levels of severity each (0, no or minor; 1,
+moderate; 2, major). The MFFP defined major disturbances as events that have
+resulted in a loss of more than 75% of the total tree basal area, whereas
+moderate disturbances have caused between 25 and 75% of loss. When the loss in
+basal area is less than 25%, it is considered to be minor.
 
 Finally, at each plot, several edaphic characteristics were recorded
 [@mffp_placettes-echantillons_2016]. We selected drainage and pH because they
