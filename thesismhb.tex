@@ -506,12 +506,20 @@
  %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+ \renewcommand\thefigure{3.\arabic{figure}}
+ \renewcommand\thetable{3.\arabic{table}}
+
+ \include{article3/article3}
+
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%  CONCLUSION       %%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \renewcommand\thefigure{4.\arabic{figure}}
+ \renewcommand\thetable{4.\arabic{table}}
 
  \include{conclusion/conclusion}
 
@@ -536,7 +544,7 @@
 %%%%%%%%%%%%%%%%%%%%                   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% Annexe article 1
+%%%%%% Annexe article 1 %%%%
 
 \appendix
 
@@ -545,14 +553,23 @@
 
 \include{article1/annexe1}
 
-%% Annexe article 2
+%%%% Annexe article 2 %%%%
 
-\appendix
+
 
 \renewcommand\thefigure{B.\arabic{figure}}
 \renewcommand\thetable{B.\arabic{table}}
 
 \include{article2/annexe2}
+
+%%%% Annexe article 3 %%%%
+
+
+
+\renewcommand\thefigure{C.\arabic{figure}}
+\renewcommand\thetable{C.\arabic{table}}
+
+\include{article3/annexe3}
 
 \end{document}
 

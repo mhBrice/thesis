@@ -111,8 +111,8 @@
 \edef\dmscontentsnamefr{Table des mati\noexpand\`eres} %\'e car on ne sait pas si inputenc sera chargé
 \edef\dmscontentsnameen{Contents}
 
-\edef\revuemsgfr{Cet article a \noexpand\'et\noexpand\'e }
-\edef\revuemsgen{This article was }
+\edef\revuemsgfr{Cet article }
+\edef\revuemsgen{This article }
 
 \edef\contribmsgfr{Les principales contributions de
   \noexpand\authors\ \noexpand\`a cet article sont pr\noexpand\'esent\noexpand\'ees.}
