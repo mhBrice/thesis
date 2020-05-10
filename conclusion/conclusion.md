@@ -3,8 +3,7 @@
 \chapter*{Conclusion}
 
 
-
-# Sommaire des résultats: Comprendre et observer les changements récents des forêts
+# Les perturbations &mdash; catalyseurs de changements dans les forêts
 
 De nombreuses études utilisent les données d'inventaire forestier pour tenter de
 prédire l'avenir sous les changements climatiques [@boulanger_climate_2017;
@@ -16,124 +15,113 @@ données cumulées depuis 1970, il y a 50 ans? Quelles informations pouvons-nous
 tirer de ces changements récents? De plus, les projections des effets du
 changement climatique sur les forêts ont généralement mis l'accent sur la
 capacité des espèces à tolérer les augmentations de température et les
-sécheresses et à se disperser, mais ils n'ont pas nécessairement intégré les
-effets des perturbations. Étant donné l'importance des perturbations naturelles
-et de l'exploitation forestière dans la dynamique des forêts
-[@turner_disturbance_2010], ces projections du futur basées sur le changement
-climatique en isolation sont-elles réalistes, voire même trompeuses? Si les
+sécheresses et à se disperser, mais ils ont rarement intégré les effets des
+perturbations. Étant donné l'importance des perturbations naturelles et de
+l'exploitation forestière dans la dynamique des forêts
+[@turner_disturbance_2010], ces projections du futur basées seulement sur le
+changement climatique sont-elles réalistes ou bien trompeuses? Si les
 perturbations interagissent avec le changement climatique et exacerbent la
-mortalité des arbres, les nouvelles politiques d'aménagement qui reposent
-sur des modèles incomplets pourraient bien être mal adaptées.
+mortalité des arbres, les nouvelles politiques d'aménagement du territoire et de
+la forêt qui reposent sur des modèles incomplets risquent d'être mal adaptées.
 
 
-À travers ma thèse de recherche, j'ai donc tenté de répondre à ces
-questionnements. Les trois chapitres ont permis de décrire de multiples aspects
-de la dynamique des forêts au cours des dernières décennies en réponse aux
-effets combinés du changement climatique et des perturbations.
+À travers ma thèse de recherche, j'ai tenté d'apporter des éléments de réponses
+à ces questionnements. Les trois chapitres ont permis de d'analyser en détail
+les multiples aspects de la dynamique des forêts au cours des dernières
+décennies afin de mieux comprendre la réponse aux effets combinés du changement
+climatique et des perturbations. Dans l'ensemble, mes résultats soulignent le
+rôle central des perturbations dans la réponse des forêts face au changement
+climatique. En effet, la composition et la structure (Chapitre 1), la dynamique
+de transition (Chapitre 2), ainsi que la dynamique de régénération (Chapitre 3)
+des forêts de l'écotone boréal-tempéré au Québec sont principalement contrôlées
+par les perturbations et leurs effets semblent interagir avec ceux des
+changements climatiques. J'ai montré comment les perturbations accélèrent la
+réponse des communautés forestières aux changements climatiques, révélant des
+synergies qui ont le potentiel de modifier l'avenir de nos forêts.
 
 
 ## Réorganisation des communautés
 
 Dans le chapitre 1, je me suis intéressée aux moteurs des changements de
-composition dans les communautés forestières. Les perturbations (par exemple,
-les coupes à blanc, les épidémies d'insectes, les incendies) sont les principaux
-facteurs de changement de composition des communautés forestières, i.e. la
-diversité $\beta$ temporelle, dans l'écotone tempéré-boréal. Leurs effets
-laissent une empreinte à long terme puisque les perturbations historiques sont
-les plus importantes. En revanche, les effets les changements de température et
-de précipitation sur les changements des communautés forestières sont très
-faibles. Sans approfondir, on pourrait en conclure prématurément que le
-changement climatique n'a pas influencé la composition des forêts au cours des
-dernières décennies.
+composition dans les communautés forestières. Au cours des dernières décennies,
+les perturbations (par exemple, les coupes à blanc, les épidémies d'insectes,
+les incendies) ont été les principaux facteurs de changement de composition des
+communautés forestières, i.e. la diversité $\beta$ temporelle, dans l'écotone
+tempéré-boréal. En revanche, les effets du changement climatique sur la
+diversité $\beta$ temporelle sont très faibles. Sans approfondir, on aurait pu
+en conclure prématurément que le changement climatique n'a pas influencé la
+composition des forêts au cours des dernières décennies. L'analyse des
+changements des traits écologiques de la communauté a permis de révéler un
+phénomène de thermophilisation des forêts à travers le Québec, i.e. une
+augmentation des espèces de climat chaud au détriment des espèces de climat
+froid. En outre, la thermophilisation a été plus grande et s'est étendue plus au
+nord dans les communautés modérément perturbées que dans celles qui n'ont pas
+été perturbées ou qui ont subi des perturbations majeures.
 
-Malgré la prévalence des perturbations, l'analyse des changements des traits
-écologiques de la communauté m'a permis de montrer une thermophilisation
-généralisée des communautés à travers le Québec. Cette thermophilisation
-correspond à une augmentation des espèces de climat chaud au détriment des
-espèces de climat froid dans les communautés. Dans la région d'étude, ce
-processus résulte principalement du gain d'une espèce tempérée, *Acer rubrum*,
-et de la perte de deux espèce boréales, *Abies balsamea* et *Picea mariana*. En
-outre, la thermophilisation a été plus grande et s'est étendue plus au nord dans
-les communautés modérément perturbées que celles qui n'ont pas été perturbées ou
-qui ont subi des perturbations majeures. Ainsi, ces résultats suggèrent que
-des perturbations modérées, mais non majeures, pourraient faciliter les gains
-d'espèces adaptées aux conditions chaudes sous l'effet du changement climatique.
-
-En terminant ce chapitre, je suis restée avec une question importante en tête :
-la thermophilisation actuelle des forêts indique-t-elle un changement permanent
-des écosystèmes forestiers ou bien seulement une dynamique transitoire? Est-ce
-que les perturbations pourraient favoriser des changements d'états rapides et
-permanents? C'est la question sur laquelle je me suis penchée dans le second
-chapitre de ma thèse.
+Les résultats de ce chapitre ont soulevé d'autres questions importantes : la
+thermophilisation récentes des forêts indique-t-elle un changement permanent ou
+bien seulement une dynamique transitoire? Et, si les perturbations modérées
+favorisent la thermophilisation, est-ce qu'elles pourraient accélérer des
+changements d'états permanents? C'est la question que j'ai creusée dans le
+second chapitre de ma thèse.
 
 ## La dynamique des forêts
 
 Dans le chapitre 2, j'ai analysé la dynamique de transition des forêts du Québec
 en utilisant un modèle à quatre états, soit boréal, mixte, tempéré et pionnier.
-Cette analyse a d'abord révélé une forte proportion de transition de l'état
-pionnier vers boréal, qui signale une régénération de la forêt boréale
-anciennement perturbée, et de transition de l’état mixte vers tempéré, qui
-suggère une augmentation de la proportion d'espèces tempérées. Encore une fois,
-les perturbations naturelles et anthropiques ressortent comme les moteurs
-principaux de la dynamique de transition des forêts au cours des dernières
-décennies. Alors que les perturbations majeures déclenchent surtout des
-transitions vers l'état pionnier, les perturbations modérées favorisent les
-transitions de l'état mixte vers l'état tempéré.
-
-De plus, ces changements dans les probabilités de transition que nous percevons
-dans 48 ans de données risquent de se répercuter sur les futurs patrons
-forestiers à l'échelle régionale et sur la vitesse de ces changements. En effet,
-les perturbations modérées accélèrent le taux de renouvellement des forêts et, à
-long terme, favorisent une augmentation de la proportion de forêts tempérées
-dans le paysage. Par conséquent, les perturbations modérées ont le potentiel de
+Encore une fois, les perturbations naturelles et anthropiques ressortent comme
+les moteurs principaux de la dynamique de transition des forêts au cours des
+dernières décennies. Alors que les perturbations majeures déclenchent surtout
+des transitions vers l'état pionnier, les perturbations modérées favorisent les
+transitions de l'état mixte vers l'état tempéré. De plus, les perturbations
+modérées accélèrent le taux de renouvellement des forêts et, à long terme,
+favorisent une augmentation de la proportion de forêts tempérées dans le
+paysage. Par conséquent, les perturbations modérées ont le potentiel de
 catalyser un déplacement plus rapide de l'écotone boréal-tempéré vers le nord
-sous le changement climatique.
+sous le changement climatique. Toutefois, contrairement aux hypothèses avancées
+dans mon premier chapitre, les transitions des forêts mixtes à tempérées n'ont
+pas été entraînées par une hausse du recrutement d'arbres tempérés mais par
+des processus de mortalité et la croissance.
 
-Les transitions des forêts mixtes à tempérées résultent surtout de la mortalité
-d'une espèce boréale dominante, *Abies balsamea*, et les trouées ainsi créées
-permettent la croissance accrue des espèces tempérées compagnes. Contrairement
-aux hypothèses avancées dans mon premier chapitre, le recrutement des espèces
-tempérées semble jouer un rôle négligeable dans cette dynamique, mais il se
-peut que la méthode d'analyse ne permette pas de détecter la contribution du
-recrutement.
 
-Que les perturbations entraînent la mortalité de *Abies balsamea* étaient
-prévisibles. Et la croissance subséquente des espèces tempérées compagnes
-montrent qu'il y a sans doute un changement de rapport des forces compétitives
-entre les espèces en lien avec le changement climatique. Si les transitions
-reposent davantage sur la mortalité et que celle-ci n'est pas compensée par le
-recrutement de nouveaux arbres, il s'en suit que les forêts mixtes pourraient en
-fin de compte dépérir. Le recrutement est une étape essentielle pour assurer la
-régénération des forêts et la migration des arbres. Alors que les perturbations
-favorisent la thermophilisation des forêts et la transition de peuplements
-mixtes à tempérés, quel est leur impact sur le recrutement des espèces
-tempérées?
+Si les transitions reposent davantage sur la mortalité et que celle-ci n'est pas
+équilibrée par le recrutement de nouveaux arbres, les forêts mixtes pourraient
+en fin de compte dépérir. Alors que les perturbations modérées favorisent la
+thermophilisation des forêts et la transition de peuplements mixtes à tempérés,
+comment influencent-elles le recrutement des espèces tempérées? C'est la
+question qui a motivée mon dernier chapitre.
+
+
 
 ## La régénération des forêts: les premiers pas de la migration
 
-C'est la question qui a motivée mon troisième et dernier chapitre. Ce chapitre a
-mis en lumière de grands déplacements de distribution vers le nord pour les
-gaulis (i.e., jeunes arbres entre 1 et 9 cm de diamètre) de *Acer rubrum* et
-*Acer saccharum*, deux espèces reconnues pour leur grande tolérance aux
-conditions environnementales et aux perturbations. La distribution de ces deux
-espèces s'est déplacée vers le nord peu importe le niveau de perturbations
-(mineur, modéré ou majeur). En revanche, la distribution des gaulis de *Betula
-alleghaniensis* s'est déplacée vers le nord seulement dans les parcelles peu ou
-pas perturbées, alors que dans les parcelles modérément ou sévèrement
-perturbées, elle montrait plutôt des signes de contraction d'aire. Ces
-résultats soulignent que les futures modifications d'aire de répartition des
-arbres peuvent dépendre de la réponse des espèces aux perturbations.
+Dans le chapitre 3, j'ai mis en lumière de grands déplacements de distribution
+vers le nord pour les gaulis (i.e., jeunes arbres entre 1 et 9 cm de diamètre)
+de l'érable rouge, l'érable à sucre et le bouleau jaune dans les forêts non
+perturbées. Toutefois, sous l'influence des perturbations modérées, seule les
+érables ont migré et aucune espèce ne s'est déplacée sous des perturbations
+majeures. En revanche, la distribution du hêtre à grande feuille n'a pas bougé
+dans tous les cas. Ces résultats soulignent que les futures déplacements d'aire
+de répartition des espèces peuvent dépendre de leur réponse aux perturbations.
+De plus, il y a une légère tendance de déplacements des gaulis vers le bas des
+pentes, surtout dans les régions proches de leur limite nord. Ces tendances
+pourraient signaler le début d'une migration des populations marginales vivant
+au sommet des collines. Mes résultats ont montré que, malgré l'effet positif des
+coupes partielles sur le recrutement, la prévalence des contraintes locales
+associées à la composition des peuplements et aux conditions topo-édaphiques
+risque de freiner la migration des espèces tempérées vers le nord.
 
+<!--
 La distribution des espèces tempérées dans les populations marginales à leur
 limite nord est contrainte aux sommets de pente [@goldblum_age_2002;
 @tremblay_potential_2002; @barras_supply_1998], là où le microclimat est plus
 chaud. Mes analyses révèlent que la distribution altitudinale des gaulis tend à
-descendre vers le bas des pentes, surtout dans les régions à leur limite nord.
+descendre vers le bas des pentes, surtout dans les régions proches de leur limite nord.
 Ces tendances, bien que non significatives, peuvent signaler le début d'une
 migration des populations marginales qui sont isolées aux sommets des collines.
 Tel que suggéré pour la migration postglaciaire des arbres
-[@mclachlan_molecular_2005], ces populations marginales pourraient jouer un rôle
-très important dans la migration future des arbres en réponse au changement
+[@mclachlan_molecular_2005], ces populations aujourd'hui marginales pourraient jouer un rôle
+très important demain dans la migration des arbres en réponse au changement
 climatique.
 
 
@@ -141,27 +129,275 @@ Mes résultats soulignent que le recrutement des gaulis d'espèces tempérées �
 leur limite nord est largement favorisé par l'abondance d'arbres conspécifiques
 pour la dispersion des graines, mais freiné par la compétition des espèces
 boréales. De plus, les conditions de mauvais drainage (sites hydriques) dans les
-bas de pente ne sont pas propice à l'établissement des gaules, tandis que les
+bas de pente ne sont pas propice à l'établissement des gaulis, tandis que les
 coupes forestières modérées, en diminuant la compétition et en libérant les
-ressources, ont une influence bénéfique. L'ensemble des résultats de ce chapitre
-suggère que, malgré l'effet positif d'une exploitation forestière modérée sur le
-recrutement, la prévalence des contraintes locales associées à la composition
-des peuplements et à la position topographique risque de freiner la migration
-des espèces tempérées vers le nord.
-
-# Les perturbations &mdash; catalyseurs de changements dans les forêts
+ressources, ont une influence bénéfique. -->
 
 
-Dans l'ensemble, mes résultats soulignent le rôle central des perturbations dans
-la réponse des forêts face au changement climatique. En effet, la composition
-et la structure (Chapitre 1), la dynamique de transition (Chapitre 2), ainsi que
-la dynamique de régénération (Chapitre 3) des forêts de l'écotone boréal-tempéré
-au Québec sont principalement contrôlées par les perturbations et leurs effets semblent
-interagir avec ceux des changements climatiques. J'ai montré comment les
-perturbations accélèrent la réponse des communautés forestières aux changements
-climatiques, révélant des synergies qui ont le potentiel de modifier l'avenir de
-nos forêts.
 
+
+
+
+
+# Des forêts en transformation: des individus aux biomes
+
+
+Les effets des changements environnementaux se répercutent à chaque niveau
+d'organisation de la biodiversité, se transmettant des individus jusqu'au biome,
+en passant par les populations, les communautés et les écosystèmes
+[@bellard_impacts_2012; @parmesan_globally_2003]. En effet, conformément avec
+les concepts de la science des systèmes complexes, les changements
+démographiques au bas de la hiérarchie peuvent faire émerger, par des processus
+d'organisation autonome, des réorganisations massives à l'échelle régionale
+(Fig. \ref{fig4.2}). Les résultats de ma thèse permettent de bien illustrer ces
+processus ascendants et en interaction par lequel les forêts de l'écotone
+boréal-tempéré sont en train de se transformer. L'interprétation de mes
+résultats sous la perspective des systèmes complexes permet de mieux comprendre
+la réponse des forêts sous l'effet combiné du changement climatique et des
+perturbations.
+
+\begin{figure}
+\centering
+\includegraphics[width=.9\textwidth]{conclusion/figures/complex.png}
+\caption[Représentation conceptuelle des effets des changements environnementaux sur les différents niveaux d'organisation biologique]{Représentation conceptuelle des effets des changements environnementaux sur les forêts sous l'angle d'un système complexe. Les changements dans la dynamique des forêts sont transférés de façon ascendante entre les différents niveaux d'organisation biologique. Des interactions et des rétroactions ont lieu entre les entités à l'intérieur et à travers les échelles spatiales, temporelles et hiérarchiques. Les entités qui interagissent à un niveau donnent naissance à des entités émergentes de niveau supérieur, dont l'existence, à son tour, affecte le comportement des entités de niveau inférieur. Schéma issu de Messier \emph{et al.} (2013).}
+\label{fig4.2}
+\end{figure}
+
+## Changements démographiques
+
+Dans un premier temps, le réchauffement climatique favorise le recrutement, la
+survie et la croissance des espèces tempérées à leur limite nord
+[@fisichelli_temperate_2014; @boisvertmarsh_divergent_2019; @goldblum_tree_2005;
+@grundmann_impact_2011; @bolte_understory_2014], ce qui leur confère un avantage
+compétitif par rapport aux espèces boréales. Mais, en l'absence de
+perturbations, les arbres poussent lentement, leurs taux de mortalité et de
+recrutement sont faibles et la compétition pour l'espace et la lumière est
+intense.
+
+Des perturbations peuvent cependant éliminer les individus des espèces
+résidentes. Dans la zone d'étude, les perturbations naturelles et anthropiques
+ont provoqué une mortalité disproportionnée d'une espèce dominante dans les
+forêts mixtes (Chapitre 2). En effet, le sapin baumier a subi une mortalité
+massive suite aux grandes épidémies de tordeuse des bourgeons de l'épinette dans
+les années 1967-1992 [@duchesne_population_2008]. De plus, cette espèce est
+aussi la plus coupée au Québec. Suite à une perturbation modérée (e.g., épidémie
+légère, coupe partielle), les trouées dans la canopée résultant de la perte de
+cette espèce boréale ubiquiste et abondante ont probablement permis de réduire
+la compétition et libérer des ressources, favorisant ensuite la croissance
+rapide des espèces tempérées compagnes, telles que les érables rouge et à sucre
+ainsi que le bouleau jaune (Chapitre 2). De plus, alors que les perturbations
+naturelles semblent avoir un effet plutôt délétère, les coupes partielles
+favorisent une hausse du recrutement de ces espèces tempérées à leur limite nord
+(Chapitre 3). En cas de perturbations majeures (e.g., grand feu, coupe totale),
+la majorité des arbres en place meurent ce qui crée des ouvertures de très
+grande superficie. Ces paysages nouvellement ouverts sont colonisés rapidement
+par des espèces pionnières (Chapitre 2) qui peuvent disperser leurs graines sur
+de longues distances et croitre rapidement en conditions lumineuses, telles que
+le peuplier faux-tremble et le bouleau blanc [@boucher_fire_2017;
+@grondin_have_2018]. Dans ces conditions, les espèces tempérées peuvent être
+plus lentes à revenir parce qu'elles se dispersent sur des distances plus
+courtes [@scheller_spatially_2005].
+
+
+
+
+
+
+## Dynamique des populations
+
+Le réchauffement et les perturbations peuvent donc exercer leur influence sur la
+dynamique de population des espèces par le biais de plusieurs processus
+démographiques, notamment la reproduction, le recrutement, la croissance et la
+mortalité. Ces changements à l'échelle des individus et des sites s'accumulent
+dans le temps et dans l'espace pour altérer l'abondance et l'aire de répartition
+des populations [@holt_theoretical_2005]. Lorsque les effets sur les individus d'une
+espèce sont généralement négatifs, le taux de croissance de la population
+diminuera; certaines populations pourraient être amenées à disparaître
+localement et, dans le pire des cas, régionalement. À l'inverse, lorsque les
+effets sur les taux démographiques d'une espèce sont positifs, les populations
+grandissent, ce qui peut entraîner une augmentation locale de l'abondance et une
+expansion régionale de l'aire de répartition.
+
+
+Ces effets sur le fitness des espèces ne sont pas aléatoires, mais sont
+déterminés par leurs tolérances physiologiques, leurs stratégies d'histoire de
+vie et leurs capacités de dispersion [@aubin_traits_2016;
+@estrada_species_2015]. La diversité des caractéristiques écologiques
+spécifiques est sans doute à l'origine de la grande variabilité dans les
+réponses des arbres face aux multiples stresseurs environnementaux
+[@serra-diaz_disturbance_2015]. Alors que le réchauffement peut favoriser le
+taux de croissance des populations d'espèces qui sont limitées par les
+températures très froides, les perturbations devraient promouvoir les espèces
+opportunistes, intolérantes à l'ombre, avec une bonne capacité de dispersion et
+de reproduction végétative [Chapitre 3; @de_frenne_microclimate_2013;
+@danneyrolles_stronger_2019]. Par exemple, l'érable rouge, dont la distribution
+au nord est en partie limitée par un faible niveau de reproduction sexuée
+[@tremblay_potential_2002], est reconnue comme une espèce super-généraliste et
+opportuniste, capable de coloniser rapidement des sites variés après une
+perturbation [@abrams_red_1998; @fei_rapid_2009]. Ces caractéristiques
+pourraient donc expliquer l'expansion rapide qu'a connue l'érable rouge au
+Québec sous l'effet combiné du réchauffement et des perturbations (Chapitre
+1-3). En revanche, certaines espèces limitées par la dispersion, comme le
+tilleul d'Amérique, limitées à un habitat spécifique, comme l'érable argenté, ou
+encore intolérante aux perturbations, comme la pruche du Canada, pourraient ne
+pas bénéficier des opportunités de recrutement et de croissance suivant des
+perturbations, et ce, même si le climat devient plus favorable.
+
+De plus, la sensibilité au climat peut varier entre les différents processus
+démographiques [@niinemets_responses_2010]. Par exemple, comme la régénération
+est souvent plus sensible que la survie des adultes aux stress hydrique ou
+thermique [@niinemets_responses_2010], une population peut persister pendant des
+décennies ou des siècles sur un site donné, même si les conditions climatiques
+sont devenues défavorables à sa régénération [@talluto_extinction_2017]. Pour
+cette raison, @jump_altitude-for-latitude_2009 ont suggéré que l'expansion à la
+limite nord de la distribution d'une espèce sera plus rapide que les changements
+à la limite sud puisque la reproduction et le recrutement sont plus sensibles
+aux changements environnementaux que la mortalité des individus établis. Dans
+les forêts du Québec, les données montrent effectivement une augmentation rapide
+de l'abondance (Chapitre 1) et du recrutement des espèces tempérées dominantes
+(Chapitre 3). Toutefois, la perte des espèces boréales a sans doute été tout
+aussi importante sinon plus puisque la mortalité n'était pas contrôlée par un
+stress climatique mais surtout par des perturbations directes, comme les coupes,
+les feus et les épidémies (Chapitres 1 et 2). Ainsi, les perturbations risquent
+d'accélérer la contraction de l'aire de répartition des espèces boréales, tandis
+que l'effet sur l'expansion des espèces tempérées à leur limite nord pourrait
+être beaucoup plus lent en raison des contraintes au recrutement (Chapitre 3).
+En effet, le recrutement des espèces tempérées est largement dépendant de la
+présence des arbres matures conspécifiques pour la dispersion et est freiné par
+la compétition des espèces boréales de même que les conditions de mauvais
+drainage (sites hydriques) dans les bas de pente (Chapitre 3).
+
+
+
+<!--
+Par ailleurs, les changements dans la survie des adultes auront un impact plus important sur la dynamique des populations des espèces qui vivent longtemps, qui ont une maturation tardive ou qui produisent peu de descendants, i.e. les espèces de fin de succession. En revanche, les changements dans le succès de la reproduction auront tendance à avoir des effets beaucoup plus importants sur la dynamique des populations chez les espèces à courte durée de vie, qui ont une maturation précoce ou qui produisent beaucoup de descendants (Sæther & Bakke 2000).
+-->
+
+## Dynamique des communautés
+
+Les changements démographiques des espèces se traduisent donc en pertes et en gains
+d'espèces à l'échelle locale et influencent la composition et la structure des
+communautés forestières. Dans l'écotone boréal-tempéré, la thermophilisation des forêts
+résultait principalement du gain d'une seule espèce tempérée, l'érable rouge,
+combiné à la perte de deux espèce boréales dominantes, le sapin et l'épinette
+noire, et ce phénomène était accentué par les perturbations modérées (Chapitre
+1). Ainsi, sans perturbation, le renouvellement de la communauté est très lent,
+tandis que celui-ci est accéléré par les perturbations modérées (Chapitres 1 à
+3). En revanche, les perturbations majeures détruisent la communauté en place et
+réinitialisent la succession à partir du début entraînant surtout des gains en
+espèces pionnières (Chapitres 1 et 2). Au cours de ma thèse, j'ai pu montrer
+comment ces changements de composition résultent de l'action conjointe de trois
+mécanismes démographiques qui altèrent la trajectoire de succession après une
+perturbation modérée: (1) la mortalité d'une espèce dominante; (2) le
+relâchement de la croissance des espèces tempérées compagnes; et (3) le
+recrutement accru des gaulis des espèces tempérées compagnes ou présentes dans le
+voisinage.
+
+<!--En modifiant la structure et la composition des communautés, ces réponses à court
+terme à une perturbation donnée altérent la mémoire écologique du système et par
+conséquent sa trajectoire future [@johnstone_changing_2016].-->
+
+Les conséquences au niveau des communautés des changements d'aires de
+répartition spécifiques aux espèces pourraient mener à la formation de
+communautés sans analogues, i.e. des communautés dans lesquelles coexistent des
+espèces dans des combinaisons historiquement inconnues [@williams_novel_2007].
+Les modèles de distribution d'espèces sous l'effet du changement climatique
+prédisent un grand potentiel d'augmentation de la richesse au Québec
+[@berteaux_changements_2014]. Toutefois, mes résultats soulignent que seul une
+poignée d'espèces tempérées prospèrent sous ce nouveau régime de perturbations
+anthropiques. Par conséquent, il est fort probable que les forêts de l'écotone
+ne connaîtront pas un enrichissement, mais plutôt un appauvrissement associé à
+l'expansion d'une ou quelques espèces. On prévoit en outre que le déclin des
+espèces boréales actuellement dominantes, soit le sapin et l'épinette, risque de
+s'accentuer dans les prochaines décennies dans les domaines de la sapinière en
+raison du réchauffement climatique [@dorangeville_beneficial_2018]. Le
+remplacement de ces espèces résineuses par des espèces feuillues pourrait avoir
+des conséquences économiques importantes. Par exemple, l'expansion de l'érable
+rouge pourrait compromettre l'approvisionnement en espèces résineuses à grande
+valeur commerciale dans la forêt mixte. *De plus, les pratiques sylvicoles
+devront être révisées pour s'adapter à la nouvelle réalité puisqu'elles sont
+élaborées en fonction de la composition et de la dynamique naturelle des forêts
+et dépendent de la régénération naturelle [@pinna_amenagement_2009].*
+
+## Déplacement des grands biomes forestiers
+
+Les effets cumulés des changements à l'échelle des individus, des populations et
+des communautés, peuvent finalement entraîner un déplacement des grands biomes
+forestiers à l'échelle régionale, notamment une expansion de la forêt tempérée
+au détriment de la forêt mixte (Chapitre 2). Cette réorganisation régionale de
+la composition des forêts peut interagir avec le fonctionnement des écosystèmes
+à l'échelle locale et les processus à l'échelle globale [*cross-scale
+interaction*; @peters_crossscale_2007; @messier_managing_2013]. Ces changements
+de fonctionnement risquent d'être d'autant plus grand à l'écotone puisque les
+espèces feuillues et les espèces résineuses présentent des différences
+importantes sur le plan de leurs caractéristiques et fonctions écologiques
+[@wardle_terrestrial_2011]. L'enfeuillement des forêts mixtes pourrait par
+exemple influencer localement la qualité de la litière, le taux de décomposition
+de la matière organique et la composition des microorganismes du sol
+[@laganiere_how_2010; @legare_influence_2005]. Les changements dans la
+composition, la structure d'abondance et la distribution spatiale des forêts
+affecteront également la survie et la distribution des nombreuses espèces de
+mammifères, d'oiseaux et d'insectes qui en dépendent pour s'abriter et se
+nourrir [@friggens_effects_2018]. Comme les espèces feuillues sont moins
+inflammables et moins sensibles aux insectes ravageurs que les conifères, leur
+augmentation dans le paysage forestier peut modifier le régime régional de
+perturbations [@terrier_potential_2013; @mffp_insectes_2018]. À long terme,
+l'expansion du biome tempéré au détriment des forêts mixtes et des forêts
+boréales pourrait avoir un effet sur le climat global en augmentant la
+séquestration du carbone [@thurner_carbon_2014] ainsi que l'albédo
+[@anderson_biophysical_2011].
+
+
+
+
+
+<!--Les systèmes complexes accumulent des informations du passé qui influencent les trajectoires futures par le biais de changements persistants dans la structure et la composition du système (Anand et al. 2010, Parrott et Lange 2013). En forêt, le recrutement initial d'espèces pionnières à la suite d'une perturbation modifie l'habitat et influence les futurs espèces colonisatrices. Mémoire écologique... @essl_historical_2015 @johnstone_changing_2016
+
+Si nous pouvons généralement prévoir l'impact des facteurs individuels sur les écosystèmes locaux, les impacts des combinaisons de ces changements, à des niveaux d'intensité variables à travers le monde, génèrent beaucoup d'incertitudes.
+
+-->
+
+
+
+# Interaction entre le changement climatique et les perturbations
+
+Les effets combinés du changements climatiques et des perturbations peuvent
+donner naissance à des dynamiques non-linéaires, comme un changement de régime
+écologique [Fig. \ref{fig4.2}; @scheffer_catastrophic_2001;
+@harris_biological_2018]. Un changement de régime résulte d'une réorganisation
+rapide de la composition et de la structure d'un écosystème qui entraîne un
+basculement vers un nouvel état [@scheffer_catastrophic_2001]. En théorie, des
+changements d'états stables peuvent subvenir suivant deux mécanismes: (1) des
+changements graduels dans les conditions environnementales jusqu'à un niveau
+critique auquel le système s'effondre soudainement, et (2) des perturbations
+trop sévères ou en rafale qui poussent le système hors de son bassin
+d'attraction [@scheffer_catastrophic_2001]. Par exemple, la grande augmentation
+des taux de mortalité des arbres dans l'ouest des États-Unis en réponse à un
+stress hydrique grandissant [@van_mantgem_apparent_2007] pourrait être le signe
+avant-coureur d'un dépérissement massif des forêts. Dans un autre cas,
+@payette_shift_2003 a montré que les impacts cumulés de la coupe forestière,
+suivie d'une épidémie d'insectes puis d'un incendie pourraient avoir des effets
+catastrophiques sur la régénération des arbres, entraînant la transition d'une
+pessière dense en un milieu ouvert dominé par le lichen. Bien que les deux
+mécanismes puissent indépendamment mener à une transition rapide d'état, leurs
+effets cumulés augmentent le risque de changements rapides de régime écologique
+[*regime shift*; @scheffer_catastrophic_2001; @harris_biological_2018]. Mes
+résultats supportent cette hypothèse et montrent que le réchauffement climatique
+érode la résilience des forêts mixtes tandis que les perturbations éliminent les
+espèces boréales en place et accélèrent le processus de succession vers
+davantage d'espèces tempérées adaptées aux températures plus chaudes (Chapitres
+1-3). Sans perturbation, la grande inertie des forêts cache la perte de
+résilience [@johnstone_changing_2016]. Les arbres, ayant une longue durée de
+vie, peuvent faire paraître les forêts inébranlables face aux changements
+environnementaux même si la niche de régénération est en train de se déplacer
+[Chapitre 3; @sittaro_tree_2017; @boisvertmarsh_divergent_2019].
+<!--
+Dans les écotones, ces changements de composition induits par le climat
+pourraient même déclencher un changement de régime [*regime shift*;
+@scheffer_catastrophic_2001].
+
+De plus, les interactions entre n'importe quel niveau de la hiérarchie-->
+<!--
 ## Les perturbations et la dynamique forestière
 
 Les perturbations font partie intégrante de la dynamique des forêts. Feux,
@@ -174,7 +410,7 @@ superficie, la sévérité et la fréquence [@turner_disturbance_2010]. Par exem
 dans la forêt boréale, les cônes sérotineux de *Pinus banksiana* nécessitent des
 températures élevées pour s'ouvrir et lui permettent de coloniser rapidement un
 site après un feu [@burns_silvics_1990]. Dans la forêt tempérée, les semis et
-les gaules de *Acer saccharum* peuvent persister longtemps dans un sous-bois
+les gaulis de *Acer saccharum* peuvent persister longtemps dans un sous-bois
 ombragé jusqu'à ce qu'une trouée créée par la chute des vieux arbres lui
 permette de rejoindre la canopée rapidement [@burns_silvics_1990]. Ainsi, les
 communautés forestières ont une bonne capacité à se rétablir et à revenir à leur
@@ -194,7 +430,7 @@ des coupes répétées peuvent entraîner d'importants changements de compositio
 par exemple en favorisant l'augmentation des espèces pionnières intolérantes à
 l'ombre, comme *Populus tremuloides*, et des espèces tolérantes aux
 perturbations, comme *Acer rubrum* [@danneyrolles_stronger_2019;
-@boucher_logging-induced_2006].
+@boucher_logging-induced_2006]. -->
 
 ## Le changement climatique érode la résilience
 
@@ -219,32 +455,6 @@ peut entraîner un basculement vers un nouvel état de l'écosystème
 [@scheffer_catastrophic_2001].
 
 
-## Interaction changement climatique et perturbations
-
-En théorie, des changements d'états stables peuvent subvenir suivant deux
-mécanismes: (1) des changements graduels dans les conditions environnementales
-jusqu'à un niveau critique auquel le système s'effondre soudainement, et (2) des
-perturbations trop sévères ou en rafale qui poussent le système hors de son
-bassin d'attraction [@scheffer_catastrophic_2001]. Par exemple, la grande
-augmentation des taux de mortalité des arbres dans l'ouest des États-Unis en
-réponse à un stress hydrique grandissant [@van_mantgem_apparent_2007] pourrait
-être le signe avant-coureur d'un dépérissement massif des forêts. Dans un autre
-cas, @payette_shift_2003 a montré que les impacts cumulés de la coupe
-forestière, suivie d'une épidémie d'insectes puis d'un incendie pourraient avoir
-des effets catastrophiques sur la régénération des arbres, entraînant la
-transition d'une pessière dense en un milieu ouvert dominé par le lichen. Bien
-que les deux mécanismes puissent indépendamment mener à une transition rapide
-d'état, leurs effets cumulés augmentent le risque de changements rapides de régime écologique
-[*regime shift*; @scheffer_catastrophic_2001; @harris_biological_2018]. Mes résultats supportent
-cette hypothèse et montrent que le réchauffement climatique érode la résilience
-des forêts mixtes tandis que les perturbations éliminent les espèces boréales en
-place et accélèrent le processus de succession vers davantage d'espèces
-tempérées adaptées aux températures plus chaudes (Chapitres 1, 2). Sans
-perturbation, la grande inertie des forêts cache la perte de résilience
-[@johnstone_changing_2016]. Les arbres, ayant une longue durée de vie, peuvent
-faire paraître les forêts inébranlables face aux changements environnementaux
-même si la niche de régénération est en train de se déplacer
-[Chapitre 3; @sittaro_tree_2017; @boisvertmarsh_divergent_2019].
 
 ## États alternatifs stables et changement de régime
 
@@ -262,7 +472,7 @@ stratégies de cycle de vie des espèces [@kneeshaw_natural_2007;
 @bouchard_tree_2006] sous un climat donné. Mon interprétation est que le
 réchauffement modifie le bassin d'attraction de l'état mixte et abaisse le seuil
 critique à franchir pour se rendre à l'état tempéré(Fig. \ref{fig4.1}b). De plus, le réchauffement
-peut aussi rendre le bassin de l'état tempéré plus profond et celui de l'état
+peut aussi rendre le bassin de l'état tempéré plus large et profond, donc plus attractif, et celui de l'état
 boréal moins profond. Ces modifications de la courbe des états alternatifs
 stables fragilisent la forêt mixte et la rendent encore plus vulnérable aux
 transitions vers l'état tempéré suite à une perturbation modérée (Fig. \ref{fig4.1}b). Une fois que
@@ -279,47 +489,17 @@ fertilité des sols, la luminosité du sous-bois, et le régime de perturbation.
 
 Contrairement aux perturbations modérées, les perturbations majeures détruisent
 toutes la communauté en place et poussent le système vers l'état pionnier, i.e.
-des peuplements dominés par des espèces intolérantes à l'ombre, comme *Betula
-papyrifera* et *Populus tremuloides*, ou bien avec pas ou très peu d'arbres.
-Leur effet à long terme est difficile à prévoir à partir des données
-d'inventaire puisque les systèmes n'ont sans doute pas eu le temps de revenir à
-un état stable. En effet, l'état pionnier est en général un état transitoire. Il
-est donc fort probable que la majorité des forêts soient encore en train de se
-déplacer vers leur état d'équilibre. Toutefois, il se pourrait que certaines
-forêts se soient effondrées définitivement. Par exemple, les peuplements de
-*Populus tremuloides* dans les pessières noires représentent normalement un état
-de transition, mais, sous l'effet des coupes forestières, ces peuplements sont
-en expansion et semblent se maintenir [@grondin_les_2003].
+des peuplements dominés par des espèces intolérantes à l'ombre ou bien avec pas ou très peu d'arbres
+(Chapitre 2). Leur effet à long terme est difficile à prévoir à partir des
+données d'inventaire puisque les systèmes n'ont sans doute pas eu le temps de
+revenir à un état stable. En effet, l'état pionnier est en général un état
+transitoire. Il est donc fort probable que la majorité des forêts soient encore
+en train de se déplacer vers leur état d'équilibre. Toutefois, il se pourrait
+que certaines forêts se soient transformées définitivement. Par exemple, les
+peuplements de *Populus tremuloides* dans les pessières noires représentent
+normalement un état de transition, mais, sous l'effet des coupes forestières,
+ces peuplements sont en expansion et semblent se maintenir [@grondin_les_2003].
 
-## Résilience et capacité adaptative
-
-La biodiversité est un élément clé de la résilience et la capacité adaptative
-des forêts [@messier_functional_2019; @filotas_viewing_2014]. Alors que la
-résilience permet à une forêt de retrouver sa structure et ses fonctions
-d'origine, la capacité adaptative lui permet de diverger d'un état antérieur qui
-était mal adapté aux conditions environnementales [@messier_managing_2013;
-@filotas_viewing_2014]. Bien que moins résilientes, les forêts mixtes montrent
-une bonne capacité adaptative face au changement climatique puisqu'elles
-arrivent à se réorganiser de manière à ajuster leur composition aux nouvelles
-conditions environnementales [@messier_functional_2019; @filotas_viewing_2014].
-Mais qu'en est-il des forêts boréales pures? Contrairement aux forêts mixtes,
-celles-ci montrent peu de changements de composition en réponse au réchauffement
-climatique. En effet, alors qu'il y a eu très peu de transitions vers l'état
-mixte et pas de thermophilisation des communautés, on a plutôt observé une
-dynamique de remplacement entre les états pionnier et boréal (Chapitres 1 et 2).
-Comme les forêts du nord du Québec sont très pauvres en espèces, étant largement
-dominées par *Picea mariana* et *Abies balsamea*, elles ont moins de ressources
-pour faire face aux changements récents et futurs et ce qui pourrait limiter
-leur capacité à s'ajuster et s'éloigner d'un état possiblement mal adapté. De
-plus, on prévoit que le climat de la forêt boréale de l'est de l'Amérique du
-Nord devrait ressembler à celui de la forêt tempérée d'ici la fin du siècle
-[@gauthier_boreal_2015]. Toutefois, la migration des espèces tempérées dans ces
-régions semble limitée par plusieurs facteurs non-climatiques, notamment leur
-capacité de dispersion, la compétition par les espèces boréales, ainsi que les
-conditions édaphiques [Chapitre 3; @solarik_priority_2019; @carteron_soil_2020].
-Ainsi, si le réchauffement continue de s'accentuer et que les espèces tempérées
-ne parviennent pas à coloniser les régions boréales, on peut se demander comment
-se transformeront les sapinières et les pessières du Québec.
 
 <!--
 Le réchauffement est déjà plus intense et s'annonce aussi deux fois plus rapide
@@ -350,210 +530,11 @@ dans les stratégies de gestion forestière ainsi que dans les modèles de
 prédiction.
 
 
-# Des forêts en transformation: des individus aux biomes
 
 
-Les effets des changements environnementaux se répercutent à chaque niveau
-d'organisation de la biodiversité, se transmettant des individus jusqu'au biome,
-en passant par les populations, les communautés et les écosystèmes
-[@bellard_impacts_2012; @parmesan_globally_2003]. En effet, conformément avec
-les concepts de la science des systèmes complexes, les changements
-démographiques au bas de la hiérarchie peuvent faire émerger, par des processus
-d'organisation autonome, des réorganisations massives à l'échelle régionale. De
-plus, les interactions entre n'importe quel niveau de la hiérarchie peuvent
-donner naissance à des dynamiques non-linéaires, comme les changements de régime
-écologique [Fig. \ref{fig4.2}; @filotas_viewing_2014; @messier_managing_2013].
-Les résultats présentés dans mes trois chapitres de thèse  permettent de bien
-illustrer ces processus ascendants et en interaction par lequel les forêts de
-l'écotone boréal-tempéré sont en train de se transformer. L'interprétation de
-mes résultats sous la perspective des systèmes complexes permet de mieux
-comprendre la réponse des forêts sous l'effet combiné du changement climatique
-et des perturbations.
-
-\begin{figure}
-\centering
-\includegraphics[width=.9\textwidth]{conclusion/figures/complex.png}
-\caption[Représentation conceptuelle des effets des changements environnementaux sur les différents niveaux d'organisation biologique]{Représentation conceptuelle des effets des changements environnementaux sur les forêts sous l'angle d'un système complexe. Les changements dans la dynamique des forêts sont transférés de façon ascendante entre les différents niveaux d'organisation biologique. Des interactions et des rétroactions ont lieu entre les entités à l'intérieur et à travers les échelles spatiales, temporelles et hiérarchiques. Les entités qui interagissent à un niveau donnent naissance à des entités émergentes de niveau supérieur, dont l'existence, à son tour, affecte le comportement des entités de niveau inférieur. Schéma issu de Messier \emph{et al.} 2013.}
-\label{fig4.2}
-\end{figure}
-
-## Changements démographiques
-
-Dans un premier temps, le réchauffement climatique favorise le recrutement, la
-survie et la croissance des espèces tempérées à leur limite nord [Chapitre 3;
-@fisichelli_temperate_2014; @boisvertmarsh_divergent_2019;
-@peng_drought-induced_2011; @goldblum_tree_2005; @grundmann_impact_2011;
-@bolte_understory_2014], ce qui leur confère un avantage compétitif par rapport
-aux espèces boréales. Mais, en l'absence de perturbations, les arbres poussent
-lentement, leurs taux de mortalité et de recrutement sont faibles et la
-compétition pour l'espace et la lumière est intense. Ainsi, le renouvellement de
-la communauté est très lent.
-
-Des perturbations modérées peuvent cependant éliminer les individus des espèces
-résidentes. Dans la zone d'étude, les perturbations naturelles et anthropiques
-ont provoqué une mortalité disproportionnée d'une espèce dominante dans les
-forêts mixtes (Chapitre 2). En effet, *Abies balsamea* a subi une mortalité
-massive suite aux grandes épidémies de tordeuse des bourgeons de l'épinette dans
-les années 1967-1992 [@duchesne_population_2008]. De plus, cette espèce est
-aussi la plus coupée au Québec. Les trouées dans la canopée résultant de la
-perte de cette espèce boréale ubiquiste et abondante ont probablement permis de
-réduire la compétition et libérer des ressources, favorisant ensuite la
-croissance rapide des espèces tempérées compagnes, telles que *Acer saccharum*,
-*A. rubrum* et *Betula alleghaniensis* (Chapitre 2). De plus, alors que les
-perturbations naturelles semblent avoir un effet plutôt délétère, les coupes
-partielles favorisent une hausse du recrutement de ces espèces tempérées à leur
-limite nord (Chapitre 3).
-
-## Dynamique de population
-
-Le réchauffement et les perturbations peuvent donc exercer leur influence sur la
-dynamique de population des espèces par le biais de plusieurs processus
-démographiques, notamment la reproduction, le recrutement, la croissance et la
-mortalité. Ces changements à l'échelle des individus et des sites s'accumulent
-dans le temps et dans l'espace pour altérer l'abondance et l'aire de répartition
-des populations [@holt_theoretical_2005]. Si les effets sur les individus d'une
-espèce sont généralement négatifs, le taux de croissance de la population
-diminuera; certaines populations pourraient être amenées à disparaître
-localement et, dans le pire des cas, régionalement. À l'inverse, lorsque les
-effets sur les taux démographiques d'une espèce sont positifs, les populations
-grandissent, ce qui peut entraîner une augmentation locale de l'abondance et une
-expansion régionale de l'aire de répartition.
-
-
-Ces effets sur le fitness des espèces ne sont pas aléatoires, mais sont
-déterminés par leurs tolérances physiologiques, leurs stratégies d'histoire de
-vie et leurs capacités de dispersion [@aubin_traits_2016;
-@estrada_species_2015]. Ces caractéristiques écologiques spécifiques sont à l'origine de
-la grande variabilité dans les réponses des arbres face aux changements
-environnementaux. Alors que le réchauffement peut favoriser le taux de
-croissance des populations d'espèces qui sont limitées par les températures très
-froides [@de_frenne_microclimate_2013; @devictor_birds_2008], les perturbations
-devraient promouvoir les espèces opportunistes, intolérantes à l'ombre, avec une
-bonne capacité de dispersion et de reproduction végétative
-[@danneyrolles_stronger_2019]. Par exemple, *Acer rubrum*, dont la distribution
-au nord est en partie limitée par un faible niveau de reproduction sexuée
-[@tremblay_potential_2002], est reconnue comme une espèce super-généraliste et
-opportuniste, capable de coloniser rapidement des sites variés après une
-perturbation [@abrams_red_1998; @fei_rapid_2009]. Ces caractéristiques
-pourraient donc expliquer le grand succès de *Acer rubrum* sous l'effet combiné
-du réchauffement et des perturbations. En revanche, certaines espèces limitées
-par la dispersion, comme *Tilia americana*, limitées à un habitat spécifique,
-comme *Acer saccharinum*, ou encore intolérante aux perturbations, comme *Tsuga
-canadensis*, pourrait ne pas bénéficier des opportunités de recrutement et de
-croissance suivant des perturbations, et ce, même si le climat devient plus
-favorable.
-
-De plus, la sensibilité aux variations climatiques peut varier entre les
-différents processus démographiques [@niinemets_responses_2010]. Par exemple,
-comme la régénération est souvent plus sensible que la survie des adultes aux
-stress hydrique ou thermique [@niinemets_responses_2010], une population peut
-persister pendant des décennies ou des siècles sur un site donné, même si les
-conditions climatiques sont devenues défavorables [@talluto_extinction_2017].
-Pour cette raison, @jump_altitude-for-latitude_2009 ont suggéré que l'expansion
-à la limite nord de la distribution d'une espèce sera plus rapide que les
-changements à la limite sud puisque la reproduction et le recrutement sont plus
-sensibles aux changements environnementaux que la mortalité des individus
-établis. Dans les forêts du Québec, les données montrent effectivement une
-augmentation rapide du recrutement de plusieurs espèces tempérées (Chapitre 3).
-Toutefois, les changements découlant de la mortalité des espèces boréales
-étaient plus rapides puisque ce processus n'était pas contrôlé par un stress
-climatique mais surtout par des perturbations directes (e.g., coupe, feu,
-épidémie). Ainsi, les perturbations risquent d'accélérer la contraction de
-l'aire de répartition des espèces boréales, tandis que l'effet sur l'expansion
-des espèces tempérées à leur limite nord pourrait être beaucoup plus lent en
-raison des contraintes au recrutement (Chapitre 3).     
 
 
 <!--
-Par ailleurs, les changements dans la survie des adultes auront un impact plus important sur la dynamique des populations des espèces qui vivent longtemps, qui ont une maturation tardive ou qui produisent peu de descendants, i.e. les espèces de fin de succession. En revanche, les changements dans le succès de la reproduction auront tendance à avoir des effets beaucoup plus importants sur la dynamique des populations chez les espèces à courte durée de vie, qui ont une maturation précoce ou qui produisent beaucoup de descendants (Sæther & Bakke 2000).
--->
-
-## Dynamique des communautés
-
-Ces changements démographiques se traduisent donc en pertes et en gains
-d'espèces à l'échelle locale et influencent la composition et la structure des
-communautés forestières. Les gains en espèces tempérées combinés aux pertes en
-espèces boréales ont entraîné une thermophilisation de nombreuses communautés au
-Québec, particulièrement suivant des perturbations modérées (Chapitre 1). J'ai
-pu identifier trois mécanismes qui contribuent conjointement aux changements de
-composition en altérant la trajectoire de succession après perturbation: (1) la
-mortalité d'une espèce dominante; (2) le relâchement de la croissance des
-espèces compagnes (Chapitre 2); et (3) le recrutement accru des gaules des
-espèces compagnes et présentes dans le voisinage (Chapitre 3). <!--En
-modifiant la structure et la composition des communautés, ces réponses à court
-terme à une perturbation donnée altérent la mémoire écologique du système et par
-conséquent sa trajectoire future [@johnstone_changing_2016].-->
-
-Les conséquences au niveau des communautés des changements d'aires de
-répartition spécifiques aux espèces pourraient mener à la formation de
-communautés sans analogues, i.e. des communautés dans lesquelles coexistent des
-espèces dans des combinaisons historiquement inconnues [@williams_novel_2007].
-Dans la zone de transition entre le biome boréal et tempéré, l'effet combiné du
-réchauffement et des perturbations semblent particulièrement favorables à une
-poignée d'espèces seulement, avec en première position *Acer rubrum* (Chapitre
-1-3). Les modèles de distribution d'espèces sous l'effet du changement
-climatique prédisent un grand potentiel d'augmentation de la richesse au Québec
-[@berteaux_changements_2014]. Toutefois, si seul un nombre restreint d'espèces
-tempérées prospèrent sous ce nouveau régime de perturbations anthropiques, il
-est fort probable que les forêts de l'écotone ne connaîtront pas un
-enrichissement, mais plutôt un appauvrissement associé à l'expansion d'une ou
-quelques espèces. De plus, que deviendront ces forêts si cette réorganisation se
-fait au détriment des espèces boréales actuellement dominantes, notamment *Abies
-balsamea* et *Picea spp.*? Le déclin de ces espèces résineuses risque de
-s'accentuer dans les prochaines décennies dans les domaines de la sapinière en
-raison du réchauffement climatique [@dorangeville_beneficial_2018]. Le
-remplacement de ces espèces résineuses par des espèces feuillues pourrait avoir
-des conséquences économiques importantes. Par exemple, l'expansion de *Acer
-rubrum* pourrait compromettre l'approvisionnement en espèces résineuses à grande
-valeur commerciale dans la forêt mixte. De plus, les pratiques sylvicoles
-devront être révisées pour s'adapter à la nouvelle réalité puisqu'elles sont
-élaborées en fonction de la composition et de la dynamique naturelle des forêts
-et dépendent de la régénération naturelle [@pinna_amenagement_2009].
-
-## Déplacement des grands biomes forestiers
-
-Les effets cumulés des changements à l'échelle des individus, des populations et
-des communautés, peuvent finalement provoquer des changements de régime (*regime
-shift*), dans lesquels le déséquilibre pousse rapidement le système dans un
-nouvel état [@scheffer_catastrophic_2001]. Ces changements de régime se
-traduisent par un déplacement des grands biomes forestiers à l'échelle
-régionale, notamment une expansion de la forêt tempérée au détriment de la forêt
-mixte (Chapitre 2). Cette réorganisation régionale de la composition des forêts
-peut interagir avec le fonctionnement des écosystèmes à l'échelle locale et les
-processus à l'échelle globale [*cross-scale interaction*;
-@peters_crossscale_2007; @messier_managing_2013]. Ces changements de
-fonctionnement risquent d'être d'autant plus grand à l'écotone puisque les
-espèces feuillues et les espèces résineuses présentent des différences
-importantes sur le plan de leurs caractéristiques et fonctions écologiques
-[@wardle_terrestrial_2011]. L'enfeuillement des forêts mixtes pourrait par
-exemple influencer localement la qualité de la litière, le taux de décomposition
-de la matière organique et la composition des microorganismes du sol
-[@laganiere_how_2010; @legare_influence_2005]. Les changements dans la
-composition, la structure d'abondance et la distribution spatiale des forêts
-affecteront également la survie et la distribution des nombreuses espèces de
-mammifères, d'oiseaux et d'insectes qui en dépendent pour s'abriter et se
-nourrir [@friggens_effects_2018]. Comme les espèces feuillues sont moins
-inflammables et moins sensibles aux insectes ravageurs que les conifères, leur
-augmentation dans le paysage forestier peut modifier le régime régional de
-perturbations [@terrier_potential_2013; @mffp_insectes_2018]. À long terme,
-l'expansion du biome tempéré au détriment des forêts mixtes et des forêts
-boréales pourrait avoir un effet sur le climat global en augmentant la
-séquestration du carbone [@thurner_carbon_2014] ainsi que l'albédo
-[@anderson_biophysical_2011].
-
-
-
-
-
-<!--Les systèmes complexes accumulent des informations du passé qui influencent les trajectoires futures par le biais de changements persistants dans la structure et la composition du système (Anand et al. 2010, Parrott et Lange 2013). En forêt, le recrutement initial d'espèces pionnières à la suite d'une perturbation modifie l'habitat et influence les futurs espèces colonisatrices. Mémoire écologique... @essl_historical_2015 @johnstone_changing_2016
-
-Si nous pouvons généralement prévoir l'impact des facteurs individuels sur les écosystèmes locaux, les impacts des combinaisons de ces changements, à des niveaux d'intensité variables à travers le monde, génèrent beaucoup d'incertitudes.
-
-
-
-
-
-
 
 # Des changements multidimensionnels
 
@@ -714,6 +695,39 @@ contre-productive en tant qu'objectifs spécifiques, les informations historique
 documentant la dynamique naturelle des écosystèmes forestiers seront
 essentielles pour mieux comprendre les dynamiques du futur
 [@harris_ecological_2006].
+<!--et la dynamique récente altérée comme dans cette thèse
+
+
+## Résilience et capacité adaptative
+
+La biodiversité est un élément clé de la résilience et la capacité adaptative
+des forêts [@messier_functional_2019; @filotas_viewing_2014]. Alors que la
+résilience permet à une forêt de retrouver sa structure et ses fonctions
+d'origine, la capacité adaptative lui permet de diverger d'un état antérieur qui
+était mal adapté aux conditions environnementales [@messier_managing_2013;
+@filotas_viewing_2014]. Bien que moins résilientes, les forêts mixtes montrent
+une bonne capacité adaptative face au changement climatique puisqu'elles
+arrivent à se réorganiser de manière à ajuster leur composition aux nouvelles
+conditions environnementales [@messier_functional_2019; @filotas_viewing_2014].
+Mais qu'en est-il des forêts boréales pures? Contrairement aux forêts mixtes,
+celles-ci montrent peu de changements de composition en réponse au réchauffement
+climatique. En effet, alors qu'il y a eu très peu de transitions vers l'état
+mixte et pas de thermophilisation des communautés, on a plutôt observé une
+dynamique de remplacement entre les états pionnier et boréal (Chapitres 1 et 2).
+Comme les forêts du nord du Québec sont très pauvres en espèces, étant largement
+dominées par *Picea mariana* et *Abies balsamea*, elles ont moins de ressources
+pour faire face aux changements récents et futurs, ce qui pourrait limiter
+leur capacité à s'ajuster et s'éloigner d'un état possiblement mal adapté. De
+plus, on prévoit que le climat de la forêt boréale de l'est de l'Amérique du
+Nord devrait ressembler à celui de la forêt tempérée d'ici la fin du siècle
+[@gauthier_boreal_2015]. Toutefois, la migration des espèces tempérées dans ces
+régions semble limitée par plusieurs facteurs non-climatiques, notamment leur
+capacité de dispersion, la compétition par les espèces boréales, ainsi que les
+conditions édaphiques [Chapitre 3; @solarik_priority_2019; @carteron_soil_2020].
+Ainsi, si le réchauffement continue de s'accentuer et que les espèces tempérées
+ne parviennent pas à coloniser les régions boréales, on peut se demander si
+les sapinières et les pessières du Québec parviendront à s'adapter.
+-->
 
 ## Aménager les forêts pour augmenter leur résilience et leur capacité adaptative
 
@@ -749,7 +763,7 @@ et assurer la résilience des forêts [@duveneck_measuring_2016]. La création
 d'îlots de forêts mixtes sur les sommets de collines dans les forêts boréales
 assurerait la présence de semenciers de différentes espèces capables de
 coloniser rapidement les sites après perturbation lorsque les conditions seront
-adéquates (Chapitre 3). Finalement, étant donné les interactions entre échelles,
+adéquates (*Chapitre 3*). Finalement, étant donné les interactions entre échelles,
 les changements de régime écologique et la variabilité des réponses des espèces,
 il devient de plus en plus clair qu'on ne peut forcer un peuplement à se
 développer dans une direction précise prédéterminée en fonction de nos besoins
@@ -771,7 +785,7 @@ sécheresse. Mais, dans un contexte d'incertitude, cette stratégie ne suffit pa
 puisqu'il est possible que ce ne soit pas la sécheresse qui causera le plus
 grand stress aux forêts, mais plutôt l'augmentation de la fréquence des feux,
 l'arrivée de nouveaux insectes ravageurs ou encore les variations de
-températures printanières. De plus, tous ces facteurs de risque peuvent
+températures printanières. De plus, *comme on l'a vu ici,* tous ces facteurs de risque peuvent
 interagir entre eux et mener à des changements rapides et inattendus des
 écosystèmes forestiers. La grande incertitude associée aux prédictions des
 effets attendus des changements climatiques doit être intégrée dans la gestion

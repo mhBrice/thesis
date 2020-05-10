@@ -201,18 +201,18 @@ Here, we quantify the temporal shifts in tree community composition in the
 temperate-boreal ecotone, and test whether recent climate change is impacting
 forest composition. We analysed data from a long-term forest inventory program
 across meridional Québec, where vegetation ranges from northern hardwood forests
-dominated by *Acer saccharum* at low latitudes (up to 47$^\circ$N) to mixed forests
-dominated by *Abies balsamea* (from 47$^\circ$N to 48$^\circ$N), to boreal forests dominated
-by *Picea mariana* at high latitudes (from 49$^\circ$N to 52$^\circ$N). This dataset allowed
-us to compare community responses to recent climate change in plots that
-experienced different levels of disturbances along a broad latitudinal gradient.
-We address four questions: (1) how has the composition of forest
-communities changed during the last decades across different bioclimatic
-domains? (2) What is the relative contribution of climate change and
-disturbances to these temporal community changes? (3) Have forest communities
-experienced a thermophilization during the last decades? And can disturbances
-accelerate community thermophilization? (4) How do gains and losses of specific
-tree species contribute to thermophilization?
+dominated by *Acer saccharum* at low latitudes (up to 47$^\circ$N) to mixed
+forests dominated by *Abies balsamea* (from 47$^\circ$N to 48$^\circ$N), to
+boreal forests dominated by *Picea mariana* at high latitudes (from 49$^\circ$N
+to 52$^\circ$N). This dataset allowed us to compare community responses to
+recent climate change in plots that experienced different levels of disturbances
+along a broad latitudinal gradient. We address four questions: (1) how has the
+composition of forest communities changed during the last decades across
+different bioclimatic domains? (2) What is the relative contribution of climate
+change and disturbances to these temporal community changes? (3) Have forest
+communities experienced a thermophilization during the last decades? And can
+disturbances accelerate community thermophilization? (4) How do gains and losses
+of specific tree species contribute to thermophilization?
 
 Specifically, we measured temporal $\beta$ diversity [@legendre_temporal_2019] over
 6000 resurveyed communities between a historical (1970–1980) and a contemporary
