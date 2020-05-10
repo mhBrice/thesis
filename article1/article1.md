@@ -23,13 +23,12 @@ header-includes:
 
 \article{Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone}
 
-\auteur{Marie-Hélène Brice}
+\auteur{Marie-Hélène Brice\textsuperscript{1}}
 \adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
-\auteur{Kevin Cazelles}
+\auteur{Kevin Cazelles\textsuperscript{2}}
 \adresse{Department of Integrative Biology, University Of Guelph, Guelph, ON N1G 2W1, Canada}
-\auteur{Pierre Legendre}
-\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
-\auteur{Marie-Josée Fortin}
+\auteur{Pierre Legendre\textsuperscript{1}}
+\auteur{Marie-Josée Fortin\textsuperscript{3}}
 \adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
 
 

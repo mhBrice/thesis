@@ -1030,10 +1030,10 @@
         \def\@auteurs{}
         \def\@adresses{\debut@adresses}
         \gdef\dms@adressenum{1}
-        \def\auteur####1{\let\@et\dms@et\def\@auteurs{####1\dms@adressenote}%
+        \def\auteur####1{\let\@et\dms@et\def\@auteurs{####1}% KC: rm \dms@adressenote
             \def\auteur########1{\expandafter\def\expandafter\@auteurs\expandafter{%
             \expandafter\begingroup\expandafter\let\expandafter\@et\expandafter,\@auteurs\endgroup%
-            \@et\ ########1\dms@adressenote}}}
+            \@et\ ########1}}}% KC: rm \dms@adressenote
         \let\author=\auteur
     }
     \cleardoublepage
@@ -1243,10 +1243,10 @@
         \def\@auteurs{}
         \def\@adresses{\debut@adresses}
         \gdef\dms@adressenum{1}
-        \def\auteur####1{\let\@et\dms@et\def\@auteurs{####1\dms@adressenote}%
+        \def\auteur####1{\let\@et\dms@et\def\@auteurs{####1}% KC: rm \dms@adressenote
             \def\auteur########1{\expandafter\def\expandafter\@auteurs\expandafter{%
             \expandafter\begingroup\expandafter\let\expandafter\@et\expandafter,\@auteurs\endgroup%
-            \@et\ ########1\dms@adressenote}}}
+            \@et\ ########1}}} % KC: rm \dms@adressenote
         \let\author=\auteur
     }
     \cleardoublepage
@@ -1278,10 +1278,10 @@
     \def\dms@adressenote{$^\dms@adressenum$} % Racourci pour mettre une note
     \def\@adresses{\debut@adresses}
         % Paramètres complexes
-    \def\auteur##1{\let\@et\dms@et\def\@auteurs{##1\dms@adressenote}%
+    \def\auteur##1{\let\@et\dms@et\def\@auteurs{##1}%kc rm \dms@adressenote
         \def\auteur####1{\expandafter\def\expandafter\@auteurs\expandafter{%
         \expandafter\begingroup\expandafter\let\expandafter\@et\expandafter,\@auteurs\endgroup%
-        \@et\ ####1\dms@adressenote}}}
+        \@et\ ####1}}}
     \let\author\auteur
     %
     \def\dms@adresseincrement{\count255=\dms@adressenum%
