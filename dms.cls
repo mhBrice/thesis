@@ -1404,8 +1404,8 @@
         {3}
         \normalparindent
         {6\p@\@plus2\p@}
-        {-1mm}
-        {\normalfont}%
+        {1mm}%KC 1mm instead of -1mm
+        {\bfseries}%KC (nomalfont => bfseries)
 }
 \def\paragraph{%
     \@startsection{paragraph}
