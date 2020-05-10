@@ -1141,7 +1141,7 @@
           \do\dms@parname   \vbox{\LARGE\noindent\articletocentry\ \dms@articlename.\strut} %i-eme article
         \fi
         \par\vfil
-        \fontsize{30pt}{25pt}\selectfont
+        \fontsize{25pt}{20pt}\selectfont %KC: was {30pt}{25pt}
         \vbox{\raggedcenter\strut #1\par} %titre en gras
         \par\vfil
         \fontsize{17.28pt}{19pt}\mdseries\rmfamily\upshape\selectfont
@@ -1185,7 +1185,7 @@
         \egroup
         \hrule width0pt height32pt depth0pt
         \vbox{          % Titre
-            \fontsize{30pt}{25pt}\bfseries\selectfont
+            \fontsize{25pt}{20pt}\bfseries\selectfont %KC: was {30pt}{25pt} Here
             \vbox{\raggedcenter\strut\article@titre\par} %titre en gras
         }
         \vskip1cm

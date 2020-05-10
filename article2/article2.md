@@ -26,11 +26,15 @@ header-includes:
 \article{Moderate disturbances accelerate forest transition dynamics under climate change in the temperate-boreal ecotone of eastern North America}
 
 \auteur{Marie-Hélène Brice}
+\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Steve Vissault}
 \auteur{Willian Vieira}
 \auteur{Dominique Gravel}
+\adresse{Département de Biologie, Université de Sherbrooke, Sherbrooke, QC J1K 2R1, Canada.}
 \auteur{Pierre Legendre}
+\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Marie-Josée Fortin}
+\adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
 
 
 
