@@ -26,8 +26,8 @@ bibclean: $(bib) $(main).aux
 	bibtool -sdx thesismhb.aux $(bib) > references_clean.bib
 
 clean:
-	rm *.aux *.log *.toc *.lot *.lof *.bbl *.blg introduction.tex
-	rm article1/*.tex
+	rm *.aux *.log *.toc *.lot *.lof *.bbl *.blg
+	rm introduction/*.tex article1/*.tex article2/*.tex
 
 introdocx:
 	pandoc -s introduction/introduction.md -o introduction/introductionT.tex $(fbib)

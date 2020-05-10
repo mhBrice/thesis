@@ -130,7 +130,7 @@
   \edef\refnameen{References}
 
   \edef\revuemsgfr{Cet article a \'et\'e }
-  \edef\revuemsgen{This article was  }
+  \edef\revuemsgen{This article }
 
   \edef\contribmsgfr{Les principales contributions de
     \noexpand\authors\ \`a cet article sont pr\'esent\'ees.}
