@@ -23,23 +23,21 @@ header-includes:
 
 \revue{was accepted for publication in Global Change Biology. 2020. https://doi.org/10.1111/gcb.15143}
 
-\article{Moderate disturbances accelerate forest transition dynamics under climate change in the temperate-boreal ecotone of eastern North America}
+\article{Moderate disturbances accelerate forest transition dynamics under climate change in the temperate-boreal ecotone of eastern North America} \label{chap2}
 
-\auteur{Marie-Hélène Brice}
+\auteur{Marie-Hélène Brice\textsuperscript{1}}
 \adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
-\auteur{Steve Vissault}
-\auteur{Willian Vieira}
-\auteur{Dominique Gravel}
+\auteur{Steve Vissault\textsuperscript{2}}
+\auteur{Willian Vieira\textsuperscript{2}}
+\auteur{Dominique Gravel\textsuperscript{2}}
 \adresse{Département de Biologie, Université de Sherbrooke, Sherbrooke, QC J1K 2R1, Canada.}
-\auteur{Pierre Legendre}
+\auteur{Pierre Legendre\textsuperscript{1}}
 \adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
-\auteur{Marie-Josée Fortin}
+\auteur{Marie-Josée Fortin\textsuperscript{3}}
 \adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
 
 
 
-\contributions[\textbf{Author contributions}]{
-  MHB designed the study and performed the analyses with feedback from the other authors. MHB wrote the first and second drafts. All authors substantially contributed to the final version of the manuscript.}
 
 \maketitle
 

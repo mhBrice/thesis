@@ -19,23 +19,21 @@ header-includes:
 
 \revue{is in preparation for publication in Journal of Ecology}
 
-\article{Northern range shifts of temperate tree saplings in Québec: the role of climate, stand composition, soils and disturbances on recruitment dynamics}
+\article{Northern range shifts of temperate tree saplings in Québec: the role of climate, stand composition, soils and disturbances on recruitment dynamics} \label{chap3}
 
-\auteur{Marie-Hélène Brice}
+\auteur{Marie-Hélène Brice\textsuperscript{1}}
 \adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
-\auteur{Aurélie Chalumeau}
+\auteur{Aurélie Chalumeau\textsuperscript{2,3}}
 \adresse{Institut de recherche sur les forêts, Université du Québec en Abitibi-Témiscamingue, Rouyn-Noranda, QC J9X 4E5, Canada}
-\auteur{Pierre Grondin}
+\auteur{Pierre Grondin\textsuperscript{3}}
 \adresse{Direction de la Recherche Forestière, Ministère des Forêts, de la Faune et des Parcs (MFFP), Québec, QC G1P 3W8, Canada}
-\auteur{Marie-Josée Fortin}
+\auteur{Marie-Josée Fortin\textsuperscript{4}}
 \adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
-\auteur{Pierre Legendre}
+\auteur{Pierre Legendre\textsuperscript{5}}
 \adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 
 
 
-\contributions[\textbf{Author contributions}]{
-  MHB designed the study and performed the analyses with feedback from the other authors. MHB wrote the first and second drafts. All authors substantially contributed to the final version of the manuscript.}
 
 \maketitle
 
