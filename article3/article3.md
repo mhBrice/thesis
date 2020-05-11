@@ -76,14 +76,14 @@ sapling recruitment, it was largely constrained by local forest composition
 drainage.
 
 
-4. \emph{Synthesis} Temporal patterns of sapling recruitment provided an early signal
-of northward migrations of temperate tree species and indicated that important
-compositional changes are underway. However, disturbances can influence the
-magnitude of range shifts and should therefore be taken into account. While
-moderate logging may promote recruitment pulses of temperate species at their
-northern margins, dispersal limitation, priority effect from boreal trees, as
-well as topographic and edaphic conditions may greatly reduce potential
-northward shifts.
+4. \emph{Synthesis} Temporal patterns of sapling recruitment provided an early
+signal of northward migrations of temperate tree species and indicated that
+important compositional changes are underway. However, disturbances can
+influence the magnitude of range shifts and should therefore be taken into
+account when projecting future species distributions. While moderate logging may
+promote recruitment pulses of temperate species at their northern margins,
+dispersal limitation, priority effect from boreal trees, as well as topographic
+and edaphic conditions may greatly reduce potential northward shifts of temperate species.
 
 \end{abstract}
 
@@ -108,7 +108,7 @@ Since species northern range limits are substantially controlled by their
 physiological tolerances to minimum temperature [@arris_evidence_1989], tree species are expected to shift their distributions
 toward higher latitudes in response to climate warming. Consistent with these
 hypotheses, temperate tree species in Québec have shifted their range limits
-northward and the shifts were larger for saplings than for adult trees
+northward and these shifts were larger for saplings than for adult trees
 [@boisvert-marsh_shifting_2014; @sittaro_tree_2017]. However, @sittaro_tree_2017
 reported that these latitudinal shifts were poorly correlated with climate
 warming and @boisvertmarsh_divergent_2019 showed both positive and negative
@@ -117,7 +117,7 @@ margins. This apparent contradiction between the expected northward shifts and
 the underlying driver may indicate that trees are responding to a complex suite
 of environmental drivers [@solarik_priority_2019; @carteron_soil_2020;
 @boisvertmarsh_divergent_2019; @leithead_northward_2010]. Because tree migration
-ultimately depends upon successful recruitments in new habitats beyond their
+ultimately depends upon successful recruitments in new locations beyond their
 current range limits [@renwick_temporal_2015], determining what conditions can
 facilitate or impede sapling establishment is a milestone in predicting future
 tree species distributions [@copenhaverparry_multiscale_2020] and vulnerability
@@ -180,10 +180,10 @@ migrating species. Dendrochronological studies have reported that the
 recruitment of many tree species during the last century was strongly
 synchronised with canopy disturbances (recruitment pulse), such as insect
 outbreak [@bouchard_tree_2006; @duchesne_canopy_2013], fire
-[@bergeron_species_2000] and logging [@angers_comparing_2005]. The type and size
-of disturbances influence which species are able to establish depending on
-several characteristics, such as shade-tolerance, dispersal ability and
-vegetative reproduction [@bergeron_species_2000; @brisson_les_1988]. For
+[@bergeron_species_2000] and logging [@angers_comparing_2005]. The type,
+severity and size of disturbances influence which species are able to establish
+depending on several characteristics, such as shade-tolerance, dispersal ability
+and vegetative reproduction [@bergeron_species_2000; @brisson_les_1988]. For
 instance, moderate outbreaks in mixedwoods may favour the regeneration of the
 mid-tolerant species, such as *Acer rubrum* and *Betula alleghaniensis*, whereas
 shade-tolerant species, such as *Abies balsamea*, may recruit continuously in
@@ -667,7 +667,7 @@ rubrum* recruits were found in younger forests.
 \begin{figure}
 \centering
 \includegraphics[width=.9\textwidth]{article3/figures/fig5_hurdle.png}
-\caption[Slope coefficients and their 95\% confidence intervals estimated by the recruitment models]{Slope coefficients and their 95\% confidence intervals estimated by the recruitment models for the four temperate tree species. On the left are the zero parts and on the right are the count parts of the hurdle models. Predictors coloured in blue have a positive effect on the probability of having recruitment (zero part) or the number of recruits (count part), whereas predictors coloured in red have a negative effect. Significant predictors are represented by solid points. McFadden pseudo-R2 statistics were computed against the null model (1 - LL$\textsubscript{full}$/LL$\textsubscript{null}$). For a description of the predictor variables, see Table \ref{tab:tab3.1}.}
+\caption[Slope coefficients and their 95\% confidence intervals estimated by the recruitment models]{Slope coefficients and their 95\% confidence intervals estimated by the recruitment models for the four temperate tree species. On the left are the zero parts and on the right are the count parts of the hurdle models. Predictors coloured in blue have a positive effect on the probability of having recruitment (zero part) or the number of recruits (count part), whereas predictors coloured in red have a negative effect. Significant predictors are represented by solid points. McFadden pseudo-R\textsuperscript{2} statistics were computed against the null model (1 - LL$\textsubscript{full}$/LL$\textsubscript{null}$). For a description of the predictor variables, see Table \ref{tab:tab3.1}.}
 \label{fig3.5}
 \end{figure}
 
