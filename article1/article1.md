@@ -1,18 +1,4 @@
----
-title: Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone
-documentclass: article
-font: 12pt
-papersize: a4paper
-geometry: margin=1in
-header-includes:
-    - \usepackage{setspace}
-    - \setstretch{1,5}
-    - \usepackage{lineno}
-    - \linenumbers
-    - \raggedright
----
 
-\setcounter{section}{1}
 
 \anglais
 
@@ -113,11 +99,11 @@ shifts at their range edge, where early signs of changes are expected to be
 readily detectable [@jump_altitude-for-latitude_2009]. As such, there is a
 growing body of evidence for contemporary shifts in tree species distributions
 along altitudinal gradients in mountains [@beckage_rapid_2008;
-@savage_elevational_2015; @lenoir_significant_2008], where ecotones are narrow
+@lenoir_significant_2008; @savage_elevational_2015], where ecotones are narrow
 and well-defined [@jump_altitude-for-latitude_2009]. Similar evidence is also
-beginning to emerge for latitudinal shifts [@fisichelli_temperate_2014;
-@sittaro_tree_2017; @boisvertmarsh_divergent_2019]. Though, because of the focus
-on shifts at range limits (e.g., leading and rearing edges of species ranges),
+beginning to emerge for latitudinal shifts [@boisvertmarsh_divergent_2019;
+@fisichelli_temperate_2014; @sittaro_tree_2017]. Though, because of the focus on
+shifts at range limits (e.g., leading and rearing edges of species ranges),
 there has been little empirical work on the effect of climate change on tree
 community composition and abundance distributions within the core of species
 range itself [e.g. @esquivel-muelbert_compositional_2018;
@@ -130,7 +116,7 @@ species gains and losses, leading to temporal change in community composition.
 Yet, as trees are long-lived species, mortality and recruitment rates are low
 [@iverson_tree-species_2013]. Thus, tree community responses to contemporary
 climate warming are likely to be lagged, resulting in extinction debts
-[@talluto_extinction_2017; @svenning_disequilibrium_2013]. Consequently, tree
+[@svenning_disequilibrium_2013; @talluto_extinction_2017]. Consequently, tree
 community-level response to climate change remains difficult to quantify and is
 probably underestimated.
 
@@ -149,10 +135,10 @@ effects. Yet, disturbances and climate change have a high potential for
 interactions, which can lead to synergistic or antagonistic ecological effects
 that are difficult to predict [@brook_synergies_2008]. Indeed, disturbances
 create canopy openings that could facilitate the northward migration of
-temperate species [@xu_importance_2012; @vanderwel_how_2014;
-@leithead_northward_2010; @boisvertmarsh_divergent_2019]. In addition, the
-frequency and intensity of natural disturbances can increase as an indirect
-effect of climate change [@seidl_forest_2017].
+temperate species [@boisvertmarsh_divergent_2019; @leithead_northward_2010;
+@vanderwel_how_2014; @xu_importance_2012]. In addition, the frequency and
+intensity of natural disturbances can increase as an indirect effect of climate
+change [@seidl_forest_2017].
 
 Although it is widely assumed that positive synergy between disturbances and
 climate warming should play a key role in contemporary tree community changes,
@@ -176,23 +162,23 @@ Even though disturbances may mask slow community responses to climate change,
 these two drivers leave distinguishable signatures on communities. Climate
 warming should favour warm-adapted species at the expense of cold-adapted
 species, leading to a "thermophilization" of communities
-[@savage_elevational_2015; @de_frenne_microclimate_2013]. Conversely,
+[@de_frenne_microclimate_2013; @savage_elevational_2015]. Conversely,
 disturbances should increase the prevalence of young forests dominated by
-shade-intolerant species [@savage_elevational_2015; @boucher_impact_2012]. Hence,
-analysing shifts of relevant functional traits and ecological
-affinities in communities using large-scale monitoring data should disentangle
-the role of different environmental drivers in shaping communities
-[@violle_let_2007]. For instance, the Community Temperature Index (CTI) has been
-used to measure thermophilization in various communities, such as plants, trees,
-birds and fishes [@devictor_birds_2008; @gauzere_rapid_2015;
-@de_frenne_microclimate_2013; @feeley_compositional_2013;
-@beckerscarpitta_four_2019; @cheung_signature_2013;
-@danneyrolles_stronger_2019]. The CTI is a community abundance-weighted average
-of the Species Temperature Indices (STI; proxy for species thermal preference
-computed as the mean temperature of a given species distribution). Because CTI
-reflects the relative abundance of warm-adapted (high STI) vs cold-adapted
-species (low STI), it is expected to increase following climate warming if
-species are moving according to their temperature requirements.
+shade-intolerant species [@boucher_impact_2012; @savage_elevational_2015].
+Hence, analysing shifts of relevant functional traits and ecological affinities
+in communities using large-scale monitoring data should disentangle the role of
+different environmental drivers in shaping communities [@violle_let_2007]. For
+instance, the Community Temperature Index (CTI) has been used to measure
+thermophilization in various communities, such as plants, trees, birds and
+fishes [@beckerscarpitta_four_2019; @cheung_signature_2013;
+@danneyrolles_stronger_2019; @de_frenne_microclimate_2013; @devictor_birds_2008;
+@feeley_compositional_2013; @gauzere_rapid_2015]. The CTI is a community
+abundance-weighted average of the Species Temperature Indices (STI; proxy for
+species thermal preference computed as the mean temperature of a given species
+distribution). Because CTI reflects the relative abundance of warm-adapted (high
+STI) vs cold-adapted species (low STI), it is expected to increase following
+climate warming if species are moving according to their temperature
+requirements.
 
 Here, we quantify the temporal shifts in tree community composition in the
 temperate-boreal ecotone, and test whether recent climate change is impacting
@@ -715,40 +701,41 @@ also increased (+0.01 unit/decade), suggesting a transition towards late
 successional forests (Fig. \ref{fig1.5}).
 
 Thermophilization was significantly larger in moderately disturbed forests
-($\Delta$CTI = +0.044 $^\circ$C/decade) than in undisturbed (+0.015 $^\circ$C/decade) or
-highly disturbed forests (+0.018 $^\circ$C/decade; ANOVA $F_{2, 6278}$ = 14.59,
-*p*-value < 0.001; a post-hoc Tukey test showed significantly higher $\Delta$CTI
-at moderate disturbance than at the other levels). Moreover, the latitudinal
-pattern of $\Delta$CTI varied with the disturbance level: the thermophilization
-in moderately disturbed forests extended further north than in undisturbed
-forests, exceeding 48$^\circ$N, up in the balsam fir-yellow birch domain (Fig. \ref{fig1.5}b,e),
-while at major disturbances, thermophilization was more or less constant across
-the latitudinal gradient (Fig. \ref{fig1.5}c,f). Despite the influence of disturbances on
+($\Delta$CTI = +0.044 $^\circ$C/decade) than in undisturbed (+0.015
+$^\circ$C/decade) or highly disturbed forests (+0.018 $^\circ$C/decade; ANOVA
+$F_{2, 6278}$ = 14.59, *p*-value < 0.001; a post-hoc Tukey test showed
+significantly higher $\Delta$CTI at moderate disturbance than at the other
+levels). Moreover, the latitudinal pattern of $\Delta$CTI varied with the
+disturbance level: the thermophilization in moderately disturbed forests
+extended further north than in undisturbed forests, exceeding 48$^\circ$N, up in
+the balsam fir-yellow birch domain (Fig. \ref{fig1.5}b,e), while at major
+disturbances, thermophilization was more or less constant across the latitudinal
+gradient (Fig. \ref{fig1.5}c,f). Despite the influence of disturbances on
 thermophilization, change in CTI was weakly explained by our complete set of
 environmental predictors ($R^2_{adj}$ ca. 3%). Moreover, the relationship
 between thermophilization and climate change predictors was surprisingly weak
 ($R^2_{adj}$ < 1%), with no correlation at all with temperature change.
 
 The analysis of $\Delta$CSI revealed that major disturbances resulted in a large
-decrease in CSI (Fig. \ref{fig1.5}c; mean $\Delta$CSI = -0.037), consistent with higher
-gains in pioneer species (Fig. \ref{fig1.2}), while minor disturbances led to an increase
-in CSI (Fig. \ref{fig1.5}a; mean $\Delta$CSI = +0.060). Both influenced by disturbances,
-$\Delta$CTI and $\Delta$CSI were negatively correlated (Pearson *r* = -0.2,
-*p*-value < 0.001) indicating that the two ecological processes are intertwined.
-However, $\Delta$CTI was more strongly correlated to gains in temperate species
-and losses of boreal species than to gains in pioneer species (Fig. \ref{figA1.6}), which
-suggests that thermophilization was not trivially driven by successional
-processes.
+decrease in CSI (Fig. \ref{fig1.5}c; mean $\Delta$CSI = -0.037), consistent with
+higher gains in pioneer species (Fig. \ref{fig1.2}), while minor disturbances
+led to an increase in CSI (Fig. \ref{fig1.5}a; mean $\Delta$CSI = +0.060). Both
+influenced by disturbances, $\Delta$CTI and $\Delta$CSI were negatively
+correlated (Pearson *r* = -0.2, *p*-value < 0.001) indicating that the two
+ecological processes are intertwined. However, $\Delta$CTI was more strongly
+correlated to gains in temperate species and losses of boreal species than to
+gains in pioneer species (Fig. \ref{figA1.6}), which suggests that
+thermophilization was not trivially driven by successional processes.
 
 
 Community thermophilization was asymmetrical and mainly driven by larger gains
 in warm-adapted species, as indicated by the larger increases in the warm-tail
-of the temperature distributions than in the cold-tail (Fig. \ref{fig1.5}d-f). Moderate
-disturbances exacerbated this effect from the sugar maple-yellow birch up to the
-balsam fir-white birch domain (larger increase in the warm tail; Fig. \ref{fig1.5}e). The
-positive correlation between $\Delta$CTI and gains in temperate species in all
-domains, except in the spruce-moss, also corroborates the role of warm-adapted
-species (Fig. \ref{figA1.6}).
+of the temperature distributions than in the cold-tail (Fig. \ref{fig1.5}d-f).
+Moderate disturbances exacerbated this effect from the sugar maple-yellow birch
+up to the balsam fir-white birch domain (larger increase in the warm tail; Fig.
+\ref{fig1.5}e). The positive correlation between $\Delta$CTI and gains in
+temperate species in all domains, except in the spruce-moss, also corroborates
+the role of warm-adapted species (Fig. \ref{figA1.6}).
 
 
 
@@ -777,17 +764,18 @@ cold‐adapted species, respectively.}
 
 
 Only a few species contributed substantially to community thermophilization
-(Fig. \ref{fig1.6}). Gains of *Acer rubrum* and *Acer saccharum*, as well as losses of
-*Abies balsamea* and *Picea mariana*, contributed strongly to the
+(Fig. \ref{fig1.6}). Gains of *Acer rubrum* and *Acer saccharum*, as well as
+losses of *Abies balsamea* and *Picea mariana*, contributed strongly to the
 thermophilization of all bioclimatic domains. In addition to the change of these
 four species, the losses of *Betula papyrifera* and *Picea glauca* also played a
 key role in the thermophilization of ecotonal forests in the balsam fir-yellow
 birch domain. Moreover, temperate species such as *Fagus grandifolia*, *Quercus
 rubra* and *Fraxinus americana* contributed mostly to the thermophilization of
-southern domains (Fig. \ref{fig1.6}) where their abundance has increased (Fig. \ref{figA1.5}). In
-contrast, the surge in CTI north of the 49$^\circ$N (spruce-moss) in highly disturbed
-forests (Fig. \ref{fig1.5}) was likely due to the replacement of boreal species by pioneer
-species (Fig. \ref{figA1.6}), such as *Betula papyrifera* and *Salix spp.* (Fig. \ref{fig1.6}).
+southern domains (Fig. \ref{fig1.6}) where their abundance has increased (Fig.
+\ref{figA1.5}). In contrast, the surge in CTI north of the 49$^\circ$N
+(spruce-moss) in highly disturbed forests (Fig. \ref{fig1.5}) was likely due to
+the replacement of boreal species by pioneer species (Fig. \ref{figA1.6}), such
+as *Betula papyrifera* and *Salix spp.* (Fig. \ref{fig1.6}).
 
 
 
@@ -840,13 +828,13 @@ historical disturbances even superseded that of recent disturbances. Such
 findings stress that disturbances cannot be ignored when modelling the future of
 forests with climate change, as they not only drive community changes, but also
 have long-lasting impacts. Tree harvesting was the most frequent type of
-disturbance (Fig. \ref{figA1.2}) and alone accounted for 24.7% of all tree mortality during
-the study period, thus impacting severely all components of temporal community
-changes. However, in contrast to natural disturbances, tree harvesting has been
-shown to disrupt the relationship between vegetation and local environmental
-conditions and, because of its short return interval, to favour young even-aged
-stands to the detriment of old-growth forests [@boucher_logging_2009;
-@boucher_impact_2012].
+disturbance (Fig. \ref{figA1.2}) and alone accounted for 24.7% of all tree
+mortality during the study period, thus impacting severely all components of
+temporal community changes. However, in contrast to natural disturbances, tree
+harvesting has been shown to disrupt the relationship between vegetation and
+local environmental conditions and, because of its short return interval, to
+favour young even-aged stands to the detriment of old-growth forests
+[@boucher_logging_2009; @boucher_impact_2012].
 
 ## Climate-induced change in tree community
 
@@ -854,17 +842,17 @@ Our findings highlight an ongoing shift toward more warm-adapted tree species in
 forests across the temperate-boreal ecotone. This overall thermophilization
 trend of tree communities is consistent with the hypothesis of climate-induced
 range shift, expanding on earlier findings that forests are responding to
-climate warming [e.g. @sittaro_tree_2017; @leithead_northward_2010;
-@fisichelli_temperate_2014]. However, the observed increase of tree community
-temperature of +0.03 $^\circ$C/decade is considerably smaller than the rising trend in
-growing season temperature of 0.14 $^\circ$C/decade (Fig. \ref{figA1.1}). Although these measures
-have different origins and should thus be compared cautiously, our findings
-support the conclusion of numerous studies that tree responses often lag behind
-environmental changes [@sittaro_tree_2017; @talluto_extinction_2017;
-@renwick_temporal_2015; @svenning_disequilibrium_2013]. Considering the velocity
-of the predicted future climate change, the gap between species distributions
-and their optimal climate niches will likely widen and lead to greater
-reshuffling of biodiversity.
+climate warming [e.g. @fisichelli_temperate_2014; @leithead_northward_2010;
+@sittaro_tree_2017]. However, the observed increase of tree community
+temperature of +0.03 $^\circ$C/decade is considerably smaller than the rising
+trend in growing season temperature of 0.14 $^\circ$C/decade (Fig.
+\ref{figA1.1}). Although these measures have different origins and should thus
+be compared cautiously, our findings support the conclusion of numerous studies
+that tree responses often lag behind environmental changes
+[@renwick_temporal_2015; @sittaro_tree_2017;  @svenning_disequilibrium_2013;
+@talluto_extinction_2017]. Considering the velocity of the predicted future
+climate change, the gap between species distributions and their optimal climate
+niches will likely widen and lead to greater reshuffling of biodiversity.
 
 
 ## Feedback between climate change and disturbances
@@ -876,8 +864,8 @@ highlighting that the observed thermophilization was not simply correlated with
 the replacement of boreal by pioneer species. Our work provides a broad-scale
 community perspective on the role played by disturbances in promoting northward
 migration of tree species, which is in agreement with the conclusions of recent
-empirical [@leithead_northward_2010; @boucher_logging-induced_2006] and
-simulation [@wang_importance_2015; @vanderwel_how_2014] studies.
+empirical [@boucher_logging-induced_2006; @leithead_northward_2010] and
+simulation [@vanderwel_how_2014; @wang_importance_2015] studies.
 
 Disturbances likely accelerate forest changes by reducing competition and
 providing establishment opportunities to warm-adapted temperate tree species
@@ -936,9 +924,9 @@ between climate and disturbances likely promotes generalist tree species adapted
 to disturbances with high dispersal abilities [@aubin_traits_2016]. For
 instance, generalist species like *Acer sp.*, especially *Acer rubrum*, have
 been expanding in eastern North America since the pre-industrial period
-[@thompson_four_2013; @boucher_logging-induced_2006;
-@danneyrolles_stronger_2019] and recently established themselves in boreal
-forests [@sittaro_tree_2017; @leithead_northward_2010] because they quickly take
+[@boucher_logging-induced_2006; @danneyrolles_stronger_2019;
+@thompson_four_2013] and recently established themselves in boreal forests
+[@leithead_northward_2010; @sittaro_tree_2017] because they quickly take
 advantage from disturbances and thrive in a wide variety of ecological
 conditions. In contrast, some species limited by dispersal, such as *Carya sp.*
 and *Tilia americana*, or constrained to specific habitat, such as *Acer
@@ -963,11 +951,11 @@ balsam fir-white birch and spruce moss domains could be explained by the fact
 that temperate species are rare in these two northernmost domains, hence changes
 in CTI resulted mostly from a dynamic of replacement between pioneer and boreal
 species in response to disturbances. *A. rubrum* was the only temperate species
-to increase in the balsam fir-white birch domain (Fig. \ref{figA1.5}) and, when it did, it
-contributed to increase its CTI (Fig. \ref{fig1.6}). Similarly to *A. saccharum*, *A.
-rubrum* distribution is spatially constrained within the balsam fir-white birch
-domain [@blouin_guide_2008] and will likely expand from existing existing patchy
-populations in the future.
+to increase in the balsam fir-white birch domain (Fig. \ref{figA1.5}) and, when
+it did, it contributed to increase its CTI (Fig. \ref{fig1.6}). Similarly to *A.
+saccharum*, *A. rubrum* distribution is spatially constrained within the balsam
+fir-white birch domain [@blouin_guide_2008] and will likely expand from existing
+existing patchy populations in the future.
 
 ## Long-term perspectives for the temperate-boreal ecotone
 

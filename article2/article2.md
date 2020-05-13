@@ -1,23 +1,3 @@
----
-title: Moderate disturbances accelerate forest transition dynamics under climate change in the temperate-boreal ecotone of eastern North America
-documentclass: article
-font: 12pt
-indent: 2m
-papersize: a4paper
-geometry: margin=1in
-header-includes:
-    - \usepackage{setspace}
-    - \doublespacing
-    - \usepackage{lineno}
-    - \linenumbers
-    - \usepackage{float}
-    - \floatplacement{figure}{H}
-    - \usepackage{caption}
-    - \renewcommand{\figurename}{\bfseries Figure}
-
----
-
-\setcounter{section}{2}
 
 \anglais
 
@@ -94,7 +74,7 @@ header-includes:
 # Introduction
 
 Global climate warming has led to altitudinal and latitudinal migration of
-species across the globe [@parmesan_globally_2003; @chen_rapid_2011]. In
+species across the globe [@chen_rapid_2011; @parmesan_globally_2003]. In
 ecotones, where transition between vegetation biomes occurs, these shifts in
 species distributions entail far reaching consequences for forest ecosystems
 [@evans_borealtemperate_2017]. In some cases, climate-induced shifts in tree
@@ -123,39 +103,38 @@ temperate-boreal forest ecotone, recent climate warming has been shown to
 improve recruitment, survival and growth of some temperate tree species at their
 northern limits, whereas boreal species were competitively disadvantaged by
 slower growth and larger increase in mortality associated to heat and drought
-stress [@fisichelli_temperate_2014; @reich_geographic_2015;
-@peng_drought-induced_2011; @goldblum_tree_2005; @grundmann_impact_2011;
-@bolte_understory_2014]. Hence, as climate warms and tips the balance in favour
-of temperate over boreal species, forests at the ecotone are expected to
-transition from coniferous to mixedwood and from mixedwood to temperate
-deciduous [@boulanger_climate_2019;
+stress [@bolte_understory_2014; @fisichelli_temperate_2014; @goldblum_tree_2005;
+@grundmann_impact_2011; @peng_drought-induced_2011; @reich_geographic_2015].
+Hence, as climate warms and tips the balance in favour of temperate over boreal
+species, forests at the ecotone are expected to transition from coniferous to
+mixedwood and from mixedwood to temperate deciduous [@boulanger_climate_2019;
 @chen_modeling_2002; @lindner_climate_2010].
 
 The reported shifts in species distributions are, however, much slower than the
 rate of climate change [@sittaro_tree_2017; @talluto_extinction_2017]. Such lags
 in species responses are hypothesised as primarily due to demographic
-constraints [@svenning_disequilibrium_2013; @renwick_temporal_2015]. Because
+constraints [@renwick_temporal_2015; @svenning_disequilibrium_2013]. Because
 trees are long-lived species that disperse over very short distances,
 colonisation and extinction events in response to environmental changes are
 often delayed, such that forests are rarely in equilibrium with their
 environment [@talluto_extinction_2017]. Hence, if forests are undisturbed,
 transition rates between forest types following natural succession pathways will
 be mainly limited by the persistence and turnover of resident species
-[@loehle_forest_2000; @bouchard_tree_2019] as well as the dispersal and
+[@bouchard_tree_2019; @loehle_forest_2000] as well as the dispersal and
 establishment rates of migrating species [@neilson_transient_1993], resulting in
 large disequilibrium and transient dynamics that may last a very long time
 [@hastings_transient_2018; @talluto_extinction_2017].
 
 Disturbance events, such as fire and harvesting, directly affect demographic
 processes and increase turnover, and are thus likely to influence forest
-responses to climate change [@serra-diaz_disturbance_2015;
-@boulanger_climate_2019; @bolte_understory_2014]. Indeed, as global climate
-warming slowly modifies the competitive balance among species, pulse
-disturbances remove the resident community in whole or in part, thus providing
-establishment opportunities for migrating species and making resources available
-for a fast growth. Consequently, following a disturbance, forest composition may
-shift to species that are better suited to current conditions and fail to return
-to its previous state [@johnstone_changing_2016; @renwick_temporal_2015;
+responses to climate change [@bolte_understory_2014; @boulanger_climate_2019;
+@serra-diaz_disturbance_2015]. Indeed, as global climate warming slowly modifies
+the competitive balance among species, pulse disturbances remove the resident
+community in whole or in part, thus providing establishment opportunities for
+migrating species and making resources available for a fast growth.
+Consequently, following a disturbance, forest composition may shift to species
+that are better suited to current conditions and fail to return to its previous
+state [@johnstone_changing_2016; @renwick_temporal_2015;
 @turner_disturbance_2010]. For example, canopy gaps have been shown to locally
 facilitate establishment of temperate species in mixed forests of Ontario
 [@leithead_northward_2010]. In a nature reserve of Scandinavia,
@@ -170,8 +149,8 @@ temperate-boreal ecotone in Québec [@brice_disturbances_2019].
 
 
 Cross-scale interactions between landscape disturbances and global warming could
-drive abrupt transitions between forest types [@peters_crossscale_2007;
-@allen_interactions_2007]. Given that forests are increasingly subject to human
+drive abrupt transitions between forest types [@allen_interactions_2007;
+@peters_crossscale_2007]. Given that forests are increasingly subject to human
 disturbances, such non-linear processes could play a key role in driving the
 climate shift in biomes. Some simulation studies have however concluded that
 disturbances are unlikely to promote extensive biome shifts in the coming
@@ -188,27 +167,27 @@ clearcutting favours the expansion of pioneer species, such as the trembling
 aspen (*Populus tremuloides*) [@grondin_have_2018;
 @landhausser_disturbance_2010]. Therefore, more empirical evidence is essential
 to evaluate how various intensities and types of disturbances may affect forest
-dynamics under recent climate change and whether their effects can scale-up
-to trigger punctuated and episodic shifts in forest types.
+dynamics under recent climate change and whether their effects can scale-up to
+trigger punctuated and episodic shifts in forest types.
 
 
 The northward migration of temperate species may nevertheless be contingent on
-their capacity to colonise different types of soil [@lafleur_response_2010;
-@brown_non-climatic_2014; @carteron_soil_2020]. Soils
-of cold boreal forests generally have lower pH, lower microbial activity and
-slower decomposition rates of organic matter than warmer southern temperate
-forest soils [@goldblum_deciduous_2010]. These local and regional variations in
-soil properties are expected to slow down or inhibit the establishment of
-temperate trees into the boreal forest. For instance, transplant experimental
-studies have shown that seedlings of sugar maple (*Acer saccharum*) in boreal
-soils were negatively affected by soil biotic and abiotic conditions
-[@carteron_soil_2020; @brown_non-climatic_2014]. In contrast,
+their capacity to colonise different types of soil [@brown_non-climatic_2014;
+@carteron_soil_2020; @lafleur_response_2010]. Soils of cold boreal forests
+generally have lower pH, lower microbial activity and slower decomposition rates
+of organic matter than warmer southern temperate forest soils
+[@goldblum_deciduous_2010]. These local and regional variations in soil
+properties are expected to slow down or inhibit the establishment of temperate
+trees into the boreal forest. For instance, transplant experimental studies have
+shown that seedlings of sugar maple (*Acer saccharum*) in boreal soils were
+negatively affected by soil biotic and abiotic conditions
+[@brown_non-climatic_2014; @carteron_soil_2020]. In contrast,
 @kellman_sugar_2004 found a higher survival of *Acer saccharum* seedlings in
 boreal stands than in hardwood stands, potentially because of better light
 availability. Hence, it has been suggested that soil properties in boreal
 forests may not be a major impediment to the migration of temperate species
-showing broad ecological tolerance [@lafleur_response_2010; @barras_supply_1998;
-@kellman_sugar_2004]. Nonetheless, suboptimal soil conditions under a boreal
+showing broad ecological tolerance [@barras_supply_1998; @kellman_sugar_2004;
+@lafleur_response_2010]. Nonetheless, suboptimal soil conditions under a boreal
 canopy could delay forest transitions under climate change
 [@solarik_priority_2019]. While experimental studies provide valuable knowledge
 on the role of soils at local scales, the importance of such constraints on
@@ -230,8 +209,7 @@ classification, the forest dynamics thus can be formalised as a multi-state
 Markov model, where transitions among states are represented by a stochastic
 process influenced by their current state and environmental characteristics of
 interest [@jackson_multi-state_2018]. The Markov framework has been previously
-used to study forest succession [@runkle_gap_1981; @waggoner_transition_1970;
-@lienard_modelling_2016] notably because it is based on a straightforward
+used to study forest succession [@lienard_modelling_2016; @runkle_gap_1981; @waggoner_transition_1970] notably because it is based on a straightforward
 definition of transitions between various forest states and provides a simple
 mechanistic interpretation of the estimated transition probabilities. This
 method thereby offers the possibility of exploiting the full complexity and
@@ -240,26 +218,26 @@ species responses [@strigul_modelling_2012].
 
 Representation of forest dynamics with Markov chains allows us to link
 stand-scale ecological mechanisms [@wootton_prediction_2001], which can be
-influenced by soils, disturbances and climate, to the emergent broad-scale
-biome shifts. For example, transitions to pioneer reflect disturbance,
-transitions from pioneer reflect colonisation, dispersal and recruitment
-limitation, and transitions between the other states reflect competitive
-exclusion. In addition, multi-state models can be used to investigate biome
-shifts from the perspective of both transient dynamics and long-term
-equilibrium. Markov transition matrices can be estimated from the model output
-and their well-established properties can then be compared under different
-scenarios [@hill_markov_2004; @boulangeat_transient_2018]. For instance, the
-equilibrium or steady-state distribution can be derived from a transition matrix
-and used to infer the potential long-term forest composition under given
-environmental conditions [@scheffer_catastrophic_2001], providing insights about
-the direction of current forest dynamics [@waggoner_transition_1970;
-@hill_markov_2004]. Moreover, transient periods can also be described: the time
-of convergence to equilibrium measures the length of the transient period; the
-turnover time indicates how fast the transitions occur and informs about the
-persistence of forest states; and the entropy reveals the uncertainty about the
-next transition. Contrasting empirically derived transition matrices and their
-properties among disturbance scenarios can shed new light on forest dynamics
-under climate change and may even provide hints about management measures.
+influenced by soils, disturbances and climate, to the emergent broad-scale biome
+shifts. For example, transitions to pioneer reflect disturbance, transitions
+from pioneer reflect colonisation, dispersal and recruitment limitation, and
+transitions between the other states reflect competitive exclusion. In addition,
+multi-state models can be used to investigate biome shifts from the perspective
+of both transient dynamics and long-term equilibrium. Markov transition matrices
+can be estimated from the model output and their well-established properties can
+then be compared under different scenarios [@boulangeat_transient_2018;
+@hill_markov_2004]. For instance, the equilibrium or steady-state distribution
+can be derived from a transition matrix and used to infer the potential
+long-term forest composition under given environmental conditions
+[@scheffer_catastrophic_2001], providing insights about the direction of current
+forest dynamics [@hill_markov_2004; @waggoner_transition_1970]. Moreover,
+transient periods can also be described: the time of convergence to equilibrium
+measures the length of the transient period; the turnover time indicates how
+fast the transitions occur and informs about the persistence of forest states;
+and the entropy reveals the uncertainty about the next transition. Contrasting
+empirically derived transition matrices and their properties among disturbance
+scenarios can shed new light on forest dynamics under climate change and may
+even provide hints about management measures.
 
 
 Here, we investigate how regional-scale forest dynamics is influenced by
@@ -297,13 +275,14 @@ proportion of temperate forests in the long run.
 We used forest inventory plots in Québec, Canada, to investigate broad-scale
 transition dynamics in forest communities. Permanent plots have been sampled
 approximately every ten years from 1970 to 2018 (and ongoing) by the *Ministère
-des forêts, de la Faune et des Parcs* [@mffp_placettes-echantillons_2016]. The study area
-extends from approximately 45$^\circ$ to 52$^\circ$ North latitude (ca. 795 000 km^2^). It
-covers six bioclimatic domains (Fig. \ref{fig2.1}) and three different vegetation zones; the
-mixed forest, which corresponds to the balsam fir-yellow birch domain (from 47$^\circ$N
-to 48$^\circ$N; hereafter, the ecotone), marks the transition between the hardwood
-forest to the south, dominated by *Acer saccharum*, and the boreal forest to the
-north, dominated by *Abies balsamea*  and *Picea mariana*.
+des forêts, de la Faune et des Parcs* [@mffp_placettes-echantillons_2016]. The
+study area extends from approximately 45$^\circ$ to 52$^\circ$ North latitude
+(ca. 795 000 km^2^). It covers six bioclimatic domains (Fig. \ref{fig2.1}) and
+three different vegetation zones; the mixed forest, which corresponds to the
+balsam fir-yellow birch domain (from 47$^\circ$N to 48$^\circ$N; hereafter, the
+ecotone), marks the transition between the hardwood forest to the south,
+dominated by *Acer saccharum*, and the boreal forest to the north, dominated by
+*Abies balsamea*  and *Picea mariana*.
 
 The natural disturbance regimes vary considerably along the latitudinal gradient
 of the study area, with fires in the northern boreal forests, spruce budworm
@@ -319,8 +298,9 @@ then disregarded plots that were subjected to active reforestation (i.e.,
 plantation) during the study period because we were interested in transition
 dynamics resulting from natural recolonisation processes. Finally, we kept plots
 for which soil covariates were available. This yielded a total of 11,058 plots
-analysed (Fig. \ref{fig2.1}). The time intervals between plot surveys varied from 3 to 39
-years, with a mean interval of 11 years (sd = 3.45; Fig. \ref{figA2.2}).
+analysed (Fig. \ref{fig2.1}). The time intervals between plot surveys varied
+from 3 to 39 years, with a mean interval of 11 years (sd = 3.45; Fig.
+\ref{figA2.2}).
 
 
 
@@ -334,23 +314,24 @@ years, with a mean interval of 11 years (sd = 3.45; Fig. \ref{figA2.2}).
 ## Forest states
 
 We classified the forest inventory plots into four forest states using species
-basal area and composition at each sampling date. We first assigned each
-studied species to a group based on their traits and their distribution [Table
-\ref{tab:tabA2.1}; see @brice_disturbances_2019 for details]: boreal species are mostly
-coniferous trees with a northern distribution; temperate species are mostly
-deciduous trees with a southern distribution; and pioneer species have low shade
-tolerance and are generally found in any disturbed habitats. For each plot, we
-computed the total basal area of each species group and then classified the plot
-to one of the four states similar to the @mffp_placettes-echantillons_2016
-definitions; Boreal (boreal species representing >75% of the plot basal area),
-Temperate (temperate species representing >75% of the plot basal area), Mixed
-(when temperate and boreal species both occupy between >25% and <75% of the plot
-basal area), and Pioneer (when the basal area of pioneer species is superior to
-that of boreal and temperate species or when plot total basal area <5m^2^/ha).
-We analysed state transitions between consecutive plot surveys. Based on this
-classification, for the 42,633 observations (plots $\times$ number of years
-measured), we recorded 31,690 state transitions, including self-transitions
-(Fig. \ref{fig2.2}, Table \ref{tab:tabA2.2}).
+basal area and composition at each sampling date. We first assigned each studied
+species to a group based on their traits and their distribution [Table
+\ref{tab:tabA2.1}; see @brice_disturbances_2019 for details]: boreal species are
+mostly coniferous trees with a northern distribution; temperate species are
+mostly deciduous trees with a southern distribution; and pioneer species have
+low shade tolerance and are generally found in any disturbed habitats. For each
+plot, we computed the total basal area of each species group and then classified
+the plot to one of the four states similar to the
+@mffp_placettes-echantillons_2016 definitions; Boreal (boreal species
+representing >75% of the plot basal area), Temperate (temperate species
+representing >75% of the plot basal area), Mixed (when temperate and boreal
+species both occupy between >25% and <75% of the plot basal area), and Pioneer
+(when the basal area of pioneer species is superior to that of boreal and
+temperate species or when plot total basal area <5m^2^/ha). We analysed state
+transitions between consecutive plot surveys. Based on this classification, for
+the 42,633 observations (plots $\times$ number of years measured), we recorded
+31,690 state transitions, including self-transitions (Fig. \ref{fig2.2}, Table
+\ref{tab:tabA2.2}).
 
 The definitions of forest states can affect the results to some extent. A higher
 threshold to define the boreal and temperate states (e.g., >85% instead of >75%
@@ -395,9 +376,9 @@ have shown no trends (Fig. \ref{figA2.3}).
 
 We also collected information pertaining to natural and anthropogenic
 disturbances that have affected the forest plots during the study period (Table
-\ref{tab:tab2.1}; Fig. \ref{figA2.1}). At each plot, the type of disturbances (21 types) and
-their level of severity were recorded during field surveys [see Fig.
-\ref{figA2.1} for details; @mffp_placettes-echantillons_2016]. For our
+\ref{tab:tab2.1}; Fig. \ref{figA2.1}). At each plot, the type of disturbances
+(21 types) and their level of severity were recorded during field surveys [see
+Fig. \ref{figA2.1} for details; @mffp_placettes-echantillons_2016]. For our
 multi-state model, we differentiated two main types of disturbances: natural
 disturbances and logging, with three levels of severity each (0, no or minor; 1,
 moderate; 2, major). The MFFP defined major disturbances as events that have
@@ -514,23 +495,23 @@ range shift projections.
 We formalised forest dynamics with a continuous-time multi-state model
 [@jackson_multi-state_2018; @van_den_hout_multi-state_2016] in which transitions
 among states depend upon the current state, time interval, climate, disturbances
-and soil characteristics (Fig. \ref{fig2.2}). This type of model takes into account the
-fact that (1) time intervals between surveys were irregular, (2) multiple
-transitions were possible during an interval, and (3) the exact moments of
-transitions were not observed [i.e. observations are interval-censored;
-@van_den_hout_multi-state_2016; @logofet_mathematics_2000].
+and soil characteristics (Fig. \ref{fig2.2}). This type of model takes into
+account the fact that (1) time intervals between surveys were irregular, (2)
+multiple transitions were possible during an interval, and (3) the exact moments
+of transitions were not observed [i.e. observations are interval-censored;
+@logofet_mathematics_2000; @van_den_hout_multi-state_2016].
 
 In a four-state transition model in continuous time, the Markov process is
 governed by a 4 $\times$ 4 transition intensity matrix, $Q$, where rows are the
-current states and columns are the future states (Fig. \ref{fig2.2}b). For each state $r,s
-\in {B, M, P, T}$, the transition intensity ($q_{rs}$) represents the
-instantaneous risk that a plot transitions from state $r$ to state $s$.
-Because the states were defined based on stand basal area, instantaneous
-transitions from Boreal to Temperate ($q_{BT}$) or from Temperate to Boreal
-($q_{TB}$) were impossible without disturbance; there is a necessary transition
-through Mixed or Pioneer. For this reason and the fact that these transitions
-were very rare in the data, we fixed $q_{BT}$ and $q_{TB}$ at 0 (Fig. \ref{fig2.2}b).
-However, all states can transition directly to Pioneer when disturbed (Fig. \ref{fig2.2}).
+current states and columns are the future states (Fig. \ref{fig2.2}b). For each
+state $r,s \in {B, M, P, T}$, the transition intensity ($q_{rs}$) represents the
+instantaneous risk that a plot transitions from state $r$ to state $s$. Because
+the states were defined based on stand basal area, instantaneous transitions
+from Boreal to Temperate ($q_{BT}$) or from Temperate to Boreal ($q_{TB}$) were
+impossible without disturbance; there is a necessary transition through Mixed or
+Pioneer. For this reason and the fact that these transitions were very rare in
+the data, we fixed $q_{BT}$ and $q_{TB}$ at 0 (Fig. \ref{fig2.2}b). However, all
+states can transition directly to Pioneer when disturbed (Fig. \ref{fig2.2}).
 
 The intensities $q_{r,s}$ can be modelled as follows:
 
@@ -550,15 +531,15 @@ maximising the log-likelihood (see Supplementary Methods for details).
 
 We built five models: one baseline model that solely includes the $q_{rs.0}$,
 one model for each category of covariates independently (climate, soil and
-disturbances), and one full model, which combines all covariates (Table \ref{tab:tab2.1}).
-Because multiple state transitions are estimated in a single model (all $q_{rs}$
-in Fig. \ref{fig2.2}b), the number of parameters increases rapidly with the number of
-covariates (number of modelled transitions (here 10) $\times$ (number of
-covariates + 1)). Thus, to reduce the number of parameters, we assumed that
-transitions from any state to Pioneer were only determined by disturbances,
-while climate and soil variables should not directly influence these
-transitions. All quantitative variables were standardised ($\mu$ = 0, $\sigma$ =
-1) prior to running the models.
+disturbances), and one full model, which combines all covariates (Table
+\ref{tab:tab2.1}). Because multiple state transitions are estimated in a single
+model (all $q_{rs}$ in Fig. \ref{fig2.2}b), the number of parameters increases
+rapidly with the number of covariates (number of modelled transitions (here 10)
+$\times$ (number of covariates + 1)). Thus, to reduce the number of parameters,
+we assumed that transitions from any state to Pioneer were only determined by
+disturbances, while climate and soil variables should not directly influence
+these transitions. All quantitative variables were standardised ($\mu$ = 0,
+$\sigma$ = 1) prior to running the models.
 
 ### Model evaluation
 
@@ -586,16 +567,16 @@ hazard ratios derived from our best model ($exp(\beta_{rs})$).
 We further investigated how disturbances modify the long-term equilibrium
 (question 2) and the forest transient dynamics (question 3). We computed
 different properties on the Markov transition matrix along the latitudinal
-temperature gradient and compared them among five disturbance scenarios
-defined by disturbance type and severity: (1) no or minor disturbances, when the
+temperature gradient and compared them among five disturbance scenarios defined
+by disturbance type and severity: (1) no or minor disturbances, when the
 covariates logging and natural were both fixed at 0; (2) moderate natural, with
 the covariate natural fixed at 1 and logging fixed at 0; and (3) vice versa for
 moderate logging; (4) major natural, with the covariate natural fixed at 2 and
 logging fixed at 0; and (5) vice versa for major logging. The temperature
 covariate was also allowed to vary from its lower 10th to its upper 90th
 percentile, whereas all other covariates were fixed at the average conditions
-found in the ecotone, the balsam fir-yellow birch domain (Fig. \ref{fig2.1}), to focus
-solely on the effect of disturbances along the temperature gradient.
+found in the ecotone, the balsam fir-yellow birch domain (Fig. \ref{fig2.1}), to
+focus solely on the effect of disturbances along the temperature gradient.
 
 An extensive literature describes the multiple properties of discrete-time
 Markov transition matrices [@caswell_matrix_2008; @hill_markov_2004] which can
@@ -706,16 +687,17 @@ transitions from Boreal to Pioneer (13.0%), and more from Pioneer to Boreal
 Pioneer forests (69.2 and 72.8%, respectively; Fig. \ref{fig2.2}a).
 
 Overall, the full model, which includes climate, soil and disturbance variables,
-had the best fit and predictive performances for the observed data (Table \ref{tab:tab2.2};
-Fig. \ref{figA2.5}). The second-best model was the disturbance model, but it was far behind
-with a difference in AIC of almost 1500 units from the full model (Table \ref{tab:tab2.2}).
-All variable subsets improved significantly the likelihood of the model (all
-likelihood ratio tests were highly significant, *p* << 0.001; Table \ref{tab:tab2.2}). Model
-performance was also evaluated using a 10-fold cross-validation (see
-Supplementary Methods); it revealed that including climate and disturbances
-improved overall model predictive performance, while soil variables had a
-negligible effect (Fig. \ref{figA2.5}). Thereafter, all inferences about transition
-probabilities were derived from the full model.
+had the best fit and predictive performances for the observed data (Table
+\ref{tab:tab2.2}; Fig. \ref{figA2.5}). The second-best model was the disturbance
+model, but it was far behind with a difference in AIC of almost 1500 units from
+the full model (Table \ref{tab:tab2.2}). All variable subsets improved
+significantly the likelihood of the model (all likelihood ratio tests were
+highly significant, *p* << 0.001; Table \ref{tab:tab2.2}). Model performance was
+also evaluated using a 10-fold cross-validation (see Supplementary Methods); it
+revealed that including climate and disturbances improved overall model
+predictive performance, while soil variables had a negligible effect (Fig.
+\ref{figA2.5}). Thereafter, all inferences about transition probabilities were
+derived from the full model.
 
 \begin{table}[h]
 \caption[Comparisons of the five candidate multi-state models]{Comparisons of the five candidate multi-state models. The number of parameters (Nb of par.) used in each model corresponds to the number of modelled transitions (10) $\times$ the number of covariates $-$ 1. The $\Delta \text{AIC}$ is the difference between the Akaike information criterion of each model ($\text{AIC}_m$) and the minimum of AIC among all models ($\text{AIC}_{min}$): $\Delta \text{AIC} = \text{AIC}_m - \text{AIC}_{min}$. Models are presented in decreasing order of their $\Delta \text{AIC}$. Each model containing covariates was compared to the baseline model using a Likelihood Ratio (LR) test. The best model is the one in bold with $\Delta \text{AIC} = 0$.}\label{tab:tab2.2}
@@ -738,14 +720,14 @@ Disturbances & Natural, Logging & 50 & 30993.5 & 1497.5 & < 0.001\\
 ## Baseline transition intensities
 
 The baseline transition intensities of the full model provide insights about the
-background rate of forest changes (Fig. \ref{fig2.3}). Forest dynamics over the whole study
-area was largely dominated by transitions from Pioneer to Boreal (q~PB~ =
-0.0270) and from Mixed to Temperate (q~MT~ = 0.0229; Fig. \ref{fig2.3}). Mixed forests were
-1.6 times (q~MT~ / q~TM~) more likely to transition to Temperate than the
-reverse, indicating an increase in proportion of temperate species relative to
-boreal species in mixedwoods during the study period. For Boreal forests,
-regeneration from Pioneer to Boreal was 3.9 times (q~PB~ / q~BP~) more likely
-than transition from Boreal to Pioneer.
+background rate of forest changes (Fig. \ref{fig2.3}). Forest dynamics over the
+whole study area was largely dominated by transitions from Pioneer to Boreal
+(q~PB~ = 0.0270) and from Mixed to Temperate (q~MT~ = 0.0229; Fig.
+\ref{fig2.3}). Mixed forests were 1.6 times (q~MT~ / q~TM~) more likely to
+transition to Temperate than the reverse, indicating an increase in proportion
+of temperate species relative to boreal species in mixedwoods during the study
+period. For Boreal forests, regeneration from Pioneer to Boreal was 3.9 times
+(q~PB~ / q~BP~) more likely than transition from Boreal to Pioneer.
 
 \begin{figure}
 \centering
@@ -757,45 +739,45 @@ than transition from Boreal to Pioneer.
 
 ## Effect of covariates on transition probabilities
 
-All transitions to Pioneer were highly influenced by disturbances (Fig. \ref{fig2.4}, Table
-\ref{tab:tabA2.3}). As could be expected, major disturbances exert stronger effects than
-moderate disturbances (for both natural and logging), but, for each level of
-severity, logging had stronger effects than natural disturbances. For example,
-the risk of transition from Boreal to Pioneer has surged up to 213 times higher
-for plots that suffered major logging (logging 2) and 37 times higher for plots
-that suffered major natural disturbances (natural 2) compared to undisturbed
-plots (minor). Disturbances of all types and severities favoured transitions
-from Mixed to Temperate forests. Moderate disturbances (natural and logging)
-doubled the risk of this type of transition, whereas major disturbances
-increased it by ca. 5 times (Hazard Ratio (HR) = 5.76 and 5.32, for natural and
-logging, respectively). Although the effect of major disturbances on the
-instantaneous risk of transition from Mixed to Temperate was stronger than for
-moderate disturbances, the probability of this event decreased with time (Fig.
-\ref{figA2.6}). Moderate disturbances also favoured transitions from Boreal to Mixed (HR =
-2.76 and 3.45, respectively), while major disturbances had no significant effect
-on this type of transition. Overall, the effects of disturbances are well
-reflected by the radical change of structure of the 10-year transition
-probability matrix (Fig. \ref{figA2.7}).
+All transitions to Pioneer were highly influenced by disturbances (Fig.
+\ref{fig2.4}, Table \ref{tab:tabA2.3}). As could be expected, major disturbances
+exert stronger effects than moderate disturbances (for both natural and
+logging), but, for each level of severity, logging had stronger effects than
+natural disturbances. For example, the risk of transition from Boreal to Pioneer
+has surged up to 213 times higher for plots that suffered major logging (logging
+2) and 37 times higher for plots that suffered major natural disturbances
+(natural 2) compared to undisturbed plots (minor). Disturbances of all types and
+severities favoured transitions from Mixed to Temperate forests. Moderate
+disturbances (natural and logging) doubled the risk of this type of transition,
+whereas major disturbances increased it by ca. 5 times (Hazard Ratio (HR) = 5.76
+and 5.32, for natural and logging, respectively). Although the effect of major
+disturbances on the instantaneous risk of transition from Mixed to Temperate was
+stronger than for moderate disturbances, the probability of this event decreased
+with time (Fig. \ref{figA2.6}). Moderate disturbances also favoured transitions
+from Boreal to Mixed (HR = 2.76 and 3.45, respectively), while major
+disturbances had no significant effect on this type of transition. Overall, the
+effects of disturbances are well reflected by the radical change of structure of
+the 10-year transition probability matrix (Fig. \ref{figA2.7}).
 
-Climate variables also had a significant influence on most transitions (Fig. \ref{fig2.4}).
-Warmer summer temperature (higher temperature) and higher humidity (higher CMI)
-favoured transitions from Boreal to Mixed as well as from Pioneer to Mixed and
-Pioneer to Temperate. Interestingly, warmer temperature did not significantly
-influence the risk of transition from Mixed to Temperate and higher CMI had a
-negative effect.
+Climate variables also had a significant influence on most transitions (Fig.
+\ref{fig2.4}). Warmer summer temperature (higher temperature) and higher
+humidity (higher CMI) favoured transitions from Boreal to Mixed as well as from
+Pioneer to Mixed and Pioneer to Temperate. Interestingly, warmer temperature did
+not significantly influence the risk of transition from Mixed to Temperate and
+higher CMI had a negative effect.
 
-State transitions were also influenced by soil variables (Fig. \ref{fig2.4}, Table \ref{tab:tabA2.3}).
-Holding the other covariates constant, the instantaneous risk of transition from
-Boreal to Mixed and from Pioneer to Temperate decreased by 27% and 23%,
-respectively, on poorer drainage (more humid), but the risk of transition from
-Temperate to Mixed increased by 30% (HR = 0.73, 0.77 and 1.30, respectively).
-Higher pH (acidic soil) had a negative effect on the transitions from Temperate
-to Mixed (HR = 0.73). These changes in risk ratios associated to soil variables
-appear almost irrelevant compared to the effect of disturbances, but a slight
-increase in drainage can dampen the positive effect of disturbances. For
-instance, under moderate natural disturbances, the instantaneous risk of
-transition from Boreal to Mixed is 0.007 at moderate drainage but decreases to
-0.003 when increasing drainage by 1 point.
+State transitions were also influenced by soil variables (Fig. \ref{fig2.4},
+Table \ref{tab:tabA2.3}). Holding the other covariates constant, the
+instantaneous risk of transition from Boreal to Mixed and from Pioneer to
+Temperate decreased by 27% and 23%, respectively, on poorer drainage (more
+humid), but the risk of transition from Temperate to Mixed increased by 30% (HR
+= 0.73, 0.77 and 1.30, respectively). Higher pH (acidic soil) had a negative
+effect on the transitions from Temperate to Mixed (HR = 0.73). These changes in
+risk ratios associated to soil variables appear almost irrelevant compared to
+the effect of disturbances, but a slight increase in drainage can dampen the
+positive effect of disturbances. For instance, under moderate natural
+disturbances, the instantaneous risk of transition from Boreal to Mixed is 0.007
+at moderate drainage but decreases to 0.003 when increasing drainage by 1 point.
 
 
 ## Effect of disturbances on long-term equilibrium
@@ -900,16 +882,16 @@ natural disturbances).
 ## Contribution of demographic processes
 
 Only the demographic processes of a few species contributed substantially to the
-observed transition dynamics (Fig. \ref{fig2.7}). The importance of some processes were
-expected. For example, transitions from Boreal to Pioneer were dominated by
-mortality and logging of *Picea mariana*, while the transitions from Pioneer to
-Boreal were characterised by recruitment and growth of *Picea mariana* and
-*Abies balsamea*. Most interestingly, the transitions from Mixed to Temperate
-were determined by the mortality of *Abies balsamea* and the growth of temperate
-species, mainly *Acer rubrum* and *Betula alleghaniensis*, and to a lesser
-extent *Acer saccharum*. The recruitment of temperate species was not indicator
-of the Mixed to Temperate transitions, but rather of the transitions from
-Pioneer to Temperate.
+observed transition dynamics (Fig. \ref{fig2.7}). The importance of some
+processes were expected. For example, transitions from Boreal to Pioneer were
+dominated by mortality and logging of *Picea mariana*, while the transitions
+from Pioneer to Boreal were characterised by recruitment and growth of *Picea
+mariana* and *Abies balsamea*. Most interestingly, the transitions from Mixed to
+Temperate were determined by the mortality of *Abies balsamea* and the growth of
+temperate species, mainly *Acer rubrum* and *Betula alleghaniensis*, and to a
+lesser extent *Acer saccharum*. The recruitment of temperate species was not
+indicator of the Mixed to Temperate transitions, but rather of the transitions
+from Pioneer to Temperate.
 
 \begin{figure}
 \centering
@@ -935,8 +917,8 @@ transient dynamics, accelerating both the turnover and convergence time and
 making the dynamics more predictable. Contrary to our expectation, transitions
 from mixed to temperate forests were not driven by recruitment but mostly by
 mortality and growth. In accordance with the hypothesis formulated in previous
-studies [@johnstone_changing_2016; @renwick_temporal_2015;
-@brice_disturbances_2019; @turner_disturbance_2010], our findings show that
+studies [@brice_disturbances_2019; @johnstone_changing_2016;
+@renwick_temporal_2015; @turner_disturbance_2010], our findings show that
 moderate disturbances catalyse transitions to the alternate, temperate-dominated
 forest state and could therefore promote regime shifts. Moreover, our results
 emphasise that forest dynamics are affected by multiple factors operating across
@@ -962,22 +944,22 @@ consistent with the expectation of a northward range shift of temperate trees
 into the mixed and boreal forests. In our study, these transitions were caused
 by the concomitant high mortality of an abundant boreal species, *Abies
 balsamea*, and the increased growth of temperate species. Accordingly, the
-warming trend of the last decades (Fig. \ref{figA2.3}) has been shown to increase growth
-and reproductive rates of temperate species at their northern limit
-[@reich_geographic_2015; @fisichelli_temperate_2014;
-@boisvertmarsh_divergent_2019; @goldblum_tree_2005; @bolte_understory_2014], thus
+warming trend of the last decades (Fig. \ref{figA2.3}) has been shown to
+increase growth and reproductive rates of temperate species at their northern
+limit [@boisvertmarsh_divergent_2019; @bolte_understory_2014;
+@fisichelli_temperate_2014; @goldblum_tree_2005; @reich_geographic_2015], thus
 providing a competitive advantage to temperate over boreal species.  
 
 The increased transition rate to temperate forests is likely also a response to
 historical disturbances and climate change. Comparisons of pre-settlement and
 present-day forested landscapes of North America have highlighted an important
 deciduous encroachment in response to historical human activities
-[@danneyrolles_stronger_2019; @terrail_reorganization_2019;
-@boucher_logging-induced_2006]. Historical legacies and recent
-climate change are presumably mutually non-exclusive explanations. Indeed,
-simulations by @boulanger_climate_2019 showed that the future climate-induced
-expansion in temperate species to the detriment of boreal species would amplify
-the already ongoing trend since preindustrial times.
+[@boucher_logging-induced_2006; @danneyrolles_stronger_2019;
+@terrail_reorganization_2019]. Historical legacies and recent climate change are
+presumably mutually non-exclusive explanations. Indeed, simulations by
+@boulanger_climate_2019 showed that the future climate-induced expansion in
+temperate species to the detriment of boreal species would amplify the already
+ongoing trend since preindustrial times.
 
 
 ## Disturbances catalyse forest state transition
@@ -1009,49 +991,50 @@ was particularly affected by a drought and an insect outbreak which then favour
 the growth of a temperate species, *Fagus sylvatica* [@bolte_understory_2014].
 Combined effects of selective disturbances and climate warming may thus initiate
 a shift in the competitive balance between boreal and temperate species
-[@bolte_understory_2014]. We only found a weak
-contribution of temperate tree recruitment to the Mixed to Temperate
-transitions, likely because our analyses were based on tree basal area. However,
-other studies analysing abundance data suggest that moderate disturbances may
-also facilitate colonisation and establishment by opportunistic temperate
-species under warmer conditions [@brice_disturbances_2019;
-@leithead_northward_2010; @landhausser_disturbance_2010]. Moreover, it is
-possible that, in the long run, the increased proportion of temperate species in
-forest communities could alter soil properties and ultimately facilitate the
-recruitment of even more temperate species.
+[@bolte_understory_2014]. We only found a weak contribution of temperate tree
+recruitment to the Mixed to Temperate transitions, likely because our analyses
+were based on tree basal area. However, other studies analysing abundance data
+suggest that moderate disturbances may also facilitate colonisation and
+establishment by opportunistic temperate species under warmer conditions
+[@brice_disturbances_2019; @landhausser_disturbance_2010;
+@leithead_northward_2010]. Moreover, it is possible that, in the long run, the
+increased proportion of temperate species in forest communities could alter soil
+properties and ultimately facilitate the recruitment of even more temperate
+species.
 
 In contrast to moderate disturbances, severe disturbances, primarily
-clearcutting but also large fires in the study area (Fig. \ref{figA2.1}), may result in
-large forest dieback and create openings of very large extent. These newly
-opened landscapes can be colonised swiftly by early-successional species that
-benefit from a long-distance seed dispersal and a fast growth, such as *Populus tremuloides*
-and *Betula papyrifera* [@boucher_fire_2017; @grondin_have_2018]. In contrast, temperate species
-may be slower to come back following major disturbances because they dispersed
-over shorter distances [maximum of ca. 200 m for *Acer* compared to 5000 m for
-*Populus*; @boulanger_climate_2017]. Due to the increase in large-scale logging
-during the last century, the proportion of young recently disturbed forests have
-been found to have increased in North America [@boucher_logging-induced_2006;
+clearcutting but also large fires in the study area (Fig. \ref{figA2.1}), may
+result in large forest dieback and create openings of very large extent. These
+newly opened landscapes can be colonised swiftly by early-successional species
+that benefit from a long-distance seed dispersal and a fast growth, such as
+*Populus tremuloides* and *Betula papyrifera* [@boucher_fire_2017;
+@grondin_have_2018]. In contrast, temperate species may be slower to come back
+following major disturbances because they dispersed over shorter distances
+[maximum of ca. 200 m for *Acer* compared to 5000 m for *Populus*;
+@boulanger_climate_2017]. Due to the increase in large-scale logging during the
+last century, the proportion of young recently disturbed forests have been found
+to have increased in North America [@boucher_logging-induced_2006;
 @danneyrolles_anthropogenic_2018; @thompson_four_2013]. The expected increase in
 frequency and severity of climate-induced disturbances in combination with
 clearcuts may further promote the expansion of young pioneer forests in the
 future.
 
-Compared to the catalysing effect of disturbances, local soil
-characteristics do not appear to represent a large impediment to state
-transitions, but transitions may be slower on some soil types. Poor drainage
-constrained climate-related transitions from Boreal to Mixed states, but not
-from Mixed to Temperate. This indicates that temperate species can readily
-colonise soils found in mixedwoods but may have more difficulty in colonising
-hydric boreal soils. Thus, local soils may be important in explaining the low
-transition rate from Boreal to Mixed. Very poor drainage, often associated
-with peatland and thick organic layer, is usually thought to be improper for the
-regeneration of temperate species [@lafleur_response_2010]. Several studies
-found that *Acer saccharum* regenerates well across the ecotone because of its
-large tolerance to various soil conditions [@barras_supply_1998;
-@goldblum_age_2002; @kellman_sugar_2004; @fisichelli_temperate_2014]. At their northern range limit, *A. saccharum* and *A.
-rubrum*, the species contributing most to compositional changes in Québec
-[@brice_disturbances_2019], are hypothesised to be mostly limited by cold soil
-temperature [@barras_supply_1998; @goldblum_age_2002].
+Compared to the catalysing effect of disturbances, local soil characteristics do
+not appear to represent a large impediment to state transitions, but transitions
+may be slower on some soil types. Poor drainage constrained climate-related
+transitions from Boreal to Mixed states, but not from Mixed to Temperate. This
+indicates that temperate species can readily colonise soils found in mixedwoods
+but may have more difficulty in colonising hydric boreal soils. Thus, local
+soils may be important in explaining the low transition rate from Boreal to
+Mixed. Very poor drainage, often associated with peatland and thick organic
+layer, is usually thought to be improper for the regeneration of temperate
+species [@lafleur_response_2010]. Several studies found that *Acer saccharum*
+regenerates well across the ecotone because of its large tolerance to various
+soil conditions [@barras_supply_1998; @fisichelli_temperate_2014;
+@goldblum_age_2002; @kellman_sugar_2004]. At their northern range limit, *A.
+saccharum* and *A. rubrum*, the species contributing most to compositional
+changes in Québec [@brice_disturbances_2019], are hypothesised to be mostly
+limited by cold soil temperature [@barras_supply_1998; @goldblum_age_2002].
 
 
 Moreover, disturbances may counteract any effect of soil properties. Indeed,
@@ -1081,24 +1064,23 @@ invasions of pioneer species, such as *Populus*, and temperate species, such as
 
 
 Based on their simulations, @vanderwel_how_2014 concluded that logging would
-primarily accelerate the expansion of pioneer forests but would not
-promote extensive biome shifts over the next century in eastern United
-States. In contrast to their results, we found a clear range shift of the
-Temperate state under moderate disturbances, whereas the Pioneer state would
-have the advantage and become dominant at equilibrium only under major
-disturbances. We hypothesise that the northern shift of the Temperate state
-induced by moderate disturbances was mainly the result of the increased
-dominance of temperate species in areas where they are already present. Indeed,
-the current disturbance regime in our study area contributed to the decline of
-one boreal species in particular, *Abies balsamea*, which in turn benefited the
-growth of co-occurring temperate species. Moreover, because of its positive
-response to past [@danneyrolles_stronger_2019], recent
-[@brice_disturbances_2019] and future [@boulanger_climate_2019] disturbances in
-Québec, *Acer rubrum* is likely to play a disproportionate role in the temperate
-biome shift. However, the low probability of transition from Boreal to Mixed
-suggests, like other studies, that migration of temperate trees into pure boreal
-forest will be a much slower process [@vissault_biogeographie_2016;
-@solarik_priority_2019].
+primarily accelerate the expansion of pioneer forests but would not promote
+extensive biome shifts over the next century in eastern United States. In
+contrast to their results, we found a clear range shift of the Temperate state
+under moderate disturbances, whereas the Pioneer state would have the advantage
+and become dominant at equilibrium only under major disturbances. We hypothesise
+that the northern shift of the Temperate state induced by moderate disturbances
+was mainly the result of the increased dominance of temperate species in areas
+where they are already present. Indeed, the current disturbance regime in our
+study area contributed to the decline of one boreal species in particular,
+*Abies balsamea*, which in turn benefited the growth of co-occurring temperate
+species. Moreover, because of its positive response to past
+[@danneyrolles_stronger_2019], recent [@brice_disturbances_2019] and future
+[@boulanger_climate_2019] disturbances in Québec, *Acer rubrum* is likely to
+play a disproportionate role in the temperate biome shift. However, the low
+probability of transition from Boreal to Mixed suggests, like other studies,
+that migration of temperate trees into pure boreal forest will be a much slower
+process [@solarik_priority_2019; @vissault_biogeographie_2016].
 
 ## Disturbances accelerate the transient dynamics
 
