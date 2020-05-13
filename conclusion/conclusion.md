@@ -60,7 +60,7 @@ froid. En outre, la thermophilisation a été plus grande et s'est étendue plus
 nord dans les communautés modérément perturbées que dans celles qui n'ont pas
 été perturbées ou qui ont subi des perturbations majeures.
 
-Les résultats de ce chapitre ont soulevé d'autres questions importantes : la
+Les résultats de ce chapitre ont soulevé d'autres questions importantes: la
 thermophilisation récentes des forêts indique-t-elle un changement permanent ou
 bien seulement une dynamique transitoire? Et, si les perturbations modérées
 favorisent la thermophilisation, est-ce qu'elles pourraient accélérer des
@@ -105,7 +105,7 @@ de diamètre) de l'érable rouge, l'érable à sucre et le bouleau jaune dans le
 forêts non perturbées. Toutefois, sous l'influence des perturbations modérées,
 seuls les érables ont migré et aucune espèce ne s'est déplacée sous des
 perturbations majeures. En revanche, la répartition du hêtre à grandes feuilles
-n'a pas bougé dans tous les cas. Ces résultats soulignent que les futures
+n'a pas bougé dans tous les cas. Ces résultats soulignent que les futurs
 déplacements d'aire de répartition des espèces peuvent dépendre de leur réponse
 aux perturbations. De plus, il y a une légère tendance de déplacements des
 gaulis vers le bas des pentes, surtout dans les régions proches de leur limite
@@ -138,7 +138,7 @@ perturbations ainsi que les conséquences écologiques qui en découlent.
 
 \begin{figure}
 \centering
-\includegraphics[width=.9\textwidth]{conclusion/figures/complex.png}
+\includegraphics[width=.8\textwidth]{conclusion/figures/complex.png}
 \caption[Représentation conceptuelle des effets des changements environnementaux sur les différents niveaux d'organisation biologique]{Représentation conceptuelle des effets des changements environnementaux sur les forêts sous l'angle d'un système complexe. Les changements dans la dynamique des forêts sont transférés de façon ascendante entre les différents niveaux d'organisation biologique. Des interactions et des rétroactions ont lieu entre les entités à l'intérieur et à travers les échelles spatiales, temporelles et hiérarchiques. Les entités qui interagissent à un niveau donnent naissance à des entités émergentes de niveau supérieur, dont l'existence, à son tour, affecte le comportement des entités de niveau inférieur. Schéma issu de Messier \emph{et al.} (2013).}
 \label{fig4.2}
 \end{figure}
@@ -366,7 +366,7 @@ régime écologique [@scheffer_catastrophic_2001; @harris_biological_2018]. Mes
 résultats supportent cette hypothèse et suggèrent que les forêts répondent à
 l'effet cumulé d'un stress à long terme causé par le changement climatique
 (i.e., *press disturbance*), en combinaison avec des événements de mortalités
-aigues [i.e., *pulse disturbance*; @harris_biological_2018]. Ainsi, le
+aiguës [i.e., *pulse disturbance*; @harris_biological_2018]. Ainsi, le
 réchauffement climatique érode la résilience des forêts mixtes tandis que les
 perturbations éliminent les espèces boréales en place et accélèrent le processus
 de succession vers davantage d'espèces tempérées adaptées aux températures plus
@@ -376,9 +376,9 @@ chaudes (Chapitres \ref{chap1}, \ref{chap2} et \ref{chap3}).
 ## Résilience, états alternatifs stables et changement de régime
 
 
-Les résultats issues de ma thèse m'ont amenée à réfléchir en profondeur à la
+Les résultats issus de ma thèse m'ont amenée à réfléchir en profondeur à la
 dynamique de changement de régime dans le contexte de l'écotone boréal-tempéré
-et à redéfinir le paysages conceptuels des états stables de cette région (Fig.
+et à redéfinir le paysage conceptuel des états stables de cette région (Fig.
 \ref{fig4.1}). Le long du gradient latitudinal, la forêt boréale au nord et la
 forêt tempérée au sud sont les seuls états stables possibles (Fig.
 \ref{fig4.1}a). Ces états forestiers ont une grande résilience face aux
@@ -399,7 +399,7 @@ stratégies de cycle de vie des espèces [@kneeshaw_natural_2007;
 
 En plus des perturbations de type *pulse*, le climat global change
 graduellement et de façon persistante, ce qui peut altérer la forme du paysage
-des états stables (Fig. \ref{fig4.1}b). Au fur et à mesure que le climat se
+des états stables (Fig. \ref{fig4.1}b). À mesure que le climat se
 réchauffe, les forêts peuvent perdre leur capacité à se rétablir puisque les
 espèces en place ne sont plus aussi bien adaptées au climat
 [@johnstone_changing_2016]. Mon interprétation est que le réchauffement modifie
@@ -417,12 +417,12 @@ peut facilement faire basculer le système vers un nouvel état; la composition
 des forêts mixtes peut donc se déplacer rapidement vers une dominance en espèces
 tempérées qui sont mieux adaptées aux températures plus chaudes.
 
-
+\newpage
 
 \begin{figure}
 \centering
-\includegraphics[width=.65\textwidth]{conclusion/figures/etat_alternatif2.png}
-\caption[Représentation conceptuelle des états alternatifs stables le long du gradient latitudinal]{Mise à jour de ma représentation conceptuelle des états alternatifs stables le long du gradient latitudinal sans changement climatique (a) et avec changement climatique (b). Dans ce schéma avec la courbe, la boule caractérise l'état de l'écosystème à un instant donné, le paysage correspond à l'ensemble des états dans lesquels l’écosystème peut se retrouver, les vallées sont les bassins d'attraction des équilibres stables, et les sommets des collines sont les équilibres instables. Le schéma rectangulaire représente le paysage correspondant. Au sud du gradient latitudinal au de température, un seul état stable existe, la forêt tempérée, boule rouge. Au nord du gradient, l'état stable dominant est la forêt boréale, boule bleue. Ce sont des états stables dynamiques; les perturbations peuvent faire déplacer la boule dans son bassin d'attraction et elle peut même passer par l'état pionnier (un état transitoire non représenté sur la courbe, mais représenté par des carrés jaunes dans le paysage). La forêt étant habituellement résiliente aux perturbations, elle retourne ensuite vers son état initial. Au centre, dans l'écotone, la forêt mixte, boule verte, serait un état transitoire entre les deux états stables dominants qui est maintenue grâce à la dynamique naturelle de perturbations. Le changement du climat (b) peut provoquer un changement de la forme du paysage de différentes façons: (1) en abaissant le seuil pour passer de l'état mixte à tempéré, (2) en creusant et en élargissant le bassin d'attraction de l'état tempéré et (3) en rendant moins profond le bassin d'attraction de l'état boréal. Ces modifications font que la boule dégringole plus souvent de la vallée mixte vers la vallée tempérée sous l'effet d'une perturbation.}
+\includegraphics[width=.63\textwidth]{conclusion/figures/etat_alternatif2.png}
+\caption[Représentation conceptuelle des états alternatifs stables le long du gradient latitudinal]{Nouvelle représentation conceptuelle des états alternatifs stables le long du gradient latitudinal sans changement climatique (a) et avec changement climatique (b). Dans le schéma avec la courbe, la boule caractérise l'état de l'écosystème à un instant donné, la courbe correspond à l'ensemble des états dans lesquels l’écosystème peut se retrouver, les vallées sont les bassins d'attraction des équilibres stables, et les sommets des collines sont les équilibres instables. Le schéma rectangulaire représente le paysage correspondant. Au sud du gradient latitudinal au de température, un seul état stable existe, la forêt tempérée (en rouge). Au nord du gradient, l'état stable dominant est la forêt boréale (en bleu). Ce sont des états stables dynamiques; les perturbations peuvent faire déplacer la boule dans son bassin d'attraction et elle peut même passer par l'état pionnier (un état transitoire non représenté sur la courbe, mais représenté par des carrés jaunes dans le paysage). La forêt étant habituellement résiliente aux perturbations, elle retourne ensuite vers son état initial. Au centre, dans l'écotone, la forêt mixte (en vert) serait un état transitoire entre les deux états stables dominants qui est maintenue grâce à la dynamique naturelle de perturbations. Le changement du climat (b) peut provoquer un changement de la forme du paysage de différentes façons: (1) en abaissant le seuil pour passer de l'état mixte à tempéré, (2) en creusant et en élargissant le bassin d'attraction de l'état tempéré et (3) en rendant moins profond le bassin d'attraction de l'état boréal. Ces modifications font que la boule dégringole plus souvent de la vallée mixte vers la vallée tempérée sous l'effet d'une perturbation.}
 \label{fig4.1}
 \end{figure}
 

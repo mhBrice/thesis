@@ -1,6 +1,8 @@
 
 \francais
 
+\chapter*{Avant-propos}
+
 Cette thèse est rédigée sous forme d'articles scientifiques, qui forment le
 coeur du document, et sont complétés d'une introduction et conclusion générale.
 Deux des articles sont déjà publiés ou acceptés à des revues avec comité de
@@ -22,7 +24,7 @@ Vieira, Dominique Gravel, Aurélie Chalumeau et Pierre Grondin. Ceux-ci ont
 contribué de manière substantielle à la version finale des manuscrits et sont
 donc inclus en tant que co-auteurs.
 
-# Accessibilité et reproductibilité de mes travaux
+**Accessibilité et reproductibilité de mes travaux**
 
 L'ensemble des données et des scripts utilisés dans le cadre de ma thèse sont
 disponibles librement. Ainsi, les codes nécessaires à la mise en forme des bases

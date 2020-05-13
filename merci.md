@@ -1,3 +1,5 @@
 \francais
 
-Merci à Dr Doudou! 
+\chapter*{Remerciements}
+
+Merci à plein de monde!

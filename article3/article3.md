@@ -376,29 +376,131 @@ monotonously decreasing importance to the populations that are located further
 away.
 
 
-Table: Description of the explanatory variables used in the hurdle models of tree recruitment. \label{tab:tab3.1}
-
-
-|**Variable name**|**Variable description**                                   |
-|:----------------|:----------------------------------------------------------|
-|**Climate**      |                                                           |
-|Temperature      |Mean temperature during growing season, 10-year average prior to plot measurement ($^\circ$C). |
-|CMI              |Mean Climate Moisture Index (difference between precipitation and potential evapotranspiration) from May to September, 10-year average prior to plot measurement (cm). |
-|$\Delta$TP       |Slope between TP and year, from 1950 to 2018 ($^\circ$C/year).    |
-|$\Delta$CMI      |Slope between CMI and year, from 1950 to 2018 (cm/year).   |
-|**Physical**     |                                                           |
-|pH               |3 classes pH of the surface horizon: low (<4.0), medium (4.1-4.4), high ($\geqslant$ 4.4) |
-|drainage         |3 classes of soil drainage: hydric, mesic, xeric.|
-|altitude         |Altitude of the forest plot (m).                           |
-|slope            |3 classes of slope positions: lower slope, mid slope, upper slope.|
-|**Biotic**       |                                                           |
-|conspe~plot~      |Total basal area of conspecific adult trees (dhp $\geqslant$ 9 cm) in a forest plot at $t$. |
-|conspe~neigh~     |Total basal area of conspecific adult trees (dhp $\geqslant$ 9 cm) in a 10km buffer around a forest plot. |
-|boreal~plot~     |Total basal area of boreal adult trees (dhp $\geqslant$ 9 cm) in a forest plot at $t$. |
-|**Disturbances** |                                                           |
-|Logging          |3 levels of logging severity: None or minor ($\leqslant$ 25% of basal area removed); moderate, maily partial cuts (25-75%); or major, mainly clearcuts ($\geqslant$ 75%). |
-|Natural          |2 levels of natural disturbance severity, mainly insect outbreaks, as well as windfall and few forest fires: None or minor ($\leqslant$ 25%), moderate or major (> 25%). |
-|age              |Stand age (in years).                                      |
+\begin{small}
+\begin{longtable}[]{@{}ll@{}}
+\caption[Description of the explanatory variables used in the recruitment
+models]{Description of the explanatory variables used in the hurdle
+models of tree recruitment. \label{tab:tab3.1}}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.21\columnwidth}\raggedright
+\textbf{Variable name}\strut
+\end{minipage} & \begin{minipage}[b]{0.73\columnwidth}\raggedright
+\textbf{Variable description}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.21\columnwidth}\raggedright
+\textbf{Variable name}\strut
+\end{minipage} & \begin{minipage}[b]{0.73\columnwidth}\raggedright
+\textbf{Variable description}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Climate}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Temperature\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Mean temperature during growing season, 10-year average prior to plot
+measurement (\(^\circ\)C).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+CMI\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Mean Climate Moisture Index (difference between precipitation and
+potential evapotranspiration) from May to September, 10-year average
+prior to plot measurement (cm).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\(\Delta\)TP\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Slope between TP and year, from 1950 to 2018 (\(^\circ\)C/year).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\(\Delta\)CMI\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Slope between CMI and year, from 1950 to 2018 (cm/year).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Physical}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+pH\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+3 classes pH of the surface horizon: low (\textless4.0), medium
+(4.1-4.4), high (\(\geqslant\) 4.4)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+drainage\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+3 classes of soil drainage: hydric, mesic, xeric.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+altitude\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Altitude of the forest plot (m).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+slope\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+3 classes of slope positions: lower slope, mid slope, upper slope.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Biotic}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+conspe\textsubscript{plot}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Total basal area of conspecific adult trees (dhp \(\geqslant\) 9 cm) in
+a forest plot at \(t\).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+conspe\textsubscript{neigh}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Total basal area of conspecific adult trees (dhp \(\geqslant\) 9 cm) in
+a 10km buffer around a forest plot.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+boreal\textsubscript{plot}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Total basal area of boreal adult trees (dhp \(\geqslant\) 9 cm) in a
+forest plot at \(t\).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Disturbances}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Logging\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+3 levels of logging severity: None or minor (\(\leqslant\) 25\% of basal
+area removed); moderate, maily partial cuts (25-75\%); or major, mainly
+clearcuts (\(\geqslant\) 75\%).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Natural\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+2 levels of natural disturbance severity, mainly insect outbreaks, as
+well as windfall and few forest fires: None or minor (\(\leqslant\)
+25\%), moderate or major (\textgreater{} 25\%).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+age\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Stand age (in years).\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+\end{small}
 
 ## Analyses
 
@@ -499,26 +601,33 @@ $$ logit(\pi_i) = ln(\frac{\pi_i}{1 - \pi_i}) = \gamma_0 + \gamma_1 \times Z_{1i
 $$log(\mu_i) = \beta_0 + \beta_1 \times X_{1i} + ... + \beta_n \times X_{ni}.$$
 
 In our model, we tested the same initial set of predictors in $Z$ and $X$ (all
-variables in Table \ref{tab:tab3.1}). We then performed stepwise backward selection procedures
-based on Akaike information criterion [AIC; @zuur_mixed_2009] on each part of
-the hurdle models independently to reduce the number of predictors and keep the
-most relevant ones. The full hurdle models were then run with the selected
-predictors. Regression coefficients were estimated by maximum likelihood. We
-evaluated the goodness-of-fit of the four models (one for each species) against
-the baseline model using likelihood ratio tests [@zeileis_regression_2008],
-which evaluate if the addition of one or more new parameters significantly
-increases the likelihood of the model. We also compared and ranked the
-importance of each tested predictor using a likelihood ratio test. Starting with
-a full model containing all the selected predictors, we removed each of the
-terms one after the other to understand their contribution to the likelihood.
+variables in Table \ref{tab:tab3.1}). We then performed stepwise backward
+selection procedures based on Akaike information criterion [AIC;
+@zuur_mixed_2009] on each part of the hurdle models independently to reduce the
+number of predictors and keep the most relevant ones. The full hurdle models
+were then run with the selected predictors. Regression coefficients were
+estimated by maximum likelihood. We evaluated the goodness-of-fit of the four
+models (one for each species) against the baseline model using likelihood ratio
+tests [@zeileis_regression_2008], which evaluate if the addition of one or more
+new parameters significantly increases the likelihood of the model. We also
+compared and ranked the importance of each tested predictor using a likelihood
+ratio test. Starting with a full model containing all the selected predictors,
+we removed each of the terms one after the other to understand their
+contribution to the likelihood.
 
 
 All analyses were performed using the R programming language version 3.6.1
 [@r_core_team_r_2019]. The list of R packages that were used to carry out the
-analyses is provided in the Supporting Information (Table \ref{tab:tabC.1}). All data used
-in the study, in addition to R scripts that reproduced the analyses and
-figures, will be made available online on GitHub upon manuscript acceptance.
+analyses is provided in the Supporting Information (Table \ref{tab:tabC.1}). All
+data used in the study, in addition to R scripts that reproduced the analyses
+and figures, will be made available online on GitHub upon manuscript acceptance.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{article3/figures/fig2_sap_delta.png}
+\caption[Temporal changes in sapling occurrence and abundance]{Changes in sapling occurrence (number of plots; left portion of the graph) and mean abundance (right) between the historical (1970-1981, in grey) and recent (2005-2018, in red) time periods for each bioclimatic domain. The letters are acronyms for the bioclimatic domains, from north to south: Balsam fir-white birch, BFWB; Balsam fir-yellow birch, BFYB; Sugar maple-yellow birch, SMYB; Sugar maple-Basswood, SMB.}
+\label{fig3.2}
+\end{figure}
 
 # Results
 
@@ -528,23 +637,15 @@ figures, will be made available online on GitHub upon manuscript acceptance.
 All four studied species experienced increases in their occurrence and their
 mean abundance throughout the study area, except for *Acer saccharum*, which
 experienced occurrence losses in the two southernmost bioclimatic domains (Fig.
-\ref{fig3.2}). The number of plots with *A. rubrum* saplings increased in all domains and
-more than doubled in the two northernmost domains; its abundance within these
-plots also increased, particularly at its northern limit, in the Balsam
-fir-white birch domain. Occurrences of *Betula alleghaniensis* increased across
-its range, but its mean abundance did not change much. Occurrences of *Fagus
-grandifolia* doubled in both Sugar maple domains and new occurrences appeared at
-its northern range limit, located in the Balsam fir-yellow birch domain. *F.
-grandifolia* also doubled in abundance throughout its range.
+\ref{fig3.2}). The number of plots with *A. rubrum* saplings increased in all
+domains and more than doubled in the two northernmost domains; its abundance
+within these plots also increased, particularly at its northern limit, in the
+Balsam fir-white birch domain. Occurrences of *Betula alleghaniensis* increased
+across its range, but its mean abundance did not change much. Occurrences of
+*Fagus grandifolia* doubled in both Sugar maple domains and new occurrences
+appeared at its northern range limit, located in the Balsam fir-yellow birch
+domain. *F. grandifolia* also doubled in abundance throughout its range.
 
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.6\textwidth]{article3/figures/fig2_sap_delta.png}
-\caption[Temporal changes in sapling occurrence and abundance]{Changes in sapling occurrence (number of plots; left portion of the graph) and mean abundance (right) between the historical (1970-1981, in grey) and recent (2005-2018, in red) time periods for each bioclimatic domain. The letters are acronyms for the bioclimatic domains, from north to south: Balsam fir-white birch, BFWB; Balsam fir-yellow birch, BFYB; Sugar maple-yellow birch, SMYB; Sugar maple-Basswood, SMB.}
-\label{fig3.2}
-\end{figure}
 
 
 ## Latitudinal shifts in sapling distributions
@@ -552,8 +653,9 @@ grandifolia* also doubled in abundance throughout its range.
 When considering all forest plots together, sapling latitudinal distributions
 shifted significantly northward through time only for the two *Acer* species
 (shifts in distribution medians were: $\Delta_{50}$ = +19.3 and +13.2 km for *A.
-rubrum* and *A. saccharum*, respectively; Fig. \ref{fig3.3}), whereas we did not observe
-significant shift for *B. alleghaniensis* and *F. grandifolia*.
+rubrum* and *A. saccharum*, respectively; Fig. \ref{fig3.3}), whereas we did not
+observe significant shift for *B. alleghaniensis* and *F. grandifolia*.
+
 
 Latitudinal shifts were, however, influenced by disturbance severity. We found
 northward shifts in distributions for *A. rubrum*, *A. saccharum* and *B.
@@ -577,6 +679,7 @@ temperature of the growing season during the historical period) and observed
 similar patterns for all four species (Fig. \ref{figC.4}) which confirm our previous
 results (Fig. \ref{fig3.3}).
 
+\newpage
 
 \begin{figure}
 \centering
@@ -589,10 +692,10 @@ results (Fig. \ref{fig3.3}).
 ## Altitudinal shifts in sapling distributions
 
 We observed no significant shifts in altitudinal distribution for all four
-species across bioclimatic domains (Fig. \ref{fig3.4}). However, the distributions of all
-four species presented trends towards downslope shifts, especially at their
-northern range margins. For example, the median distribution of *A. rubrum*
-shifted downslope by -64.5 m of altitude.
+species across bioclimatic domains (Fig. \ref{fig3.4}). However, the
+distributions of all four species presented trends towards downslope shifts,
+especially at their northern range margins. For example, the median distribution
+of *A. rubrum* shifted downslope by -64.5 m of altitude.
 
 
 
@@ -622,51 +725,52 @@ frequencies; Fig. \ref{figC.6}).
 
 The basal area of conspecific trees in the plot (conspe~plot~) and in the
 neighbourhood (conspe~neigh~) had a strong positive effect on the presence (zero
-part) and number of recruits (count part) for all species (Fig. \ref{fig3.5}), except for
-*B. alleghaniensis*, for which conspecific trees in the plot had a negative
-effect on the number of recruits. The predominance of conspecific trees in the
-plot was particularly determinant for *A. saccharum* and *F. grandifolia*
-compared to other variables (Fig. \ref{figC.5}). The total basal area of boreal trees in
-the plot (boreal~plot~) had a strong negative effect on all species.
+part) and number of recruits (count part) for all species (Fig. \ref{fig3.5}),
+except for *B. alleghaniensis*, for which conspecific trees in the plot had a
+negative effect on the number of recruits. The predominance of conspecific trees
+in the plot was particularly determinant for *A. saccharum* and *F. grandifolia*
+compared to other variables (Fig. \ref{figC.5}). The total basal area of boreal
+trees in the plot (boreal~plot~) had a strong negative effect on all species.
 
 
 Physical variables were also very important to predict the presence and number
-of recruits, especially for *A. rubrum* and *B. alleghaniensis* (Fig. \ref{fig3.5}, \ref{figC.5}). For
-all four species, probability of recruitment was higher on hilltops (upper
-slope, and less so mid slope, compared to lower slope). Altitude influenced *B.
-alleghaniensis* (negative) and *F. grandifolia* (positive). Poor drainage
-(hydric compared to mesic soils) had a strong negative effect on all species,
-while excessive drainage (xeric soils) only affected *F. grandifolia*. The
-number of recruits of *A. rubrum* and *F. grandifolia* were also lower on hydric
-soils. Soils with low pH appear beneficial for saplings of *B. alleghaniensis*
-(compared to medium pH). Soils with high pH had positive effect on both *Acer*
-species and negative on *F. grandifolia*.
+of recruits, especially for *A. rubrum* and *B. alleghaniensis* (Fig.
+\ref{fig3.5}, \ref{figC.5}). For all four species, probability of recruitment
+was higher on hilltops (upper slope, and less so mid slope, compared to lower
+slope). Altitude influenced *B. alleghaniensis* (negative) and *F. grandifolia*
+(positive). Poor drainage (hydric compared to mesic soils) had a strong negative
+effect on all species, while excessive drainage (xeric soils) only affected *F.
+grandifolia*. The number of recruits of *A. rubrum* and *F. grandifolia* were
+also lower on hydric soils. Soils with low pH appear beneficial for saplings of
+*B. alleghaniensis* (compared to medium pH). Soils with high pH had positive
+effect on both *Acer* species and negative on *F. grandifolia*.
 
-Among the climate variables, temperature always had a positive effect on on
-both the presence and the number of recruits, while CMI had a positive effect on
-*B. alleghaniensis* only and a negative effect on *A. rubrum* (Fig. \ref{fig3.5}). The
-effect of climate change varied across species; increased humidity ($\Delta$CMI)
-was associated with higher probability of recruitment of *A. saccharum*, *B.
-alleghaniensis* and *F. grandifolia*, but a lower probability for *A. rubrum*.
-Climate warming ($\Delta$TP) had a positive effect on the presence of *B.
-alleghaniensis* and negative on *F. grandifolia*. Moreover, climate warming had
-a positive effect on the number of *A. rubrum* recruits, but a negative effect
-on *A. saccharum*.
+Among the climate variables, temperature always had a positive effect on on both
+the presence and the number of recruits, while CMI had a positive effect on *B.
+alleghaniensis* only and a negative effect on *A. rubrum* (Fig. \ref{fig3.5}).
+The effect of climate change varied across species; increased humidity
+($\Delta$CMI) was associated with higher probability of recruitment of *A.
+saccharum*, *B. alleghaniensis* and *F. grandifolia*, but a lower probability
+for *A. rubrum*. Climate warming ($\Delta$TP) had a positive effect on the
+presence of *B. alleghaniensis* and negative on *F. grandifolia*. Moreover,
+climate warming had a positive effect on the number of *A. rubrum* recruits, but
+a negative effect on *A. saccharum*.
 
-Finally, all disturbances promoted the recruitment of *A. rubrum* (Fig. \ref{fig3.5}).
-Moderate logging generally increased the presence and number of recruits for all
-species. Major logging decreased the probability of recruitment of *B.
-alleghaniensis* and, to a lesser extent, of *A. saccharum* and *F. grandifolia*.
-Interestingly, the number of recruits of all four species strongly increased with major logging and, less so, with moderate logging. Natural disturbances had
-a negative effect on the presence and number of recruits of *A. saccharum* and
-*B. alleghaniensis*. Recruitment of *A. saccharum* and *F. grandifolia* was
-more likely to take place in older forest plots (age), whereas more *A.
-rubrum* recruits were found in younger forests.
 
+Finally, all disturbances promoted the recruitment of *A. rubrum* (Fig.
+\ref{fig3.5}). Moderate logging generally increased the presence and number of
+recruits for all species. Major logging decreased the probability of recruitment
+of *B. alleghaniensis* and, to a lesser extent, of *A. saccharum* and *F.
+grandifolia*. Interestingly, the number of recruits of all four species strongly
+increased with major logging and, less so, with moderate logging. Natural
+disturbances had a negative effect on the presence and number of recruits of *A.
+saccharum* and *B. alleghaniensis*. Recruitment of *A. saccharum* and *F.
+grandifolia* was more likely to take place in older forest plots (age), whereas
+more *A. rubrum* recruits were found in younger forests.
 
 \begin{figure}
 \centering
-\includegraphics[width=.9\textwidth]{article3/figures/fig5_hurdle.png}
+\includegraphics[width=.95\textwidth]{article3/figures/fig5_hurdle.png}
 \caption[Slope coefficients and their 95\% confidence intervals estimated by the recruitment models]{Slope coefficients and their 95\% confidence intervals estimated by the recruitment models for the four temperate tree species. On the left are the zero parts and on the right are the count parts of the hurdle models. Predictors coloured in blue have a positive effect on the probability of having recruitment (zero part) or the number of recruits (count part), whereas predictors coloured in red have a negative effect. Significant predictors are represented by solid points. McFadden pseudo-R\textsuperscript{2} statistics were computed against the null model (1 - LL$\textsubscript{full}$/LL$\textsubscript{null}$). For a description of the predictor variables, see Table \ref{tab:tab3.1}.}
 \label{fig3.5}
 \end{figure}
@@ -1045,6 +1149,10 @@ staff of the MFFP for their work since 1970 on forest inventories. This research
 was supported by Natural Sciences and Engineering Research Council of Canada
 (NSERC) research grant no. 7738 to P. L. and no. 5134 to M.‐J. F.
 
-\pagebreak
+# Data Accessibility Statement
 
-# References
+The complete forest inventory dataset used in this study is available online at
+https://www.donneesquebec.ca/recherche/fr/dataset/placettes-echantillons-permanentes-1970-a-aujourd-hui.
+All the data used in the study, in addition to R scripts to reproduce the
+analyses and the figures, can be found online at
+https://github.com/mhBrice/recruitment.

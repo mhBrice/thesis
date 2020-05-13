@@ -405,11 +405,88 @@ resulted in a loss of more than 75% of the total tree basal area, whereas
 moderate disturbances have caused between 25 and 75% of loss. When the loss in
 basal area is less than 25%, it is considered to be minor.
 
+
 Finally, at each plot, several edaphic characteristics were recorded
 [@mffp_placettes-echantillons_2016]. We selected drainage and pH because they
 largely affect nutrient availability, soil structural properties and vegetation
 development [@tan_environmental_2009], and also because they captured most of
 the variance in soil characteristics in our plots.
+
+\begin{small}
+\begin{longtable}[]{@{}ll@{}}
+\caption[Description of the explanatory variables used in the
+multi-state models]{Description of the explanatory variables used in the
+multi-state models. \label{tab:tab2.1}}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.21\columnwidth}\raggedright
+\textbf{Variable name}\strut
+\end{minipage} & \begin{minipage}[b]{0.73\columnwidth}\raggedright
+\textbf{Variable description}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.21\columnwidth}\raggedright
+\textbf{Variable name}\strut
+\end{minipage} & \begin{minipage}[b]{0.73\columnwidth}\raggedright
+\textbf{Variable description}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Climate}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Temperature\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Mean temperature during growing season, 10-year average prior to plot
+measurement (\(^\circ\)C).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+CMI\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Mean Climate Moisture Index from May to September, 10-year average prior
+to plot measurement (cm).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Soil}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+pH\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+pH of the surface horizon\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Drainage\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+6 classes of soil drainage, which range from excessive to very poor,
+that were treated as numeric.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+\textbf{Disturbances}\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Logging\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Tree harvesting, including clearcutting, selection cutting, shelterwood
+cutting, seed-tree cutting, etc. None or minor (0), moderate (1) or
+major (2).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.21\columnwidth}\raggedright
+Natural\strut
+\end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
+Natural disturbances, including forest fires, insect outbreaks,
+windfall, etc. No or minor (0), moderate (1) or major (2).\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+\end{small}
 
 Climate and disturbances were included as time-varying explanatory variables
 (often called covariates in survival models), while soil variables were
@@ -428,21 +505,6 @@ well-suited for our research goals; however it is not designed to make future
 range shift projections.
 
 
-
-Table: Description of the explanatory variables used in the multi-state models. \label{tab:tab2.1}
-
-
-|**Variable name**|**Variable description**                                   |
-|:----------------|:----------------------------------------------------------|
-|**Climate**      |                                                           |
-|Temperature      |Mean temperature during growing season, 10-year average prior to plot measurement ($^\circ$C). |
-|CMI              |Mean Climate Moisture Index from May to September, 10-year average prior to plot measurement (cm). |
-|**Soil**         |                                                           |
-|pH               |pH of the surface horizon                                  |
-|Drainage         |6 classes of soil drainage, which range from excessive to very poor, that were treated as numeric.|
-|**Disturbances** |                                                           |
-|Logging          |Tree harvesting, including clearcutting, selection cutting, shelterwood cutting, seed-tree cutting, etc. None or minor (0), moderate (1) or major (2). |
-|Natural          |Natural disturbances, including forest fires, insect outbreaks, windfall, etc. No or minor (0), moderate (1) or major (2). |
 
 ## Analysis
 
@@ -655,21 +717,12 @@ improved overall model predictive performance, while soil variables had a
 negligible effect (Fig. \ref{figA2.5}). Thereafter, all inferences about transition
 probabilities were derived from the full model.
 
-
-
-\begin{table}
-\caption{\label{tab:tab2.2}Comparisons of the five candidate multi-state models. The number of
-parameters used in each model corresponds to the number of modelled transitions
-(10) $\times$ the number of covariates $-$ 1. The $\Delta \text{AIC}$ is the difference
-between the Akaike information criterion of each model ($\text{AIC}_m$) and the
-minimum of AIC among all models ($\text{AIC}_{min}$): $\Delta \text{AIC} =
-\text{AIC}_m - \text{AIC}_{min}$. Models are presented in decreasing order of
-their $\Delta \text{AIC}$. Each model containing covariates was compared to the baseline
-model using a Likelihood Ratio (LR) test. The best model is the one in bold with
-$\Delta \text{AIC} = 0$.}
-\begin{tabular}{llrrrl}
+\begin{table}[h]
+\caption[Comparisons of the five candidate multi-state models]{Comparisons of the five candidate multi-state models. The number of parameters (Nb of par.) used in each model corresponds to the number of modelled transitions (10) $\times$ the number of covariates $-$ 1. The $\Delta \text{AIC}$ is the difference between the Akaike information criterion of each model ($\text{AIC}_m$) and the minimum of AIC among all models ($\text{AIC}_{min}$): $\Delta \text{AIC} = \text{AIC}_m - \text{AIC}_{min}$. Models are presented in decreasing order of their $\Delta \text{AIC}$. Each model containing covariates was compared to the baseline model using a Likelihood Ratio (LR) test. The best model is the one in bold with $\Delta \text{AIC} = 0$.}\label{tab:tab2.2}
+\begin{small}
+\begin{tabular}{llcrrl}
 \toprule
-\textbf{ } & \textbf{Covariates} & \textbf{Number of parameters} & \textbf{-2 Log-likelihood} & \textbf{Delta AIC} & \textbf{LR test}\\
+\textbf{ } & \textbf{Covariates} & \textbf{Nb of par.} & \textbf{-2 Log-likelihood} & \textbf{$\Delta$AIC} & \textbf{LR test}\\
 \midrule
 Baseline & Intercept & 10 & 37874.4 & 8298.4 & ---\\
 Soil & Drainage, pH & 24 & 37713.7 & 8165.7 & < 0.001\\
@@ -677,9 +730,8 @@ Climate & Temperature, CMI & 24 & 36288.8 & 6740.8 & < 0.001\\
 Disturbances & Natural, Logging & 50 & 30993.5 & 1497.5 & < 0.001\\
 \textbf{Full} & \textbf{All} & \textbf{78} & \textbf{29440.0} & \textbf{0.0} & \textbf{< 0.001}\\
 \bottomrule
-
 \end{tabular}
-
+\end{small}
 \end{table}
 
 
@@ -745,6 +797,19 @@ instance, under moderate natural disturbances, the instantaneous risk of
 transition from Boreal to Mixed is 0.007 at moderate drainage but decreases to
 0.003 when increasing drainage by 1 point.
 
+
+## Effect of disturbances on long-term equilibrium
+
+The potential state proportion at equilibrium was strongly influenced by
+disturbances (Fig. \ref{fig2.5}a). For the undisturbed scenario (minor), the
+predicted equilibrium at the ecotone was relatively close to the initial
+observed proportions, with signs of regeneration from Pioneer to Boreal states
+and slight increases in Mixed and Temperate states. The steady-state proportion
+of Temperate almost doubled with moderate disturbances (minor: 33%; moderate
+natural: 56%; moderate logging: 60%), while the boreal state was more than
+halved. At major disturbances, Pioneer forests dominated the equilibrium
+landscape, while the other states collapsed.  
+
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{article2/figures/fig4_HR.pdf}
@@ -752,29 +817,57 @@ transition from Boreal to Mixed is 0.007 at moderate drainage but decreases to
 \label{fig2.4}
 \end{figure}
 
-
-## Effect of disturbances on long-term equilibrium
-
-The potential state proportion at equilibrium was strongly influenced by
-disturbances (Fig. \ref{fig2.5}a). For the undisturbed scenario (minor), the predicted
-equilibrium at the ecotone was relatively close to the initial observed
-proportions, with signs of regeneration from Pioneer to Boreal states and slight
-increases in Mixed and Temperate states. The steady-state proportion of
-Temperate almost doubled with moderate disturbances (minor: 33%; moderate
-natural: 56%; moderate logging: 60%), while the boreal state was more than
-halved. At major disturbances, Pioneer forests dominated the equilibrium
-landscape, while the other states collapsed.  
-
 The steady-state proportion also changed as expected along the temperature
-gradient (Fig. \ref{fig2.5}b,c). The Boreal state dominates at low temperature (high
-latitude) and the Temperate state dominates at high temperature (low latitude),
-highlighting the position of the boundary between these two biomes at a growing
-season temperature of about 12.9$^\circ$C, which is found in the actual ecotone.
-Moderate disturbances (both natural and logging) displaced the temperate-boreal
-boundary at lower temperatures (ca. 12.2$^\circ$C), hence further north of the current
-ecotone (Fig. \ref{fig2.5}b,c). Because of the dominance of the Pioneer state, the boundary
-modestly moved north with major natural disturbances (12.7$^\circ$C), while it
-retreated to the south with major logging (13.4$^\circ$C).
+gradient (Fig. \ref{fig2.5}b,c). The Boreal state dominates at low temperature
+(high latitude) and the Temperate state dominates at high temperature (low
+latitude), highlighting the position of the boundary between these two biomes at
+a growing season temperature of about 12.9$^\circ$C, which is found in the
+actual ecotone. Moderate disturbances (both natural and logging) displaced the
+temperate-boreal boundary at lower temperatures (ca. 12.2$^\circ$C), hence
+further north of the current ecotone (Fig. \ref{fig2.5}b,c). Because of the
+dominance of the Pioneer state, the boundary modestly moved north with major
+natural disturbances (12.7$^\circ$C), while it retreated to the south with major
+logging (13.4$^\circ$C).
+
+
+
+
+## Effect of disturbances on transient dynamics
+
+Disturbances affected forest transient dynamics with greater impact for higher
+disturbance severity (Fig. \ref{fig2.6}). In the minor disturbance scenario,
+turnover time was generally longer at low temperature, indicating slower
+transition dynamics in northern forests (Fig. \ref{fig2.6}a,b). The turnover
+time then rapidly declined to reach a minimum at ca. 13.25$^\circ$C, at the
+southern limit of the ecotone, and went back up after this point. This trough,
+where transition dynamics is the fastest, is located just a little south of the
+boundary between Boreal and Temperate dominances found in Figure 5. Major
+disturbances accelerated transition dynamics all along the temperature gradient,
+while moderate disturbances also decreased turnover time but more strongly in
+the northern boreal region (Fig. \ref{fig2.6}a,b). The effect on turnover time
+was similar for both disturbance types, except that the effect of major logging
+was much stronger in northern boreal forests than natural disturbances (Fig.
+\ref{fig2.6}a,b). These spatial patterns reflect the turnover time of the
+dominant state at each point along the temperature gradient (Fig.
+\ref{figA2.8}).
+
+At minor disturbances, the entropy of the system generally increased from north
+to south and peaked at ca. 12.6$^\circ$C, at the northern end of the ecotone
+(Fig. 6c,d). This peak illustrates where the transition dynamics is most
+uncertain (transition to all states are possible at this point), while it is
+very predictable in northern boreal forests (Boreal stays Boreal until it
+transitions to Pioneer later on). The peak can be mainly attributed to the
+entropy of the Boreal state at the ecotone, and the generally high values at low
+latitudes can be principally attributed to the Temperate state (Fig.
+\ref{figA2.9}). This latitudinal pattern of entropy is modified by disturbances.
+Moderate natural disturbances decreased the entropy throughout the gradient, but
+especially where the peak is found (Fig. \ref{fig2.6}c). With moderate logging,
+the peak disappeared, and entropy increased monotonically from north to south
+(Fig. \ref{fig2.6}d). The peak of entropy was displaced to the south when major
+disturbances were included, whether natural or logging (Fig. \ref{fig2.6}c,d),
+where it was dominated by the entropy of the Pioneer state (Fig. \ref{figA2.9}).
+
+\newpage
 
 \begin{figure}
 \centering
@@ -784,49 +877,16 @@ retreated to the south with major logging (13.4$^\circ$C).
 \end{figure}
 
 
-## Effect of disturbances on transient dynamics
-
-Disturbances affected forest transient dynamics with greater impact for higher
-disturbance severity (Fig. \ref{fig2.6}). In the minor disturbance scenario, turnover
-time was generally longer at low temperature, indicating slower transition
-dynamics in northern forests (Fig. \ref{fig2.6}a,b). The turnover time then rapidly
-declined to reach a minimum at ca. 13.25$^\circ$C, at the southern limit of the
-ecotone, and went back up after this point. This trough, where transition
-dynamics is the fastest, is located just a little south of the boundary between
-Boreal and Temperate dominances found in Figure 5. Major disturbances
-accelerated transition dynamics all along the temperature gradient, while
-moderate disturbances also decreased turnover time but more strongly in the
-northern boreal region (Fig. \ref{fig2.6}a,b). The effect on turnover time was similar for
-both disturbance types, except that the effect of major logging was much
-stronger in northern boreal forests than natural disturbances (Fig. \ref{fig2.6}a,b). These
-spatial patterns reflect the turnover time of the dominant state at each point
-along the temperature gradient (Fig. \ref{figA2.8}).
-
-At minor disturbances, the entropy of the system generally increased from north
-to south and peaked at ca. 12.6$^\circ$C, at the northern end of the ecotone (Fig.
-6c,d). This peak illustrates where the transition dynamics is most uncertain
-(transition to all states are possible at this point), while it is very
-predictable in northern boreal forests (Boreal stays Boreal until it transitions
-to Pioneer later on). The peak can be mainly attributed to the entropy of the
-Boreal state at the ecotone, and the generally high values at low latitudes can
-be principally attributed to the Temperate state (Fig. \ref{figA2.9}). This latitudinal
-pattern of entropy is modified by disturbances. Moderate natural disturbances
-decreased the entropy throughout the gradient, but especially where the peak is
-found (Fig. \ref{fig2.6}c). With moderate logging, the peak disappeared, and entropy
-increased monotonically from north to south (Fig. \ref{fig2.6}d). The peak of entropy was
-displaced to the south when major disturbances were included, whether natural or
-logging (Fig. \ref{fig2.6}c,d), where it was dominated by the entropy of the Pioneer state
-(Fig. \ref{figA2.9}).
-
-Half-life to equilibrium was the longest at ca. 11.8$^\circ$C, north of the ecotone,
-in the balsam fir-white birch domain, while it was the shortest in the
-southernmost latitudes (Fig. \ref{fig2.6}e,f). Moderate disturbances flattened and shifted
-this peak to the north and the effect of moderate logging (Fig. \ref{fig2.6}f) was stronger
-than natural disturbances (Fig. \ref{fig2.6}e). In the balsam fir-white birch, the
-half-life to reach equilibrium distribution was reduced almost by half by
-moderate logging. With major disturbances, forests all along the temperature
-gradient can reach very quickly their steady-state distribution (maximum of
-about 8 years for major logging and 25 years for major natural disturbances).
+Half-life to equilibrium was the longest at ca. 11.8$^\circ$C, north of the
+ecotone, in the balsam fir-white birch domain, while it was the shortest in the
+southernmost latitudes (Fig. \ref{fig2.6}e,f). Moderate disturbances flattened
+and shifted this peak to the north and the effect of moderate logging (Fig.
+\ref{fig2.6}f) was stronger than natural disturbances (Fig. \ref{fig2.6}e). In
+the balsam fir-white birch, the half-life to reach equilibrium distribution was
+reduced almost by half by moderate logging. With major disturbances, forests all
+along the temperature gradient can reach very quickly their steady-state
+distribution (maximum of about 8 years for major logging and 25 years for major
+natural disturbances).
 
 \begin{figure}
 \centering
@@ -1149,9 +1209,3 @@ grant no. 7738 to P. L. and no. 5134 to M.-J. F.
 
 The complete forest inventory dataset used in this study is available online at
 https://www.donneesquebec.ca/recherche/fr/dataset/placettes-echantillons-permanentes-1970-a-aujourdhui. All the data used in the study, in addition to R scripts to reproduce the analyses and the figures, can be found online at https://github.com/mhBrice/transition.
-
-\pagebreak
-
-
-
-# References

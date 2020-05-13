@@ -258,7 +258,7 @@ temperate (30 species; see Table \ref{tab:tabA1.1} for details).
 
 \begin{figure}
 \centering
-\includegraphics{article1/figures/fig1_region.pdf}
+\includegraphics[width=0.7\textwidth]{article1/figures/fig1_region.pdf}
 \caption[Locations of the 6281 forest inventory plots in meridional Québec,
 Canada]{Locations of the 6281 forest inventory plots in meridional Québec,
 Canada. Colours delimit the six bioclimatic domains. The two southernmost domains
@@ -287,6 +287,131 @@ temperature and precipitation have increased by 0.14 $^\circ$C/decade and 9.5
 mm/decade, respectively, while CMI has decreased by 1.2
 cm/decade (Fig. \ref{figA1.1}).
 
+\begin{small}
+\begin{longtable}[]{@{}ll@{}}
+\caption[Description of the predictors used in the multiple linear
+regression models]{Description of the predictors used in the multiple linear
+regression models. See Table \ref{tab:tabA1.2} for details about
+disturbance types. \label{tab:tab1.1}}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.26\columnwidth}\raggedright
+Variable name\strut
+\end{minipage} & \begin{minipage}[b]{0.69\columnwidth}\raggedright
+Variable description\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.26\columnwidth}\raggedright
+Variable name\strut
+\end{minipage} & \begin{minipage}[b]{0.69\columnwidth}\raggedright
+Variable description\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\textbf{Baseline conditions}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Temp, Temp\textsuperscript{2}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Mean temperature during growing season and its second order polynomial.
+10-year average prior to first survey of each plot (\(^\circ\)C).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Precip, Precip\textsuperscript{2}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Total precipitation during growing season and its second order
+polynomial. 10-year average prior to first survey of each plot
+(mm).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(\Delta\)Time\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Time interval between first and last measurements (years).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\textbf{Climate change}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(\Delta\)Temp\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Slope between Temp and time (\(^\circ\)C/y).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(\Delta\)Precip\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Slope between Precip and time (mm/y).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\(\Delta\)CMI\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Slope between Climate Moisture Index and time (cm/y)\}.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Temp min\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Extreme minimum temperature. Difference between minimum and mean
+temperature of the coldest period (\(^\circ\)C).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Temp max\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Extreme maximum temperature. Difference between maximum and mean
+temperature of the warmest period (\(^\circ\)C).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+CMI min\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Extreme minimum Climate Moisture Index (CMI). Difference between minimum
+CMI and mean CMI (cm), as a proxy of drought.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+\textbf{Disturbances}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Age\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Stand age (years).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Old harvest\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Tree harvesting (clearcutting, partial cutting, selection cutting, etc.)
+that occurred before the study period. Minor (0), moderate (1) or major
+(2).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Recent harvest\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Tree harvesting (clearcutting, partial cutting, selection cutting, etc.)
+that occurred during the study period. Minor (0), moderate (1) or major
+(2).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Old natural\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Natural disturbances (fire, insect outbreak, windfall, etc.) that
+occurred before the study period. Minor (0), moderate (1) or major
+(2).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.26\columnwidth}\raggedright
+Recent natural\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Natural disturbances (fire, insect outbreak, windfall, etc.) that
+occurred before the study period. Minor (0), moderate (1) or major
+(2).\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+\end{small}
+
 We also collected information pertaining to natural and anthropogenic
 disturbances that have affected the forest plots both before and during the study
 period (Table \ref{tab:tab1.1}, Fig. \ref{figA1.2}). At each plot, 21 disturbance types and
@@ -307,27 +432,7 @@ forest succession processes after disturbances. Finally, because the time interv
 between the first and last measurements varies among the forest plots, it was
 included as a predictor.
 
-Table: Description of the predictors used in the multiple linear regression models. See Table \ref{tab:tabA1.2} for details about disturbance types. \label{tab:tab1.1}
 
-|Variable name           |Variable description                                          |
-|:-----------------------|:-----------------------------------------------------------------------------|
-|**Baseline conditions** |                                                                               |
-|Temp, Temp^2^         |Mean temperature during growing season and its second order polynomial. 10-year average prior to first survey of each plot ($^\circ$C).    |
-|Precip, Precip^2^       |Total precipitation during growing season and its second order polynomial. 10-year average prior to first survey of each plot (mm). |
-|$\Delta$Time |Time interval between first and last measurements (years).                                  |
-| **Climate change**         |                                                                             |
-|$\Delta$Temp   |Slope between Temp and time ($^\circ$C/y).                                                       |
-|$\Delta$Precip |Slope between Precip and time (mm/y).                                                       |
-|$\Delta$CMI    |Slope between Climate Moisture Index and time (cm/y)}.                                 |
-|Temp min     |Extreme minimum temperature. Difference between minimum and mean temperature of the coldest period ($^\circ$C).   |
-|Temp max    |Extreme maximum temperature. Difference between maximum and mean temperature of the warmest period ($^\circ$C).   |
-|CMI min      |Extreme minimum Climate Moisture Index (CMI). Difference between minimum CMI and mean CMI (cm), as a proxy of drought.                    |
-| **Disturbances**  |                                                                                      |
-|Age          |Stand age (years).                                                                          |
-|Old harvest      |Tree harvesting (clearcutting, partial cutting, selection cutting, etc.) that occurred before the study period. <br> 1. Minor (0),  moderate (1) or major (2).        |
-|Recent harvest   |Tree harvesting (clearcutting, partial cutting, selection cutting, etc.) that occurred during the study period. <br> Minor (0),  moderate (1) or major (2).      |
-|Old natural      |Natural disturbances (fire, insect outbreak, windfall, etc.) that occurred before the study period. <br> Minor (0),  moderate (1) or major (2).                          |
-|Recent natural      |Natural disturbances (fire, insect outbreak, windfall, etc.) that occurred before the study period. <br> Minor (0),  moderate (1) or major (2).                         |
 
 ## Analysis
 
@@ -486,19 +591,42 @@ https://github.com/mhBrice/thermophilization (https://doi.org/10.5281/zenodo.324
 
 ## Temporal $\beta$ diversity
 
-The mean temporal $\beta$ diversity was 0.56 over all sites in the study area (*n* =
-6281), and these temporal changes in composition were attributable to slightly
-more gains in abundances (52.5%) than losses (47.5%; Fig. \ref{fig1.2}a). Temporal $\beta$
-diversity varied along a latitudinal gradient; it tended to decrease northward,
-reaching its maximum at 48$^\circ$N of latitude, which corresponds to the northern
-limit of the balsam fir-yellow birch domain, the ecotone between boreal and
-deciduous forests. North of the 49$^\circ$N of latitude, in the spruce-moss domain,
-temporal $\beta$ changes were dominated by losses whereas, south of this limit, gains
-prevailed. Latitudinal patterns were also visible in the contributions of the
-three species groups to temporal $\beta$ (Fig. \ref{fig1.2}b). At minor disturbance level,
+The mean temporal $\beta$ diversity was 0.56 over all sites in the study area
+(*n* = 6281), and these temporal changes in composition were attributable to
+slightly more gains in abundances (52.5%) than losses (47.5%; Fig.
+\ref{fig1.2}a). Temporal $\beta$ diversity varied along a latitudinal gradient;
+it tended to decrease northward, reaching its maximum at 48$^\circ$N of
+latitude, which corresponds to the northern limit of the balsam fir-yellow birch
+domain, the ecotone between boreal and deciduous forests. North of the
+49$^\circ$N of latitude, in the spruce-moss domain, temporal $\beta$ changes
+were dominated by losses whereas, south of this limit, gains prevailed.
+Latitudinal patterns were also visible in the contributions of the three species
+groups to temporal $\beta$ (Fig. \ref{fig1.2}b). At minor disturbance level,
 community changes were mainly determined by gains in temperate species south of
-47$^\circ$N and by gains in boreal species north of 47$^\circ$N (where boreal species are the
-most abundant species group).
+47$^\circ$N and by gains in boreal species north of 47$^\circ$N (where boreal
+species are the most abundant species group).
+
+
+
+The magnitude of compositional changes in forests was highly influenced by
+disturbances (Figs \ref{fig1.2}b-d, \ref{fig1.3}, \ref{figA1.4}). In each
+domain, the $\beta$ diversity values of highly disturbed forests are strongly
+skewed (Fig. \ref{fig1.3}). The mean temporal $\beta$ was 0.43 at minor
+disturbance level, whereas it was 0.53 at moderate disturbance level and reached
+0.74 at major disturbance level (all domains combined). Moreover, the fraction
+of changes attributed to losses was generally lower at minor, than at moderate
+and major disturbance levels (minor: 41%; moderate: 48%; major: 50%, all domains
+combined), especially for the spruce-moss domain (minor: 40%; moderate: 73%;
+major: 64%; Fig. \ref{fig1.3}). At minor disturbance level, both boreal and
+temperate species groups experienced more gains than losses (Fig.
+\ref{fig1.2}b), while at major disturbance level, we observed a strong surge in
+losses of boreal tree species along with larger gains of pioneer species (Fig.
+\ref{fig1.2}d). In contrast, gains in temperate species were higher at moderate
+disturbance level (Fig. \ref{fig1.2}c). Some species have experienced great
+changes in abundance and occurrence throughout these domains, namely *Picea
+mariana*, *Acer rubrum*, *Betula alleghaniensis*, *Fagus grandifolia* and
+*Populus tremuloides*, and likely contributed largely to the pattern of temporal
+$\beta$ diversity (Fig. \ref{figA1.5}).
 
 \begin{figure}
 \centering
@@ -514,25 +642,7 @@ trends.}
 \label{fig1.2}
 \end{figure}
 
-
-The magnitude of compositional changes in forests was highly influenced by
-disturbances (Figs \ref{fig1.2}b-d, \ref{fig1.3}, \ref{figA1.4}). In each domain, the $\beta$ diversity values of
-highly disturbed forests are strongly skewed (Fig. \ref{fig1.3}). The mean temporal $\beta$ was
-0.43 at minor disturbance level, whereas it was 0.53 at moderate disturbance
-level and reached 0.74 at major disturbance level (all domains combined).
-Moreover, the fraction of changes attributed to losses was generally lower at
-minor, than at moderate and major disturbance levels (minor: 41%; moderate: 48%;
-major: 50%, all domains combined), especially for the spruce-moss domain (minor:
-40%; moderate: 73%; major: 64%; Fig. \ref{fig1.3}). At minor disturbance level, both boreal
-and temperate species groups experienced more gains than losses (Fig. \ref{fig1.2}b), while
-at major disturbance level, we observed a strong surge in losses of boreal tree
-species along with larger gains of pioneer species (Fig. \ref{fig1.2}d). In contrast, gains
-in temperate species were higher at moderate disturbance level (Fig. \ref{fig1.2}c). Some
-species have experienced great changes in abundance and occurrence throughout
-these domains, namely *Picea mariana*, *Acer rubrum*, *Betula alleghaniensis*,
-*Fagus grandifolia* and *Populus tremuloides*, and likely contributed largely to
-the pattern of temporal $\beta$ diversity (Fig. \ref{figA1.5}).
-
+\newpage
 
 \begin{figure}
 \centering
@@ -871,26 +981,34 @@ dynamic? Multiple studies suggest a persistence of these novel assemblages. For
 instance, after a century of logging disturbances, temperate species were found
 to have increased and persisted in forests formerly dominated by conifers
 [@boucher_logging-induced_2006]. Furthermore, @frechette_evidence_2013 provided
-evidence that, during the last interglacial period (6-7$^{\circ}$C warmer), the northern
-limit of the temperate biome was located about 500 km north of its actual limit,
-suggesting that a northward shift of the ecotone is possible. Hence, while
-climate warming erodes forest resilience by affecting competitive advantages and
-generating colonization debt, our findings suggest that moderate disturbances
-play a major role in promoting regime shift by speeding up the transition from
-one ecosystem state to another. Such a conclusion stresses the importance of
-accounting for the synergistic effect of disturbances and climate change in
-forest management strategies as well as in models of forest responses to climate
-change.
+evidence that, during the last interglacial period (6-7$^{\circ}$C warmer), the
+northern limit of the temperate biome was located about 500 km north of its
+actual limit, suggesting that a northward shift of the ecotone is possible.
+Hence, while climate warming erodes forest resilience by affecting competitive
+advantages and generating colonization debt, our findings suggest that moderate
+disturbances play a major role in promoting regime shift by speeding up the
+transition from one ecosystem state to another. Such a conclusion stresses the
+importance of accounting for the synergistic effect of disturbances and climate
+change in forest management strategies as well as in models of forest responses
+to climate change.
 
+\newpage
 
+# Acknowledgements
 
-\pagebreak
+We thank Steve Vissault for helping us with the forest dataset, and Daniel W.
+McKenney and Pia Papadopol for help with the climate data. We are also grateful
+to Pierre Grondin, Aurélie Chalumeau and Marie‐Claude Lambert, in addition to
+one anonymous reviewer, for providing many helpful suggestions and comments that
+improved our manuscript. This research was supported by Natural Sciences and
+Engineering Research Council of Canada (NSERC) research grant no. 7738 to P.L.
+and no. 5134 to M.‐J.F.
 
-## Data Accessibility Statement
+# Data Accessibility Statement
 
 The complete forest inventory dataset used in this study is available online at
 https://www.donneesquebec.ca/recherche/fr/dataset/placettes-echantillons-permanentes-1970-a-aujourd-hui.
-All code required to repeat the analyses will be made available online on
-GitHub.
-
-\pagebreak
+All the data used in the study, in addition to R scripts to reproduce the
+analyses and the figures, can be found online at
+https://github.com/mhBrice/thermophilization
+(https://doi.org/10.5281/zenodo.3242773).
