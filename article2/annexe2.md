@@ -1,23 +1,4 @@
----
-title: Supplementary Information
-geometry: margin=1in
-header-includes:
-    - \usepackage{setspace}
-    - \setstretch{1.5}
-    - \usepackage{lscape}
-    - \newcommand{\blandscape}{\begin{landscape}}
-    - \newcommand{\elandscape}{\end{landscape}}
-    - \usepackage{caption}
-    - \usepackage{makecell}
-    - \usepackage{colortbl}
-    - \usepackage{xcolor}
-    - \usepackage{float}
-    - \floatplacement{figure}{H}
-    - \renewcommand{\figurename}{\bfseries Figure}
-    - \renewcommand\thefigure{S\arabic{figure}}
-    - \renewcommand\thetable{S\arabic{table}}
-    - \usepackage{setspace}
----
+
 \chapter{}
 
 \begin{center}
@@ -157,7 +138,7 @@ performance metrics were then averaged for each model.
 
 
 \begin{longtable}{ >{\em}l l r }
-\caption[List of the 46 species included in the analyses, their frequency and their corresponding group]{List of the 46 species included in the analyses, their frequency and their corresponding group. The frequency corresponds to the number of forest plots in which they were observed. The species groups were defined using their trait values and knowledge of species ecology (see Brice \emph{et al.} 2019 for details). \label{tab:tabA2.1}}\tabularnewline
+\caption[List of the 46 species analysed, their frequency and their corresponding group]{List of the 46 species included in the analyses, their frequency and their corresponding group. The frequency corresponds to the number of forest plots in which they were observed. The species groups were defined using their trait values and knowledge of species ecology (see Brice \emph{et al.} 2019 for details). \label{tab:tabA2.1}}\tabularnewline
 \toprule
 \textbf{Species name} & \textbf{Vernacular name} & \textbf{Frequency}\\
 \midrule
@@ -250,7 +231,7 @@ Sum & 11383 & 6365 & 8475 & 5467 & 31690\\
 
 
 \begin{table}[H]
-\caption[Table of baseline transition intensities ($q_{rs,0}$ in first column) and Hazard ratios (HR) and their 95\% confidence intervals as estimated from the best multi-state transition model]{Table of baseline transition intensities ($q_{rs,0}$ in first column) and Hazard ratios (HR) and their 95\% confidence intervals as estimated from the best multi-state transition model. The HR of covariates are interpretable as multiplicative effects on the baseline hazard, where values above 1 indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 indicate a lower risk of transition. Covariates statistically different from 1 are coloured in grey. \label{tab:tabA2.3}}\tabularnewline
+\caption[Baseline transition intensities and hazard ratios of the multi-state transition model]{Table of baseline transition intensities ($q_{rs,0}$ in first column) and Hazard ratios (HR) and their 95\% confidence intervals as estimated from the best multi-state transition model. The HR of covariates are interpretable as multiplicative effects on the baseline hazard, where values above 1 indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 indicate a lower risk of transition. Covariates statistically different from 1 are coloured in grey. \label{tab:tabA2.3}}\tabularnewline
 \setstretch{1.4}
 \centering\begingroup\fontsize{6.8}{8.8}\selectfont
 
@@ -284,7 +265,7 @@ Temperate - Temperate & -0.016\newline (-0.019, -0.013) & \cellcolor{white}{ } &
 
 
 \begin{table}[H]
-\caption[Table of baseline transition intensities and hazard ratios as estimated from a full multi-state model ran on forest states defined with a different threshold than in the main manuscript]{Table of baseline transition intensities and hazard ratios as estimated from a full multi-state model ran on forest states defined with a different threshold than in the main manuscript. Here, plots are assigned to Boreal or Temperate states using a threshold of >85\% (instead of >75\%) of species dominance of the plot basal area. See Table S5 for details about the interpretation of the table. \label{tab:tabA2.4}}\tabularnewline
+\caption[Baseline transition intensities and hazard ratios of a multi-state transition model with different forest state definitions]{Table of baseline transition intensities and hazard ratios as estimated from a full multi-state model ran on forest states defined with a different threshold than in the main manuscript. Here, plots are assigned to Boreal or Temperate states using a threshold of >85\% (instead of >75\%) of species dominance of the plot basal area. See Table S5 for details about the interpretation of the table. \label{tab:tabA2.4}}\tabularnewline
 \setstretch{1.4}
 \centering\begingroup\fontsize{6.8}{8.8}\selectfont
 

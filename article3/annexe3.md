@@ -1,21 +1,3 @@
----
-title: Supplementary Information to
-documentclass: article
-font: 12pt
-papersize: a4paper
-geometry: margin=1in
-header-includes:
-  - \usepackage{setspace}
-  - \setstretch{1.5}
-  - \usepackage{lscape}
-  - \usepackage{caption}
-  - \usepackage{float}
-  - \floatplacement{figure}{H}
-  - \renewcommand{\figurename}{\bfseries Figure}
-  - \renewcommand\thefigure{S\arabic{figure}}
-  - \renewcommand\thetable{S\arabic{table}}
-  - \usepackage{setspace}
----
 
 \chapter{}
 
@@ -51,7 +33,7 @@ Table: List of R packages used. \label{tab:tabC.1}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{article3/figures/figS1_predictors.png}
-\caption[Maps showing the spatial variation of climatic and disturbance variables]{Maps showing the spatial variation of selected predictor variables.}
+\caption[Spatial variation of climatic and disturbance variables]{Maps showing the spatial variation of selected predictor variables.}
 \label{figC.1}
 \end{figure}
 
@@ -83,7 +65,7 @@ Table: List of R packages used. \label{tab:tabC.1}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{article3/figures/figS4_temp.png}
-\caption[Temporal changes in frequency distributions of forest plots containing saplings along the temperature gradient]{Frequency distributions of forest plots containing saplings of each of the four species (column headings), as a function of the growing season temperature (abscissa), in the historical (1970–1981; in grey) and the recent (2005–2018; in red) surveys. To assess shift in sapling distributions, we used the mean temperature of the growing season of the historical period. From top to bottom, distribution of all forest plots combined (first row); plots that have experienced minor disturbances (second row); moderate or major natural disturbances (but no logging; third row); moderate logging (but no natural disturbances; fourth row); and major logging (but no natural disturbances; fifth row). The $\Delta_{10}$, $\Delta_{50}$ and $\Delta_{90}$ indicate the shifts in $\circ$C for the 10$\textsuperscript{th}$, 50$\textsuperscript{th}$ (median) and 90$\textsuperscript{th}$ percentiles, respectively, of the altitudinal distribution between the two time periods. A shift of the distribution to the right indicate a shift toward lower temperature, hence to the north. The stars correspond to \emph{P}-value from Wilcoxon tests comparing the median locations between the historical and recent distributions (. \emph{P} $\leqslant$ 0.10, * \emph{P} $\leqslant$ 0.05, ** \emph{P} $\leqslant$ 0.01, *** \emph{P} $\leqslant$ 0.001).}
+\caption[Shift in sapling temperature distribution over time]{Frequency distributions of forest plots containing saplings of each of the four species (column headings), as a function of the growing season temperature (abscissa), in the historical (1970–1981; in grey) and the recent (2005–2018; in red) surveys. To assess shift in sapling distributions, we used the mean temperature of the growing season of the historical period. From top to bottom, distribution of all forest plots combined (first row); plots that have experienced minor disturbances (second row); moderate or major natural disturbances (but no logging; third row); moderate logging (but no natural disturbances; fourth row); and major logging (but no natural disturbances; fifth row). The $\Delta_{10}$, $\Delta_{50}$ and $\Delta_{90}$ indicate the shifts in $\circ$C for the 10$\textsuperscript{th}$, 50$\textsuperscript{th}$ (median) and 90$\textsuperscript{th}$ percentiles, respectively, of the altitudinal distribution between the two time periods. A shift of the distribution to the right indicate a shift toward lower temperature, hence to the north. The stars correspond to \emph{P}-value from Wilcoxon tests comparing the median locations between the historical and recent distributions (. \emph{P} $\leqslant$ 0.10, * \emph{P} $\leqslant$ 0.05, ** \emph{P} $\leqslant$ 0.01, *** \emph{P} $\leqslant$ 0.001).}
 \label{figC.4}
 \end{figure}
 

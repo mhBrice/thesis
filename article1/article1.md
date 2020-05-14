@@ -234,23 +234,22 @@ breast height (DBH) were identified to species, measured and their vitality
 noted [@mffp_placettes-echantillons_2016]. The selected plots included a total
 of 51 tree species, from which we eliminated introduced and planted species as
 well as species with a single occurrence, yielding 45 analysed species (Table
-\ref{tab:tabA1.1}). Rare species were included in the analyses because even the rarest can
-contribute to temporal changes; their identity does not bias our analyses and,
-contrary to mobile species, there is little detection bias in tree surveys.
-Each species was assigned according to their functional traits to one of three
-species groups of interest: boreal (6 species), pioneer (9 species) and
+\ref{tab:tabA1.1}). Rare species were included in the analyses because even the
+rarest can contribute to temporal changes; their identity does not bias our
+analyses and, contrary to mobile species, there is little detection bias in tree
+surveys. Each species was assigned according to their functional traits to one
+of three species groups of interest: boreal (6 species), pioneer (9 species) and
 temperate (30 species; see Table \ref{tab:tabA1.1} for details).
 
 
 \begin{figure}
 \centering
 \includegraphics[width=0.7\textwidth]{article1/figures/fig1_region.pdf}
-\caption[Locations of the 6281 forest inventory plots in meridional Québec,
-Canada]{Locations of the 6281 forest inventory plots in meridional Québec,
-Canada. Colours delimit the six bioclimatic domains. The two southernmost domains
-(orange) were combined in our analyses. The number of forest plots in each
-domain is written in parentheses.}
-\label{fig1.1}
+\caption[Locations of the 6281 forest inventory plots in meridional
+Québec]{Locations of the 6281 forest inventory plots in meridional Québec,
+Canada. Colours delimit the six bioclimatic domains. The two southernmost
+domains (orange) were combined in our analyses. The number of forest plots in
+each domain is written in parentheses.} \label{fig1.1}
 \end{figure}
 
 
@@ -633,11 +632,7 @@ trends.}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{article1/figures/fig3_hist.pdf}
-\caption[Frequency distributions of temporal $\beta$ diversity in forests plots by bioclimatic
-domains]{Frequency distributions of temporal $\beta$ diversity in forests plots by bioclimatic
-domains. Forests of different disturbance levels are stacked on top of each
-other. The values written in the panels are the mean temporal $\beta$ diversity values followed by the
-percentage of losses in parentheses. The distribution of $\beta$ diversity values is skewed to the right for higher disturbance levels.}
+\caption[Frequency distributions of temporal $\beta$ diversity in forest plots by bioclimatic domains]{Frequency distributions of temporal $\beta$ diversity in forest plots by bioclimatic domains. Forests of different disturbance levels are stacked on top of each other. The values written in the panels are the mean temporal $\beta$ diversity values followed by the percentage of losses in parentheses. The distribution of $\beta$ diversity values is skewed to the right for higher disturbance levels.}
 \label{fig1.3}
 \end{figure}
 
@@ -645,48 +640,50 @@ percentage of losses in parentheses. The distribution of $\beta$ diversity value
 ## Drivers of temporal changes
 
 Once combined, predictors from the three subsets (baseline, climate change and
-disturbances; Table \ref{tab:tab1.1}) explained together 40% of the variation of temporal $\beta$
-diversity, and 30% for both gains and losses (Fig. \ref{fig1.4}). As revealed by the
-variation partitioning analyses, community temporal changes were mainly driven
-by disturbances ($R^2_{adj}$ for $\beta$: 31%; gains: 25%; losses: 26%), whereas the
-unique influence of climate change as well as that of baseline conditions
-were significant but comparatively modest ($R^2_{adj}$ < 1%; Fig. \ref{fig1.4}d-f).
+disturbances; Table \ref{tab:tab1.1}) explained together 40% of the variation of
+temporal $\beta$ diversity, and 30% for both gains and losses (Fig.
+\ref{fig1.4}). As revealed by the variation partitioning analyses, community
+temporal changes were mainly driven by disturbances ($R^2_{adj}$ for $\beta$:
+31%; gains: 25%; losses: 26%), whereas the unique influence of climate change as
+well as that of baseline conditions were significant but comparatively modest
+($R^2_{adj}$ < 1%; Fig. \ref{fig1.4}d-f).
 
-Overall, disturbances enhanced temporal $\beta$ diversity, with old major harvest (Old
-harvest~2~) being the most important driver, followed by old major natural
-disturbances (Old natural~2~; Fig. \ref{fig1.4}a-c). Interestingly, while recent
-disturbances (natural and harvest) promoted losses and reduced gains, old
-disturbances had the opposite effect (Fig. \ref{fig1.4}b-c). As time-since-disturbance
-increased and the forests grew old (Age), forest composition changed less and
-colonisation by new individuals became less frequent (Fig. \ref{fig1.4}a-b).
+Overall, disturbances enhanced temporal $\beta$ diversity, with old major
+harvest (Old harvest~2~) being the most important driver, followed by old major
+natural disturbances (Old natural~2~; Fig. \ref{fig1.4}a-c). Interestingly,
+while recent disturbances (natural and harvest) promoted losses and reduced
+gains, old disturbances had the opposite effect (Fig. \ref{fig1.4}b-c). As
+time-since-disturbance increased and the forests grew old (Age), forest
+composition changed less and colonisation by new individuals became less
+frequent (Fig. \ref{fig1.4}a-b).
 
 Regression models provided only weak evidence of climate change effect on forest
 community changes. Mainly, extreme minimum climate moisture index (CMI min) and
 extreme cold (Temp min) contributed to community changes through losses in tree
-abundances (Fig. \ref{fig1.4}a,c). Increase in precipitation ($\Delta$Precip) favoured tree
-gains. Only one interaction was retained, which indicated that stronger warming
-($\Delta$Temp) mitigated the effect of recent moderate harvest (Recent
-harvest~1~) on losses. Variables related to baseline conditions were more
-important than climate change variables; the effects of mean temperature (Temp)
-and total precipitation (Precip) likely reflect the latitudinal gradient in
-community change, while the effect of time interval between surveys
+abundances (Fig. \ref{fig1.4}a,c). Increase in precipitation ($\Delta$Precip)
+favoured tree gains. Only one interaction was retained, which indicated that
+stronger warming ($\Delta$Temp) mitigated the effect of recent moderate harvest
+(Recent harvest~1~) on losses. Variables related to baseline conditions were
+more important than climate change variables; the effects of mean temperature
+(Temp) and total precipitation (Precip) likely reflect the latitudinal gradient
+in community change, while the effect of time interval between surveys
 ($\Delta$Time) reflects the fact that community change takes time.
 
 
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{article1/figures/fig4_reg.pdf}
-\caption[Slope coefficients from multiple regression models of temporal $\beta$ diversity]{Slope coefficients from multiple regression models for (a) temporal $\beta$ diversity,
-(b) species gains and (c) species losses and the corresponding variation
-partitioning diagrams (d, e, f). Error bars represent one standard error of the
-slope coefficient. For the regression models, only the selected predictors are
-shown. Subscripts following disturbance predictors indicate their levels of
-intensity: 1 Moderate and 2 Major. In each variation partitioning, significance
-of each unique fraction was tested using 9999 permutations, while shared
-fractions cannot be tested. Stars indicate the level of significance of the
-\emph{p}-values (* \emph{p} < 0.05; ** \emph{p} < 0.01; *** \emph{p} < 0.001). See Table \ref{tab:tab1.1} for
-description of the predictor variables.}
-\label{fig1.4}
+\centering \includegraphics[width=\textwidth]{article1/figures/fig4_reg.pdf}
+\caption[Slope coefficients from multiple regression models of temporal $\beta$
+diversity]{Slope coefficients from multiple regression models for (a) temporal
+$\beta$ diversity, (b) species gains and (c) species losses and the
+corresponding variation partitioning diagrams (d, e, f). Error bars represent
+one standard error of the slope coefficient. For the regression models, only the
+selected predictors are shown. Subscripts following disturbance predictors
+indicate their levels of intensity: 1 Moderate and 2 Major. In each variation
+partitioning, significance of each unique fraction was tested using 9999
+permutations, while shared fractions cannot be tested. Stars indicate the level
+of significance of the \emph{p}-values (* \emph{p} < 0.05; ** \emph{p} < 0.01;
+*** \emph{p} < 0.001). See Table \ref{tab:tab1.1} for description of the
+predictor variables.} \label{fig1.4}
 \end{figure}
 
 
@@ -694,11 +691,11 @@ description of the predictor variables.}
 
 The community temperature index (CTI) increased significantly between the
 historical and contemporary periods (paired *t*-test *p*-value < 0.001; mean of
-+0.03 $^\circ$C/decade for all plots combined, ranging from -0.02 to +0.05 across
-domains), which indicates a generalised community thermophilization throughout
-the study area. During the same time period, the community shade index (CSI)
-also increased (+0.01 unit/decade), suggesting a transition towards late
-successional forests (Fig. \ref{fig1.5}).
++0.03 $^\circ$C/decade for all plots combined, ranging from -0.02 to +0.05
+across domains), which indicates a generalised community thermophilization
+throughout the study area. During the same time period, the community shade
+index (CSI) also increased (+0.01 unit/decade), suggesting a transition towards
+late successional forests (Fig. \ref{fig1.5}).
 
 Thermophilization was significantly larger in moderately disturbed forests
 ($\Delta$CTI = +0.044 $^\circ$C/decade) than in undisturbed (+0.015
@@ -741,25 +738,22 @@ the role of warm-adapted species (Fig. \ref{figA1.6}).
 
 
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{article1/figures/fig5_thermo.pdf}
-\caption[Thermophilization (change in community temperature index)
-and successional process (change in community shade index) of
-forests for different levels of disturbance]{Thermophilization (i.e., change in community temperature index, $\Delta$CTI)
-and successional process (i.e., change in community shade index, $\Delta$CSI) of
-forests for different levels of disturbance. In the upper panels (a-c), the
-latitudinal trends in $\Delta$CTI (black curve) and $\Delta$CSI (grey curve) are
-based on moving averages computed on the indices against latitude (window size
-of 400 plots). Positive values indicate an increase in warm-adapted species
-(black) or in late-successional species (grey) over time. The dotted lines in
-panels a-c represent the mean $\Delta$CTI (black) and $\Delta$CSI (grey) values
-for different levels of disturbance. The lower panels (d-f) show
-thermophilization of the forest plots across the study area (All) and by
-bioclimatic domain. Positive values for the temporal shift of the mean (black
-line), left tail (red) and right tail (blue) of the distribution of CTI indicate
-overall thermophilization, increases of warm‐adapted and decreases of
-cold‐adapted species, respectively.}
-\label{fig1.5}
+\centering \includegraphics[width=\textwidth]{article1/figures/fig5_thermo.pdf}
+\caption[Thermophilization and successional process of forests for different
+levels of disturbance]{Thermophilization (i.e., change in community temperature
+index, $\Delta$CTI) and successional process (i.e., change in community shade
+index, $\Delta$CSI) of forests for different levels of disturbance. In the upper
+panels (a-c), the latitudinal trends in $\Delta$CTI (black curve) and
+$\Delta$CSI (grey curve) are based on moving averages computed on the indices
+against latitude (window size of 400 plots). Positive values indicate an
+increase in warm-adapted species (black) or in late-successional species (grey)
+over time. The dotted lines in panels a-c represent the mean $\Delta$CTI (black)
+and $\Delta$CSI (grey) values for different levels of disturbance. The lower
+panels (d-f) show thermophilization of the forest plots across the study area
+(All) and by bioclimatic domain. Positive values for the temporal shift of the
+mean (black line), left tail (red) and right tail (blue) of the distribution of
+CTI indicate overall thermophilization, increases of warm‐adapted and decreases
+of cold‐adapted species, respectively.} \label{fig1.5}
 \end{figure}
 
 
@@ -784,19 +778,19 @@ as *Betula papyrifera* and *Salix spp.* (Fig. \ref{fig1.6}).
 \begin{figure}
 \centering
 \includegraphics[width=0.9\textwidth]{article1/figures/fig6_spcontrib_cti.pdf}
-\caption[Individual species contributions, through gains and losses, to thermophilization
-of forest communities]{Individual species contributions, through gains and losses, to thermophilization
-of forest communities across the study area and for each bioclimatic domain. The
-bars represent the mean contributions of given species through gains (dark
-grey) or losses (light grey) across the study area, while the coloured triangles
-represent the mean contributions of given species through gains (filled) or
-losses (open) by domain. For example, the $\Delta$CTI increased by an average
-of 0.12 for all plots where \emph{Acer rubrum} has increased in abundance (dark grey
-bar), whereas the $\Delta$CTI also increased by an average of 0.09 for all plots
-where \emph{Abies balsamea} has decreased in abundance (light grey bar). Letters next
-to species names correspond to (T)emperate, (P)ioneer and (B)oreal species. Only
-species that contributed more than 0.01 in at least one domain are shown.}
-\label{fig1.6}
+\caption[Species contributions, through gains and losses, to thermophilization
+of forest communities]{Individual species contributions, through gains and
+losses, to thermophilization of forest communities across the study area and for
+each bioclimatic domain. The bars represent the mean contributions of given
+species through gains (dark grey) or losses (light grey) across the study area,
+while the coloured triangles represent the mean contributions of given species
+through gains (filled) or losses (open) by domain. For example, the $\Delta$CTI
+increased by an average of 0.12 for all plots where \emph{Acer rubrum} has
+increased in abundance (dark grey bar), whereas the $\Delta$CTI also increased
+by an average of 0.09 for all plots where \emph{Abies balsamea} has decreased in
+abundance (light grey bar). Letters next to species names correspond to
+(T)emperate, (P)ioneer and (B)oreal species. Only species that contributed more
+than 0.01 in at least one domain are shown.} \label{fig1.6}
 \end{figure}
 
 

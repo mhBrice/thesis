@@ -307,8 +307,12 @@ from 3 to 39 years, with a mean interval of 11 years (sd = 3.45; Fig.
 \begin{figure}
 \centering
 \includegraphics{article2/figures/fig1_region.pdf}
-\caption[Locations of the 11,058 forest inventory plots in meridional Québec, Canada]{Locations of the 11,058 forest inventory plots in meridional Québec, Canada. Colours delimit the six bioclimatic domains. The two southernmost domains (red) are here combined. The number of plots in each domain is shown in parentheses. The balsam fir-yellow birch domain (in bold) is the ecotone between the hardwood and boreal forests.}
-\label{fig2.1}
+\caption[Locations of the 11,058 forest inventory plots in meridional
+Québec]{Locations of the 11,058 forest inventory plots in meridional Québec,
+Canada. Colours delimit the six bioclimatic domains. The two southernmost
+domains (red) are here combined. The number of plots in each domain is shown in
+parentheses. The balsam fir-yellow birch domain (in bold) is the ecotone between
+the hardwood and boreal forests.} \label{fig2.1}
 \end{figure}
 
 ## Forest states
@@ -795,7 +799,7 @@ landscape, while the other states collapsed.
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{article2/figures/fig4_HR.pdf}
-\caption[Hazard ratios and 95\% confidence intervals estimated by the multi-state transition model]{Hazard ratios (HR) and 95\% confidence intervals as estimated from the best multi-state transition model. Each plot represents the estimated HR for transitions from row to column state, e.g., the plot on the first row, second column shows the HR for the Boreal to Mixed transition. The ordinate is in log scale. The HR of predictors are interpretable as multiplicative effects on the hazard, where values above 1 (in blue) indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 (in red) indicate a lower risk of transition. Predictors statistically different from 1 are shown in dark blue or red. Numbers following disturbance predictors indicate their levels of intensity: 1 = moderate and 2 = major.}
+\caption[Hazard ratios and 95\% confidence intervals of the multi-state transition model]{Hazard ratios (HR) and 95\% confidence intervals as estimated from the best multi-state transition model. Each plot represents the estimated HR for transitions from row to column state, e.g., the plot on the first row, second column shows the HR for the Boreal to Mixed transition. The ordinate is in log scale. The HR of predictors are interpretable as multiplicative effects on the hazard, where values above 1 (in blue) indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 (in red) indicate a lower risk of transition. Predictors statistically different from 1 are shown in dark blue or red. Numbers following disturbance predictors indicate their levels of intensity: 1 = moderate and 2 = major.}
 \label{fig2.4}
 \end{figure}
 
