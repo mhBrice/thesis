@@ -12,7 +12,6 @@
 \auteur{Dominique Gravel\textsuperscript{2}}
 \adresse{Département de Biologie, Université de Sherbrooke, Sherbrooke, QC J1K 2R1, Canada.}
 \auteur{Pierre Legendre\textsuperscript{1}}
-\adresse{Département de sciences biologiques, Université de Montréal, Montréal, QC H2V 0B3, Canada}
 \auteur{Marie-Josée Fortin\textsuperscript{3}}
 \adresse{Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON M5S 3B2, Canada}
 
@@ -282,7 +281,8 @@ three different vegetation zones; the mixed forest, which corresponds to the
 balsam fir-yellow birch domain (from 47$^\circ$N to 48$^\circ$N; hereafter, the
 ecotone), marks the transition between the hardwood forest to the south,
 dominated by *Acer saccharum*, and the boreal forest to the north, dominated by
-*Abies balsamea*  and *Picea mariana*.
+*Abies balsamea* and *Picea mariana*.
+
 
 The natural disturbance regimes vary considerably along the latitudinal gradient
 of the study area, with fires in the northern boreal forests, spruce budworm
@@ -292,6 +292,16 @@ Anthropogenic disturbances are not homogeneously distributed either; clearcuts
 are more frequent in northern regions, while in southern regions partial cuts
 are more common [Fig. \ref{figA2.1}; @boucher_logging_2009].
 
+\begin{figure}
+\centering
+\includegraphics[width=.85\textwidth]{article2/figures/fig1_region.pdf}
+\caption[Locations of the 11,058 forest inventory plots in meridional
+Québec]{Locations of the 11,058 forest inventory plots in meridional Québec,
+Canada. Colours delimit the six bioclimatic domains. The two southernmost
+domains (red) are here combined. The number of plots in each domain is shown in
+parentheses. The balsam fir-yellow birch domain (in bold) is the ecotone between
+the hardwood and boreal forests.} \label{fig2.1}
+\end{figure}
 
 We first selected all inventory plots that had been sampled at least twice. We
 then disregarded plots that were subjected to active reforestation (i.e.,
@@ -303,17 +313,6 @@ from 3 to 39 years, with a mean interval of 11 years (sd = 3.45; Fig.
 \ref{figA2.2}).
 
 
-
-\begin{figure}
-\centering
-\includegraphics{article2/figures/fig1_region.pdf}
-\caption[Locations of the 11,058 forest inventory plots in meridional
-Québec]{Locations of the 11,058 forest inventory plots in meridional Québec,
-Canada. Colours delimit the six bioclimatic domains. The two southernmost
-domains (red) are here combined. The number of plots in each domain is shown in
-parentheses. The balsam fir-yellow birch domain (in bold) is the ecotone between
-the hardwood and boreal forests.} \label{fig2.1}
-\end{figure}
 
 ## Forest states
 
@@ -342,6 +341,8 @@ threshold to define the boreal and temperate states (e.g., >85% instead of >75%
 of dominance of boreal and temperate, respectively) influences the transition
 probabilities, but the direction of the dynamics remains the same (see
 comparison between Tables \ref{tab:tabA2.3} and \ref{tab:tabA2.4}).
+
+\newpage
 
 \begin{figure}
 \centering \includegraphics{article2/figures/fig2_trans_diagram.pdf}
@@ -735,7 +736,7 @@ period. For Boreal forests, regeneration from Pioneer to Boreal was 3.9 times
 
 \begin{figure}
 \centering
-\includegraphics{article2/figures/fig3_baseline.pdf}
+\includegraphics[width=.65\textwidth]{article2/figures/fig3_baseline.pdf}
 \caption[Baseline transition intensities]{Baseline transition intensities as estimated from the best multi-state transition model. Arrows depict the direction of transitions between states. The numbers represent the estimated baseline hazards ($q_{rs.0}$), i.e., the instantaneous risk of moving from one state to another when all covariates are set to 0 (i.e., the means of standardised covariates and disturbance level 0).}
 \label{fig2.3}
 \end{figure}
@@ -796,12 +797,6 @@ natural: 56%; moderate logging: 60%), while the boreal state was more than
 halved. At major disturbances, Pioneer forests dominated the equilibrium
 landscape, while the other states collapsed.  
 
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{article2/figures/fig4_HR.pdf}
-\caption[Hazard ratios and 95\% confidence intervals of the multi-state transition model]{Hazard ratios (HR) and 95\% confidence intervals as estimated from the best multi-state transition model. Each plot represents the estimated HR for transitions from row to column state, e.g., the plot on the first row, second column shows the HR for the Boreal to Mixed transition. The ordinate is in log scale. The HR of predictors are interpretable as multiplicative effects on the hazard, where values above 1 (in blue) indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 (in red) indicate a lower risk of transition. Predictors statistically different from 1 are shown in dark blue or red. Numbers following disturbance predictors indicate their levels of intensity: 1 = moderate and 2 = major.}
-\label{fig2.4}
-\end{figure}
 
 The steady-state proportion also changed as expected along the temperature
 gradient (Fig. \ref{fig2.5}b,c). The Boreal state dominates at low temperature
@@ -816,7 +811,14 @@ natural disturbances (12.7$^\circ$C), while it retreated to the south with major
 logging (13.4$^\circ$C).
 
 
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{article2/figures/fig4_HR.pdf}
+\caption[Hazard ratios and 95\% confidence intervals of the multi-state transition model]{Hazard ratios (HR) and 95\% confidence intervals as estimated from the best multi-state transition model. Each plot represents the estimated HR for transitions from row to column state, e.g., the plot on the first row, second column shows the HR for the Boreal to Mixed transition. The ordinate is in log scale. The HR of predictors are interpretable as multiplicative effects on the hazard, where values above 1 (in blue) indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 (in red) indicate a lower risk of transition. Predictors statistically different from 1 are shown in dark blue or red. Numbers following disturbance predictors indicate their levels of intensity: 1 = moderate and 2 = major.}
+\label{fig2.4}
+\end{figure}
 
+\newpage
 
 ## Effect of disturbances on transient dynamics
 
@@ -853,15 +855,6 @@ the peak disappeared, and entropy increased monotonically from north to south
 disturbances were included, whether natural or logging (Fig. \ref{fig2.6}c,d),
 where it was dominated by the entropy of the Pioneer state (Fig. \ref{figA2.9}).
 
-\newpage
-
-\begin{figure}
-\centering
-\includegraphics{article2/figures/fig5_steady.pdf}
-\caption[Changes in forest state proportions at equilibrium]{Changes in forest state proportions at equilibrium for different disturbance types (natural or logging) and intensity (no or minor, moderate, major). The barplot (a) compares the observed state proportion in the ecotone to the potential state proportion at equilibrium for different disturbance scenarios with all other covariates fixed at the average conditions found in the ecotone. The curved lines (b,c) show the proportions of Boreal (blue) and Temperate forests (red) at equilibrium along the temperature (latitudinal) gradient for no or minor (solid), moderate (dashed) and major (dotted) disturbances, with all other covariates fixed at the average conditions found in the ecotone. The light (no or minor), medium (moderate) and dark (major) grey circles indicate the positions of the boundary between dominance of Boreal and Temperate forests (i.e. the advancing front) while the corresponding arrows show how moderate and major disturbances move the boundary. The polygon approximates the position of the ecotone along the temperature gradient.}
-\label{fig2.5}
-\end{figure}
-
 
 Half-life to equilibrium was the longest at ca. 11.8$^\circ$C, north of the
 ecotone, in the balsam fir-white birch domain, while it was the shortest in the
@@ -874,9 +867,20 @@ along the temperature gradient can reach very quickly their steady-state
 distribution (maximum of about 8 years for major logging and 25 years for major
 natural disturbances).
 
+\newpage
+
 \begin{figure}
 \centering
-\includegraphics{article2/figures/fig6_transients.pdf}
+\includegraphics[width=.5\textwidth]{article2/figures/fig5_steady.pdf}
+\caption[Changes in forest state proportions at equilibrium]{Changes in forest state proportions at equilibrium for different disturbance types (natural or logging) and intensity (no or minor, moderate, major). The barplot (a) compares the observed state proportion in the ecotone to the potential state proportion at equilibrium for different disturbance scenarios with all other covariates fixed at the average conditions found in the ecotone. The curved lines (b,c) show the proportions of Boreal (blue) and Temperate forests (red) at equilibrium along the temperature (latitudinal) gradient for no or minor (solid), moderate (dashed) and major (dotted) disturbances, with all other covariates fixed at the average conditions found in the ecotone. The light (no or minor), medium (moderate) and dark (major) grey circles indicate the positions of the boundary between dominance of Boreal and Temperate forests (i.e. the advancing front) while the corresponding arrows show how moderate and major disturbances move the boundary. The polygon approximates the position of the ecotone along the temperature gradient.}
+\label{fig2.5}
+\end{figure}
+
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics[width=.8\textwidth]{article2/figures/fig6_transients.pdf}
 \caption[Changes in the characteristics of the forest transient dynamics]{Changes in the characteristics of the forest transient dynamics along the temperature (latitudinal) gradient for different disturbance scenarios: no or minor (solid), moderate (dashed) and major (dotted) disturbances for both natural (a,c,e) and logging (b,d,f). All other covariates are fixed at the average conditions found in the ecotone to focus solely on the effect of disturbances along the temperature gradient. The turnover of the whole system (i.e. whole transition matrix) (a,b) corresponds to the time spent in a state before transitioning to the next and is given by the average of each state turnover time over the steady-state distribution. The entropy of the whole system (c,d) corresponds to the uncertainty of the next transition and is given by the average of each state entropy over the steady-state distribution. The half-life to equilibrium (e,f) is the time taken to reach 50\% of the steady-state distribution, i.e. when the first eigenvalue becomes twice as large as the contribution of the second eigenvalue. The polygon approximates the positions of the ecotone along the temperature gradient.}
 \label{fig2.6}
 \end{figure}
@@ -899,7 +903,7 @@ from Pioneer to Temperate.
 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{article2/figures/fig7_demo_trans.png}
+\includegraphics[width=.9\textwidth]{article2/figures/fig7_demo_trans.png}
 \caption[Species and demographic process contribution to state transitions]{Species and demographic process contribution to all observed state transitions across the study area. Letters on the \emph{x} axis correspond to the four forest states: (B)oreal, (M)ixed, (P)ioneer and (T)emperate. Each pair of letters denotes a transition from one state (first letter) to the next (second letter), e.g., BB is Boreal to Boreal. The darker colours indicate higher indicator value.}
 \label{fig2.7}
 \end{figure}

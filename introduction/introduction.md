@@ -608,10 +608,7 @@ conséquent, suite à une perturbation, la forêt pourrait être rapidement
 colonisée par des espèces mieux adaptées aux nouvelles conditions climatiques et
 même basculer vers un autre nouvel état alternatif persistant [Fig.
 \ref{fig0.4}; @johnstone_changing_2016; @renwick_temporal_2015;
-@turner_disturbance_2010]. Dans l'écotone boréal-tempéré, les perturbations
-pourraient potentiellement faciliter le recrutement et l'établissement des
-espèces tempérées dans les peuplements mixtes et boréaux plus au nord et ainsi
-agir comme des catalyseurs des changements d'aires de répartition. Par exemple,
+@turner_disturbance_2010]. Dans l'écotone boréal-tempéré, par exemple,
 il a été montré que les trouées de la canopée facilitent localement
 l'établissement d'espèces tempérées dans les forêts mixtes de l'Ontario
 [@leithead_northward_2010]. En Scandinavie, @bolte_climate_2010 a montré que
@@ -624,6 +621,13 @@ qu'elles favoriseraient principalement le rétablissement rapide des espèces
 résidentes [@liang_how_2018] ou l'invasion par des espèces en début de
 succession [@vanderwel_how_2014].
 
+\begin{figure}
+\centering
+\includegraphics[width=.9\textwidth]{introduction/figures/etat_alternatif.png}
+\caption[États alternatifs stables, changement climatique et perturbations]{Représentation du concept d'états alternatifs stables. Les états stables d'un écosystème correspondent à des bassins d’attractions (vallées) vers lesquels le système (boule) tend à se stabiliser. À gauche, la forêt (boule) est résiliente, c'est-à-dire qu'une perturbation peut entraîner des changements de composition dans la forêt (faire bouger la boule dans le bassin d'attraction), mais la forêt tendra à revenir à sa composition initiale (la boule retourne au creux de son bassin d'attraction). À droite, le réchauffement climatique diminue la résilience de la forêt (le bassin est déformé et moins stable) et une perturbation peut alors facilement la faire basculer vers un nouvel état forestier alternatif. Cette hypothèse est au coeur de ma thèse de doctorat. Figure inspirée de Johnstone \textit{et al.} (2016). }
+\label{fig0.4}
+\end{figure}
+
 
 Face aux nombreuses perturbations que subissent les forêts, il est certain que
 la réponse des arbres au futur changement climatique dépendra et interagira
@@ -635,12 +639,6 @@ nécessaire à la fois pour informer les modèles prédictifs de distribution de
 biodiversité sous le changement climatique et pour élaborer des stratégies de
 gestion forestière permettant un aménagement durable des forêts.
 
-\begin{figure}
-\centering
-\includegraphics[width=1\textwidth]{introduction/figures/etat_alternatif.png}
-\caption[États alternatifs stables, changement climatique et perturbations]{Représentation schématique du concept d'états alternatifs stables. Les états stables d'un écosystème correspondent à des bassins d’attractions (vallées) vers lesquels le système (boule) tend à se stabiliser. À gauche, la forêt (boule) est résiliente, c'est-à-dire qu'une perturbation peut entraîner des changements de composition dans la forêt (faire bouger la boule dans le bassin d'attraction), mais la forêt tendra à revenir à sa composition initiale (la boule retourne au creux de son bassin d'attraction). À droite, le réchauffement climatique diminue la résilience de la forêt (le bassin est déformé et moins stable) et une perturbation peut alors facilement la faire basculer vers un nouvel état forestier alternatif. Cette hypothèse est au coeur de ma thèse de doctorat. Figure inspirée de Johnstone \textit{et al.} (2016). }
-\label{fig0.4}
-\end{figure}
 
 
 
@@ -792,6 +790,8 @@ utilisé le vaste réseau de placettes forestières permanentes échantillonnée
 1970 à 2018 au Québec, Canada (jeu de données présenté dans la section
 *Les forêts du Québec*, plus bas).
 
+\newpage
+
 ## Chapitre 1 &mdash; Les perturbations amplifient les réponses des communautés forestières au changement climatique dans l'écotone tempéré-boréal
 
 L'objectif du chapitre \ref{chap1} [@brice_disturbances_2019] est de quantifier
@@ -874,6 +874,8 @@ lien entre les changements démographiques et les transitions forestières.
 \label{fig0.6}
 \end{figure}
 
+
+\newpage
 
 ## Chapitre 3 &mdash; Déplacement de l'aire de répartition des gaulis d'espèces tempérées au Québec: le rôle du climat, de la composition des peuplements, des sols et des perturbations sur la dynamique du recrutement
 

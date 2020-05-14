@@ -21,15 +21,14 @@
 
 \maketitle
 
-\begin{abstract}{Tree sapling recruitment,
+\begin{abstract}{
+  Climate change, Disturbances,
+  Logging,
 Northward range shifts,
-Climate change,
+Québec forest inventory,
 Temperate-boreal ecotone,
-Tree migration,
-Disturbances,
-Logging,
 Topographic and edaphic conditions,
-Québec forest inventory.}
+Tree migration, Tree sapling recruitment.}
 
 1. Tree recruitment is a critical step to initiate species range shifts in
 forest under climate change. While non-climatic factors may slow down sapling
@@ -614,6 +613,8 @@ and figures, will be made available online on GitHub upon manuscript acceptance.
 \caption[Temporal changes in sapling occurrence and abundance]{Changes in sapling occurrence (number of plots; left portion of the graph) and mean abundance (right) between the historical (1970-1981, in grey) and recent (2005-2018, in red) time periods for each bioclimatic domain. The letters are acronyms for the bioclimatic domains, from north to south: Balsam fir-white birch, BFWB; Balsam fir-yellow birch, BFYB; Sugar maple-yellow birch, SMYB; Sugar maple-Basswood, SMB.}
 \label{fig3.2}
 \end{figure}
+
+\newpage
 
 # Results
 

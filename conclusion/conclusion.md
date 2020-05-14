@@ -139,6 +139,8 @@ permet de mieux comprendre la réponse des forêts sous l'effet combiné du
 changement climatique et des perturbations ainsi que les conséquences
 écologiques qui en découlent.
 
+\newpage
+
 \begin{figure}
 \centering
 \includegraphics[width=.8\textwidth]{conclusion/figures/complex.png}
