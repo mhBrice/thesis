@@ -2,4 +2,81 @@
 
 \chapter*{Remerciements}
 
-Merci à plein de monde!
+
+Une thèse de doctorat est loin d'être un long fleuve tranquille. C'est plutôt une
+longue expédition sur une rivière en eau vive ou sur un sentier de randonnée en
+montagne. Mon parcours de doctorat a commencé dans un épais brouillard mais
+grâce à vous, j'ai fini par retrouver mon chemin et ma passion, les forêts. La
+suite de mon parcours a aussi été parsemée de nombreux obstacles, de remises en
+question, d'angoisses et de doutes. Mais aussi et surtout, de belles
+découvertes, beaucoup d'apprentissage et des rencontres marquantes qui m'ont
+gardée motivée tout au long de ces quatre années.
+
+Bien qu'empreint de beaucoup de solitude, ce doctorat n'est pas une réalisation
+individuelle. Par leurs idées, leurs conseils ou leur support moral, plusieurs
+personnes ont contribué de près ou de loin à l'achèvement de cette thèse.
+
+Je souhaite tout d'abord remercier mon directeur de recherche, Pierre Legendre,
+et ma co-directrice, Marie-Josée Fortin, pour m'avoir soutenue et encouragée
+tout au long de ce projet. Vous avez su me donner une grande liberté sur la
+réalisation de mon projet tout en me guidant lorsque j'en avais besoin. Pierre,
+ton éternel et intarissable passion pour la recherche et l'écologie numérique
+m'impressionne et me motive. Tes conseils et tes encouragements m'ont permis
+d'aller plus loin. Marie-Josée, sans toi, cette thèse de doctorat n'aurait peut-être pas vu le jour. Tu as su m'encourager et me remettre sur le droit chemin
+quand j'étais perdue. Vous m'avez amenée exactement là où je dois être.
+
+Un grand merci à Pierre Grondin pour avoir fait de mon stage à la Direction de
+la Recherche forestière une expérience enrichissante et riche en rencontres. Les
+nombreux projets et les discussions passionnées sur la forêt ne font
+certainement que commencer. Un merci également à Dominique Gravel pour m'avoir
+accueillie dans ton laboratoire à l'Université de Sherbrooke et m'avoir offert
+de précieux conseils. Merci à Stéphanie Pellerin et Monique Poulin, mes
+directrices de maîtrise. Vous m'avez non seulement formée à la recherche mais
+vous m'avez aussi donné le goût de continuer dans cette voie.
+
+À mes fidèles amies, Corinne, Mélanie, Liliane, Amélie et, même si vous êtes
+loin, Aurélie et Caroline, un grand merci. Merci pour toutes ces belles soirées
+entre filles qui m'ont permis de me changer les idées et de penser à autres
+choses qu'au travail. Malgré que nos chemins aient divergé après le secondaire,
+notre amitié, toujours aussi forte, nous garde unies. J'aurais aimé célébrer ce
+moment avec vous, mais ça a l'air qu'il y a un petit virus dans les parages,
+alors il faudra être patientes... Corinne, merci pour cette grande aventure de
+rafting au Grand Canyon! Trois semaines en plein air sans ordinateur, sans
+courriel, tu ne peux pas savoir comment c'était merveilleux.
+
+Merci à Steve, David et Catherine (et Liam et Alissa) pour ces inoubliables
+semaines travaille-vacance au chalet. On a pu s'amuser, discuter de science, se
+plaindre de la science, s'entraîner, cuisiner, faire du pédalo, etc. Tout ça en
+travaillant sur nos projets respectifs. Ces moments ont rendu la thèse
+tellement plus agréable. Annabelle et Philippe, mes loyaux partenaires dans
+tous les cours de bio. Ensemble, on a fait grandir notre passion pour la
+biodiversité et on a réussi passer à travers le cycle de Krebs.   
+
+Grand-maman Flora, si tu n'existais pas, il faudrait t'inventer. Ton énergie et
+ta force de caractères m'inspireront toujours. Tu vas être contente d'apprendre
+que j'ai enfin fini l'école! Et ne t'inquiète pas pour moi, je suis heureuse et
+en santé même si je ne mange pas de viande! Feu grand-maman Gabrielle,
+ta sagesse et ta bienveillance me manquent terriblement.
+
+Je remercie tout particulièrement ma famille. Maman, papa, Gabriel (et Chloé et
+bébé Marion), Camille (et Alice) et la Fifouille, votre soutien inconditionnel
+tout au long de ma vie a rendu possible l'achèvement de ce travail. Merci pour
+votre présence et votre confiance presque absolue en moi. Vous m'avez
+accompagnée et soutenue à travers toutes les épreuves de la vie, et le doctorat
+n'en est qu'un exemple. Mes chers parents, merci pour nos voyages inoubliables
+en camping et nos innombrable randonnées pédestres à travers l'Amérique du Nord.
+Vous m'avez transmis votre passion pour la Nature; c'est donc grâce à (ou à
+cause de) vous si j'ai choisi la voie de l'écologie. Fifouille, une chance que
+tu étais à mes côtés (sur mes genoux ou sur mon clavier) pour égayer mes
+journées.
+
+Kevin, je ne te remercierai certainement jamais assez. Depuis notre rencontre
+dans cours de statistique bayésienne, tu éclaires mes journées
+comme la belle lumière d'un coucher de soleil... Les 600km qui nous séparaient ne
+nous ont pas empêchés d'être ensemble (un grand merci à Via Rail). Tu as été à
+la fois mon plus grand collaborateur et mon technicien en informatique. Tu as
+supporté et enduré mon chouinage et mon instabilité jusqu'aux dernières étapes
+de ce projet. Je n'ose même pas imaginer ce qu'aurait été mon doctorat sans toi!
+Merci pour ton calme, ta douceur, tes blagues et tes encouragements. On peut
+maintenant déménager dans une nouvelle ville et entreprendre des nouveaux
+projets, et surtout commencer notre vie à deux.
