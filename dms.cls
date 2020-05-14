@@ -1553,8 +1553,8 @@
     \fi
     \edef\chaptername{\ifx\dmschaptername\undefined Chapitre\else\dmschaptername\fi}
     \edef\contentsname{\ifx\dmscontentsname\undefined Table des mati\noexpand\`ere\else\dmscontentsname\fi}
-    \edef\listfigurename{\ifx\dmslistfigurename\undefined Table des figures\else\dmslistfigurename\fi}
-    \edef\listtablename{\ifx\dmslisttablename\undefined Table des tableaux\else\dmslisttablename\fi}
+    \edef\listfigurename{\ifx\dmslistfigurename\undefined Liste des figures\else\dmslistfigurename\fi}
+    \edef\listtablename{\ifx\dmslisttablename\undefined Liste des tableaux\else\dmslisttablename\fi}
     \ifentetedynamique
       \entetedynamique
     \fi

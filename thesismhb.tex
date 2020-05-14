@@ -334,27 +334,15 @@
 %%              pages iii                           %
 %%------------------------------------------------- %
 
- % Les articles peuvent être en anglais, mais
- % les autres parties du document doivent être
- % en français. Il faut une permission pour
- % écrire l'ensemble de la thèse en anglais.
- % Consulter le guide de présentation des mémoires
- % et des thèses pour de l'information plus
- % précise et à jour.
-\francais
 
-\chapter*{Résumé}
-
-...sommaire et mots clés en français...
+\include{resume}
 
 %%------------------------------------------------- %
 %%              pages iv                            %
 %%------------------------------------------------- %
 
-\anglais
-\chapter*{Abstract}
+\include{abstract}
 
-...summary and keywords in english...
 
 %%------------------------------------------------- %
 %%        page v --- Table de matieres              %
@@ -369,17 +357,21 @@
  % le recto, pour l'impression. On l'utilise ici
  % pour que TeX sache que la table des matières etc. soit
  % sur la page qui suit.
+
 %% TABLE DES MATIÈRES
 \cleardoublepage
 \pdfbookmark[chapter]{\contentsname}{toc}  % Crée un bouton sur
                                            % la bar de navigation
+                                          
 \tableofcontents
  % LISTE DES TABLES
 \cleardoublepage
+
 \phantomsection  % Crée une section invisible (utile pour les hyperliens)
 \listoftables
  % LISTE DES FIGURES
 \cleardoublepage
+
 \phantomsection
 \listoffigures
 
@@ -527,6 +519,7 @@
 
  \setcounter{figure}{0}
  \setcounter{table}{0}
+ \setcounter{section}{4}
  \renewcommand\thefigure{4.\arabic{figure}}
  \renewcommand\thetable{4.\arabic{table}}
 
@@ -536,8 +529,8 @@
 
 
 % \bibliographystyle{abbrvnat}
-\bibliographystyle{plain-fr}
-% \bibliographystyle{apalike-uqam}
+% \bibliographystyle{plain-fr}
+\bibliographystyle{apalike-uqam}
 \bibliography{references.bib}
 
 
