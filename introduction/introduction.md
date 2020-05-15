@@ -792,7 +792,7 @@ utilisé le vaste réseau de placettes forestières permanentes échantillonnée
 
 \newpage
 
-## Chapitre 1 &mdash; Les perturbations amplifient les réponses des communautés forestières au changement climatique dans l'écotone tempéré-boréal
+## Chapitre 1 &mdash; Diversité $\beta$ et composition des communautés
 
 L'objectif du chapitre \ref{chap1} [@brice_disturbances_2019] est de quantifier
 les changements de composition des communautés d'arbres entre une période
@@ -833,13 +833,13 @@ pertes d'espèces à la variation des indices.
 
 \begin{figure}
 \centering
-\includegraphics[width=.5\textwidth]{introduction/figures/thermo.png}
+\includegraphics[width=.6\textwidth]{introduction/figures/thermo.png}
 \caption[Représentation du processus de thermophilisation]{Représentation schématique du processus de thermophilisation des communautés. Les espèces (cercles de couleur) du pool régional se distribuent le long d'un gradient de température (les bars représentent leur distribution dans l'espace ou leur niche thermique). Les espèces adaptées au chaud (tons de rouge) se trouvent dans les habitats plus chauds, tandis que les espèces adaptées au froid (tons de bleu) se trouvent dans les habitats froids. Ainsi, la composition moyenne des communautés variera le long de ce gradient et un réchauffement des températures devrait mener à une thermophilisation, i.e. une augmentation de la proportion d'espèces chaudes par rapport aux espèces froides. Schéma inspiré de Bertrand \textit{et al.} (2011). }
 \label{fig0.5}
 \end{figure}
 
 
-## Chapitre 2 &mdash; Les perturbations modérées accélèrent la dynamique de transition forestière sous l'effet du changement climatique dans l'écotone tempéré-boréal de l'est de l'Amérique du Nord
+## Chapitre 2 &mdash; Dynamique de transition des forêts
 
 Dans le chapitre \ref{chap2} [@brice_moderate_2020], l'objectif est de
 caractériser la dynamique de transition des forêts au Québec et d'identifier les
@@ -869,7 +869,7 @@ lien entre les changements démographiques et les transitions forestières.
 
 \begin{figure}
 \centering
-\includegraphics[width=.7\textwidth]{introduction/figures/diag_trans.png}
+\includegraphics[width=.8\textwidth]{introduction/figures/diag_trans.png}
 \caption[Diagramme de transition entre les quatre états forestiers]{Représentation schématique de la dynamique de transitions entre les quatre états forestiers. Cette simplification de la dynamique forestière permet d'étudier les processus d'intérêt. Par exemple, les transitions vers l'état pionnier sont causées par des perturbations, tandis que la transition de l'état mixte vers l'état tempéré peut être causée par la perte des espèces boréales ou le gain en espèces tempérées.}
 \label{fig0.6}
 \end{figure}
@@ -877,7 +877,7 @@ lien entre les changements démographiques et les transitions forestières.
 
 \newpage
 
-## Chapitre 3 &mdash; Déplacement de l'aire de répartition des gaulis d'espèces tempérées au Québec: le rôle du climat, de la composition des peuplements, des sols et des perturbations sur la dynamique du recrutement
+## Chapitre 3 &mdash; Dynamique de recrutement des gaulis des espèces tempérées
 
 Enfin, le chapitre \ref{chap3} s'intéresse plus en détails au processus de
 recrutement des espèces tempérées à leur limite nord. L'objectif est de
