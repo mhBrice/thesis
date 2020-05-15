@@ -297,38 +297,145 @@ Temperate - Temperate & -0.018\newline (-0.022, -0.015) & \cellcolor{white}{ } &
 \pagebreak
 
 
-Table: List of R packages used. \label{tab:tabA2.5}
+\begin{longtable}[]{@{}llll@{}}
+\caption{List of R packages used. \label{tab:tabA2.5}}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.10\columnwidth}\raggedright
+\textbf{Packages}\strut
+\end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\raggedright
+\textbf{Main functions}\strut
+\end{minipage} & \begin{minipage}[b]{0.38\columnwidth}\raggedright
+\textbf{Uses}\strut
+\end{minipage} & \begin{minipage}[b]{0.24\columnwidth}\raggedright
+\textbf{References}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.10\columnwidth}\raggedright
+\textbf{Packages}\strut
+\end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\raggedright
+\textbf{Main functions}\strut
+\end{minipage} & \begin{minipage}[b]{0.38\columnwidth}\raggedright
+\textbf{Uses}\strut
+\end{minipage} & \begin{minipage}[b]{0.24\columnwidth}\raggedright
+\textbf{References}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+msm\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+msm\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Multi-state Markov models in continuous time\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\citet{jackson_multi-state_2011}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+lrtest.msm\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Likelihood ratio test\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+pmatrix.msm\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Transition probability matrix\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+hazard.msm\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Calculate tables of hazard ratios for covariates on transition
+intensities\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+pnext.msm\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Probability of each state being next\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+sojourn.msm\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Mean sojourn times from a multi-state model\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+sf\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Manipulation and mapping of spatial data\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\citet{pebesma_simple_2018}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+pROC\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+multiclass.roc\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Compute multi-class AUC\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\citet{robin_proc_2011}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+scoring\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+logscore\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Compute logarithmic score\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\citet{merkle_choosing_2013}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+labdsv\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedright
+indval\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+Calculates the indicator value\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\citet{roberts_labdsv_2019}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-|**Packages** |**Main functions** | **Uses**                     | **References**           |
-|----------|----------------|--------------------------------------|------------------------|
-| msm      | msm            | Multi-state Markov models in continuous time | @jackson_multi-state_2011 |
-|          | lrtest.msm     | Likelihood ratio test                | |
-|          | pmatrix.msm    | Transition probability matrix        | |
-|          | hazard.msm     | Calculate tables of hazard ratios for covariates on transition intensities  | |
-|          | pnext.msm      | Probability of each state being next | |
-|          | sojourn.msm    | Mean sojourn times from a multi-state model | |
-| sf       |                | Manipulation and mapping of spatial data   | @pebesma_simple_2018 |
-| pROC     | multiclass.roc | Compute multi-class AUC              | @robin_proc_2011 |
-| scoring  | logscore       | Compute logarithmic score            | @merkle_choosing_2013 |
-| labdsv   | indval         | Calculates the indicator value       | @roberts_labdsv_2019 |
 
 
-\pagebreak
+\newpage
 
 # Supplementary Figures
 
 
 \begin{figure}
-\centering \includegraphics[width=\textwidth]{article2/figures/figS1_waffle.png}
+\centering
+\includegraphics[width=.95\textwidth]{article2/figures/figS1_waffle.png}
 \caption[Waffle charts of disturbance frequency]{ Waffle charts representing the frequency of forest plots by disturbance type (natural disturbances and logging), level of severity (minor, moderate, major) and vegetation zone (boreal, ecotone and temperate). One square is one occurrence of a disturbance in a forest plot (a forest plot can be disturbed more than once). In each chart (except for the no or minor disturbances), the colours represent the 21 original disturbance types recorded in the field surveys.} \label{figA2.1}
 \end{figure}
 
-\pagebreak
 
 
 
 \begin{figure}
-\centering \includegraphics{article2/figures/figS2_hist_intervals.pdf}
+\centering
+\includegraphics{article2/figures/figS2_hist_intervals.pdf}
 \caption[Histograms of time intervals between surveys]{ Histograms of time intervals between surveys by bioclimatic domains.} \label{figA2.2}
 \end{figure}
 
@@ -336,7 +443,8 @@ Table: List of R packages used. \label{tab:tabA2.5}
 
 
 \begin{figure}
-\centering \includegraphics{article2/figures/figS3_clim_trend.pdf}
+\centering
+\includegraphics{article2/figures/figS3_clim_trend.pdf}
 \caption[Temporal trends in climate]{ Temporal trends in growing season temperatures (top) and annual climate moisture index (bottom). Grey lines represent averaged climate values across the 11,058 studied forest plots. Straight black lines show the fitted least-squared linear regression lines.} \label{figA2.3}
 \end{figure}
 
@@ -347,16 +455,18 @@ Table: List of R packages used. \label{tab:tabA2.5}
 
 
 \begin{figure}
-\centering \includegraphics{article2/figures/figS4_predBT.pdf}
+\centering
+\includegraphics{article2/figures/figS4_predBT.pdf}
 \caption[Proportion of temperate species as a function of climate]{ Predicted proportion of temperate species in forest plots (temperate / (boreal + temperate)) measured in basal area using a negative binomial GLM with polynomial terms of two climate variables, temperature and climate moisture index during the growing season ($\text{R}^2$ = 50\%).} \label{figA2.4}
 \end{figure}
 
 
-\pagebreak
+\newpage
 
 
 \begin{figure}
-\centering \includegraphics{article2/figures/figS5_cv.pdf}
+\centering
+\includegraphics[width=1\textwidth]{article2/figures/figS5_cv.pdf}
 \caption[Performance comparisons of the five candidate multi-state models]{ Performance comparisons of the five candidate multi-state models using multi-class area under the curve (mAUC; a) and logarithmic skill score (LS; b) obtained through 10-fold cross-validation. Higher values of mean pairwise AUC (a) indicate a better capacity to discriminate between pairs of the four forest states: (B)oreal, (M)ixed, (P)ioneer and (T)emperate. The overall mAUC of each model is given next to the legend. Lower values of mean state-specific logarithmic scores (b) indicate better prediction accuracy for each of the four forest states. The overall logarithmic score of each model is given next to the legend.} \label{figA2.5}
 \end{figure}
 
@@ -369,7 +479,7 @@ help to distinguish Mixed from the other states, while including disturbances
 help to distinguish Pioneer from the other states, especially Boreal.
 
 
-\pagebreak
+\newpage
 
 
 \begin{figure}

@@ -3,12 +3,12 @@
 \chapter*{Remerciements}
 
 
-Une thèse de doctorat est loin d'être un long fleuve tranquille. C'est plutôt une
+Une thèse de doctorat c'est loin d'être un long fleuve tranquille. C'est plutôt une
 longue expédition sur une rivière en eau vive ou sur un sentier de randonnée en
-montagne. Mon parcours de doctorat a commencé dans un épais brouillard mais
-grâce à vous, j'ai fini par retrouver mon chemin et ma passion, les forêts. La
+montagne. Mon parcours de doctorat a commencé dans un épais brouillard mais,
+grâce à vous, j'ai fini par retrouver mon chemin et ma passion, la forêt. La
 suite de mon parcours a aussi été parsemée de nombreux obstacles, de remises en
-question, d'angoisses et de doutes. Mais aussi et surtout, de belles
+question, d'angoisses et de doutes, mais aussi et surtout de belles
 découvertes, beaucoup d'apprentissage et des rencontres marquantes qui m'ont
 gardée motivée tout au long de ces quatre années.
 
@@ -18,12 +18,12 @@ personnes ont contribué de près ou de loin à l'achèvement de cette thèse.
 
 Je souhaite tout d'abord remercier mon directeur de recherche, Pierre Legendre,
 et ma co-directrice, Marie-Josée Fortin, pour m'avoir soutenue et encouragée
-tout au long de ce projet. Vous avez su me donner une grande liberté sur la
+tout au long de ce projet. Vous avez su me donner une grande liberté dans la
 réalisation de mon projet tout en me guidant lorsque j'en avais besoin. Pierre,
 ton éternel et intarissable passion pour la recherche et l'écologie numérique
 m'impressionne et me motive. Tes conseils et tes encouragements m'ont permis
 d'aller plus loin. Marie-Josée, sans toi, cette thèse de doctorat n'aurait peut-être pas vu le jour. Tu as su m'encourager et me remettre sur le droit chemin
-quand j'étais perdue. Vous m'avez amenée exactement là où je dois être.
+quand j'étais perdue. Merci à tous les deux, vous m'avez amenée exactement là où je dois être.
 
 Un grand merci à Pierre Grondin pour avoir fait de mon stage à la Direction de
 la Recherche forestière une expérience enrichissante et riche en rencontres. Les
@@ -53,7 +53,7 @@ tous les cours de bio. Ensemble, on a fait grandir notre passion pour la
 biodiversité et on a réussi passer à travers le cycle de Krebs.   
 
 Grand-maman Flora, si tu n'existais pas, il faudrait t'inventer. Ton énergie et
-ta force de caractères m'inspireront toujours. Tu vas être contente d'apprendre
+ta force de caractère m'inspireront toujours. Tu vas être contente d'apprendre
 que j'ai enfin fini l'école! Et ne t'inquiète pas pour moi, je suis heureuse et
 en santé même si je ne mange pas de viande! Feu grand-maman Gabrielle,
 ta sagesse et ta bienveillance me manquent terriblement.
@@ -64,14 +64,14 @@ tout au long de ma vie a rendu possible l'achèvement de ce travail. Merci pour
 votre présence et votre confiance presque absolue en moi. Vous m'avez
 accompagnée et soutenue à travers toutes les épreuves de la vie, et le doctorat
 n'en est qu'un exemple. Mes chers parents, merci pour nos voyages inoubliables
-en camping et nos innombrable randonnées pédestres à travers l'Amérique du Nord.
+en camping et nos innombrables randonnées pédestres à travers l'Amérique du Nord.
 Vous m'avez transmis votre passion pour la Nature; c'est donc grâce à (ou à
 cause de) vous si j'ai choisi la voie de l'écologie. Fifouille, une chance que
 tu étais à mes côtés (sur mes genoux ou sur mon clavier) pour égayer mes
 journées.
 
 Kevin, je ne te remercierai certainement jamais assez. Depuis notre rencontre
-dans cours de statistique bayésienne, tu éclaires mes journées
+dans un cours de statistique bayésienne, tu éclaires mes journées
 comme la belle lumière d'un coucher de soleil... Les 600km qui nous séparaient ne
 nous ont pas empêchés d'être ensemble (un grand merci à Via Rail). Tu as été à
 la fois mon plus grand collaborateur et mon technicien en informatique. Tu as
