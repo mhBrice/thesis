@@ -47,3 +47,6 @@ resumedocx:
 	pandoc -s resumeT.tex -o resumeT.md $(fbib)
 	pandoc -s resumeT.md -o resume.docx $(fbib)
 	rm resumeT*
+
+quick:
+	pdflatex $(main)
