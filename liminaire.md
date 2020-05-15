@@ -21,8 +21,8 @@ J'ai élaboré les idées derrière les trois études, collecté les données, e
 les analyses et rédigé les manuscrits. Mes directeurs Pierre Legendre et
 Marie-Josée Fortin ont aussi suivi chaque étape de cette thèse, ont contribué à
 l'amélioration des manuscrits. À travers ma thèse, j'ai eu la chance de
-collaborer avec plusieurs chercheurs, Kevin Cazelles, Steve Vissault, Willian
-Vieira, Dominique Gravel, Aurélie Chalumeau et Pierre Grondin. Ceux-ci ont
+collaborer avec plusieurs chercheurs, Aurélie Chalumeau, Dominique Gravel, Kevin
+Cazelles, Pierre Grondin, Steve Vissault et Willian Vieira. Ceux-ci ont
 contribué de manière substantielle à la version finale des manuscrits et sont
 donc inclus en tant que co-auteurs.
 

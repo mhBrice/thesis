@@ -82,7 +82,7 @@ temperate species.
 
 Spatiotemporal changes in tree recruitment may provide early signals of shifts
 in species distributions under climate warming [@anderson-teixeira_altered_2013
-@boisvert-marsh_shifting_2014; @sittaro_tree_2017; @zhu_failure_2012;]. While
+@boisvert-marsh_shifting_2014; @sittaro_tree_2017; @zhu_failure_2012]. While
 adult trees may survive for a long time in suboptimal conditions, the
 regeneration process involves a sequence of several important climate-sensitive
 steps, i.e., flowering, pollination, seed production and germination, and

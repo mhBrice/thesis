@@ -5,10 +5,12 @@
 
 The main objective of my thesis was to understand and quantify the combined
 effect of recent climate change and disturbances on forest community dynamics in
-the boreal-temperate ecotone over the past decades. To do so, I analysed the evolution of forest composition, transition dynamics and recruitment dynamics in Quebec from 1970 to 2018.
+the boreal-temperate ecotone over the past decades. To do so, I analysed the
+evolution of forest composition, transition dynamics and recruitment dynamics in
+Quebec from 1970 to 2018.
 
 
-In the first chapter, I showed that natural and anthropogenic disturbances are
+In the first chapter, I showed that natural and anthropogenic disturbances were
 the main drivers of forest compositional change, i.e. temporal $\beta$
 diversity. Despite the prevalence of disturbances, analysis of community
 ecological traits revealed a thermophilization of forests across
@@ -18,10 +20,10 @@ disturbances, leading to a new question: if disturbances can favour such a
 community reorganization, could they catalyse a permanent shift to alternative
 states?
 
-The second chapter provided answers to this question with an analysis of forest transition dynamics in Québec based on a four-state model, i.e. boreal, mixed, temperate and pioneer. Transition dynamics are primarily influenced by
+The second chapter provided answers to this question with an analysis of forest transition dynamics in Québec based on a four-state model, i.e. boreal, mixed, temperate and pioneer. Transition dynamics was primarily influenced by
 disturbances and secondarily by climate and edaphic conditions. Major
-disturbances mainly trigger transitions to the pioneer state, while moderate
-disturbances promote transitions from mixed to temperate states. In the long
+disturbances mainly triggered transitions to the pioneer state, while moderate
+disturbances promoted transitions from mixed to temperate states. In the long
 run, moderate disturbances may catalyse a faster northward shift of the
 temperate-boreal ecotone under climate change. However, contrary to my
 expectations, temperate species recruitment played a negligible role in this
