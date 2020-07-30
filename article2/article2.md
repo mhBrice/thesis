@@ -202,7 +202,7 @@ North America can be adequately characterised using discrete ecological and
 successional states, namely boreal (stands dominated by boreal coniferous
 species), mixed (mixed stands of coniferous and deciduous species), temperate
 (stands dominated by temperate deciduous species) and pioneer (stands dominated
-by early successional species, which can be found any disturbed habitats
+by early successional species, which can be found in any disturbed habitats
 across the latitudinal gradient) [@vissault_biogeographie_2016]. Using such
 classification, the forest dynamics thus can be formalised as a multi-state
 Markov model, where transitions among states are represented by a stochastic
@@ -307,7 +307,7 @@ We first selected all inventory plots that had been sampled at least twice. We
 then disregarded plots that were subjected to active reforestation (i.e.,
 plantation) during the study period because we were interested in transition
 dynamics resulting from natural recolonisation processes. Finally, we kept plots
-for which soil covariates were available. This yielded a total of 11,058 plots
+for which soil covariates were available. This yielded a total of 11,058 unique plots
 analysed (Fig. \ref{fig2.1}). The time intervals between plot surveys varied
 from 3 to 39 years, with a mean interval of 11 years (sd = 3.45; Fig.
 \ref{figA2.2}).
@@ -485,10 +485,13 @@ Note that we solely focused on a parsimonious set of variables that allowed us
 to determine how climate, disturbances and soils influence transition dynamics.
 We decided not to include an index of propagule availability, even though it is
 known to affect tree range shifts [@pearson_climate_2006], as forest composition
-is already very strongly correlated with our climate covariates [Fig. \ref{figA2.4};
-@goldblum_deciduous_2010; @vissault_biogeographie_2016]. Our model is therefore
-well-suited for our research goals; however it is not designed to make future
-range shift projections.
+is already very strongly correlated with our climate covariates [Fig.
+\ref{figA2.4}; @goldblum_deciduous_2010; @vissault_biogeographie_2016]. Our
+model is therefore well-suited for our research goals about recent forest
+dynamics. However, it is not designed to make precise range shift projections
+under future climate change because, when computing model long-term equilibrium,
+we assume the environment remains constant over time and that transitions are
+possible wherever environmental conditions are suitable.
 
 
 
@@ -659,10 +662,12 @@ components (question 4) for the most abundant species (i.e., three temperate,
 balsamea* and *Picea mariana*; two pioneer, *Betula papyrifera* and *Populus
 tremuloides*). The transitions between states can result from various
 combinations of increases in basal area through tree recruitment and growth and
-decreases in basal area through mortality and logging. We measured recruitment
-as the increase in basal area from new trees that had reached or exceeded the
-threshold diameter of 9.1 cm. Growth was measured as the increase in tree basal
-area between consecutive surveys. During the surveys, tree vitality was
+decreases in basal area through mortality and logging. We measured the
+contribution of recruitment as the increase in basal area resulting from new
+trees that had reached or exceeded the threshold diameter of 9.1 cm (i.e., the
+sum of tree basal area of all individuals of a species that were recruited
+between consecutive surveys). Growth was measured as the increase in tree basal
+area for all individuals that were already present in the previous survey. During the surveys, tree vitality was
 characterised. We used this information to separate mortality as either due to
 harvesting or to any other causes and measured the loss in basal area that
 resulted from each of these two mortality processes.
@@ -691,18 +696,6 @@ transitions from Boreal to Pioneer (13.0%), and more from Pioneer to Boreal
 84.9%, respectively, did not transition during the study period) than Mixed and
 Pioneer forests (69.2 and 72.8%, respectively; Fig. \ref{fig2.2}a).
 
-Overall, the full model, which includes climate, soil and disturbance variables,
-had the best fit and predictive performances for the observed data (Table
-\ref{tab:tab2.2}; Fig. \ref{figA2.5}). The second-best model was the disturbance
-model, but it was far behind with a difference in AIC of almost 1500 units from
-the full model (Table \ref{tab:tab2.2}). All variable subsets improved
-significantly the likelihood of the model (all likelihood ratio tests were
-highly significant, *p* << 0.001; Table \ref{tab:tab2.2}). Model performance was
-also evaluated using a 10-fold cross-validation (see Supplementary Methods); it
-revealed that including climate and disturbances improved overall model
-predictive performance, while soil variables had a negligible effect (Fig.
-\ref{figA2.5}). Thereafter, all inferences about transition probabilities were
-derived from the full model.
 
 \begin{table}[h]
 \caption[Comparisons of the five candidate multi-state models]{Comparisons of the five candidate multi-state models. The number of parameters (Nb of par.) used in each model corresponds to the number of modelled transitions (10) $\times$ the number of covariates $-$ 1. The $\Delta \text{AIC}$ is the difference between the Akaike information criterion of each model ($\text{AIC}_m$) and the minimum of AIC among all models ($\text{AIC}_{min}$): $\Delta \text{AIC} = \text{AIC}_m - \text{AIC}_{min}$. Models are presented in decreasing order of their $\Delta \text{AIC}$. Each model containing covariates was compared to the baseline model using a Likelihood Ratio (LR) test. The best model is the one in bold with $\Delta \text{AIC} = 0$.}\label{tab:tab2.2}
@@ -721,6 +714,20 @@ Disturbances & Natural, Logging & 50 & 30993.5 & 1497.5 & < 0.001\\
 \end{small}
 \end{table}
 
+Overall, the full model, which includes climate, soil and disturbance variables,
+had the best fit and predictive performances for the observed data (Table
+\ref{tab:tab2.2}; Fig. \ref{figA2.5}). The second-best model was the disturbance
+model, but it was far behind with a difference in AIC of almost 1500 units from
+the full model (Table \ref{tab:tab2.2}). All variable subsets improved
+significantly the likelihood of the model (all likelihood ratio tests were
+highly significant, *p* << 0.001; Table \ref{tab:tab2.2}). Model performance was
+also evaluated using a 10-fold cross-validation (see Supplementary Methods); it
+revealed that including climate and disturbances improved overall model
+predictive performance, while soil variables had a negligible effect (Fig.
+\ref{figA2.5}). Thereafter, all inferences about transition probabilities were
+derived from the full model.
+
+
 
 ## Baseline transition intensities
 
@@ -734,6 +741,8 @@ of temperate species relative to boreal species in mixedwoods during the study
 period. For Boreal forests, regeneration from Pioneer to Boreal was 3.9 times
 (q~PB~ / q~BP~) more likely than transition from Boreal to Pioneer.
 
+
+
 \begin{figure}
 \centering
 \includegraphics[width=.65\textwidth]{article2/figures/fig3_baseline.pdf}
@@ -741,6 +750,8 @@ period. For Boreal forests, regeneration from Pioneer to Boreal was 3.9 times
 \label{fig2.3}
 \end{figure}
 
+
+\newpage
 
 ## Effect of covariates on transition probabilities
 
@@ -776,13 +787,24 @@ Table \ref{tab:tabA2.3}). Holding the other covariates constant, the
 instantaneous risk of transition from Boreal to Mixed and from Pioneer to
 Temperate decreased by 27% and 23%, respectively, on poorer drainage (more
 humid), but the risk of transition from Temperate to Mixed increased by 30% (HR
-= 0.73, 0.77 and 1.30, respectively). Higher pH (acidic soil) had a negative
+= 0.73, 0.77 and 1.30, respectively). Higher pH (basic soil) had a negative
 effect on the transitions from Temperate to Mixed (HR = 0.73). These changes in
 risk ratios associated to soil variables appear almost irrelevant compared to
 the effect of disturbances, but a slight increase in drainage can dampen the
 positive effect of disturbances. For instance, under moderate natural
 disturbances, the instantaneous risk of transition from Boreal to Mixed is 0.007
 at moderate drainage but decreases to 0.003 when increasing drainage by 1 point.
+
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{article2/figures/fig4_HR.pdf}
+\caption[Hazard ratios and 95\% confidence intervals of the multi-state transition model]{Hazard ratios (HR) and 95\% confidence intervals as estimated from the best multi-state transition model. Each plot represents the estimated HR for transitions from row to column state, e.g., the plot on the first row, second column shows the HR for the Boreal to Mixed transition. The ordinate is in log scale. The HR of predictors are interpretable as multiplicative effects on the hazard, where values above 1 (in blue) indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 (in red) indicate a lower risk of transition. Predictors statistically different from 1 are shown in dark blue or red. Numbers following disturbance predictors indicate their levels of intensity: 1 = moderate and 2 = major.}
+\label{fig2.4}
+\end{figure}
+
+\newpage
 
 
 ## Effect of disturbances on long-term equilibrium
@@ -797,7 +819,6 @@ natural: 56%; moderate logging: 60%), while the boreal state was more than
 halved. At major disturbances, Pioneer forests dominated the equilibrium
 landscape, while the other states collapsed.  
 
-
 The steady-state proportion also changed as expected along the temperature
 gradient (Fig. \ref{fig2.5}b,c). The Boreal state dominates at low temperature
 (high latitude) and the Temperate state dominates at high temperature (low
@@ -811,14 +832,6 @@ natural disturbances (12.7$^\circ$C), while it retreated to the south with major
 logging (13.4$^\circ$C).
 
 
-\begin{figure}
-\centering
-\includegraphics[width=1\textwidth]{article2/figures/fig4_HR.pdf}
-\caption[Hazard ratios and 95\% confidence intervals of the multi-state transition model]{Hazard ratios (HR) and 95\% confidence intervals as estimated from the best multi-state transition model. Each plot represents the estimated HR for transitions from row to column state, e.g., the plot on the first row, second column shows the HR for the Boreal to Mixed transition. The ordinate is in log scale. The HR of predictors are interpretable as multiplicative effects on the hazard, where values above 1 (in blue) indicate that the predictor is associated with a greater risk of state transition, whereas values below 1 (in red) indicate a lower risk of transition. Predictors statistically different from 1 are shown in dark blue or red. Numbers following disturbance predictors indicate their levels of intensity: 1 = moderate and 2 = major.}
-\label{fig2.4}
-\end{figure}
-
-\newpage
 
 ## Effect of disturbances on transient dynamics
 
@@ -834,10 +847,19 @@ disturbances accelerated transition dynamics all along the temperature gradient,
 while moderate disturbances also decreased turnover time but more strongly in
 the northern boreal region (Fig. \ref{fig2.6}a,b). The effect on turnover time
 was similar for both disturbance types, except that the effect of major logging
-was much stronger in northern boreal forests than natural disturbances (Fig.
+was much stronger in northern boreal forests than the effect of natural disturbances (Fig.
 \ref{fig2.6}a,b). These spatial patterns reflect the turnover time of the
 dominant state at each point along the temperature gradient (Fig.
 \ref{figA2.8}).
+
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{article2/figures/fig5_steady.pdf}
+\caption[Changes in forest state proportions at equilibrium]{Changes in forest state proportions at equilibrium for different disturbance types (natural or logging) and intensity (no or minor, moderate, major). The barplot (a) compares the observed state proportion in the ecotone to the potential state proportion at equilibrium for different disturbance scenarios with all other covariates fixed at the average conditions found in the ecotone. The curved lines (b,c) show the proportions of Boreal (blue) and Temperate forests (red) at equilibrium along the temperature (latitudinal) gradient for no or minor (solid), moderate (dashed) and major (dotted) disturbances, with all other covariates fixed at the average conditions found in the ecotone. The light (no or minor), medium (moderate) and dark (major) grey circles indicate the positions of the boundary between dominance of Boreal and Temperate forests (i.e. the advancing front) while the corresponding arrows show how moderate and major disturbances move the boundary. The polygon approximates the position of the ecotone along the temperature gradient.}
+\label{fig2.5}
+\end{figure}
 
 At minor disturbances, the entropy of the system generally increased from north
 to south and peaked at ca. 12.6$^\circ$C, at the northern end of the ecotone
@@ -867,14 +889,6 @@ along the temperature gradient can reach very quickly their steady-state
 distribution (maximum of about 8 years for major logging and 25 years for major
 natural disturbances).
 
-\newpage
-
-\begin{figure}
-\centering
-\includegraphics[width=.5\textwidth]{article2/figures/fig5_steady.pdf}
-\caption[Changes in forest state proportions at equilibrium]{Changes in forest state proportions at equilibrium for different disturbance types (natural or logging) and intensity (no or minor, moderate, major). The barplot (a) compares the observed state proportion in the ecotone to the potential state proportion at equilibrium for different disturbance scenarios with all other covariates fixed at the average conditions found in the ecotone. The curved lines (b,c) show the proportions of Boreal (blue) and Temperate forests (red) at equilibrium along the temperature (latitudinal) gradient for no or minor (solid), moderate (dashed) and major (dotted) disturbances, with all other covariates fixed at the average conditions found in the ecotone. The light (no or minor), medium (moderate) and dark (major) grey circles indicate the positions of the boundary between dominance of Boreal and Temperate forests (i.e. the advancing front) while the corresponding arrows show how moderate and major disturbances move the boundary. The polygon approximates the position of the ecotone along the temperature gradient.}
-\label{fig2.5}
-\end{figure}
 
 \newpage
 
@@ -937,10 +951,10 @@ processes [@allen_interactions_2007].
 
 ## Trends in recent forest transition dynamics in Québec
 
-Forest dynamics in Québec during the last 48 years was dominated by
-transitions from pioneer to boreal and from mixed to temperate stands. The
-important regeneration of boreal forests could be attributed to past natural
-disturbances, notably the last spruce budworm outbreak. Indeed, the last
+Forest dynamics in Québec during the last 48 years was dominated by transitions
+from pioneer to boreal and from mixed to temperate stands. The important
+regeneration of boreal forests could be attributed to past natural disturbances,
+such as fires and insect outbreaks. For instance, the last spruce budworm
 outbreak, which occurred during the 1970s, has caused major mortality in
 coniferous species followed by important recruitment pulses and growth releases
 [@bouchard_tree_2006].
@@ -1170,7 +1184,7 @@ would only exacerbate the gap. While trying to maintain a historical state is
 likely impractical, our results emphasise that management should not only
 anticipate change, but should acknowledge that current forests have already
 undergone changes and are in the process of further transformation. Moreover,
-our study suggests that partial cutting could be used to increase temperate tree
+our study suggests that selective cutting could be used to increase temperate tree
 growth in mixedwoods. However, natural recruitment of temperate trees might
 not be sufficient. Thus, assisted migration could be necessary to facilitate
 range expansion, thereby increasing forest resilience to future climate

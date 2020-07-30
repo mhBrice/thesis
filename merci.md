@@ -20,7 +20,7 @@ Je souhaite tout d'abord remercier mon directeur de recherche, Pierre Legendre,
 et ma co-directrice, Marie-Josée Fortin, pour m'avoir soutenue et encouragée
 tout au long de ce projet. Vous avez su me donner une grande liberté dans la
 réalisation de mon projet tout en me guidant lorsque j'en avais besoin. Pierre,
-ton éternel et intarissable passion pour la recherche et l'écologie numérique
+ton éternelle et intarissable passion pour la recherche et l'écologie numérique
 m'impressionne et me motive. Tes conseils et tes encouragements m'ont permis
 d'aller plus loin. Marie-Josée, sans toi, cette thèse de doctorat n'aurait peut-être pas vu le jour. Tu as su m'encourager et me remettre sur le droit chemin
 quand j'étais perdue. Merci à tous les deux, vous m'avez amenée exactement là où je dois être.
@@ -61,14 +61,15 @@ ta sagesse et ta bienveillance me manquent terriblement.
 Je remercie tout particulièrement ma famille. Maman, papa, Gabriel (et Chloé et
 bébé Marion), Camille (et Alice) et la Fifouille, votre soutien inconditionnel
 tout au long de ma vie a rendu possible l'achèvement de ce travail. Merci pour
-votre présence et votre confiance presque absolue en moi. Vous m'avez
+votre présence et votre confiance presque aveugle en moi. Vous m'avez
 accompagnée et soutenue à travers toutes les épreuves de la vie, et le doctorat
-n'en est qu'un exemple. Mes chers parents, merci pour nos voyages inoubliables
-en camping et nos innombrables randonnées pédestres à travers l'Amérique du Nord.
-Vous m'avez transmis votre passion pour la Nature; c'est donc grâce à (ou à
-cause de) vous si j'ai choisi la voie de l'écologie. Fifouille, une chance que
-tu étais à mes côtés (sur mes genoux ou sur mon clavier) pour égayer mes
-journées.
+n'en est qu'un exemple. Mes chers parents, je ne sais même pas par où commencer
+tellement il y a à dire. Alors merci pour tout. Merci d'avoir été là de mes
+premiers pas à aujourd'hui. Merci pour nos voyages inoubliables en camping et
+nos innombrables randonnées pédestres à travers l'Amérique du Nord. Vous m'avez
+transmis votre passion pour la Nature; c'est donc grâce à (ou à cause de) vous
+si j'ai choisi la voie de l'écologie. Fifouille, une chance que tu étais à mes
+côtés (sur mes genoux ou sur mon clavier) pour égayer mes journées.
 
 Kevin, je ne te remercierai certainement jamais assez. Depuis notre rencontre
 dans un cours de statistique bayésienne, tu éclaires mes journées

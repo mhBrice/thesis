@@ -149,9 +149,8 @@ conifer forests into young mixed and deciduous forests
 [@boucher_logging-induced_2006; @boucher_logging_2009]. @leithead_northward_2010
 also observed that the establishment of southern temperate species in the
 temperate-boreal ecotone of northern Ontario increased with the size and age of
-canopy gaps. While @boisvertmarsh_divergent_2019 found that climate change
-outweighs disturbances in explaining latitudinal shifts of tree saplings in
-Québec in the last decades, @danneyrolles_stronger_2019 found larger impacts of
+canopy gaps. In contrast, @boisvertmarsh_divergent_2019 found that the effects of climate change and disturbances on sapling latitudinal shifts in
+Québec over the last decades varied considerably across species and across space. @danneyrolles_stronger_2019 found larger impacts of
 anthropogenic disturbances than climate warming on forest compositional changes
 in southern Québec over the last centuries. Hence, to anticipate and adapt to future
 forest changes, large-scale empirical studies are required in order to
@@ -198,7 +197,7 @@ disturbances accelerate community thermophilization? (4) How do gains and losses
 of specific tree species contribute to thermophilization?
 
 Specifically, we measured temporal $\beta$ diversity [@legendre_temporal_2019] over
-6000 resurveyed communities between a historical (1970–1980) and a contemporary
+6000 resurveyed forest plots between a historical (1970–1980) and a contemporary
 (2000–2016) period. Temporal $\beta$ diversity, which describes the temporal
 dissimilarity in community composition between survey times, was decomposed into
 gains and losses to investigate the underlying mechanisms of change. Then, we
@@ -302,14 +301,14 @@ Variable description\strut
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 Temp, Temp\textsuperscript{2}\strut
 \end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
-Mean temperature during growing season and its second order polynomial.
+Mean temperature during growing season and its second order polynomial to model curvilinear relationships.
 10-year average prior to first survey of each plot (\(^\circ\)C).\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 Precip, Precip\textsuperscript{2}\strut
 \end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
 Total precipitation during growing season and its second order
-polynomial. 10-year average prior to first survey of each plot
+polynomial to model curvilinear relationships. 10-year average prior to first survey of each plot
 (mm).\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
@@ -369,28 +368,28 @@ Stand age (years).\strut
 Old harvest\strut
 \end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
 Tree harvesting (clearcutting, partial cutting, selection cutting, etc.)
-that occurred before the study period. Minor (0), moderate (1) or major
+that occurred before the first survey. No or minor (0), moderate (1) or major
 (2).\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 Recent harvest\strut
 \end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
 Tree harvesting (clearcutting, partial cutting, selection cutting, etc.)
-that occurred during the study period. Minor (0), moderate (1) or major
+that occurred between the first and last surveys.  No or minor (0), moderate (1) or major
 (2).\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 Old natural\strut
 \end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
 Natural disturbances (fire, insect outbreak, windfall, etc.) that
-occurred before the study period. Minor (0), moderate (1) or major
+occurred before the first survey. Minor (0), moderate (1) or major
 (2).\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.26\columnwidth}\raggedright
 Recent natural\strut
 \end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
 Natural disturbances (fire, insect outbreak, windfall, etc.) that
-occurred before the study period. Minor (0), moderate (1) or major
+occurred between the first and last surveys. Minor (0), moderate (1) or major
 (2).\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -507,7 +506,7 @@ to obtain species temperature distributions. Specifically, we overlaid
 interpolated climate data [mean annual temperature averages for 1970–2000 at a
 spatial resolution of 1 km^2^, available online http://worldclim.org/version2;
 @fick_worldclim_2017] and occurrence data from multiple forest inventory
-databases of eastern North America (collected in the QUICC-FOR project;
+databases of eastern North America (databases of species distributions for Ontario, New Brunswick, Québec and the United-States collected in the QUICC-FOR project;
 https://github.com/QUICC-FOR) for the focal species. The mean annual temperature
 for each occurrence was extracted to infer species temperature distributions.
 Following @devictor_birds_2008, we used the mean of these temperature values as
@@ -760,7 +759,7 @@ of cold‐adapted species, respectively.} \label{fig1.5}
 Only a few species contributed substantially to community thermophilization
 (Fig. \ref{fig1.6}). Gains of *Acer rubrum* and *Acer saccharum*, as well as
 losses of *Abies balsamea* and *Picea mariana*, contributed strongly to the
-thermophilization of all bioclimatic domains. In addition to the change of these
+thermophilization of all the bioclimatic domains where they are found. In addition to the change of these
 four species, the losses of *Betula papyrifera* and *Picea glauca* also played a
 key role in the thermophilization of ecotonal forests in the balsam fir-yellow
 birch domain. Moreover, temperate species such as *Fagus grandifolia*, *Quercus
@@ -861,19 +860,19 @@ migration of tree species, which is in agreement with the conclusions of recent
 empirical [@boucher_logging-induced_2006; @leithead_northward_2010] and
 simulation [@vanderwel_how_2014; @wang_importance_2015] studies.
 
-Disturbances likely accelerate forest changes by reducing competition and
-providing establishment opportunities to warm-adapted temperate tree species
-[@leithead_northward_2010; @svenning_disequilibrium_2013]. Indeed, in the
-absence of disturbances, trees grow slowly, their mortality rates are low and
-competition for space and light is strong, thus preventing warm-adapted species
-from colonizing new areas, despite the suitability of climatic conditions;
-community thermophilization is consequently very slow. Moderate disturbances,
-however, remove individuals of resident species and reduce competition, which
-enhances the replacement of boreal by temperate trees, thereby increasing the
-thermophilization rate. Furthermore, moderate disturbances can also modify local
-microclimates [@de_frenne_microclimate_2013; @stevens_forest_2015] which may
-alter the survival rates of tree saplings. In contrast, major disturbances only
-favour early successional species. Such findings echo the well-known intermediate
+Disturbances likely accelerate forest changes by reducing competition, thus
+providing establishment opportunities to warm-adapted temperate tree species and facilitating their growth [@leithead_northward_2010;
+@svenning_disequilibrium_2013]. Indeed, in the absence of disturbances, trees
+grow slowly, their mortality rates are low and competition for space and light
+is strong, thus preventing warm-adapted species from colonizing new areas,
+despite the suitability of climatic conditions; community thermophilization is
+consequently very slow. Moderate disturbances, however, remove individuals of
+resident species and reduce competition, which enhances the replacement of
+boreal by temperate trees, thereby increasing the thermophilization rate.
+Furthermore, moderate disturbances can also modify local microclimates
+[@de_frenne_microclimate_2013; @stevens_forest_2015] which may alter the
+survival rates of tree saplings. In contrast, major disturbances only favour
+early successional species. Such findings echo the well-known intermediate
 disturbance hypothesis [@connell_diversity_1978]; as in the classical
 hypothesis, intermediate disturbances lower interspecific competition but here,
 not only do they increase local species richness (not shown), but they also
@@ -886,7 +885,7 @@ warming, but thermophilization does not appear to be directly driven by rising
 temperatures. As suggested by @renwick_temporal_2015, we surmise that, as
 climate warms up, moderate disturbances could foster punctuated and episodic
 migration of warm-adapted species in localities where conditions are otherwise
-favourable. However, it raises questions about the specific conditions in which
+favourable. Delayed and episodic migrations could explain the absence of strong correlation between climate warming and thermophilization. However, it raises questions about the specific conditions in which
 the thermophilization process can effectively take place. Further analyses are
 required to determine which factors can trigger (e.g. type, size, frequency of
 disturbances) or constrain (e.g. soil type, competition, precipitation) the
@@ -904,9 +903,11 @@ did not find any signs of thermophilization. In contrast to our study that
 covers a period of pronounced climate warming, @danneyrolles_stronger_2019
 investigated a period dominated by land-use and population changes which may
 explain the absence of thermophilization signal in their results. In light of
-their results, we hypothesise that some of the thermophilization we reported
-here in the sugar maple domains is in fact the result of secondary succession
-after historical disturbances.
+their results, we hypothesise that the continued expansion of some temperate
+deciduous species that started with the industrialisation during the 20^th^
+century may have contributed to the thermophilization we reported here in the
+sugar maple domains. Moreover, recent climate warming may have amplified this
+already ongoing trend.
 
 ## Species contributions to community thermophilization
 
@@ -949,7 +950,7 @@ to increase in the balsam fir-white birch domain (Fig. \ref{figA1.5}) and, when
 it did, it contributed to increase its CTI (Fig. \ref{fig1.6}). Similarly to *A.
 saccharum*, *A. rubrum* distribution is spatially constrained within the balsam
 fir-white birch domain [@blouin_guide_2008] and will likely expand from existing
-existing patchy populations in the future.
+patchy populations in the future.
 
 ## Long-term perspectives for the temperate-boreal ecotone
 

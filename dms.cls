@@ -176,9 +176,12 @@
    Seizi\`eme\or Dix-septi\`eme\or Dix-huiti\`eme\or Dix-neuvi\`eme\or
    Vingti\`eme\fi}
 
-\def\articletocentryen{\ifcase\value{part}\or First\or Second\or
-    Third\or Fourth\or Fifth\or Sixth\or Seventh\or Eighth\or Ninth\or
-    Tenth\or Eleventh\or Twelfth\or Thirteenth\or Fourteenth\fi}
+\def\articletocentryen{\ifcase\value{part}\or Premier\or Deuxi\`eme\or
+   Troisi\`eme\or Quatri\`eme\or Cinqui\`eme\or Sixi\`eme\or
+   Septi\`eme\or Huiti\`eme\or Neuvi\`eme\or Dixi\`eme\or Onzi\`eme\or
+   Douzi\`eme\or Treizi\`eme\or Quatorzi\`eme\or Quinzi\`eme\or
+   Seizi\`eme\or Dix-septi\`eme\or Dix-huiti\`eme\or Dix-neuvi\`eme\or
+   Vingti\`eme\fi}
 
 \newcount\escapecount
 \def\dopolyglot{\do\partname \do\dmschaptername \do\appendixname \do\bibname \do\refname%

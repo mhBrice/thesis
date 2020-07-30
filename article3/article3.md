@@ -1,7 +1,7 @@
 
 \anglais
 
-\revue{is in preparation for publication in Journal of Ecology}
+\revue{was submitted for publication in Journal of Ecology}
 
 \article{Northern range shifts of temperate tree saplings in Québec: the role of climate, stand composition, soils and disturbances on recruitment dynamics} \label{chap3}
 
@@ -81,57 +81,61 @@ temperate species.
 
 
 Spatiotemporal changes in tree recruitment may provide early signals of shifts
-in species distributions under climate warming [@anderson-teixeira_altered_2013
+in species distributions under climate warming [@anderson-teixeira_altered_2013;
 @boisvert-marsh_shifting_2014; @sittaro_tree_2017; @zhu_failure_2012]. While
 adult trees may survive for a long time in suboptimal conditions, the
 regeneration process involves a sequence of several important climate-sensitive
 steps, i.e., flowering, pollination, seed production and germination, and
 seedling establishment and survival [@bykova_temperature_2012]. Hence, compared
 to adult trees, the distribution and composition of young recruits can change
-rapidly in the face of environmental changes [@copenhaverparry_multiscale_2020].
-Since species northern range limits are substantially controlled by their
-physiological tolerances to minimum temperature [@arris_evidence_1989], tree
-species are expected to shift their distributions toward higher latitudes in
-response to climate warming. Consistent with these hypotheses, temperate tree
-species in Québec have shifted their range limits northward and these shifts
-were larger for saplings than for adult trees [@boisvert-marsh_shifting_2014;
-@sittaro_tree_2017]. However, @sittaro_tree_2017 reported that these latitudinal
-shifts were poorly correlated with climate warming and
-@boisvertmarsh_divergent_2019 showed both positive and negative effects of
-climate change variables on sapling recruitment at their range margins. This
-apparent contradiction between the expected northward shifts and the underlying
-driver may indicate that trees are responding to a complex suite of
-environmental drivers [@boisvertmarsh_divergent_2019; @carteron_soil_2020;
-@leithead_northward_2010; @solarik_priority_2019]. Because tree migration
+rapidly in the face of environmental changes [@copenhaverparry_multiscale_2020;
+@boisvert-marsh_shifting_2014; @sittaro_tree_2017]. Because tree migration
 ultimately depends upon successful recruitments in new locations beyond their
-current range limits [@renwick_temporal_2015], determining what conditions can
-facilitate or impede sapling establishment is a milestone in predicting future
-tree species distributions [@copenhaverparry_multiscale_2020] and vulnerability
-[@aubin_traits_2016].
+current range limits [@renwick_temporal_2015], investigating sapling
+distributions is needed to shed light on future forest response to climate
+change.
+
+In response to climate warming, species are expected to shift their
+distributions through space to track suitable climatic conditions
+[@parmesan_globally_2003]. Accordingly, many tree species have shifted their
+range limits northward in latitude [@boisvert-marsh_shifting_2014;
+@sittaro_tree_2017] and upward in altitude [@beckage_rapid_2008;
+@harsch_are_2009]. In addition of these upward and northward shifts, it has been
+suggested that marginal populations of temperate species at their northern range
+limits could migrate downslope [@goldblum_age_2002]. Indeed, in the transition
+zone of eastern North America, several temperate tree species are spatially
+constrained on hilltops at their northern limits [@blouin_guide_2008;
+@gosselin_guide_2002] likely due to warmer microclimate created by moisture and
+cold air drainage, i.e. cold air flowing downslope and getting trapped into
+valleys and depressions [@barras_supply_1998; @goldblum_age_2002]. With climate
+warming, these populations could expand downward and thus play a key role in
+accelerating tree range shifts, but this process remains to be documented.
+
+
+Despite this "globally coherent fingerprint" [@parmesan_globally_2003], species
+distributional shifts are often poorly correlated with climate warming
+[@sittaro_tree_2017]. Moreover, the magnitude and direction of shifts vary
+considerably between taxa and regions [@fei_divergence_2017;
+@vanderwal_focus_2013; @lenoir_going_2010]. These inconsistencies in expected species
+shifts  may indicate that trees are not only responding to climate warming but
+also to a complex suite of environmental drivers, which could be particularly
+important at the regeneration stage [@boisvertmarsh_divergent_2019;
+@carteron_soil_2020; @leithead_recruitment_2012; @solarik_priority_2019].
+Determining what conditions can facilitate or impede sapling establishment is necessary in order to predict future tree species distributions
+[@copenhaverparry_multiscale_2020] and vulnerability [@aubin_traits_2016].
 
 
 Seed dispersal limitation is likely one of the primary constraints to tree
 recruitment at range margins [@caspersen_seedling_2005; @renwick_temporal_2015].
-Many species typically dispersed their seeds close to the parent trees, from a
+Many species typically disperse their seeds close to the parent trees, from a
 few metres to a few hundred metres [@scheller_spatially_2005]. As such, many
 studies have found that recruitment is highly dependent on the abundance of
-conspecific trees [@caspersen_seedling_2005; @drobyshev_environmental_2014; @graignic_geographical_2014; @solarik_priority_2019]. Hence, migration at
-the leading edge may not appear as a moving front following climate warming;
-recruitment may occur episodically through rare long dispersal events or locally
+conspecific trees [@caspersen_seedling_2005; @drobyshev_environmental_2014;
+@graignic_geographical_2014; @solarik_priority_2019]. Hence, migration at the
+leading edge may not appear as a moving front after climate warming;
+recruitment may occur episodically through rare long dispersal events, or locally
 through the expansion from isolated northern populations
-[@pearson_climate_2006]. Marginal populations at
-northern range limits (i.e. cryptic refugia) have likely played a key role in
-postglacial tree migration and they may be as important in future range shifts
-[@mclachlan_molecular_2005]. In the transition zone of
-eastern North America, several temperate tree species are spatially constrained
-on hilltops at their northern limits [@blouin_guide_2008; @gosselin_guide_2002]
-likely due to warmer microclimate created by cold air drainage, i.e. cold air
-flowing downslope and getting trapped into valleys and depressions
-[@barras_supply_1998; @goldblum_age_2002]. Hence, contrary to the most common
-predictions of shifts towards higher elevations [@beckage_rapid_2008], these
-northern populations could possibly migrate downslope with climate warming
-[@goldblum_age_2002]. Although this phenomenon could contribute to the northward
-range shifts, it has not yet been documented.
+[@pearson_climate_2006].
 
 
 In addition to species dispersal limitations, several other biotic and abiotic
@@ -194,9 +198,8 @@ reached conflicting conclusions. On the one hand, canopy gaps have been shown to
 locally facilitate establishment of temperate species in mixed forests of
 Ontario [@leithead_northward_2010]. On the other hand, disturbances had little
 or no effect on the northern range shifts of tree saplings in the United States
-[@woodall_assessing_2013]. @boisvertmarsh_divergent_2019 also found a modest and
-generally negative effect of disturbances on new colonisations of temperate
-species at their northern range limits. Given that forests are increasingly
+[@woodall_assessing_2013]. In Québec, @boisvertmarsh_divergent_2019 found that the effect of disturbances on new colonisations of temperate
+species varied in space and across species. Given that forests are increasingly
 subject to human disturbances, more empirical evidence is essential to
 disentangle their role on forest regeneration dynamics under climate change.
 
@@ -218,13 +221,13 @@ a historical and a recent survey? (ii) Do disturbances influence the northward
 (in latitude) shifts of tree saplings? (iii) Are tree saplings of northern
 marginal populations migrating downslope? (iv) How do stand composition,
 topo-edaphic characteristics, climate and disturbances influence tree
-recruitment at their northern range limits? To address these questions, we assessed regional changes in sapling occurrence and abundance across and
+recruitment at their northern range limits? To address these questions, we assessed regional changes in sapling occurrence and abundance and
 compared shifts in latitudinal distributions of saplings among different
 disturbance severity levels. We also test for shifts in altitudinal
 distributions among regions. We then investigated the relative importance of a
 series of environmental factors on tree sapling recruitment (measured as the
-number of tree individuals that reached a diameter at breast height (DBH)
-between 1-9 cm during a time interval): climate, topo-edaphic factors, plot and
+number of tree individuals with a diameter at breast height (DBH)
+between 1-9 cm): climate, topo-edaphic factors, plot and
 neighbourhood composition, and disturbances.
 
 
@@ -242,8 +245,8 @@ the same period, a complementary network of temporary forest plots was also put
 in place in which each plot was surveyed only once principally to inform the
 timber supply analysis.
 
-The region surveyed by the inventory program extends from approximately
-45$^\circ$ to 52$^\circ$ North latitude and covers six bioclimatic domains
+The region surveyed by the inventory program extends approximately from
+45$^\circ$ to 52$^\circ$ North latitude and from 57$^\circ$ to 80$^\circ$ West longitude and covers six bioclimatic domains
 [@saucier_cadre_2009]. The present study focuses on the western portion of
 Québec forests, from the Sugar maple-basswood domain (in the deciduous zone) to
 the Balsam fir-white birch domain (in the mixed boreal zone; Fig. \ref{fig3.1})
@@ -262,15 +265,15 @@ of 400 m^2^. Within each plot, trees larger than 9 cm in DBH are identified to
 species, measured and their vitality noted. In our analysis, we refer to these
 individuals larger than 9 cm as adults. In permanent plots, saplings (DBH
 between 1 and 9 cm) were identified and numbered within a smaller subplot (40
-m^2^).
+m^2^). We analysed recruitment as the number of saplings that was recorded during a survey.
 
 To study recruitment of temperate tree species, we first selected all permanent
 inventory plots in the study area that had been sampled at least twice. We then
 disregarded plots that were subjected to active reforestation by plantation
 during the study period because we were interested in natural recolonisation
 processes. Finally, we kept plots for which all studied environmental predictors
-were measured (see below; Table \ref{tab:tab3.1}). This yielded a total of 4099 permanent
-plots considered (Fig. \ref{fig3.1}).
+were measured (see below; Table \ref{tab:tab3.1}). This yielded a total of 4099
+unique permanent plots considered (Fig. \ref{fig3.1}).
 
 
 In the analyses on shifts distribution, we compared a historical (1970-1981) and
@@ -293,7 +296,7 @@ years, with a mean interval of 10.88 years (sd = 3.48).
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{article3/figures/fig1_maps.png}
-\caption[Maps of the 4099 permanent inventory plots with sapling recruitment]{Maps of the 4099 permanent inventory plots with sapling recruitment for each of the four temperate tree species. The regions used for the recruitment models (hurdle) are highlighted in black. The coloured map represents the whole study area.}
+\caption[Maps of the 4099 permanent inventory plots with sapling recruitment]{Maps of the 4099 permanent inventory plots with sapling distribution for each of the four temperate tree species. The regions used for the recruitment models (hurdle) are highlighted in black. The coloured map represents the whole study area.}
 \label{fig3.1}
 \end{figure}
 
@@ -308,58 +311,11 @@ mean temperature during the growing season and the climate moisture index (CMI)
 from May to September (Table \ref{tab:tab3.1}). To account for inter-annual
 climatic variability and lag in vegetation response to climate, climate
 variables were averaged over a 10-year period prior to the plot measurement.
-Climate change in each forest plot was measured as the slope between the climate
-variable over time from 1950 to 2018. During this period, growing season
+Climate change in each forest plot was measured as the slope of the climate
+variables over time from 1950 to 2018. During this period, growing season
 temperatures have increased by 0.17 $^\circ$C/decade in the plots, while CMI
 have shown no significant trend (Fig. \ref{figC.3}), but the magnitude of
 climate change varies across the study area (Fig. \ref{figC.1}).
-
-We also collected information pertaining to natural and anthropogenic
-disturbances that have affected the forest plots during the study period (Table
-\ref{tab:tab3.1}; Fig. \ref{figC.2}). At each plot, the type of disturbances (21
-types) and their levels of severity were recorded during field surveys [see Fig.
-\ref{figC.2} for details; @mffp_placettes-echantillons_2016]. For our analyses,
-we differentiated two main types of disturbances: natural disturbances and
-logging. Three levels of severity were originally defined by the MFFP (minor,
-moderate or major) depending on the proportion of basal area affected (Table
-\ref{tab:tab3.1}). We kept all three levels of logging, but for natural
-disturbances, we combined the major and moderate levels together because not
-enough major disturbances affected the studied species, hence their effect could
-not be estimated.
-
-Core samples were also collected on selected trees deemed representative of the
-forest plot during surveys to measure their age
-[@mffp_placettes-echantillons_2016]. Stand age was estimated as the mean of
-these measures to account for forest succession processes after disturbances.
-
-
-
-At each plot, several topographic and edaphic characteristics were recorded
-[@mffp_placettes-echantillons_2016]. To capture topographic conditions, we
-selected plot altitude and position along the slope (lower, middle or upper
-slope). We also selected drainage (xeric, mesic, hydric) and pH (low, medium, high)
-because they largely affect nutrient availability, soil structural properties
-and vegetation development [@tan_environmental_2009].
-
-We measured the total tree basal area of all adult trees (DBH $\geqslant$ 9cm)
-of boreal species (here, *Abies balsamea*, *Larix laricina*, *Picea glauca*,
-*Picea mariana* and *Pinus banksiana*) to compute an approximate index of local
-competition and priority effect on soil conditions [@solarik_priority_2019].
-Similarly, we computed the basal area of conspecific adult trees of the focal
-species (i.e. one of the four temperate species under investigation) to
-approximate local seed availability; when conspecific trees are abundant in the
-plot, we expect higher seed availability. We used the temporary inventory plots
-to describe neighbourhood forest composition and account for potential seed
-sources from surrounding populations. Around each permanent forest plot, we
-extracted the 100 nearest temporary plots located within a 10-km buffer zone. We
-chose a radius of 10 km as a compromise between a realistic dispersal distance
-and the assurance of finding a sufficient number of temporary plots in the
-buffer zone. Within the buffer, we computed the mean basal area per hectare of
-the focal tree species, weighted by a negative exponential kernel distance to
-the given permanent forest plot. This kernel makes it possible to grant a
-monotonously decreasing importance to the populations that are located further
-away.
-
 
 \begin{small}
 \begin{longtable}[]{@{}ll@{}}
@@ -468,7 +424,7 @@ forest plot at \(t\).\strut
 Logging\strut
 \end{minipage} & \begin{minipage}[t]{0.73\columnwidth}\raggedright
 3 levels of logging severity: None or minor (\(\leqslant\) 25\% of basal
-area removed); moderate, maily partial cuts (25-75\%); or major, mainly
+area removed); moderate, mainly partial cuts (25-75\%); or major, mainly
 clearcuts (\(\geqslant\) 75\%).\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.21\columnwidth}\raggedright
@@ -486,6 +442,57 @@ Stand age (in years).\strut
 \bottomrule
 \end{longtable}
 \end{small}
+
+\newpage
+
+We also collected information pertaining to natural and anthropogenic
+disturbances that have affected the forest plots between each survey (Table
+\ref{tab:tab3.1}; Fig. \ref{figC.2}). At each plot, the type of disturbances (21
+types) and their levels of severity were recorded during field surveys [see Fig.
+\ref{figC.2} for details; @mffp_placettes-echantillons_2016]. For our analyses,
+we differentiated two main types of disturbances: natural disturbances and
+logging. Three levels of severity were originally defined by the MFFP (minor,
+moderate or major) depending on the proportion of basal area affected (Table
+\ref{tab:tab3.1}). We kept all three levels of logging, but for natural
+disturbances, we combined the major and moderate levels together because not
+enough major disturbances affected the studied species, hence their effect could
+not be estimated.
+
+Core samples were also collected on selected trees deemed representative of the
+forest plot during surveys to measure their age
+[@mffp_placettes-echantillons_2016]. Stand age was estimated as the mean of
+these measures to account for forest succession processes after disturbances.
+
+
+
+At each plot, several topographic and edaphic characteristics were recorded
+[@mffp_placettes-echantillons_2016]. To capture topographic conditions, we
+selected plot altitude and position along the slope (lower, middle or upper
+slope). We also selected drainage (xeric, mesic, hydric) and pH (low, medium, high)
+because they largely affect nutrient availability, soil structural properties
+and vegetation development [@tan_environmental_2009].
+
+We measured the total tree basal area of all adult trees (DBH $\geqslant$ 9cm)
+of boreal species (here, *Abies balsamea*, *Larix laricina*, *Picea glauca*,
+*Picea mariana* and *Pinus banksiana*) to compute an approximate index of local
+competition and priority effect on soil conditions [@solarik_priority_2019].
+Similarly, we computed the basal area of conspecific adult trees of the focal
+species (i.e. one of the four temperate species under investigation) to
+approximate local seed availability; when conspecific trees are abundant in the
+plot, we expect higher seed availability. We used the temporary inventory plots
+to describe neighbourhood forest composition and account for potential seed
+sources from surrounding populations. Around each permanent forest plot, we
+extracted the 100 nearest temporary plots located within a 10-km buffer zone. We
+chose a radius of 10 km as a compromise between a realistic dispersal distance
+and the assurance of finding a sufficient number of temporary plots in the
+buffer zone. Within the buffer, we computed the mean basal area per hectare of
+the focal tree species, weighted by a negative exponential kernel distance to
+the given permanent forest plot. This kernel makes it possible to grant a
+monotonously decreasing importance to the populations that are located further
+away.
+
+
+
 
 ## Analyses
 
@@ -506,7 +513,7 @@ periods for all selected plots using Wilcoxon-Mann-Whitney tests
 location (median) between the distributions of two samples. The before-after
 distributions are not paired because saplings may occur in different plots
 during the two time periods. We compared the latitudinal shifts among
-disturbance levels and the altitudinal shifts among bioclimatic domains using
+disturbance levels (where the disturbance level was determined as the highest level of disturbance that occurred between the historical and recent period) and the altitudinal shifts among bioclimatic domains using
 the same tests.
 
 
@@ -523,7 +530,7 @@ considered as static (their value for a given plot does not change through
 time). Climate (TP and CMI) and disturbances (logging, natural and age) were
 included as time-varying explanatory variables. Climate variables at time $t$
 were used to model recruitment events between $t$ and $t + \Delta t$.
-Disturbances that occurred during the interval $t$ and $t + \Delta t$ were used
+Disturbances (natural and logging) that occurred during the interval $t$ and $t + \Delta t$ were used
 to model recruitment events during the same time period. The probability of
 observing recruitment events in a forest plot depend on the time interval
 between surveys. Because of the variation in time intervals in the dataset, we
@@ -659,7 +666,7 @@ levels.
 
 
 Species latitudinal distributions do not strictly parallel the temperature
-gradient because it is also influenced by topography. Hence, part of species
+gradient because it is also influenced by topography and pedology. Hence, part of species
 distributional shifts may not be captured by latitudinal shifts. We thus
 examined species shifts based on their temperature distributions (mean
 temperature of the growing season during the historical period) and observed
@@ -732,7 +739,7 @@ also lower on hydric soils. Soils with low pH appear beneficial for saplings of
 *B. alleghaniensis* (compared to medium pH). Soils with high pH had positive
 effect on both *Acer* species and negative on *F. grandifolia*.
 
-Among the climate variables, temperature always had a positive effect on on both
+Among the climate variables, temperature always had a positive effect on both
 the presence and the number of recruits, while CMI had a positive effect on *B.
 alleghaniensis* only and a negative effect on *A. rubrum* (Fig. \ref{fig3.5}).
 The effect of climate change varied across species; increased humidity
@@ -772,12 +779,12 @@ to disentangle the underlying environmental drivers of recruitment processes.
 First, our results showed important changes in the spatial distribution of
 temperate species recruitment. We observed large increases in the occurrence and
 abundance patterns of the four studied species, except for *A. saccharum* which
-declined in the southern portion of the study area. Secondly, we provided
+declined in the southern portion of the study area. Second, we provided
 evidence of significant northward distribution shifts, but these were affected
 by disturbances. Saplings of *A. rubrum*, *A. saccharum* and *B. alleghaniensis*
 experienced northward shifts in undisturbed plots. However, only the two *Acer*
 species shifted at moderate disturbances (natural or logging). There was no
-significant shift at major logging. Thirdly, our results may signal the onset of
+significant shift at major logging. Third, our results may signal the onset of
 a migration from marginal populations found on hilltops as temperate saplings at
 their northern margins tended to shift downslope, although this trend was not
 significant. Finally, we analysed the effect of a large array of environmental
@@ -786,9 +793,7 @@ distribution shifts. The hurdle models highlighted that sapling recruitment at
 species range margins is primarily constrained by stand composition, as well as
 topo-edaphic characteristics, and facilitated by partial logging. Together, our
 results suggest that moderate logging may promote recruitment pulses of
-temperate species, but its catalysing effect on northward shifts may be limited
-due to other abiotic and biotic constraints.
-
+temperate species, but does not appear to accelerate northward shifts because sapling recruitment is limited by their reliance on conspecific trees for dispersal, the negative effect of boreal trees, as well as the unsuitability of lowland hydric soils.
 
 ## Temporal changes in composition and abundance
 <!--
@@ -820,8 +825,7 @@ while the presence and abundance of saplings reflect a response to more recent
 changes in environmental conditions. Here, we showed important changes in
 sapling occurrences and abundances of the studied tree species. Saplings of *A.
 rubrum*, *B. alleghaniensis* and *F. grandifolia* experienced large increases in
-occurrences in all domains where they are found, indicating colonisation of new
-habitats. The extensive expansion of *A. rubrum* has been observed across
+occurrences in all domains where they are found, indicating an increase of successful recruitments and potentially colonisations of new habitats. The extensive expansion of *A. rubrum* has been observed across
 eastern North America [@fei_evidence_2007]. In contrast, *A. saccharum*
 experienced a loss in the number of occupied plots over time in the southern
 portion of its range (i.e. in the two sugar maple domains), but a gain at its
@@ -903,18 +907,17 @@ presence of isolated populations of *A. saccharum* on hilltops at its northern
 range limit [@barras_supply_1998; @goldblum_age_2002]; it could also contribute
 to explaining the distribution of the other three species. Our results suggest
 that temperate species could be starting to expand their ranges from existing
-isolated populations on hilltops to nearby habitats downslope.
-
+isolated populations on hilltops to nearby habitats downslope. Such marginal populations at northern range limits (i.e. cryptic refugia) likely played a key role in postglacial tree migration [@mclachlan_molecular_2005], and thus their contribution to forthcoming range shifts will have to be carefully examined in  future studies.
 
 
 ## Drivers of sapling recruitment
 
 Our hurdle model first highlighted that the presence of recruits in a site and
 their abundance are two distinct processes that are controlled by different
-environmental factors. Moreover, the high of explanatory power of the zero part
+environmental factors. Moreover, the high explanatory power of the zero part
 relative to the count part of the model suggests that the occurrence of a
 recruitment event is strongly controlled by the biotic and abiotic drivers
-whereas their abundance is more random.
+whereas their abundance was poorly related to our set of environmental variables. This may indicate that sapling abundance is controlled by other fine scale processes that could not be include in this study, such as soil nutrient availability or soil microorganisms [@carteron_soil_2020; @st_clair_key_2008].
 
 
 ### Biotic conditions
@@ -934,7 +937,7 @@ Many studies have shown that recruitment is limited by seed supply and all the
 more so at the northern distribution limit [@caspersen_seedling_2005;
 @tremblay_potential_2002]. For instance, @tremblay_potential_2002 showed that
 northern populations of *A. rubrum* are maintained essentially through
-vegetative reproduction with occasional sexual recruitments which, in
+vegetative propagation with occasional sexual recruitments which, in
 combination, allow this species to colonise recently disturbed sites. In
 Ontario, @caspersen_seedling_2005 reported an elevated recruitment failure for
 *F. grandifolia* which was mainly due to low seed fecundity. This species
@@ -949,9 +952,9 @@ portion of their range [@beaudet_effect_2007; @beaudet_beech_2008], where *A.
 saccharum* recruitment was found to decline (Fig. \ref{fig3.2}).
 @beaudet_effect_2007 suggested that where *F. grandifolia* reproduces
 predominantly vegetatively, it might maintain a growth advantage over *A.
-saccharum* under both shade and light conditions. In the northern part of its
+saccharum* under both shade and light conditions. <!--In the northern part of its
 range, *A. saccharum* is increasing, presumably because it is escaping
-competition by *F. grandifolia*.
+competition by *F. grandifolia*.-->
 
 The basal area of boreal species in the forest plots exerted a large negative
 effect on the recruitment of all species. The cover of boreal trees may be
@@ -964,7 +967,7 @@ the direct competition for nutrients, light and water. Moreover, boreal species
 create poor and acidic soils with high needle cover which can ultimately impede
 the recruitment of temperate tree species through an inhibitory priority effect
 [@collin_conifer_2017; @solarik_priority_2019]. Similarly, under boreal canopy,
-the insufficiency of arbuscular mycorrhizal fungi may strongly constrain
+the insufficiency of arbuscular mycorrhizal fungi could reduce
 temperate species recruitment [@carteron_soil_2020]. Although we do not have the
 data to test it, lack of suitable substrates for establishment may partly
 explain the limited range shift of *B. alleghaniensis*. Several studies
@@ -1011,7 +1014,7 @@ depositions, has been associated with the decline in regeneration and growth of
 [@bal_nutrient_2015]. Such a phenomenon could contribute to the changes in
 occurrence patterns we observed for the two species in the southern portion of
 Québec. Although *A. saccharum* and *A. rubrum* preferred high soil pH, we did
-not find significant negative effects of low soil pH. And the recruitment of *B.
+not find significant negative effects of low soil pH. The recruitment of *B.
 alleghaniensis* was even favoured by low soil pH. Therefore, acid soils common
 in northern mixed and boreal forests might not be a major barrier to their
 recruitment and allowed their northward migration.
@@ -1045,7 +1048,7 @@ balsamea* can recruit abundantly after an outbreak [@morin_dynamics_1994]. In
 contrast, the machinery used for logging could cause damage to the seedling
 bank.     
 
-In our study, recruitment of *A. rubrum* benefited the most from all types of
+Similar to @boisvertmarsh_divergent_2019, recruitment of *A. rubrum* benefited the most from all types of
 disturbance events (logging and natural) and was favoured in young forests. This
 species' capacity to regenerate abundantly after disturbances and remain
 dominant in the canopy is thought to explain its widespread increase across
@@ -1071,15 +1074,21 @@ limits may not be at equilibrium with the current climate.
 
 Contrary to our expectations and that of others [@johnstone_changing_2016;
 @renwick_temporal_2015], the positive effect of moderate logging on recruitment
-did not translate into larger northward range shifts; the shifts observed here
-were either similar (*Acer spp.*) or reduced (*B. alleghaniensis*) in disturbed
-forests. In light of these results, we hypothesise that disturbances may not
-displace range limits *per se* because of other limiting factors, mainly
-dependence on conspecific trees for dispersal, priority effect from boreal trees
-and edaphic conditions. Yet, they could promote recruitment in already occupied
-sites, thus increasing their relative proportion, as well as in new sites in the
-neighbourhood and downslope thus increasing their occupancy at their northern
-range margins, but not beyond.
+did not translate into larger northward range shifts for the studied species;
+the shifts observed here were either similar (*Acer spp.*) or reduced (*B.
+alleghaniensis*) in disturbed forests compared to undisturbed ones. In previous
+studies, we have found that moderate disturbances could promote
+thermophilization [@brice_disturbances_2019] and transitions from mixed to
+temperate forests [@brice_moderate_2020]. In light of these results, we
+hypothesise that disturbances may not facilitate range shifts through
+recruitments because of other limiting factors, mainly dependence on conspecific
+trees for dispersal, priority effect from boreal trees and edaphic conditions.
+Yet, they could reduce boreal tree abundances through mortality and promote
+temperate tree growth [@brice_moderate_2020] as well as recruitment in already
+occupied sites, thus increasing their relative proportion in forests where they
+are present. Moreover, disturbances could promote temperate species
+colonisations in new sites in the neighbourhood and downslope thus increasing
+their occupancy at their northern range margins, but hardly not beyond.
 
 
 ### Climate
@@ -1092,20 +1101,22 @@ expect an overall positive effect of climate warming, but its effect varied
 widely across species. Climate warming had a positive influence on the presence
 of *B. alleghaniensis* and the abundance of *A. rubrum*, but a negative effect
 on the presence of *F. grandifolia* and *A. saccharum* was not affected at all.
-These disparate signals are consistent with previous work that concluded that
-the range limits of these four temperate species are not directly controlled by
-their climatic tolerances, but by fecundity, soil factors or disturbances
-[@drobyshev_environmental_2014; @graignic_geographical_2014;
-@tremblay_potential_2002; @zhang_stand_2015]. These non-climatic and local
-drivers may modulate or mask any broad-scale climatic effects
-[@drobyshev_environmental_2014; @serra-diaz_disturbance_2015; @zhang_stand_2015]
-and transform a unidirectional signal of regeneration shift into a more complex
-set of signals with localised areas of relatively high regeneration. Time lags
-in tree responses may also explain why range shifts are poorly correlated with
-the warming trends [@sittaro_tree_2017]. Besides, climate extremes, such as
-droughts and heat waves, as well as variations in early- and late-season
-climate, may be more important for several tree life cycle events than gradual
-changes in mean climate conditions [@boisvertmarsh_divergent_2019;
+These disparate signals could be consistent with the findings of
+@boisvertmarsh_divergent_2019 that showed different responses to warming
+depending on the species and on the geographical position within a species
+range. Moreover, previous work concluded that the range limits of these four
+temperate species are not directly controlled by their climatic tolerances, but
+by fecundity, soil factors or disturbances [@drobyshev_environmental_2014;
+@graignic_geographical_2014; @tremblay_potential_2002; @zhang_stand_2015]. These
+non-climatic and local drivers may modulate or mask any broad-scale climatic
+effects [@drobyshev_environmental_2014; @serra-diaz_disturbance_2015;
+@zhang_stand_2015] and transform a unidirectional signal of regeneration shift
+into a more complex set of signals with localised areas of relatively high
+regeneration. Time lags in tree responses may also explain why range shifts are
+poorly correlated with the warming trends [@sittaro_tree_2017]. Besides, climate
+extremes, such as droughts and heat waves, as well as variations in early- and
+late-season climate, may be more important for several tree life cycle events
+than gradual changes in mean climate conditions [@boisvertmarsh_divergent_2019;
 @neumann_climate_2017].
 
 
@@ -1118,9 +1129,8 @@ demographic processes is therefore fundamental for accurately forecasting
 species range shifts and adapting management strategies, but this will likely be
 challenging as there is not a single broad‐scale response of recruitment
 dynamics. Saplings of three out of four temperate species experienced northward
-range shifts in the last decades. However, disturbances may sometimes impede
-these shifts, as we observed for *B. alleghaniensis*, and they should therefore
-be taken into account in future studies on range shifts. Moreover, downslope
+range shifts in the last decades, consistent with climate change predictions. However, disturbances may modulate
+these shifts. Given that forests are increasingly disturbed by human activities, future studies should attempt to improve our understanding on how disturbances influence the capacity of species to migrate. Moreover, downslope
 trends in sapling distributions at their northern margins may indicate the onset
 of an expansion from marginal populations found on hilltops. Overall, our
 findings suggest that tree recruitment was only weakly related to broad‐scale

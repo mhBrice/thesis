@@ -41,6 +41,11 @@ concludocx:
 	pandoc -s conclusion/conclusionT.md -o conclusion/conclusion.docx $(fbib)
 	rm conclusion/conclusionT*
 
+article3docx:
+	pandoc -s article3/article3.md -o article3/article3T.tex $(fbib)
+	pandoc -s article3/article3T.tex -o article3/article3T.md $(fbib)
+	pandoc -s article3/article3T.md -o article3/article3.docx $(fbib)
+	rm article3/article3T*
 
 resumedocx:
 	pandoc -s resume.md -o resumeT.tex $(fbib)
@@ -50,3 +55,6 @@ resumedocx:
 
 quick:
 	pdflatex $(main)
+
+correction:
+	pandoc -s evaluation_these/Brice_corrections.md -o evaluation_these/Brice_corrections.pdf --bibliography=../references.bib --pdf-engine=pdflatex
