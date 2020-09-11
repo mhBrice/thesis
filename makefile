@@ -58,3 +58,8 @@ quick:
 
 correction:
 	pandoc -s evaluation_these/Brice_corrections.md -o evaluation_these/Brice_corrections.pdf --bibliography=../references.bib --pdf-engine=pdflatex
+
+embed:
+	ps2pdf -dPDFSETTINGS=/prepress -dEPSCrop thesismhb.pdf Brice_Marie-Helene_2020_these.pdf
+	# pdf2ps thesismhb.pdf
+	# ps2pdf14 -dEmbedAllFonts=true thesismhb.ps Brice_Marie-Helene_2020_these.pdf

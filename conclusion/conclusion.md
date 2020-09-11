@@ -29,7 +29,7 @@ mortalité des arbres, les nouvelles politiques d'aménagement du territoire et 
 la forêt qui reposent sur des modèles incomplets risquent d'être mal adaptées.
 
 
-À travers ma thèse de recherche, j'ai tenté d'apporter des éléments de réponses
+À travers ma thèse de doctorat, j'ai tenté d'apporter des éléments de réponses
 à ces questionnements. Ses trois chapitres ont permis d'analyser en détail
 les multiples aspects de la dynamique des forêts au cours des dernières
 décennies afin de mieux comprendre la réponse aux effets combinés du changement
@@ -167,7 +167,7 @@ ont provoqué une mortalité disproportionnée d'une espèce dominante dans les
 forêts mixtes (Chapitre \ref{chap2}). En effet, le sapin baumier a subi une
 mortalité massive en réponse aux grandes épidémies de tordeuse des bourgeons de
 l'épinette dans les années 1967-1992 [@duchesne_population_2008]. De plus, cette
-espèce est aussi la plus coupée au Québec. À la suite d'une perturbation modérée (e.g., épidémie légère, coupe partielle), les trouées dans la canopée résultant de
+espèce est aussi parmi les plus coupées au Québec. À la suite d'une perturbation modérée (e.g., épidémie légère, coupe partielle), les trouées dans la canopée résultant de
 la perte de cette espèce boréale ubiquiste et abondante ont probablement permis
 de réduire la compétition et de libérer des ressources favorisant ensuite la
 croissance rapide des espèces tempérées compagnes, telles que les érables rouge
